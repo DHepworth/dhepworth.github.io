@@ -1,0 +1,432 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>DH:Personal</title>
+    <description>A blog of a person learning things others long ago understood.</description>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 29 May 2022 10:08:46 -0500</pubDate>
+    <lastBuildDate>Sun, 29 May 2022 10:08:46 -0500</lastBuildDate>
+    <generator>Jekyll v4.2.1</generator>
+    
+      <item>
+        <title>Deconstructing Church</title>
+        <author>David Hepworth</author>
+        <description>
+            &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nam quis pellentesque mauris. Proin eu consequat quam. Vestibulum eu viverra elit, eu fringilla eros. In hac habitasse platea dictumst. Fusce vehicula imperdiet ligula sit amet accumsan. Aenean quis condimentum orci. Aliquam erat volutpat. Aenean maximus sodales neque, eget fringilla ligula lacinia ut. Nulla tincidunt augue id nisl suscipit accumsan. Nunc nec nibh a purus aliquam commodo. Nunc luctus ante ante, vitae laoreet turpis interdum vitae.&lt;/p&gt;
+
+&lt;p&gt;Nam placerat augue justo, et tincidunt lacus fringilla ac. Suspendisse commodo, lorem eget suscipit congue, nisl est dignissim arcu, ut volutpat mi libero ac sem. Pellentesque aliquam lectus at vulputate feugiat. Mauris placerat dolor diam, a vulputate felis imperdiet eget. Cras ac massa lorem. Pellentesque sodales, orci placerat convallis egestas, eros justo hendrerit eros, at dignissim libero nisl vel urna. Mauris sollicitudin lobortis diam nec gravida. Aenean elementum nunc a elementum hendrerit. Donec vulputate faucibus mauris at feugiat. Donec sit amet lorem imperdiet elit sagittis auctor. Phasellus at scelerisque purus, vehicula egestas massa. Donec sollicitudin turpis pretium laoreet pellentesque. Ut fringilla vel enim vitae pretium.&lt;/p&gt;
+
+&lt;p&gt;Donec sodales feugiat cursus. Maecenas mattis, ipsum vitae pharetra fringilla, justo risus venenatis metus, nec imperdiet mi ligula vel mauris. Maecenas efficitur id odio et placerat. Etiam vulputate viverra nibh. Pellentesque et sem lobortis, posuere mi ac, convallis enim. In vitae commodo eros, sed eleifend magna. Vestibulum pellentesque interdum nulla eu eleifend. Nullam efficitur felis purus, eget laoreet tellus ornare sed. Pellentesque eu urna dapibus nunc tincidunt facilisis.&lt;/p&gt;
+
+&lt;p&gt;Nullam pellentesque hendrerit mi, non finibus justo finibus eu. Fusce euismod ultricies massa quis cursus. Maecenas in ante vitae elit mollis pellentesque quis a elit. Nulla ac fringilla ante, et convallis elit. In ullamcorper vehicula urna nec bibendum. In nec lacinia turpis. Vivamus mattis accumsan sem, in convallis sapien lacinia eu. Vivamus sed velit luctus, cursus velit ac, pellentesque metus. Proin ornare euismod efficitur. Ut elit nisi, tempus dignissim consectetur nec, mollis a quam. Etiam congue faucibus condimentum. Nunc sed nisl eleifend, maximus odio vitae, commodo odio. Sed pellentesque enim non lacus feugiat tristique. Nulla ut fermentum odio. Aenean tristique quam a dui consectetur, non tincidunt mauris euismod.&lt;/p&gt;
+
+&lt;p&gt;Praesent mattis magna sed volutpat maximus. Suspendisse eu lectus id nibh ultricies interdum. Phasellus sit amet sapien in mi viverra dignissim. Maecenas ut neque id mauris tincidunt cursus. Phasellus id augue in eros sollicitudin aliquet ac a justo. Maecenas vitae ex et leo tincidunt hendrerit. Donec tincidunt mattis arcu, sit amet mollis dolor consectetur ut. Morbi quam metus, tempus in vestibulum quis, ultricies at nisi. Duis id tincidunt elit, quis vulputate lacus.&lt;/p&gt;
+
+            
+            &lt;p class=&quot;embedtool&quot;&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PL1mr9ZTZb3TUeQHe-lZZF2DTxDHA_LFxi&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;h4&gt;&lt;cite&gt;InspiringPhilosophy&lt;/cite&gt;&lt;br /&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PL1mr9ZTZb3TUeQHe-lZZF2DTxDHA_LFxi&quot; target=&quot;_blank&quot;&gt;Genesis 1–11&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;This was one of the first sources I encountered that really challenged me to consider possibilities and worldviews foreign to my own while still working within my larger worldview. This video series helped me feel more comfortable about seeking out wider sources than I had ever before considered.&lt;/p&gt;
+&lt;p class=&quot;outbound&quot;&gt;
+&lt;a class=&quot;button&quot; href=&quot;https://www.youtube.com/playlist?list=PL1mr9ZTZb3TUeQHe-lZZF2DTxDHA_LFxi&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;emoji&quot;&gt;🎥&lt;/span&gt;&amp;nbsp;Watch the playlist&lt;/a&gt;
+&lt;/p&gt;
+
+        </description>
+        <pubDate>Sun, 22 May 2022 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/post/2022/05/22/deconstructing-church.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2022/05/22/deconstructing-church.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Stuck in Oklahoma</title>
+        <author>David Hepworth</author>
+        <description>
+            &lt;p&gt;I think it started with the architecture. I noticed that many new structures being built in the country lacked good design and thought for the community in which they were placed. They lacked friendly entranceways or pleasant views from the sides, or were so stripped of design that they felt inhuman and otherworldly. I started searching for answers online and discovered the non-profit Strong Towns, which gave me many of the words that I needed to describe my discomfort. For a time I felt that the frustration I felt as I walked around a neighborhood was due primarily to the choice and placement of its buildings, but as I grew to understand the complexity of the way in which a city was fashioned I began to understand why knowing of the problem would not necessarily provide any options for improvement.&lt;/p&gt;
+
+&lt;p&gt;From there I learned of city planning issues that sidetracked progress in most cities across the country, which helped me see how my dissatisfaction with modern building styles was linked to a greater systemic problem with the way things are built today. Other countries had embraced and benefitted from better modes of transportation, weaning themselves a bit from the dependence on personal motor vehicles, while the United States leaned ever deeper into car dependence. The feeling of disconnectedness became better defined as I continued my introspection, where I came to see that it goes beyond the destruction of community or collective thinking and into more personal issues like politics and beliefs. I can see more clearly now how many of these elements of our lives are interconnected and function in a tension of both communion and contradiction.&lt;/p&gt;
+
+            
+            &lt;p class=&quot;embedtool&quot;&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/WcsuyMWmRRU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;h4&gt;&lt;cite&gt;Lauren Zuniga&lt;/cite&gt;&lt;a href=&quot;https://www.youtube.com/embed/WcsuyMWmRRU&quot; target=&quot;_blank&quot;&gt;&amp;ldquo;To the Oklahoma Progressives Plotting Mass Exodus&amp;rdquo;&lt;/a&gt;&lt;/h4&gt;
+&lt;blockquote cite=&quot;https://www.youtube.com/embed/WcsuyMWmRRU&quot;&gt;Lauren Zuniga performs her poem &amp;ldquo;To the Oklahoma Progressives Plotting Mass Exodus&amp;rdquo; on December 17, 2010, at a Blue Moon House Concert. Video recorded and edited by Laura Anne Heller of Blue Athena Productions.&lt;/blockquote&gt;
+
+        </description>
+        <pubDate>Sat, 21 May 2022 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/post/2022/05/21/stuck-in-oklahoma.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2022/05/21/stuck-in-oklahoma.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>I used to be anxious about being thought of as ignorant</title>
+        <author>David Hepworth</author>
+        <description>
+            &lt;p&gt;Everything seems simpler when one is young. I was driven in my youth by a pursuit of moral truths that I believed could be applied to all absolutely and unilaterally, equalizing all injustices and eliminating all suffering. I was certain I was capable of understanding these truths and that I had already accomplished much in finding them. It did seem coincidentally beneficial that these moral truths were so well in line with my own preconceived mental models and cultural background, but I assumed more that I was being transformed to the truths rather than they were being formed from my own worldview and experiences.&lt;/p&gt;
+
+&lt;p&gt;In my efforts to gain more knowledge of objective truth I began to seek out deeper understanding from my peers. I first started with family and friends who I knew to have spent time considering the philosophical and moral issues of the day. The answers I received did regularly challenge me but still largely conformed to my preexisting understanding of the world. Still not sated, I went beyond to apologists and philosophers within my community. The answers I found there were more convoluted and figurative which made them feel more impressive and rational, satisfying an underlying anxiety about being able to have a convincing answer to every question. Believing that I had found the panacea, I ruminated on their answers (and my new-found intellectual superiority), deeply pondering the variety of my reactions to what I heard.&lt;/p&gt;
+
+&lt;p&gt;The answers certainly sounded good in repetition in my mind, but they felt weak and embarrassing whenever I found the opportunity to share them in conversation. So much discussion and defining of terms had to be performed before reaching the answer to help make sense of them, and even then the listener was not likely to be convinced. The answers began to feel hollow and speculative to me. I knew then that I needed to question an even wider source, one willing to more fully criticize itself.&lt;/p&gt;
+
+&lt;p&gt;So it was to the people who challenged every answer in the tree down to the root that I turned. What I learned frightened and angered me at the same time: I discovered that my previous sources for answers had failed to ask the important question, “What if I’m wrong?” — not of just the supposed answer to the question, but of the mental framework that supplied the answers, which I was discovering with worrying regularity were more based on presuppositions than with well-researched explanations. The previous answers to my questions therefore worked as long as the sources of the answers never were challenged, which was disquieting to me because I wasn’t seeking a panacea for my curiosity but rather for absolute truth on which to align my worldview.&lt;/p&gt;
+
+&lt;p&gt;The process of questioning myself was agonizing. I felt furious that these self-criticisms were not encouraged within my denser social network and that I had never been exposed to this type of consideration before. I recalled every time in my life where this sort of questioning was seen as dangerous to truth, yet I was discovering more solid foundations for my worldview in this harrowing process.&lt;/p&gt;
+
+&lt;p&gt;I learned that I was not alone in this particular journey: I found that others had asked these same questions generations before. People far more educated and experienced than me had spent years of their lives researching and discussing possibilities that I had never even considered as answers to my questions. I saw that where I had charted myself on my search for absolute truth was grossly over-calculated. I watched my universe of understanding become dwarfed by the breadth of what could be learned and realized with a mixture of dread and resignation that I was nowhere near the end of my journey; in fact, I began to accept that I would likely never unearth some answers within my lifetime.&lt;/p&gt;
+
+&lt;p&gt;But I had more answers than ever before, with explanations that made sense and that could be shared without feeling a sense of discomfort or fear. The answers that could not be given made more sense as to why they were unanswerable. My anxiety disappeared; I no longer felt foolish for not knowing something, for admitting ignorance was the first step to learning. Instead of feeling a deep need to have all the answers about what was true, I could instead stay quiet and listen for potential better truths.&lt;/p&gt;
+
+&lt;p&gt;Accepting all of this greatly eased my anxieties and calmed me in ways that I hadn’t felt in years. I finally began to understand the book of the Bible often titled &lt;em&gt;&lt;a href=&quot;https://biblia.com/books/nrsv/Ec9.9-10&quot; target=&quot;_blank&quot;&gt;Ecclesiastes&lt;/a&gt;&lt;/em&gt;, which before often depressed me due to its nihilistic tones. Before now I never could grasp the dissonace of the author’s intent to cheapen the life of a person while also claiming that joy could be found within it. I comprehend its message more clearly now: by admitting my ignorance of some things I can turn my focus to the present experiences of life, gaining meaning from the moments that I can understand.&lt;/p&gt;
+
+&lt;blockquote cite=&quot;https://biblia.com/books/nrsv/Ec9.9-10&quot;&gt;
+&lt;p&gt;Enjoy life with the wife whom you love, all the days of your vain life that are given you under the sun, because that is your portion in life and in your toil at which you toil under the sun. Whatever your hand finds to do, do with your might; for there is no work or thought or knowledge or wisdom in Sheol, to which you are going.&lt;/p&gt;
+&lt;p&gt;&lt;cite&gt;Ecclesiastes 9:9–10 (New Revised Standard Version)&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Instead of tying myself up trying to understand the things that I cannot know, I can see now the meaning to be found in the things that can be understood — and those things are all around me right now. I am no longer ashamed to be ignorant of the things that I cannot know for I am working to be too busy enjoying the things that I can.&lt;/p&gt;
+
+
+            
+            &lt;p class=&quot;embedtool&quot;&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/videoseries?list=PL1mr9ZTZb3TUeQHe-lZZF2DTxDHA_LFxi&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;h4&gt;&lt;cite&gt;InspiringPhilosophy&lt;/cite&gt;&lt;a href=&quot;https://www.youtube.com/playlist?list=PL1mr9ZTZb3TUeQHe-lZZF2DTxDHA_LFxi&quot; target=&quot;_blank&quot;&gt;Genesis 1–11&lt;/a&gt;&lt;/h4&gt;
+&lt;p&gt;This was one of the first sources I encountered that really challenged me to consider possibilities and worldviews foreign to my own while still working within my larger worldview. This video series helped me feel more comfortable about seeking out wider sources than I had ever before considered.&lt;/p&gt;
+&lt;p class=&quot;outbound&quot;&gt;
+&lt;a class=&quot;button&quot; href=&quot;https://www.youtube.com/playlist?list=PL1mr9ZTZb3TUeQHe-lZZF2DTxDHA_LFxi&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;emoji&quot;&gt;🎥&lt;/span&gt;&amp;nbsp;Watch the playlist&lt;/a&gt;
+&lt;/p&gt;
+
+        </description>
+        <pubDate>Thu, 03 Feb 2022 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/post/2022/02/03/anxious-about-being-ignorant.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2022/02/03/anxious-about-being-ignorant.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Now on Jekyll</title>
+        <author>David Hepworth</author>
+        <description>
+            &lt;p&gt;I’ve spent the past few days moving my little site here from hand-written HTML to &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;, a blogging platform that can build into HTML files very similar to ones that I was writing before, but without all the hard work of maintaining code throughout each page. Now I can write posts in a simpler fashion and start to add new features like an &lt;a href=&quot;http://localhost:4000/feed.xml&quot;&gt;Atom/RSS feed&lt;/a&gt; with greater ease than if I continued coding everything by hand.&lt;/p&gt;
+
+&lt;p&gt;I’ve been wanting to add on more to the site as time goes on but doing it all by hand was going to potentially grow exponentially difficult. I wanted the freedom to test out new designs that remained consistent throughout the site, so each new bit of content I added would only increase my update time. I originally expected the text to largely serve as a placeholder, but I also began to enjoy the writing process required to make a new post and wanted to save my work rather than overwrite it with each update. Jekyll had seemed like a nice idea in the past but I felt I didn’t have a good reason to use it and that it would probably be more difficult to set up than what was promised. The latter part was true, but not by much. Setting up my computer to begin using Jekyll actually took longer and was more frustrating than coding in the language it uses.&lt;/p&gt;
+
+
+            
+            
+        </description>
+        <pubDate>Wed, 22 Dec 2021 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/post/2021/12/22/jekyll.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2021/12/22/jekyll.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>We aren’t asking the right questions</title>
+        <author>David Hepworth</author>
+        <description>
+            &lt;p&gt;The penultimate episode of &lt;em&gt;&lt;a href=&quot;https://www.christianitytoday.com/ct/podcasts/rise-and-fall-of-mars-hill/&quot; target=&quot;_blank&quot;&gt;The Rise &amp;amp; Fall of Mars Hill&lt;/a&gt;&lt;/em&gt; is a frustrating investigatory experience. The show presents to the listener the evidence of an abusive pastor in a permissive church system, building the case that this was an ongoing problem within the organization that eventually collapsed under the weight of the trauma dealt within. What I believe the episode fails to do and has continued to do throughout the series is to follow that evidence to its obvious conclusion, despite the pretense of seeking answers for how it all happened.&lt;/p&gt;
+
+&lt;p&gt;In this episode, host Mike Cosper presents the possibility that celebrity culture is causing people to become blind to the long-term abuse that some pastors like Mark Driscoll can bring down on church staff and members. Cosper’s view is that only the widely popular pastors (or those with large enough audiences that grow beyond the borders of their own church) can distort the view of their importance amongst their followers, leading to greater freedom to abuse people without reprimand. This is an interesting theory and could explain some occurrences, but I would contend that this is definitely not the primary issue driving the abuse. A dictatorial level of control can be exerted on members from a pastor whose town is barely more than an intersection of two small roads. The size of the church does not matter nor does the popularity of the pastor determine the effect he has on his followers.&lt;/p&gt;
+
+&lt;p&gt;I think that the answer lies in the power structure built within the Christian church. The ability to teach others about the Bible is seen as an ability gifted by God. Church members often believe that these teaching skills, as being from God, extend into areas not in the scope of Biblical teaching. The level of power a pastor can have over his church members can grow into incredibly sensitive areas of church members’ lives. I don’t think that this exertion of power is a corruption of once-proper teaching; I think that this is a flaw built into the original interpretation of Biblical church structure within Evangelical Christianity.&lt;/p&gt;
+
+&lt;p&gt;This flaw is evident in how Mark Driscoll’s abuse was handled. The kind of abuse Mark Driscoll committed should have been seen immediately as non-Christian in its behavior. &lt;em&gt;But Mark Driscoll is still a pastor.&lt;/em&gt; There should be no equivocation among anyone that abusers like these are committing acts that go against the stated moralities of Christianity. I know Christians are dismayed and appalled when abusers are caught, but then &lt;em&gt;nothing seems to be learned from these events to prevent them from happening again.&lt;/em&gt; Christians across the country should be in crisis, seeking to uncover these problems and stop them before they can ever happen again. This is a disaster for Christianity, but people are not reacting at the level necessary to make change or even seem deeply troubled. What should one deduce from the limited reactions from Christians about pastoral abuse, if not that these traumatic events are just the standard costs of operating a religious non-profit within the Evangelical Christian community?&lt;/p&gt;
+
+&lt;p&gt;Think about the way that Evangelical Christians view other religions, denominations, or communities that have morals, cultures, or rites that differ from their own. Is holistic grace applied to all followers of that alternative worldview when one or two within that community commit some immoral act? Do Christians respond with such muted reactions when someone outside of their own community does something that goes against what they proclaim to be the morality found in the Bible? How can it not be seen as anything but hypocrisy to judge harshly those outside the Christian community for their faults but regulatorily ignore the faults within? How can one judge the moral standards set by Evangelical Christianity as being true and good if those proclaiming those standards don‘t respect them?&lt;/p&gt;
+
+&lt;p&gt;What this podcast is missing and I think Evangelical Christianity lacks in these moments of abuse allegations is self-reflection, self-blame, and a willingness to change in any dramatic or permanent fashion. Too much energy is spent attempting to convert the world at large to the Christian mindset when more should be focused on on ensuring that people are not abused by immoral acts within the Christian churches. I think a blasé response to pastoral abuse does much to harm the reputation of Christianity and fosters disillusionment and resentment within. Fundamental problems with Evangelical Christian culture might not be the source of pastoral abuse, but I wish I would hear it considered by people in authority within the culture.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;emoji&quot;&gt;🧵&lt;/span&gt; &lt;strong&gt;Update: I listened to the final episode.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;div class=&quot;m1&quot;&gt;&lt;blockquote class=&quot;twitter-tweet&quot; data-lang=&quot;en&quot;&gt;&lt;p lang=&quot;en&quot; dir=&quot;ltr&quot;&gt;I’m listening to the last episode of The Rise &amp;amp; Fall of Mars Hill now, but I have to take it in pieces because my nerves can’t handle long stretches of it. I’ve written about it in the past and so I’m starting to grow tired of it, but I want to conclude things here (for now).&lt;/p&gt;— David Hepworth 😷💉 (@DHPersonal) &lt;a href=&quot;https://twitter.com/DHPersonal/status/1469169177709662212?ref_src=twsrc%5Etfw&quot;&gt;December 10, 2021&lt;/a&gt;&lt;/blockquote&gt; &lt;script async=&quot;&quot; src=&quot;https://platform.twitter.com/widgets.js&quot; charset=&quot;utf-8&quot;&gt;&lt;/script&gt;&lt;/div&gt;
+
+
+            
+                
+                    &lt;h4&gt;Further Reading&lt;/h4&gt;
+                    &lt;ul&gt;
+                    
+                    &lt;li&gt;&lt;a href=&quot;https://bethallisonbarr.com&quot; target=&quot;_blank&quot;&gt;The Making of Biblical Womenhood: How the Subjegation of Women Became Gospel Truth&lt;/a&gt;&lt;/li&gt;
+                    
+                    &lt;li&gt;&lt;a href=&quot;https://baptistnews.com/article/i-lived-in-the-culture-of-the-rise-and-fall-of-mars-hill-and-theres-one-part-of-the-story-thats-wrong&quot; target=&quot;_blank&quot;&gt;I lived in the culture of ‘The Rise and Fall of Mars Hill,’ and there’s one part of the story that’s wrong&lt;/a&gt;&lt;/li&gt;
+                    
+                    &lt;/ul&gt;
+                
+            
+            &lt;p&gt;&lt;iframe allow=&quot;autoplay *; encrypted-media *; fullscreen *&quot; frameborder=&quot;0&quot; height=&quot;175&quot; style=&quot;border-radius: .5rem; width: 100%; overflow: hidden; background: transparent&quot; sandbox=&quot;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&quot; src=&quot;https://embed.podcasts.apple.com/us/podcast/the-tempest/id1569401963?i=1000541655003&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;blockquote&gt;
+&lt;h4 class=&quot;m0&quot;&gt;&lt;cite&gt;Christianity Today&lt;/cite&gt;&lt;a href=&quot;https://www.christianitytoday.com/ct/podcasts/rise-and-fall-of-mars-hill/&quot; target=&quot;_blank&quot;&gt;The Rise &amp;amp; Fall of Mars Hill&lt;/a&gt;&lt;/h4&gt;
+&lt;h5&gt;The Tempest: Episode 11&lt;/h5&gt;
+&lt;p&gt;It wasn’t one thing that ended Mars Hill. It was one thing after another, after another, after another&amp;hellip;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p class=&quot;outbound&quot;&gt;&lt;a class=&quot;button&quot; href=&quot;https://www.christianitytoday.com/ct/podcasts/rise-and-fall-of-mars-hill/tempest-mars-hill-driscoll.html&quot; id=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;emoji&quot;&gt;🎧&lt;/span&gt;&amp;nbsp;Listen now&lt;/a&gt;&lt;/p&gt;
+
+        </description>
+        <pubDate>Fri, 26 Nov 2021 00:00:00 -0600</pubDate>
+        <link>http://localhost:4000/post/2021/11/26/we-arent-asking-the-right-questions.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2021/11/26/we-arent-asking-the-right-questions.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>An identity crisis</title>
+        <author>David Hepworth</author>
+        <description>
+            &lt;p&gt;I grew up in an Evangelical Christian culture. I was taught that the primary life purpose of a Christian was to propagate the message of Christianity through evangelism, sharing the story of Jesus to people who did not know or believe what was written in the Bible. Through this effort, souls would be saved from eternal damnation and more people would be prepared for the return of the savior of humanity. This mission was time-sensitive, because the return of Jesus was possible at any moment, and that event could potentially seal the fate of all living on Earth.&lt;/p&gt;
+
+&lt;p&gt;At some point, perhaps because the timing of the return was said to be a mystery, Evangelical Christianity seems to have become far more focused on controlling culture than saving lives. Look at how Albert Mohler, President of Southern Baptist Theological Seminary, responds to a non-Christian company’s recent decision to write a new fictional character as a homosexual:&lt;/p&gt;
+
+&lt;blockquote class=&quot;articleSnippet&quot; cite=&quot;https://albertmohler.com/2021/10/13/briefing-10-13-21&quot;&gt;
+&lt;cite&gt;The Briefing — Albert Mohler&lt;/cite&gt;
+&lt;h3 class=&quot;m0&quot;&gt;&lt;a href=&quot;https://albertmohler.com/2021/10/13/briefing-10-13-21&quot; target=&quot;_blank&quot;&gt;Superman Comes Out Of The Closet—The Moral Revolution Will Transform Everything. Even Comic Book Super Heroes&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;Well, ladies and gentlemen, the comic book character previously best known for coming out of the phone booth has now come out of the closet. Or is about to. And it’s not in this case, Clark Kent, AKA, Superman.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Does this article seem interested in the eternal safety of the souls of the employees of that company, or is it more furious that a non-Christian company isn’t conforming to Evangelical Christian cultural norms? Why is this decision by DC Comics in any way surprising to Mohler, who requires all professors at his seminary &lt;a href=&quot;https://www.sbts.edu/about/abstract/&quot;&gt;agree to a list of bylaws&lt;/a&gt; that include defining that they follow a belief system that all people are born evil?&lt;/p&gt;
+
+&lt;blockquote cite=&quot;https://www.sbts.edu/about/abstract/&quot;&gt;
+&lt;dl class=&quot;m0&quot;&gt;
+&lt;dt&gt;V. Election&lt;/dt&gt;
+&lt;dd&gt;Election is God’s eternal choice of some persons unto everlasting life—not because of foreseen merit in them, but of His mere mercy in Christ—in consequence of which choice they are called, justified and glorified.&lt;/dd&gt;
+&lt;/dl&gt;
+&lt;p&gt;&lt;cite&gt;Southern Baptist Theological Seminary: Abstract of Principles&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;According to most Evangelical Christians unknowingly &lt;a href=&quot;https://www.newyorker.com/magazine/2017/06/19/how-st-augustine-invented-sex&quot;&gt;following the principles of Augustine&lt;/a&gt;, all people are inherently awful and deserving of punishment. For those more forgiving in doctrine, it is upon the first bad action that one is doomed to eternal separation from their maker, resulting in anything from complete annihilation to an endless existence of fiery torture from the &lt;a href=&quot;https://en.wikipedia.org/wiki/Inferno_(Dante)&quot;&gt;imagination of Dante&lt;/a&gt;. Why then would this decision from DC Comics be a shock if those who believe this to be a sinful choice also believe that people are by birth naturally bad?&lt;/p&gt;
+
+&lt;p&gt;This &lt;em&gt;has&lt;/em&gt; to be about controlling culture — that seems to be the only answer that fits. Where is the ideal culture within the Christian community that can be exported to the community at large? &lt;a href=&quot;https://www.christianpost.com/news/sbc-leaders-mishandled-crisis-of-sexual-abuse.html&quot;&gt;Evidence continues to mount&lt;/a&gt; of a continued and prolonged problem of rampant abuses of power, including the sexual abuse of women and children, within the Evangelical Christian community. Should Evangelical Christians really be concerned about a fictional superhero storyline right now?&lt;/p&gt;
+
+&lt;p&gt;Also, why would Superman ever be lauded as a role model in Evangelical Christianity when the character has nothing to do with Christianity? Christians don’t own the Superman character, so why do they think that they may control the storyline? Should Evangelical Christians really want Superman as their role model anyway? Mohler mentions &lt;em&gt;Seduction of the Innocent&lt;/em&gt; in his article, but I don’t think he noticed this excerpt from the book:&lt;/p&gt;
+
+&lt;blockquote cite=&quot;https://en.wikipedia.org/wiki/Seduction_of_the_Innocent#cite_note-3&quot;&gt;
+&lt;p&gt;The Superman type of comic books tends to force and super-force. Dr. Paul A. Witty, professor of education at Northwestern University, has well described these comics when he said that they &amp;ldquo;present our world in a kind of Fascist setting of violence and hate and destruction. I think it is bad for children,&amp;rdquo; he goes on, &amp;ldquo;to get that kind of recurring diet &amp;hellip; [they] place too much emphasis on a Fascist society. Therefore the democratic ideals that we should seek are likely to be overlooked.&amp;rdquo;&lt;/p&gt;
+
+&lt;p&gt;Actually, Superman (with the big S on his uniform — we should, I suppose, be thankful that it is not an SS) needs an endless stream of ever new submen, criminals and &amp;ldquo;foreign-looking&amp;rdquo; people not only to justify his existence but even to make it possible.&lt;/p&gt;
+
+&lt;p&gt;&lt;cite&gt;&lt;em&gt;Seduction of the Innocent&lt;/em&gt; — Fredric Wertham, M.D.&lt;/cite&gt;&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;No, thank you. If Christianity in America is changing to be a shaper of culture, I think some effort needs to be done on preparing that culture for widespread use.&lt;/p&gt;
+
+&lt;section class=&quot;outbound&quot;&gt;
+    &lt;h4&gt;Further Reading&lt;/h4&gt;
+    &lt;h5&gt;Evangelical Christianity and COVID-19&lt;/h5&gt;
+    &lt;ul&gt;
+        
+        &lt;li&gt;&lt;a href=&quot;https://www.theatlantic.com/ideas/archive/2021/09/breitbart-conservatives-john-nolte-vaccine/620189/&quot; target=&quot;_blank&quot;&gt;The Conservatives Who’d Rather Die Than Not Own the Libs&lt;/a&gt;&lt;/li&gt;
+        
+        &lt;li&gt;&lt;a href=&quot;https://fivethirtyeight.com/features/why-some-white-evangelical-republicans-are-so-opposed-to-the-covid-19-vaccine/&quot; target=&quot;_blank&quot;&gt;Why Some White Evangelical Republicans Are So Opposed To The COVID-19 Vaccine&lt;/a&gt;&lt;/li&gt;
+        
+    &lt;/ul&gt;
+    &lt;h5&gt;Evangelical Christianity and Politics&lt;/h5&gt;
+    &lt;ul&gt;
+        
+        &lt;li&gt;&lt;a href=&quot;https://read.amazon.com/kp/embed?linkCode=kpe&amp;amp;ref_=cm_sw_r_kb_dp_QE82346JVJWRXQ5XX6ZQ&amp;amp;asin=B07ZTSVLX3&amp;amp;amazonDeviceType=A2CLFWBIMVSE9N&amp;amp;from=Bookcard&amp;amp;preview=newtab&amp;amp;reshareId=2NPDE705D84ZRYKM9KCA&amp;amp;reshareChannel=system&quot; target=&quot;_blank&quot;&gt;Jesus and John Wayne: How White Evangelicals Corrupted a Faith and Fractured a Nation&lt;/a&gt;&lt;/li&gt;
+        
+        &lt;li&gt;&lt;a href=&quot;https://www.theatlantic.com/magazine/archive/2021/07/george-packer-four-americas/619012/&quot; target=&quot;_blank&quot;&gt;How America Fractured Into Four Parts&lt;/a&gt;&lt;/li&gt;
+        
+        &lt;li&gt;&lt;a href=&quot;https://www.politico.com/magazine/story/2015/04/corporate-america-invented-religious-right-conservative-roosevelt-princeton-117030/&quot; target=&quot;_blank&quot;&gt;How Corporate America Invented Christian America&lt;/a&gt;&lt;/li&gt;
+        
+        &lt;li&gt;&lt;a href=&quot;https://www.christianitytoday.com/ct/podcasts/quick-to-listen/christian-nationalism-capitol-riots-trump-podcast.html&quot; target=&quot;_blank&quot;&gt;Christian Nationalism Is Worse Than You Think&lt;/a&gt;&lt;/li&gt;
+        
+        &lt;li&gt;&lt;a href=&quot;https://www.politico.com/magazine/story/2014/05/religious-right-real-origins-107133/&quot; target=&quot;_blank&quot;&gt;The Real Origins of the Religious Right&lt;/a&gt;&lt;/li&gt;
+        
+        &lt;li&gt;&lt;a href=&quot;https://www.npr.org/2020/07/01/883115867/white-supremacist-ideas-have-historical-roots-in-u-s-christianity&quot; target=&quot;_blank&quot;&gt;White Supremacist Ideas Have Historical Roots In U.S. Christianity&lt;/a&gt;&lt;/li&gt;
+        
+        &lt;li&gt;&lt;a href=&quot;https://www.newyorker.com/news/daily-comment/the-wasting-of-the-evangelical-mind&quot; target=&quot;_blank&quot;&gt;The Wasting of the Evangelical Mind&lt;/a&gt;&lt;/li&gt;
+        
+    &lt;/ul&gt;
+&lt;/section&gt;
+
+            
+                
+            
+            &lt;p style=&quot;text-align: center&quot;&gt;&lt;iframe allow=&quot;autoplay *; encrypted-media *; fullscreen *&quot; frameborder=&quot;0&quot; height=&quot;175&quot; style=&quot;border-radius: .5rem; width: 100%; max-width: 660px; overflow: hidden; background: transparent&quot; sandbox=&quot;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&quot; src=&quot;https://embed.podcasts.apple.com/us/podcast/full-length-trailer/id1569401963?i=1000524616558&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;h4&gt;&lt;cite&gt;Christianity Today&lt;/cite&gt;&lt;a href=&quot;https://www.christianitytoday.com/ct/podcasts/rise-and-fall-of-mars-hill/&quot; target=&quot;_blank&quot;&gt;The Rise &amp;amp; Fall of Mars Hill&lt;/a&gt;&lt;/h4&gt;
+
+&lt;blockquote&gt;Founded in 1996, Seattle’s Mars Hill Church was poised to be an influential, undeniable force in evangelicalism—that is until its spiraling collapse in 2014. The church and its charismatic founder, Mark Driscoll, had a promising start. But the perils of power, conflict, and Christian celebrity eroded and eventually shipwrecked both the preacher and his multimillion-dollar platform.&lt;/blockquote&gt;
+
+&lt;p&gt;This series is a consideration of the impact this popular church had within its community and evangelicalism overall. The research seems exhaustive but I felt the show suffered by &lt;a href=&quot;https://religiondispatches.org/sharing-many-of-the-same-flaws-as-its-subject-the-rise-and-fall-of-mars-hill-podcast-puts-blame-anywhere-but-where-it-belongs/&quot; target=&quot;_blank&quot;&gt;failing to acknowledge&lt;/a&gt; the &lt;a href=&quot;https://podcasts.apple.com/us/podcast/you-have-permission/id1448000113?i=1000531466861&quot; target=&quot;_blank&quot;&gt;abusive and patriarchal messages&lt;/a&gt; endorsed within churches adhering to conservative or fundamentalist Evangelical Christianity. It’s still a worthwhile listen as long as the source is considered.&lt;/p&gt;
+
+&lt;p class=&quot;outbound&quot;&gt;&lt;a class=&quot;button&quot; href=&quot;https://www.christianitytoday.com/ct/podcasts/rise-and-fall-of-mars-hill/&quot; id=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;emoji&quot;&gt;🎧&lt;/span&gt;&amp;nbsp;Listen to the series&lt;/a&gt;&lt;/p&gt;
+
+        </description>
+        <pubDate>Tue, 26 Oct 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/post/2021/10/26/an-identity-crisis.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2021/10/26/an-identity-crisis.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>We know less than we realize, but that’s okay</title>
+        <author>David Hepworth</author>
+        <description>
+            &lt;p&gt;Life during the COVID-19 pandemic has been lonelier than I expected. My introversion has been useful in this time of isolation, but it did not prepare me for the simultaneous crushing ideological loneliness that has come from watching others respond to the demands of the pandemic. I feel more disconnected from my peers now than I ever have before.&lt;/p&gt;
+
+&lt;blockquote class=&quot;articleSnippet&quot;&gt;
+&lt;cite&gt;NPR — Will Stone&lt;/cite&gt;
+&lt;h3 class=&quot;m0&quot;&gt;&lt;a href=&quot;https://www.npr.org/sections/health-shots/2021/09/12/1036356773/i-got-a-mild-breakthrough-case-heres-what-i-wish-id-known&quot; target=&quot;_blank&quot;&gt;I Got a Mild Breakthough Case: Here’s What I Wish I’d Known&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;It was a miserable five days. My legs and arms ached, my fever crept up to 103 and every few hours of sleep would leave my sheets drenched in sweat. I’d drop into bed exhausted after a quick trip down to the kitchen. To sum it up, I&apos;d put my breakthrough case of COVID-19 right up there with my worst bouts of flu. Even after my fever cleared up, I spent the next few weeks feeling low.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;The writer of this article got sick and didn’t enjoy the results — which is not surprising, because who &lt;em&gt;wants&lt;/em&gt; to get sick with flu-like symptoms? I’ve heard from those against the COVID-19 vaccination that we shouldn’t fear COVID-19 because it is no worse than the flu (a sickness that did at one time kill a huge portion of people). I hate getting the flu and take the flu vaccine to try to avoid getting sick. I take allergy medication because I don’t like having seasonal allergies. I don’t understand the aversion to reacting to COVID-19 by taking a vaccine (and wearing masks and not coughing on each other).&lt;/p&gt;
+
+&lt;p&gt;I look around and see people still stuck with their first impression: &lt;em&gt;this is just another flu.&lt;/em&gt; But COVID-19 is not just another flu — and besides, why would another flu be a good thing? Why are we finding another flu-level amount of death an acceptable statistic to add to our lives? Why are we boldly proclaiming that the thousands of preventable deaths in our community are acceptable?&lt;/p&gt;
+
+&lt;blockquote class=&quot;articleSnippet&quot;&gt;
+&lt;cite&gt;Ark Times — Max Bradley&lt;/cite&gt;
+&lt;h3 class=&quot;m0&quot;&gt;&lt;a href=&quot;https://arktimes.com/arkansas-blog/2021/09/11/about-religious-exemptions-for-vaccine-resisters-conway-regional-health-system-says-you-must-really-mean-it&quot; target=&quot;_blank&quot;&gt;About vaccine resistance and religious exemptions&lt;/a&gt;&lt;/h3&gt;
+&lt;p&gt;What is the religious basis for COVID resistance? One has been that at some stage in development or testing, long ago, fetal cells may have been involved in the process that led to the development of certain of the vaccines.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p&gt;Here is an example of reacting to something without understanding it. The use of aborted fetal cells is one that causes furious reactions from many, but I think that’s because leaders in that community have caused the fervor, rather than it coming from a genuine complaint within the community. The reason for my skepticism is because fetal cells are used in &lt;a href=&quot;https://www.patheos.com/blogs/throughcatholiclenses/2021/01/if-any-drug-tested-on-hek-293-is-immoral-goodbye-modern-medicine/&quot; target=&quot;_blank&quot;&gt;many other medications&lt;/a&gt; that are still being taken by critics of the vaccine. I think that much of this fervor has little to do with the vaccine itself and more with the conspiracy built around the subject.&lt;/p&gt;
+
+&lt;p&gt;I think that we should be okay about not knowing some things and remaining open to learning so that we don’t make a choice that &lt;a href=&quot;https://www.reddit.com/r/HermanCainAward/&quot; target=&quot;_blank&quot;&gt;we might later regret&lt;/a&gt;. It saddens me to see how many people are being harmed by the grift of conspiracies and the groups spreading those baseless assumptions.&lt;/p&gt;
+
+
+            
+                
+                    &lt;h4&gt;Further Reading&lt;/h4&gt;
+                    &lt;ul&gt;
+                    
+                    &lt;li&gt;&lt;a href=&quot;https://meta.ath0.com/2020/12/social-notwork/&quot; target=&quot;_blank&quot;&gt;It’s worse than you think&lt;/a&gt;&lt;/li&gt;
+                    
+                    &lt;li&gt;&lt;a href=&quot;https://mehretbiruk.com/delete-social-media/&quot; target=&quot;_blank&quot;&gt;Should you delete social media? That’s the wrong question.&lt;/a&gt;&lt;/li&gt;
+                    
+                    &lt;li&gt;&lt;a href=&quot;https://durmonski.com/life-advice/life-after-quitting-social-media/&quot; target=&quot;_blank&quot;&gt;My Life After Quitting Social Media&lt;/a&gt;&lt;/li&gt;
+                    
+                    &lt;/ul&gt;
+                
+            
+            &lt;h4&gt;&lt;cite&gt;Behind the Bastards&lt;/cite&gt;&lt;a href=&quot;https://www.iheart.com/podcast/105-behind-the-bastards-29236323/episode/part-one-the-rush-limbaugh-episodes-79392356/&quot; target=&quot;_blank&quot;&gt;The Rush Limbaugh Episodes&lt;/a&gt;&lt;/h4&gt;
+
+&lt;p&gt;I grew up overhearing Rush Limbaugh. I rarely listened to him on my own but often heard him on the radio that other people were using. I thought he was funny but I also didn’t know much about what he was saying and I assumed that he had the best intentions with his content. As I got older and grew in my understanding of the subjects that Rush Limbaugh discussed, I learned that I didn’t share the same opinions and him and often thought he had potentially ignorant to malicious views on the material that he shared on his programs. Eventually I found any time I listened to him I was rarely gaining any enjoyment or education from his material. I guess, in my way, I had become much of what Rush Limbaugh hated.&lt;/p&gt;
+
+&lt;p&gt;In these two podcasts I learned (from an admittedly incredibly biased source) what made people so angry about Rush Limbaugh. Some of what was shared matched my own experiences and opinions after listening to him irregularly for years. I can see the path toward anger and conspiracy that, while perhaps not entirely started by Rush Limbaugh, certainly could be said to have grown under his tutelage.&lt;/p&gt;
+
+&lt;p&gt;I can also attest to the waning relevance of Rush Limbaugh, as in his later years I noticed that he was not considered nearly as incendiary or important in the conservative world as he had been under Obama’s time as President. He had been eclipsed not only by other radical talk show hosts but by political party members in power. I wonder what that must have felt like for him, growing an empire of extremism only to watch the students of his work outgrow and outpace his own.&lt;/p&gt;
+
+&lt;p class=&quot;outbound&quot;&gt;&lt;a class=&quot;button&quot; href=&quot;https://www.iheart.com/podcast/105-behind-the-bastards-29236323/episode/part-one-the-rush-limbaugh-episodes-79392356/&quot; id=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;emoji&quot;&gt;🎧&lt;/span&gt;&amp;nbsp;Listen to part one&lt;/a&gt; &lt;a class=&quot;button&quot; href=&quot;https://www.iheart.com/podcast/105-behind-the-bastards-29236323/episode/part-two-the-rush-limbaugh-episodes-79507469/&quot; id=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;emoji&quot;&gt;🎧&lt;/span&gt;&amp;nbsp;Listen to part two&lt;/a&gt;&lt;/p&gt;
+
+        </description>
+        <pubDate>Tue, 14 Sep 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/post/2021/09/14/we-know-less-than-we-realize.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2021/09/14/we-know-less-than-we-realize.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>Vaccine hesitancy is putting us all at risk</title>
+        <author>David Hepworth</author>
+        <description>
+            &lt;p&gt;The current state of skepticism about scientific studies is reaching a dangerous level. In a short video recorded at a school meeting, a Dr. Daniel Stack makes medical claims for which he does not have adequate education or experience to speak with authority and his viewers wholeheartedly trust his conspiracy theories.&lt;/p&gt;
+
+&lt;p&gt;It doesn’t take much scrutiny to see the &lt;a href=&quot;https://www.deplatformdisease.com/blog/addressing-dr-daniel-stock-claims&quot; target=&quot;_blank&quot;&gt;errors in Stack’s reasoning&lt;/a&gt;, nor does it make sense that there is a global conspiracy to upend the world’s economy and kill thousands of people with no end in sight, but plenty of people are choosing to believe it as truth.&lt;/p&gt;
+
+&lt;p&gt;In a similar vein of seeking unlikely sources for information, people have begun passing around a recent vaccine-related post from Mike Rowe, host and narrator of cable TV shows and now source of folksy anti-intellectual social media messages. In a recent social media post, Mike posted his view on vaccines and &lt;a href=&quot;https://www.thebulwark.com/mike-rowes-dirty-lies/&quot; target=&quot;_blank&quot;&gt;it wasn’t great&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;How did the support of vaccines degrade so much? Why did we start to believe conspiracies instead of the consensus from people more educated and intelligent than our neighbor? Consider the source of all this controversy: a study that was fraudulent from the very start but was rarely questioned because it was broadcast in a conspiratorial tone.&lt;/p&gt;
+
+&lt;p class=&quot;embedtool&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/8BIcAZxFfrc&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;We must always strive to be skeptical, but not that we lose our equilibrium and choose incredible opinions over reasonable arguments.&lt;/p&gt;
+
+
+            
+            &lt;p&gt;
+&lt;iframe allow=&quot;autoplay *; encrypted-media *; fullscreen *&quot; frameborder=&quot;0&quot; height=&quot;175&quot; style=&quot;border-radius: .5rem; width: 100%; overflow: hidden; background: transparent&quot; sandbox=&quot;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&quot; src=&quot;https://embed.podcasts.apple.com/us/podcast/episode-64-mike-rowes-koch-backed-working-man-affectation/id1258545975?i=1000428796295&quot;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+
+&lt;h4&gt;&lt;cite&gt;Citations Needed&lt;/cite&gt;&lt;a href=&quot;https://citationsneeded.libsyn.com/episode-64-mike-rowes-koch-backed-working-man-affectation&quot; target=&quot;_blank&quot;&gt;Mike Rowe&amp;rsquo;s Koch-Backed Working Man Affectation&lt;/a&gt;&lt;/h4&gt;
+
+&lt;blockquote cite=&quot;https://citationsneeded.libsyn.com/episode-64-mike-rowes-koch-backed-working-man-affectation&quot;&gt;
+&lt;p&gt;In recent years, television personality Mike Rowe has amassed a wildly popular following due to alleged working-class straight talk about topics ranging from the affordability of college to reasserting a culture of pride in craftsmanship and labor.&lt;/p&gt;
+
+&lt;p&gt;Through a clever combination of working class affectation and folksy charm &amp;mdash; often exploiting real fears about a decline in industrialization &amp;mdash; Rowe has cultivated an image that claims to be pro-worker, but primarily exists to line the pockets of their boss.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;p class=&quot;outbound&quot;&gt;&lt;a class=&quot;button&quot; href=&quot;https://citationsneeded.libsyn.com/episode-64-mike-rowes-koch-backed-working-man-affectation&quot; id=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;emoji&quot;&gt;🎧&lt;/span&gt;&amp;nbsp;Listen now&lt;/a&gt;&lt;/p&gt;
+
+        </description>
+        <pubDate>Thu, 12 Aug 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/post/2021/08/12/vaccine-hesitancy-risk.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2021/08/12/vaccine-hesitancy-risk.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+      <item>
+        <title>The time that I learned about Ronald Reagan</title>
+        <author>David Hepworth</author>
+        <description>
+            &lt;p&gt;&lt;iframe allow=&quot;autoplay *; encrypted-media *; fullscreen *&quot; frameborder=&quot;0&quot; height=&quot;175&quot; style=&quot;border-radius: .5rem; width: 100%; overflow: hidden; background: transparent&quot; sandbox=&quot;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&quot; src=&quot;https://embed.podcasts.apple.com/us/podcast/ron-reagan/id1438054347?i=1000504668480&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;p&gt;I listened to a very surprising interview with Ronald Reagan&amp;rsquo;s son. The biggest surprise for me in the interview was that Ronald Reagan had a son, which somehow had escaped me until that moment. What was also shocking to me was what was said about the man&amp;rsquo;s father, whom I had grown up believing was quite different from what was spoken of him in the interview. I had grown up in a culture that spoke of Ronald Reagan almost with reverence, believing him to be one of the last great leaders of the country. I had never felt a reason to question this thought, so I never investigated the history of the presidency.&lt;/p&gt;
+
+&lt;p&gt;This interview caused me to doubt the narrative I had heard throughout my life, so I began to investigate more about the man. I am shocked that I held a positive opinion of him for so long because the evidence was very available to contradict such a standpoint.&lt;/p&gt;
+
+&lt;p&gt;I found a series of podcast episodes that catalogued some of the more egregious issues with the man and his leadership, and it makes for a daunting list of problems. This is admittedly a biased look at the man and is intended to catalogue his faults, so I doubt this would ever be seen as a fair representation of him, but it feels like the antidote for the alternative that I understood of him.&lt;/p&gt;
+
+&lt;div class=&quot;flexNoWrap&quot;&gt;
+&lt;p class=&quot;flexItem&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/FZlRX1EVnSw&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;p class=&quot;flexItem&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/jUOHPTLiBgM&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;/div&gt;
+
+            
+            &lt;p style=&quot;text-align: center&quot;&gt;&lt;iframe allow=&quot;autoplay *; encrypted-media *; fullscreen *&quot; frameborder=&quot;0&quot; height=&quot;175&quot; style=&quot;border-radius: .5rem; width: 100%; overflow: hidden; background: transparent&quot; sandbox=&quot;allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation&quot; src=&quot;https://embed.podcasts.apple.com/us/podcast/we-dont-even-think-about-race/id1444873564?i=1000530440890&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+&lt;h4&gt;&lt;cite&gt;The Washington Post&lt;/cite&gt;&lt;a href=&quot;https://www.washingtonpost.com/podcasts/post-reports/we-dont-even-think-about-race/&quot; target=&quot;_blank&quot;&gt;Post Reports: &amp;lsquo;We Don&amp;rsquo;t Even Think About Race&amp;rsquo;&lt;/a&gt;&lt;/h4&gt;
+
+&lt;blockquote cite=&quot;https://www.washingtonpost.com/podcasts/post-reports/we-dont-even-think-about-race/&quot;&gt;Traverse City, Mich., is a microcosm of the critical race theory debates taking over school systems across the country. The debates in the town came after the school board decided to fast-track an equity resolution, after students held a fake slave auction over Snapchat. Reporter Hannah Natanson went to Traverse City to understand what White parents think of the resolution and racism in the town, as well as how students feel.&lt;/blockquote&gt;
+
+&lt;p&gt;A challenging episode that showcases a culture clash between children and parents who see racism in the country differently and who should be in control of the culture in the classroom. It&amp;rsquo;s a difficult thing to be a parent and find the balance between teaching a child about the world and shielding that child from the reality of the world. I think I want to be a parent who lets his children speak for themselves about the world that they see.&lt;/p&gt;
+
+&lt;p class=&quot;outbound&quot;&gt;&lt;a class=&quot;button&quot; href=&quot;https://www.washingtonpost.com/podcasts/post-reports/we-dont-even-think-about-race/&quot; id=&quot;&quot; target=&quot;_blank&quot;&gt;&lt;span class=&quot;emoji&quot;&gt;🎧&lt;/span&gt;&amp;nbsp;Listen to the episode&lt;/a&gt;&lt;/p&gt;
+
+        </description>
+        <pubDate>Fri, 30 Jul 2021 00:00:00 -0500</pubDate>
+        <link>http://localhost:4000/post/2021/07/30/ronald-reagan.html</link>
+        <guid isPermaLink="true">http://localhost:4000/post/2021/07/30/ronald-reagan.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
+    
+  </channel>
+</rss>
