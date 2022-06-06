@@ -286,6 +286,8 @@ footer.flexContainer .flexCard { width: 100%; }
 
 @media only screen and (min-width: 32.9rem) { footer.flexContainer .flexCard.cardTwo, footer.flexContainer .flexCard.cardThree, footer.flexContainer .flexCard.cardFour { flex: 1; } }
 
+footer.flexContainer .flexCard a { display: inline-block; }
+
 footer .feedXML img { max-height: 1.5rem; width: auto; }
 
 footer .feedXML.right { align-self: flex-end; }
