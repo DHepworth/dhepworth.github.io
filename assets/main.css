@@ -238,7 +238,7 @@ main .newArticles article span.emoji.saturate { filter: saturate(1); transform: 
 
 main .newArticles article h3 { grid-column: title / gap2; margin: -0.15rem 0 0 0; }
 
-@media only screen and (min-width: 43.9rem) { main .newArticles article h3 { flex: 0 1 31%; } }
+@media only screen and (min-width: 43.9rem) { main .newArticles article h3 { align-self: flex-start; flex: 0 1 31%; } }
 
 main .newArticles article blockquote { border: unset !important; font-size: 90%; grid-column: story / story; margin: 0.5rem 0 0 0; padding: unset; }
 
