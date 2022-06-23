@@ -8,7 +8,7 @@ var THEMESTYLES = document.querySelectorAll('meta[name="theme-color"');
 var BODYHOME = document.querySelector('body.home');
 var systemLight = window.matchMedia('(prefers-color-scheme: light)');
 var systemDark = window.matchMedia('(prefers-color-scheme: dark)');
-var LIGHTCOLORHOME = 'hsl(0, 0%, 97%)';
+var LIGHTCOLORHOME = 'hsl(0, 0%, 98%)';
 var DARKCOLORHOME = 'hsl(0, 0%, 10%)';
 var LIGHTCOLOR = 'hsl(0, 0%, 98%)';
 var DARKCOLOR = 'hsl(0, 0%, 10%)';
@@ -173,3 +173,22 @@ var TOGGLENAVIGATION = function () {
     }
 };
 toggleNav.addEventListener('click', TOGGLENAVIGATION);
+////// Politics Button on Profile
+var politicsButton = document.querySelector('#hiddenPoliticsToggle');
+var politicsContainer = document.querySelector('#hiddenPolitics');
+var POLITICSTOGGLE = function () {
+    if (politicsContainer.classList.contains('hidden')) {
+        politicsContainer.classList.remove('hidden');
+        politicsButton.setAttribute('aria-hidden', 'false');
+    }
+    else {
+        politicsContainer.classList.add('hidden');
+        politicsButton.setAttribute('aria-hidden', 'true');
+    }
+};
+if (politicsButton && politicsContainer) {
+    politicsButton.addEventListener('click', POLITICSTOGGLE);
+}
+else {
+}
+;
