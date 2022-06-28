@@ -180,10 +180,12 @@ var POLITICSTOGGLE = function () {
     if (politicsContainer.classList.contains('hidden')) {
         politicsContainer.classList.remove('hidden');
         politicsButton.setAttribute('aria-hidden', 'false');
+        politicsButton.classList.add('animation');
     }
     else {
         politicsContainer.classList.add('hidden');
         politicsButton.setAttribute('aria-hidden', 'true');
+        politicsButton.classList.remove('animation');
     }
 };
 if (politicsButton && politicsContainer) {

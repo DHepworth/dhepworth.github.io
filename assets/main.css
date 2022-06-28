@@ -76,20 +76,6 @@ body, button, input, keygen select, textarea { font-family: ui-sans-serif, -appl
 
 iframe { border-radius: 0.5rem; }
 
-table { border-radius: 0.5rem; padding: 1rem; }
-
-table tr { text-align: left; vertical-align: top; }
-
-table th { font-size: 105%; }
-
-table th:nth-of-type(1) { padding: 0 0 1rem 0; }
-
-table th:not(:nth-of-type(1)) { padding: 0 0 1rem 1rem; }
-
-table td:nth-of-type(1) { padding: 1rem 0 0 0; }
-
-table td:not(:nth-of-type(1)) { padding: 1rem 0 0 1rem; }
-
 * { box-sizing: border-box; }
 
 *:focus-visible { background: var(--color-secondary) !important; color: var(--color-white) !important; border-radius: 0.5rem; box-shadow: 0 0 0.5rem 0.25rem var(--color-secondary-light); outline: none; }
@@ -104,7 +90,7 @@ button, .button { border-radius: 0.5rem; border: none; cursor: pointer; display:
 
 button.selected, .button.selected { text-decoration: underline; }
 
-.circled { border-radius: 0.5rem; margin: 0 0.1rem 0 0; padding: .15rem .5rem; }
+.circled { border-radius: 0.5rem; margin: 0 0.1rem 0 0; padding: 0.15rem 0.5rem; }
 
 .alert { background-color: var(--color-yellow-3); border-left: 0.5rem solid var(--color-yellow-2); color: var(--color-black); margin: 1rem 0 0 0; padding: 1rem; }
 
@@ -124,15 +110,61 @@ meter::-webkit-meter-suboptimum-value { background: var(--color-primary-compleme
 
 meter::-webkit-meter-even-less-good-value { background: firebrick; }
 
-.polCom { border-radius: 0.5rem; padding: 1rem; }
+table { border-radius: 0.5rem; }
 
-.polCom dt { font-weight: 500; margin: 0; width: 100%; }
+@media only screen and (max-width: 35.9rem) { table { padding: 0 1rem 1rem 1rem; } }
+
+@media only screen and (min-width: 35.9rem) { table { padding: 1rem; } }
+
+@media only screen and (max-width: 35.9rem) { table thead { display: none; } }
+
+table tr { text-align: left; vertical-align: top; }
+
+table th { font-size: 105%; }
+
+@media only screen and (min-width: 35.9rem) { table th:nth-of-type(1) { padding: 0 0 1rem 0; } }
+
+@media only screen and (min-width: 35.9rem) { table th:not(:nth-of-type(1)) { padding: 0 0 1rem 1rem; } }
+
+table td { position: relative; }
+
+@media only screen and (max-width: 35.9rem) { table td:before { font-size: 0.75rem; font-weight: 700; left: 0; position: absolute; text-transform: uppercase; top: 0; } }
+
+@media only screen and (max-width: 35.9rem) { table td { display: block; margin: 1.25rem 0 0 0; padding: 1.25rem 0 0 0; } }
+
+@media only screen and (min-width: 35.9rem) { table td:nth-of-type(1) { padding: 1rem 0 0 0; } }
+
+@media only screen and (min-width: 35.9rem) { table td:not(:nth-of-type(1)) { padding: 1rem 0 0 1rem; } }
+
+#hiddenPolitics.hidden { display: none; visibility: hidden; }
+
+@media only screen and (max-width: 35.9rem) { .big5 thead th { padding: 0; text-align: left; } }
+
+@media only screen and (min-width: 35.9rem) { .big5 thead th:nth-of-type(1) { width: 50%; } }
+
+@media only screen and (max-width: 35.9rem) { .big5 tbody td:nth-of-type(1):before { content: "Dimension"; } .big5 tbody td:nth-of-type(2):before { content: "Result"; } .big5 tbody td:nth-of-type(3):before { content: "Percentile"; } .big5 tbody td:nth-of-type(3) { text-align: center; } }
+
+@media only screen and (min-width: 35.9rem) { .big5 tbody td:nth-of-type(1) { width: 50%; } .big5 tbody td:nth-of-type(2) { width: calc(30% - 1rem); } .big5 tbody td:nth-of-type(3) { width: calc(20% - 1rem); } }
+
+.hideNav { margin: 0 auto; max-width: 80rem; position: relative; }
+
+.hideNav #toggleNav { font-size: 0.9rem; min-width: 4rem; transition: top 1s ease-out; z-index: 4; }
+
+.hideNav #toggleNav.hidden { margin: 0.5rem 1rem 1rem 1rem; top: 2rem; }
+
+.hideNav #toggleNav.visible { margin: 0.5rem 1rem 0.75rem 1rem; top: 1.1rem; }
+
+@media only screen and (min-width: 47.9rem) { .hideNav #toggleNav { margin: unset; min-width: unset; position: absolute; right: 2rem; top: 1rem; } .hideNav #toggleNav.hidden { margin: unset; top: 1.5rem; } .hideNav #toggleNav.visible { margin: unset; top: 0.25rem; } }
+
+.polCom { border-radius: 0.5rem; padding: 0 1rem 1rem 1rem; }
+
+.polCom dt { font-weight: 500; margin: 1rem 0 0 0; width: 100%; }
 
 .polCom dt:nth-of-type(1) { padding: 0; }
 
 .polCom dt:not(:nth-of-type(1)) { padding: 1rem 0 0 0; }
 
-.polCom dd { display: block; margin: 0; padding-top: .5rem; width: 100%; }
+.polCom dd { display: block; margin: 0; padding-top: 0.5rem; width: 100%; }
 
 @media only screen and (min-width: 43.9rem) { .polCom dd { align-items: center; display: grid; gap: 1rem; grid-template-columns: minmax(5rem, 9rem) minmax(5rem, 100%) minmax(5rem, 10rem); justify-content: space-evenly; margin: 0; padding-top: 0; width: 100%; } }
 
@@ -150,31 +182,29 @@ meter::-webkit-meter-even-less-good-value { background: firebrick; }
 
 .polCom dd p { margin: 0; }
 
-.hideNav { margin: 0 auto; max-width: 80rem; position: relative; }
+.profilePic { aspect-ratio: 150/91; max-width: 300px; overflow: hidden; position: relative; text-align: center; }
 
-.hideNav #toggleNav { font-size: 0.9rem; min-width: 4rem; transition: top 1s ease-out; z-index: 4; }
+.profilePic img { border-radius: 0.5rem; width: 100%; }
 
-.hideNav #toggleNav.hidden { margin: 0.5rem 1rem 1rem 1rem; top: 2rem; }
+.profilePic small { border-radius: 0.5rem; border-bottom-left-radius: 0; border-top-left-radius: 2rem; border-top-right-radius: 0; background: rgba(0, 0, 0, 0); bottom: 0; color: white; cursor: pointer; opacity: 0.5; padding: .5rem .75rem .5rem 1rem; position: absolute; right: 0; text-shadow: 0 0 0 rgba(255, 255, 255, 0); z-index: 2; }
 
-.hideNav #toggleNav.visible { margin: 0.5rem 1rem 0.75rem 1rem; top: 1.1rem; }
+.profilePic small:hover { animation: 1s ease-in 0s infinite alternate running glowing; background: rgba(0, 0, 0, 0.5); }
 
-@media only screen and (min-width: 47.9rem) { .hideNav #toggleNav { margin: unset; min-width: unset; position: absolute; right: 2rem; top: 1rem; } .hideNav #toggleNav.hidden { margin: unset; top: 1.5rem; } .hideNav #toggleNav.visible { margin: unset; top: 0.25rem; } }
+.profilePic small.animation { animation: 4s ease-out 0s infinite alternate running glowing; }
 
-.smallUL-1 { margin: .75rem 0 0 0; padding: 0; }
+@keyframes glowing { 0% { color: white;
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0); }
+  50% { text-shadow: 0 0 0.25rem white; }
+  100% { color: var(--color-primary);
+    text-shadow: 0 0 0 rgba(255, 255, 255, 0); } }
 
-.smallUL-1 li { display: inline-block; font-size: 80%; list-style: none; margin: .25rem 0 0 0; }
+.smallUL-1 { margin: 0.75rem 0 0 0; padding: 0; }
 
-.smallUL-2 { margin: .75rem 0 0 0; padding: 0; }
+.smallUL-1 li { display: inline-block; font-size: 80%; list-style: none; margin: 0.25rem 0 0 0; }
 
-.smallUL-2 li { display: table; font-size: 80%; list-style: none; margin: .25rem 0 0 0; }
+.smallUL-2 { margin: 0.75rem 0 0 0; padding: 0; }
 
-.profilePic { position: relative; text-align: center; }
-
-.profilePic img { border-radius: 0.5rem; }
-
-.profilePic small { bottom: 1rem; cursor: pointer; filter: invert(1); opacity: .5; position: absolute; right: 1rem; z-index: 2; }
-
-#hiddenPolitics.hidden { display: none; visibility: hidden; }
+.smallUL-2 li { display: table; font-size: 80%; list-style: none; margin: 0.25rem 0 0 0; }
 
 header { margin: 1rem 0 0 0; padding: 1rem; position: relative; text-align: left; }
 
