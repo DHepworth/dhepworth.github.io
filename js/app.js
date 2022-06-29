@@ -140,14 +140,14 @@ else {
 ////// Toggle Navigation Button
 var nav = document.querySelector('nav');
 var toggleNav = document.querySelector('#toggleNav');
-if (localStorage.getItem('nav') == 'hidden') {
+if (localStorage.getItem('nav') == 'hidden' || !localStorage.getItem('nav')) {
     nav.classList.add('hidden');
     toggleNav.classList.remove('visible');
     toggleNav.classList.add('hidden');
     toggleNav.innerHTML = 'Show controls';
     toggleNav.setAttribute('aria-label', 'Show controls');
 }
-else if (localStorage.getItem('nav') == 'visible' || !localStorage.getItem('nav')) {
+else if (localStorage.getItem('nav') == 'visible') {
     nav.classList.remove('hidden');
     toggleNav.classList.remove('hidden');
     toggleNav.classList.add('visible');
