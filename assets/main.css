@@ -182,9 +182,15 @@ table td { position: relative; }
 
 .polCom dd p { margin: 0; }
 
+@media only screen and (max-width: 35.9rem) { .profileContainer { display: block; } .profileContainer .profilePic { margin: 1rem auto 0 auto; } .profileContainer .profileText { margin: 0 auto; text-align: center; } .profileContainer .profileText ul, .profileContainer .profileText li { display: inline-block; } }
+
+@media only screen and (min-width: 35.9rem) { .profileContainer { display: grid; gap: 1rem; grid-template-columns: 300px [img] auto [text]; } .profileContainer .profilePic { grid-template: img; } .profileContainer .profileText { grid-template: text; } }
+
+@media only screen and (min-width: 61.55rem) { .profileContainer { display: block; } }
+
 .profilePic { aspect-ratio: 150/91; max-width: 300px; overflow: hidden; position: relative; text-align: center; }
 
-.profilePic img { border-radius: 0.5rem; width: 100%; }
+.profilePic img { border-radius: 0.5rem; height: 100%; width: 100%; }
 
 .profilePic small { border-radius: 0.5rem; border-bottom-left-radius: 0; border-top-left-radius: 2rem; border-top-right-radius: 0; background: rgba(0, 0, 0, 0); bottom: 0; color: white; cursor: pointer; opacity: 0.5; padding: .5rem .75rem .5rem 1rem; position: absolute; right: 0; text-shadow: 0 0 0 rgba(255, 255, 255, 0); z-index: 2; }
 
@@ -398,7 +404,7 @@ footer.flexContainer .flexCard { width: 100%; }
 
 @media only screen and (min-width: 32.9rem) { footer.flexContainer .flexCard.cardTwo, footer.flexContainer .flexCard.cardThree, footer.flexContainer .flexCard.cardFour { flex: 1; } }
 
-footer.flexContainer .flexCard a { display: inline-block; }
+footer.flexContainer .flexCard.cardTwo a, footer.flexContainer .flexCard.cardThree a, footer.flexContainer .flexCard.cardFour a { display: inline-block; }
 
 footer .feedXML img { max-height: 1.5rem; width: auto; }
 
