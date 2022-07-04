@@ -98,6 +98,8 @@ a[href^="http://"]:not(.button):hover:after, a[href^="https://"]:not(.button):ho
 
 .outbound { margin: 0; padding: 0; }
 
+.outbound:after, .outbound :after { display: none !important; margin: 0; padding: 0; }
+
 .outbound a.button { display: inline-block; margin: 1rem 0.5rem 0 0; }
 
 meter { border-radius: 0.5rem; margin: 0; overflow: hidden; padding: 0; width: 100%; -webkit-appearance: none; background: var(--color-gray-2); }
