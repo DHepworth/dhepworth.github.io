@@ -96,7 +96,7 @@ a[href^="http://"]:not(.button):after, a[href^="https://"]:not(.button):after { 
 
 a[href^="http://"]:not(.button):hover:after, a[href^="https://"]:not(.button):hover:after { opacity: .9; }
 
-.hideExternalIcon:after, .hideExternalIcon :after { display: none !important; margin: 0; padding: 0; }
+.hideExternalIcon a:after, .hideExternalIcon:after, .hideExternalIcon :after { content: unset !important; display: none !important; margin: 0; padding: 0; visibility: hidden; }
 
 .outbound { margin: 0; padding: 0; }
 
