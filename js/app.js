@@ -157,6 +157,7 @@ else if (localStorage.getItem('nav') == 'visible') {
 var TOGGLENAVIGATION = function () {
     if (nav.classList.contains('hidden')) {
         nav.classList.remove('hidden');
+        nav.setAttribute('aria-hidden', 'false');
         localStorage.setItem('nav', 'visible');
         toggleNav.innerHTML = 'Hide controls';
         toggleNav.classList.remove('hidden');
@@ -165,6 +166,7 @@ var TOGGLENAVIGATION = function () {
     }
     else {
         nav.classList.add('hidden');
+        nav.setAttribute('aria-hidden', 'true');
         localStorage.setItem('nav', 'hidden');
         toggleNav.innerHTML = 'Show controls';
         toggleNav.classList.remove('visible');
