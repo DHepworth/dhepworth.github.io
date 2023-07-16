@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="language" content="en" />
+    <meta name="description" content="A blog of a person learning things others long ago understood." />
+    <meta name="keywords" content="blog, opinion, photography, family, religion, politics" />
+    <meta name="author" content="David Hepworth" />
+    <meta property="og:title" content="DH:Personal" />
+    <meta property="og:description" content="A blog of a person learning things others long ago understood." />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="color-scheme" content="light dark" />
+    
+    <meta name="theme-color" content="hsl(0, 0%, 98%)" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="hsl(0, 0%, 10%)" media="(prefers-color-scheme: dark)" />
+    
+    <title>DH:Personal</title>
+    <link rel="stylesheet" href="/assets/main.css" />
+    <link rel="icon" href="/img/favicon.ico" sizes="any">
+    <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
+    <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
+    <link rel="alternate" type="application/rss+xml" href="http://localhost:4000/feed.xml">
+    <script>
+        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
+    </script>
+
+</head>
+
+<body><noscript>
+    <style>
+        nav,
+        .hideNav {
+            display: none !important;
+            visibility: hidden !important;
+        }
+    </style>
+</noscript><section class="hideNav">
+  <button type="button" aria-label="" id="toggleNav" class="" tabindex="0">
+    &hellip;
+  </button>
+</section>
+<nav id="accessibilityControls" aria-hidden="true" class="hidden">
+  <div class="container">
+    <section class="dayNightMode">
+      <h5>View Mode</h5>
+      <button type="button" aria-label="Light Theme" id="lightButton">
+        Light
+      </button>
+      <button type="button" aria-label="Dark Theme" id="darkButton">
+        Dark
+      </button>
+      <button type="button" aria-label="Reset Theme" id="systemButton">
+        System
+      </button>
+    </section>
+    <section class="fontSize">
+      <h5>Font Size</h5>
+      <button
+        type="button"
+        aria-label="Shrink Text Size"
+        id="fontSmaller"
+        data-update-text-size="-15"
+      >
+        -
+      </button>
+      <button
+        type="button"
+        aria-label="Enlarge Text Size"
+        id="fontLarger"
+        data-update-text-size="15"
+      >
+        +
+      </button>
+      <button
+        type="button"
+        aria-label="Reset Text Size"
+        id="fontReset"
+        data-update-text-size="0"
+      >
+        Reset
+      </button>
+    </section>
+  </div>
+</nav>
+<header>
+    <h1>
+      <a class="hideExternalIcon" href="http://localhost:4000">DH:Personal</a>
+    </h1>
+  </header>
+  <main id="mainContent">
+    <div class="container">
+      <article>
+        <h2>404</h2>
+        <p>
+          <strong>Content missing or not found</strong>
+        </p>
+        <p>The requested content is missing or may have never existed. Please double-check your URL in the address bar to find any spelling errors.</p>
+      </article>
+    </div>
+  </main>
+</body>
+
+
+<hr />
+<footer class="flexContainer">
+    <p class="outbound">
+      <a class="button" href="#top" id="toTop" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
+    </p>
+    <p class="hideExternalIcon feedXML right">
+      <a href="http://localhost:4000/feed.xml" target="_blank"><img src="http://localhost:4000/img/feed.svg" alt="SVG icon" title="Subscribe to feed" height="40" width="40"></a>
+    </p>
+  </footer><script src="/js/app.js"></script></html>
