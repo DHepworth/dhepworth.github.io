@@ -3,10 +3,10 @@
   <channel>
     <title>DH:Personal</title>
     <description>A blog of a person learning things others long ago understood.</description>
-    <link>http://localhost:4000/</link>
-    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 19 Jun 2023 06:35:05 -0500</pubDate>
-    <lastBuildDate>Mon, 19 Jun 2023 06:35:05 -0500</lastBuildDate>
+    <link>https://dhepworth.github.io/</link>
+    <atom:link href="https://dhepworth.github.io/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 16 Jul 2023 07:32:12 -0500</pubDate>
+    <lastBuildDate>Sun, 16 Jul 2023 07:32:12 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -29,8 +29,8 @@
 
         </description>
         <pubDate>Sun, 18 Jun 2023 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/post/2023/06/18/being-invisible.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2023/06/18/being-invisible.html</guid>
+        <link>https://dhepworth.github.io/post/2023/06/18/being-invisible.html</link>
+        <guid isPermaLink="true">https://dhepworth.github.io/post/2023/06/18/being-invisible.html</guid>
         
         
         <category>post</category>
@@ -189,8 +189,8 @@
 
         </description>
         <pubDate>Thu, 01 Jun 2023 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/post/2023/06/01/what-is-church.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2023/06/01/what-is-church.html</guid>
+        <link>https://dhepworth.github.io/post/2023/06/01/what-is-church.html</link>
+        <guid isPermaLink="true">https://dhepworth.github.io/post/2023/06/01/what-is-church.html</guid>
         
         
         <category>post</category>
@@ -383,8 +383,8 @@
             
         </description>
         <pubDate>Tue, 25 Apr 2023 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/post/2023/04/25/hopelessness-in-video-games.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2023/04/25/hopelessness-in-video-games.html</guid>
+        <link>https://dhepworth.github.io/post/2023/04/25/hopelessness-in-video-games.html</link>
+        <guid isPermaLink="true">https://dhepworth.github.io/post/2023/04/25/hopelessness-in-video-games.html</guid>
         
         
         <category>post</category>
@@ -424,8 +424,8 @@
             
         </description>
         <pubDate>Thu, 23 Feb 2023 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/post/2023/02/23/analog-clocks.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2023/02/23/analog-clocks.html</guid>
+        <link>https://dhepworth.github.io/post/2023/02/23/analog-clocks.html</link>
+        <guid isPermaLink="true">https://dhepworth.github.io/post/2023/02/23/analog-clocks.html</guid>
         
         
         <category>post</category>
@@ -468,8 +468,8 @@
 
         </description>
         <pubDate>Fri, 23 Sep 2022 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/post/2022/09/23/school-shootings.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2022/09/23/school-shootings.html</guid>
+        <link>https://dhepworth.github.io/post/2022/09/23/school-shootings.html</link>
+        <guid isPermaLink="true">https://dhepworth.github.io/post/2022/09/23/school-shootings.html</guid>
         
         
         <category>post</category>
@@ -522,8 +522,8 @@
 
         </description>
         <pubDate>Wed, 22 Jun 2022 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/post/2022/06/22/parasocial-relationships.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2022/06/22/parasocial-relationships.html</guid>
+        <link>https://dhepworth.github.io/post/2022/06/22/parasocial-relationships.html</link>
+        <guid isPermaLink="true">https://dhepworth.github.io/post/2022/06/22/parasocial-relationships.html</guid>
         
         
         <category>post</category>
@@ -621,8 +621,8 @@
 
         </description>
         <pubDate>Fri, 10 Jun 2022 00:00:00 -0500</pubDate>
-        <link>http://localhost:4000/post/2022/06/10/feeling-stuck.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2022/06/10/feeling-stuck.html</guid>
+        <link>https://dhepworth.github.io/post/2022/06/10/feeling-stuck.html</link>
+        <guid isPermaLink="true">https://dhepworth.github.io/post/2022/06/10/feeling-stuck.html</guid>
         
         
         <category>post</category>
@@ -669,8 +669,8 @@
 
         </description>
         <pubDate>Thu, 03 Feb 2022 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/post/2022/02/03/anxious-about-being-ignorant.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2022/02/03/anxious-about-being-ignorant.html</guid>
+        <link>https://dhepworth.github.io/post/2022/02/03/anxious-about-being-ignorant.html</link>
+        <guid isPermaLink="true">https://dhepworth.github.io/post/2022/02/03/anxious-about-being-ignorant.html</guid>
         
         
         <category>post</category>
@@ -681,7 +681,7 @@
         <title>Now on Jekyll</title>
         <author>David Hepworth</author>
         <description>
-            &lt;p&gt;I’ve spent the past few days moving my little site here from hand-written HTML to &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;, a blogging platform that can build into HTML files very similar to ones that I was writing before, but without all the hard work of maintaining code throughout each page. Now I can write posts in a simpler fashion and start to add new features like an &lt;a href=&quot;http://localhost:4000/feed.xml&quot;&gt;Atom/RSS feed&lt;/a&gt; with greater ease than if I continued coding everything by hand.&lt;/p&gt;
+            &lt;p&gt;I’ve spent the past few days moving my little site here from hand-written HTML to &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;, a blogging platform that can build into HTML files very similar to ones that I was writing before, but without all the hard work of maintaining code throughout each page. Now I can write posts in a simpler fashion and start to add new features like an &lt;a href=&quot;https://dhepworth.github.io/feed.xml&quot;&gt;Atom/RSS feed&lt;/a&gt; with greater ease than if I continued coding everything by hand.&lt;/p&gt;
 
 &lt;p&gt;I’ve been wanting to add on more to the site as time goes on but doing it all by hand was going to potentially grow exponentially difficult. I wanted the freedom to test out new designs that remained consistent throughout the site, so each new bit of content I added would only increase my update time. I originally expected the text to largely serve as a placeholder, but I also began to enjoy the writing process required to make a new post and wanted to save my work rather than overwrite it with each update. Jekyll had seemed like a nice idea in the past but I felt I didn’t have a good reason to use it and that it would probably be more difficult to set up than what was promised. The latter part was true, but not by much. Setting up my computer to begin using Jekyll actually took longer and was more frustrating than coding in the language it uses.&lt;/p&gt;
 
@@ -690,8 +690,8 @@
             
         </description>
         <pubDate>Wed, 22 Dec 2021 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/post/2021/12/22/jekyll.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2021/12/22/jekyll.html</guid>
+        <link>https://dhepworth.github.io/post/2021/12/22/jekyll.html</link>
+        <guid isPermaLink="true">https://dhepworth.github.io/post/2021/12/22/jekyll.html</guid>
         
         
         <category>post</category>
@@ -743,8 +743,8 @@
 
         </description>
         <pubDate>Fri, 26 Nov 2021 00:00:00 -0600</pubDate>
-        <link>http://localhost:4000/post/2021/11/26/we-arent-asking-the-right-questions.html</link>
-        <guid isPermaLink="true">http://localhost:4000/post/2021/11/26/we-arent-asking-the-right-questions.html</guid>
+        <link>https://dhepworth.github.io/post/2021/11/26/we-arent-asking-the-right-questions.html</link>
+        <guid isPermaLink="true">https://dhepworth.github.io/post/2021/11/26/we-arent-asking-the-right-questions.html</guid>
         
         
         <category>post</category>
