@@ -73,11 +73,13 @@ img { height: auto; max-width: 100%; }
 
 @media only screen and (min-width: 43.9rem) { .flexNoWrap .flexItem:not(:nth-of-type(1)) { margin: 1rem 0 0 1rem; } }
 
-.serif { font-family: ui-serif, IBM Plex Serif, Iowan Old Style, Apple Garamond, Baskerville, Georgia, Cambria, Times New Roman, Droid Serif, Times, Source Serif Pro, serif; }
+.serif { font-family: Iowan Old Style, Georgia, Cambria, Times New Roman, Droid Serif, Times, Source Serif Pro, ui-serif, serif; }
 
 html { scroll-behavior: smooth; }
 
-body { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, IBM Plex Sans, Avenir Next, Avenir, Segoe UI, Helvetica Neue, Helvetica, Liberation Sans, Cantarell, Ubuntu, Roboto, Noto, Arial, sans-serif; background-position: center -2rem !important; background-size: 16rem !important; margin: 0; padding: 1rem 0 1.5rem 0; position: relative; }
+body { font-family: Iowan Old Style, Georgia, Cambria, Times New Roman, Droid Serif, Times, Source Serif Pro, ui-serif, serif; background-position: center -2rem !important; background-size: 16rem !important; margin: 0; padding: 1rem 0 1.5rem 0; position: relative; }
+
+.sans-serif { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, IBM Plex Sans, Avenir Next, Avenir, Segoe UI, Helvetica Neue, Helvetica, Liberation Sans, Cantarell, Ubuntu, Roboto, Noto, Arial, sans-serif; }
 
 button, .button, cite, input, keygen select, textarea { font-family: ui-rounded, ui-sans-serif, -apple-system, BlinkMacSystemFont, Verdana, Trebuchet MS, sans-serif; }
 
@@ -215,7 +217,7 @@ header { margin: 1rem 0 0 0; position: relative; text-align: left; }
 
 @media only screen and (min-width: 43.9rem) { header { padding: 1rem 2rem 0 1.5rem; vertical-align: baseline; } }
 
-header h1 { font-family: ui-serif, IBM Plex Serif, Iowan Old Style, Apple Garamond, Baskerville, Georgia, Cambria, Times New Roman, Droid Serif, Times, Source Serif Pro, serif; font-size: clamp(1.5rem, 5vw, 5rem); font-weight: 300; letter-spacing: clamp(0.01rem, 3vw, 2rem); margin: 0 auto; max-width: 78rem; padding: 0 0 0 clamp(0.01rem, 3vw, 2rem); position: relative; text-align: center; text-transform: uppercase; }
+header h1 { font-family: Iowan Old Style, Georgia, Cambria, Times New Roman, Droid Serif, Times, Source Serif Pro, ui-serif, serif; font-size: clamp(1.5rem, 5vw, 5rem); font-weight: 300; letter-spacing: clamp(0.01rem, 3vw, 2rem); margin: 0 auto; max-width: 78rem; padding: 0 0 0 clamp(0.01rem, 3vw, 2rem); position: relative; text-align: center; text-transform: uppercase; }
 
 header h1 a, header h1 a:link, header h1 a:hover, header h1 a:active, header h1 a:visited { color: inherit !important; text-decoration: none; }
 
@@ -223,13 +225,17 @@ header h1 span { letter-spacing: 0; }
 
 header cite { display: block; margin: 1rem 0 0 0; transition: color 1.5s; }
 
-.hideNav { margin: 0 auto; max-width: 80rem; position: relative; }
+.hideNav { margin: 0 auto; max-width: 78rem; position: relative; }
 
 @media only screen and (max-width: 32.9rem) { .hideNav { bottom: 3rem; position: fixed; right: 0; text-align: right; z-index: 9; } }
 
-.hideNav #toggleNav { font-size: 0.9rem; margin: 0; min-width: 2.75rem; position: absolute; right: 1rem; top: 0; transition: top 1s ease-out; z-index: 8; }
+.hideNav #toggleNav { font-size: 0.9rem; margin: 0; min-width: 2.75rem; position: absolute; top: 0.075rem; transition: top 1s ease-out; z-index: 8; }
 
-nav { font-family: ui-rounded, ui-sans-serif, -apple-system, BlinkMacSystemFont, Verdana, Trebuchet MS, sans-serif; align-content: flex-start; font-size: 1rem; height: 100%; left: 0; margin: 0; padding: 0.9rem 0 0 1rem; opacity: 1; text-align: left; top: 0; visibility: visible; width: 100%; z-index: 6; }
+@media only screen and (max-width: 43.9rem) { .hideNav #toggleNav { right: 1rem; } }
+
+@media only screen and (min-width: 43.9rem) { .hideNav #toggleNav { right: 2rem; } }
+
+nav { font-family: ui-rounded, ui-sans-serif, -apple-system, BlinkMacSystemFont, Verdana, Trebuchet MS, sans-serif; align-content: flex-start; font-size: 1rem; height: 100%; left: 0; margin: 0; padding: 0; opacity: 1; text-align: left; top: 0; visibility: visible; width: 100%; z-index: 6; }
 
 @media only screen and (max-width: 32.9rem) { nav { position: fixed; } }
 
@@ -237,7 +243,11 @@ nav { font-family: ui-rounded, ui-sans-serif, -apple-system, BlinkMacSystemFont,
 
 nav.hidden { display: none; visibility: hidden; }
 
-nav .container { display: flex; flex-flow: row wrap; margin: 0 auto; max-width: 78rem; padding: 0 1rem; width: 100%; }
+nav .container { display: flex; flex-flow: row wrap; margin: 0 auto; max-width: 78rem; width: 100%; }
+
+@media only screen and (max-width: 43.9rem) { nav .container { padding: 1rem 1rem 0 1rem; } }
+
+@media only screen and (min-width: 43.9rem) { nav .container { padding: 1rem 2rem 0 2rem; } }
 
 nav h5 { display: block; font-weight: 600; line-height: 1; margin: 0 0.1rem 0.5rem 0; padding: 0; }
 
@@ -255,9 +265,9 @@ nav section.dayNightMode select { margin-top: 0.75rem; }
 
 @media only screen and (min-width: 32.9rem) { nav section.dayNightMode select { margin-top: unset; } }
 
-nav section.fontSize { align-self: flex-start; margin: 0.75rem 0 0 0; width: 100%; }
+nav section.fontFamily, nav section.fontSize { align-self: flex-start; margin: 0.75rem 0 0 0; width: 100%; }
 
-@media only screen and (min-width: 32.9rem) { nav section.fontSize { margin: 0 0 0 1.5rem; width: auto; } }
+@media only screen and (min-width: 54.9rem) { nav section.fontFamily, nav section.fontSize { margin: 0 0 0 1.5rem; width: auto; } }
 
 nav span { border-radius: 0.5rem; padding: 0 0 0.1rem 0.1rem; }
 
@@ -421,7 +431,13 @@ cite.dash::after { content: " — "; display: none; }
 
 @media screen and (prefers-color-scheme: light) and (hover: hover) { body button.selected:hover, body .button.selected:hover { color: var(--color-white); } }
 
-@media screen and (prefers-color-scheme: light) { body button.selected:active, body .button.selected:active { color: var(--color-white); } body .polCom { background: var(--color-gray-4); border: 0.1rem solid var(--color-gray-3); } body .circled { border: 0.1rem solid var(--color-primary-light); color: var(--color-gray-1); } body.home nav { color: var(--color-black); } body nav { background: linear-gradient(to bottom, var(--color-white-dim) 5rem, rgba(255, 255, 255, 0) 15rem); } body header { color: var(--color-black); } body .newArticles h2 { color: var(--color-black); } body .newArticles div { background: linear-gradient(to bottom, var(--color-white), white); box-shadow: 0 0 4rem 0.1rem var(--color-black); } body .archive { border-top: 0.1rem solid var(--color-gray-3); } body .ephemeral article { background: white; border: 0.1rem dotted var(--color-gray-3); } body .ephemeral-image { background: white; } body article.home:not(:first-of-type) { border-top: 0.1rem dotted var(--color-gray-3); } }
+@media screen and (prefers-color-scheme: light) { body button.selected:active, body .button.selected:active { color: var(--color-white); } body .polCom { background: var(--color-gray-4); border: 0.1rem solid var(--color-gray-3); } body .circled { border: 0.1rem solid var(--color-primary-light); color: var(--color-gray-1); } body.home nav { color: var(--color-black); } }
+
+@media only screen and (prefers-color-scheme: light) and (max-width: 54.9rem) { body nav { background: linear-gradient(to bottom, var(--color-white-dim) 14rem, rgba(255, 255, 255, 0) 30rem); } }
+
+@media only screen and (prefers-color-scheme: light) and (min-width: 54.9rem) { body nav { background: linear-gradient(to bottom, var(--color-white-dim) 5rem, rgba(255, 255, 255, 0) 15rem); } }
+
+@media screen and (prefers-color-scheme: light) { body header { color: var(--color-black); } body .newArticles h2 { color: var(--color-black); } body .newArticles div { background: linear-gradient(to bottom, var(--color-white), white); box-shadow: 0 0 4rem 0.1rem var(--color-black); } body .archive { border-top: 0.1rem solid var(--color-gray-3); } body .ephemeral article { background: white; border: 0.1rem dotted var(--color-gray-3); } body .ephemeral-image { background: white; } body article.home:not(:first-of-type) { border-top: 0.1rem dotted var(--color-gray-3); } }
 
 @media only screen and (prefers-color-scheme: light) and (max-width: 61.55rem) { body article:not(.home):after { background-image: radial-gradient(ellipse at center top, var(--color-gray-3), var(--color-white) 70%); } }
 
@@ -433,7 +449,13 @@ cite.dash::after { content: " — "; display: none; }
 
 @media screen and (prefers-color-scheme: light) and (hover: hover) { [data-theme="dark"] body button.selected:hover, [data-theme="dark"] body .button.selected:hover { color: var(--color-white); } }
 
-@media screen and (prefers-color-scheme: light) { [data-theme="dark"] body button.selected:active, [data-theme="dark"] body .button.selected:active { color: var(--color-white); } [data-theme="dark"] body .polCom { background: var(--color-black); border: 0.1rem solid var(--color-gray-1); } [data-theme="dark"] body .circled { border: 0.1rem solid var(--color-primary-dark); color: var(--color-gray-3); } [data-theme="dark"] body.home nav { color: var(--color-white); } [data-theme="dark"] body nav { background: linear-gradient(to bottom, var(--color-black-dim) 5rem, rgba(0, 0, 0, 0) 15rem); } [data-theme="dark"] body header { color: var(--color-white); } [data-theme="dark"] body header h1 span.logo img { filter: invert(1); } [data-theme="dark"] body .newArticles h2 { color: var(--color-white); text-shadow: 0 0 3rem var(--color-body-dark); } [data-theme="dark"] body .newArticles div { background: linear-gradient(to bottom, var(--color-gray-1), var(--color-gray-1) 20%, var(--color-black-dim)); box-shadow: 0 0 4rem 0.1rem var(--color-black-dim); } [data-theme="dark"] body .archive { border-top: 0.1rem solid var(--color-gray-1); } [data-theme="dark"] body .ephemeral article { background: var(--color-black-trans-10); border: 0.1rem dotted var(--color-gray-1); } [data-theme="dark"] body .ephemeral-image { background: white; } [data-theme="dark"] body article.home:not(:first-of-type) { border-top: 0.1rem dotted var(--color-gray-1); } }
+@media screen and (prefers-color-scheme: light) { [data-theme="dark"] body button.selected:active, [data-theme="dark"] body .button.selected:active { color: var(--color-white); } [data-theme="dark"] body .polCom { background: var(--color-black); border: 0.1rem solid var(--color-gray-1); } [data-theme="dark"] body .circled { border: 0.1rem solid var(--color-primary-dark); color: var(--color-gray-3); } [data-theme="dark"] body.home nav { color: var(--color-white); } }
+
+@media only screen and (prefers-color-scheme: light) and (max-width: 54.9rem) { [data-theme="dark"] body nav { background: linear-gradient(to bottom, var(--color-black-dim) 14rem, rgba(0, 0, 0, 0) 30rem); } }
+
+@media only screen and (prefers-color-scheme: light) and (min-width: 54.9rem) { [data-theme="dark"] body nav { background: linear-gradient(to bottom, var(--color-black-dim) 5rem, rgba(0, 0, 0, 0) 15rem); } }
+
+@media screen and (prefers-color-scheme: light) { [data-theme="dark"] body header { color: var(--color-white); } [data-theme="dark"] body header h1 span.logo img { filter: invert(1); } [data-theme="dark"] body .newArticles h2 { color: var(--color-white); text-shadow: 0 0 3rem var(--color-body-dark); } [data-theme="dark"] body .newArticles div { background: linear-gradient(to bottom, var(--color-gray-1), var(--color-gray-1) 20%, var(--color-black-dim)); box-shadow: 0 0 4rem 0.1rem var(--color-black-dim); } [data-theme="dark"] body .archive { border-top: 0.1rem solid var(--color-gray-1); } [data-theme="dark"] body .ephemeral article { background: var(--color-black-trans-10); border: 0.1rem dotted var(--color-gray-1); } [data-theme="dark"] body .ephemeral-image { background: white; } [data-theme="dark"] body article.home:not(:first-of-type) { border-top: 0.1rem dotted var(--color-gray-1); } }
 
 @media only screen and (prefers-color-scheme: light) and (max-width: 61.55rem) { [data-theme="dark"] body article:not(.home):after { background-image: radial-gradient(ellipse at center top, var(--color-gray-1), var(--color-black-dim) 70%); } }
 
@@ -447,7 +469,13 @@ cite.dash::after { content: " — "; display: none; }
 
 @media (prefers-color-scheme: dark) and (hover: hover) { body button.selected:hover, body .button.selected:hover { color: var(--color-white); } }
 
-@media (prefers-color-scheme: dark) { body button.selected:active, body .button.selected:active { color: var(--color-white); } body .polCom { background: var(--color-black); border: 0.1rem solid var(--color-gray-1); } body .circled { border: 0.1rem solid var(--color-primary-dark); color: var(--color-gray-3); } body nav { background: linear-gradient(to bottom, var(--color-black-dim) 5rem, rgba(0, 0, 0, 0) 15rem); } body header { color: var(--color-white); } body header h1 span.logo img { filter: invert(1); } body .newArticles h2 { color: var(--color-white); text-shadow: 0 0 3rem var(--color-body-dark); } body .newArticles div { background: linear-gradient(to bottom, var(--color-gray-1), var(--color-gray-1) 20%, var(--color-black-dim)); box-shadow: 0 0 4rem 0.1rem var(--color-black-dim); } body .archive { border-top: 0.1rem solid var(--color-gray-1); } body .ephemeral article { background: var(--color-black-trans-10); border: 0.1rem dotted var(--color-gray-1); } body .ephemeral-image { background: var(--color-black-trans-10); } body article.home:not(:first-of-type) { border-top: 0.1rem dotted var(--color-gray-1); } }
+@media (prefers-color-scheme: dark) { body button.selected:active, body .button.selected:active { color: var(--color-white); } body .polCom { background: var(--color-black); border: 0.1rem solid var(--color-gray-1); } body .circled { border: 0.1rem solid var(--color-primary-dark); color: var(--color-gray-3); } }
+
+@media only screen and (prefers-color-scheme: dark) and (max-width: 54.9rem) { body nav { background: linear-gradient(to bottom, var(--color-black-dim) 14rem, rgba(0, 0, 0, 0) 30rem); } }
+
+@media only screen and (prefers-color-scheme: dark) and (min-width: 54.9rem) { body nav { background: linear-gradient(to bottom, var(--color-black-dim) 5rem, rgba(0, 0, 0, 0) 15rem); } }
+
+@media (prefers-color-scheme: dark) { body header { color: var(--color-white); } body header h1 span.logo img { filter: invert(1); } body .newArticles h2 { color: var(--color-white); text-shadow: 0 0 3rem var(--color-body-dark); } body .newArticles div { background: linear-gradient(to bottom, var(--color-gray-1), var(--color-gray-1) 20%, var(--color-black-dim)); box-shadow: 0 0 4rem 0.1rem var(--color-black-dim); } body .archive { border-top: 0.1rem solid var(--color-gray-1); } body .ephemeral article { background: var(--color-black-trans-10); border: 0.1rem dotted var(--color-gray-1); } body .ephemeral-image { background: var(--color-black-trans-10); } body article.home:not(:first-of-type) { border-top: 0.1rem dotted var(--color-gray-1); } }
 
 @media only screen and (prefers-color-scheme: dark) and (max-width: 61.55rem) { body article:not(.home):after { background-image: radial-gradient(ellipse at center top, var(--color-gray-1), var(--color-black-dim) 70%); } }
 
@@ -459,7 +487,13 @@ cite.dash::after { content: " — "; display: none; }
 
 @media (prefers-color-scheme: dark) and (hover: hover) { [data-theme="light"] body button.selected:hover, [data-theme="light"] body .button.selected:hover { color: var(--color-white); } }
 
-@media (prefers-color-scheme: dark) { [data-theme="light"] body button.selected:active, [data-theme="light"] body .button.selected:active { color: var(--color-white); } [data-theme="light"] body .polCom { background: var(--color-gray-4); border: 0.1rem solid var(--color-gray-3); } [data-theme="light"] body .circled { border: 0.1rem solid var(--color-primary-light); color: var(--color-gray-1); } [data-theme="light"] body.home nav { color: var(--color-black); } [data-theme="light"] body nav { background: linear-gradient(to bottom, var(--color-white-dim) 5rem, rgba(255, 255, 255, 0) 15rem); } [data-theme="light"] body header { color: var(--color-black); } [data-theme="light"] body header.home h1 { color: var(--color-black); } [data-theme="light"] body .newArticles h2 { color: var(--color-black); } [data-theme="light"] body .newArticles div { background: linear-gradient(to bottom, var(--color-white), white); box-shadow: 0 0 4rem 0.1rem white; } [data-theme="light"] body .archive { border-top: 0.1rem solid var(--color-gray-3); } [data-theme="light"] body .ephemeral article { background: white; border: 0.1rem dotted var(--color-gray-3); } [data-theme="light"] body .ephemeral-image { background: var(--color-black-trans-10); } [data-theme="light"] body article.home:not(:first-of-type) { border-top: 0.1rem dotted var(--color-gray-3); } }
+@media (prefers-color-scheme: dark) { [data-theme="light"] body button.selected:active, [data-theme="light"] body .button.selected:active { color: var(--color-white); } [data-theme="light"] body .polCom { background: var(--color-gray-4); border: 0.1rem solid var(--color-gray-3); } [data-theme="light"] body .circled { border: 0.1rem solid var(--color-primary-light); color: var(--color-gray-1); } [data-theme="light"] body.home nav { color: var(--color-black); } }
+
+@media only screen and (prefers-color-scheme: dark) and (max-width: 54.9rem) { [data-theme="light"] body nav { background: linear-gradient(to bottom, var(--color-white-dim) 14rem, rgba(255, 255, 255, 0) 30rem); } }
+
+@media only screen and (prefers-color-scheme: dark) and (min-width: 54.9rem) { [data-theme="light"] body nav { background: linear-gradient(to bottom, var(--color-white-dim) 5rem, rgba(255, 255, 255, 0) 15rem); } }
+
+@media (prefers-color-scheme: dark) { [data-theme="light"] body header { color: var(--color-black); } [data-theme="light"] body header.home h1 { color: var(--color-black); } [data-theme="light"] body .newArticles h2 { color: var(--color-black); } [data-theme="light"] body .newArticles div { background: linear-gradient(to bottom, var(--color-white), white); box-shadow: 0 0 4rem 0.1rem white; } [data-theme="light"] body .archive { border-top: 0.1rem solid var(--color-gray-3); } [data-theme="light"] body .ephemeral article { background: white; border: 0.1rem dotted var(--color-gray-3); } [data-theme="light"] body .ephemeral-image { background: var(--color-black-trans-10); } [data-theme="light"] body article.home:not(:first-of-type) { border-top: 0.1rem dotted var(--color-gray-3); } }
 
 @media only screen and (prefers-color-scheme: dark) and (max-width: 61.55rem) { [data-theme="light"] body article:not(.home):after { background-image: radial-gradient(ellipse at center top, var(--color-gray-3), var(--color-white) 70%); } }
 

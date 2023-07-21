@@ -87,6 +87,23 @@ var RESETTHEME = function () {
 LIGHTBUTTON.addEventListener('click', SETLIGHTTHEME);
 DARKBUTTON.addEventListener('click', SETDARKTHEME);
 SYSTEMBUTTON.addEventListener('click', RESETTHEME);
+//////// Font Changer
+var SERIFBUTTON = document.querySelector('#serifButton');
+var SANSSERIFBUTTON = document.querySelector('#sansSerifButton');
+if (localStorage.getItem('font-family') == 'sans-serif') {
+    document.body.classList.add('sans-serif');
+}
+;
+var SANSSERIFFONT = function (e) {
+    localStorage.setItem('font-family', 'sans-serif');
+    document.body.classList.add('sans-serif');
+};
+var SERIFFONT = function (e) {
+    localStorage.removeItem('font-family');
+    document.body.classList.remove('sans-serif');
+};
+SANSSERIFBUTTON.addEventListener('click', SANSSERIFFONT);
+SERIFBUTTON.addEventListener('click', SERIFFONT);
 /////// Font Size Changer
 var fontSize = 100;
 if (localStorage.getItem('fontSize')) {
@@ -111,20 +128,20 @@ var RESETFONTSIZE = function (e) {
 FONTSMALLER.addEventListener('click', UPDATEFONTSIZE);
 FONTLARGER.addEventListener('click', UPDATEFONTSIZE);
 FONTRESET.addEventListener('click', RESETFONTSIZE);
-/////// Emoji Color Changer (Currently disabled due to design change)
-// var emojiChanger = document.querySelectorAll('.emojiHover');
-// emojiChanger.forEach(function (emoji) {
-//     emoji.addEventListener('mouseover', emojiSaturate);
-//     emoji.addEventListener('mouseleave', emojiDesaturate);
-//     function emojiSaturate(e) {
-//         var elementAs = e.target.dataset.id;
-//         document.getElementById(elementAs).classList.add('saturate');
-//     }
-//     function emojiDesaturate(e) {
-//         var elementAs = e.target.dataset.id;
-//         document.getElementById(elementAs).classList.remove('saturate');
-//     }
-// });
+/////// Emoji Color Changer
+var emojiChanger = document.querySelectorAll('.emojiHover');
+emojiChanger.forEach(function (emoji) {
+    emoji.addEventListener('mouseover', emojiSaturate);
+    emoji.addEventListener('mouseleave', emojiDesaturate);
+    function emojiSaturate(e) {
+        var elementAs = e.target.dataset.id;
+        document.getElementById(elementAs).classList.add('saturate');
+    }
+    function emojiDesaturate(e) {
+        var elementAs = e.target.dataset.id;
+        document.getElementById(elementAs).classList.remove('saturate');
+    }
+});
 ////// Return to Top Button
 var toTop = document.getElementById('toTop');
 var GOTOTOP = function (e) {
@@ -151,7 +168,7 @@ else if (localStorage.getItem('nav') == 'visible') {
     nav.classList.remove('hidden');
     toggleNav.classList.remove('hidden');
     toggleNav.classList.add('visible');
-    toggleNav.innerHTML = 'X';
+    toggleNav.innerHTML = '&#x2715;';
     toggleNav.setAttribute('aria-label', 'Hide controls');
 }
 var TOGGLENAVIGATION = function () {
@@ -159,7 +176,7 @@ var TOGGLENAVIGATION = function () {
         nav.classList.remove('hidden');
         nav.setAttribute('aria-hidden', 'false');
         localStorage.setItem('nav', 'visible');
-        toggleNav.innerHTML = 'X';
+        toggleNav.innerHTML = '&#x2715;';
         toggleNav.classList.remove('hidden');
         toggleNav.classList.add('visible');
         toggleNav.setAttribute('aria-label', 'Hide controls');
