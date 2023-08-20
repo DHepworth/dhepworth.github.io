@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="language" content="en" />
     <meta name="description" content="A blog of a person learning things others long ago understood." />
-    <meta name="keywords" content="blog, opinion, photography, family, religion, politics" />
+    <meta name="keywords" content="blog, opinion, technology, web design, graphics, photography, family, games, religion, politics, social media, oklahoma, oklahoma city, united states, usa, america" />
     <meta name="author" content="David Hepworth" />
     <meta property="og:title" content="" />
     <meta property="og:description" content="A blog of a person learning things others long ago understood." />
@@ -38,7 +38,7 @@
         }
     </style>
 </noscript><section class="hideNav">
-  <button type="button" aria-label="" id="toggleNav" class="" tabindex="0">
+  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
     &hellip;
   </button>
 </section>
@@ -67,36 +67,31 @@
     </section>
     <section class="fontSize">
       <h5>Font Size</h5>
-      <button
-        type="button"
-        aria-label="Shrink Text Size"
-        id="fontSmaller"
-        data-update-text-size="-15"
-      >
+      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
         -
       </button>
-      <button
-        type="button"
-        aria-label="Enlarge Text Size"
-        id="fontLarger"
-        data-update-text-size="15"
-      >
+      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
         +
       </button>
-      <button
-        type="button"
-        aria-label="Reset Text Size"
-        id="fontReset"
-        data-update-text-size="0"
-      >
+      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
         Reset
       </button>
     </section>
+    <section class="whatIsThis">
+      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
+      <dialog id="whatIsThisDialog">
+        <h2>Display controls</h2>
+        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
+        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
+        <form method="dialog">
+          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
+        </form>
+      </dialog>
+    </section>
   </div>
-</nav>
-<header>
+</nav><header>
     <h1>
-      <a class="hideExternalIcon" href="https://dhepworth.github.io">DH:Personal</a>
+      <a class="hideExternalIcon" href="/">DH:Personal</a>
     </h1>
   </header>
 
@@ -105,12 +100,8 @@
       <article>
         
         
-        <h2>
-          <span class="date"
-            >February 3rd, 2022:</span
-          >
-          I used to be anxious about being thought of as ignorant
-        </h2>
+        <h2>I used to be anxious about being thought of as ignorant</h2>
+        <p class="date">February 3rd, 2022</p>
          <p>Everything seems simpler when one is young. I was driven in my youth by a pursuit of moral truths that I believed could be applied to all absolutely and unilaterally, equalizing all injustices and eliminating all suffering. I was certain I was capable of understanding these truths and that I had already accomplished much in finding them. It did seem coincidentally beneficial that these moral truths were so well in line with my own preconceived mental models and cultural background, but I assumed more that I was being transformed to the truths rather than they were being formed from my own worldview and experiences.</p>
 
 <p>In my efforts to gain more knowledge of objective truth I began to seek out deeper understanding from my peers. I first started with family and friends who I knew to have spent time considering the philosophical and moral issues of the day. The answers I received did regularly challenge me but still largely conformed to my preexisting understanding of the world. Still not sated, I went beyond to apologists and philosophers within my community. The answers I found there were more convoluted and figurative which made them feel more impressive and rational, satisfying an underlying anxiety about being able to have a convincing answer to every question. Believing that I had found the panacea, I ruminated on their answers (and my new-found intellectual superiority), deeply pondering the variety of my reactions to what I heard.</p>

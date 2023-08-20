@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="language" content="en" />
     <meta name="description" content="A blog of a person learning things others long ago understood." />
-    <meta name="keywords" content="blog, opinion, photography, family, religion, politics" />
+    <meta name="keywords" content="blog, opinion, technology, web design, graphics, photography, family, games, religion, politics, social media, oklahoma, oklahoma city, united states, usa, america" />
     <meta name="author" content="David Hepworth" />
     <meta property="og:title" content="" />
     <meta property="og:description" content="A blog of a person learning things others long ago understood." />
@@ -38,7 +38,7 @@
         }
     </style>
 </noscript><section class="hideNav">
-  <button type="button" aria-label="" id="toggleNav" class="" tabindex="0">
+  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
     &hellip;
   </button>
 </section>
@@ -67,36 +67,31 @@
     </section>
     <section class="fontSize">
       <h5>Font Size</h5>
-      <button
-        type="button"
-        aria-label="Shrink Text Size"
-        id="fontSmaller"
-        data-update-text-size="-15"
-      >
+      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
         -
       </button>
-      <button
-        type="button"
-        aria-label="Enlarge Text Size"
-        id="fontLarger"
-        data-update-text-size="15"
-      >
+      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
         +
       </button>
-      <button
-        type="button"
-        aria-label="Reset Text Size"
-        id="fontReset"
-        data-update-text-size="0"
-      >
+      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
         Reset
       </button>
     </section>
+    <section class="whatIsThis">
+      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
+      <dialog id="whatIsThisDialog">
+        <h2>Display controls</h2>
+        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
+        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
+        <form method="dialog">
+          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
+        </form>
+      </dialog>
+    </section>
   </div>
-</nav>
-<header>
+</nav><header>
     <h1>
-      <a class="hideExternalIcon" href="https://dhepworth.github.io">DH:Personal</a>
+      <a class="hideExternalIcon" href="/">DH:Personal</a>
     </h1>
   </header>
 
@@ -105,17 +100,13 @@
       <article>
         
         <figure class="hero">
-          <img alt="A wooden cross statue stands tall against a backdrop of post-storm clouds in a field during early morning" height="50" src="/img/posts/bartlesville-cross.jpg" width="100" />
+          <img alt="A wooden cross statue stands tall against a backdrop of post-storm clouds in a field during early morning" height="400" src="/img/posts/bartlesville-cross.jpg" width="800" />
           <figcaption>A wooden cross statue stands tall against a backdrop of post-storm clouds in a field during early morning • David Hepworth</figcaption>
         </figure>
         
         
-        <h2>
-          <span class="date"
-            >June 1st, 2023:</span
-          >
-          What is church?
-        </h2>
+        <h2>What is church?</h2>
+        <p class="date">June 1st, 2023</p>
          <p><strong>Why does the average American Evangelical attend church? What are their goals, and do they find those goals met?</strong></p>
 
 <p>My history in the Christian church began in my childhood. Most of the sermons I heard came from my father, standing near (but not behind — his personal preference) the pulpit of whatever church we were attending at the time. My father pastored several churches throughout my time in the family home, sometimes in church buildings and sometimes in the house of one of the people in attendance. I love my experiences in those years and the communities that formed.</p>

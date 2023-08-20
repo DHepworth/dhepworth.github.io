@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="language" content="en" />
     <meta name="description" content="A blog of a person learning things others long ago understood." />
-    <meta name="keywords" content="blog, opinion, photography, family, religion, politics" />
+    <meta name="keywords" content="blog, opinion, technology, web design, graphics, photography, family, games, religion, politics, social media, oklahoma, oklahoma city, united states, usa, america" />
     <meta name="author" content="David Hepworth" />
     <meta property="og:title" content="" />
     <meta property="og:description" content="A blog of a person learning things others long ago understood." />
@@ -38,7 +38,7 @@
         }
     </style>
 </noscript><section class="hideNav">
-  <button type="button" aria-label="" id="toggleNav" class="" tabindex="0">
+  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
     &hellip;
   </button>
 </section>
@@ -67,36 +67,31 @@
     </section>
     <section class="fontSize">
       <h5>Font Size</h5>
-      <button
-        type="button"
-        aria-label="Shrink Text Size"
-        id="fontSmaller"
-        data-update-text-size="-15"
-      >
+      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
         -
       </button>
-      <button
-        type="button"
-        aria-label="Enlarge Text Size"
-        id="fontLarger"
-        data-update-text-size="15"
-      >
+      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
         +
       </button>
-      <button
-        type="button"
-        aria-label="Reset Text Size"
-        id="fontReset"
-        data-update-text-size="0"
-      >
+      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
         Reset
       </button>
     </section>
+    <section class="whatIsThis">
+      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
+      <dialog id="whatIsThisDialog">
+        <h2>Display controls</h2>
+        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
+        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
+        <form method="dialog">
+          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
+        </form>
+      </dialog>
+    </section>
   </div>
-</nav>
-<header>
+</nav><header>
     <h1>
-      <a class="hideExternalIcon" href="https://dhepworth.github.io">DH:Personal</a>
+      <a class="hideExternalIcon" href="/">DH:Personal</a>
     </h1>
   </header>
 
@@ -105,12 +100,8 @@
       <article>
         
         
-        <h2>
-          <span class="date"
-            >December 22nd, 2021:</span
-          >
-          Now on Jekyll
-        </h2>
+        <h2>Now on Jekyll</h2>
+        <p class="date">December 22nd, 2021</p>
          <p>I’ve spent the past few days moving my little site here from hand-written HTML to <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>, a blogging platform that can build into HTML files very similar to ones that I was writing before, but without all the hard work of maintaining code throughout each page. Now I can write posts in a simpler fashion and start to add new features like an <a href="https://dhepworth.github.io/feed.xml">Atom/RSS feed</a> with greater ease than if I continued coding everything by hand.</p>
 
 <p>I’ve been wanting to add on more to the site as time goes on but doing it all by hand was going to potentially grow exponentially difficult. I wanted the freedom to test out new designs that remained consistent throughout the site, so each new bit of content I added would only increase my update time. I originally expected the text to largely serve as a placeholder, but I also began to enjoy the writing process required to make a new post and wanted to save my work rather than overwrite it with each update. Jekyll had seemed like a nice idea in the past but I felt I didn’t have a good reason to use it and that it would probably be more difficult to set up than what was promised. The latter part was true, but not by much. Setting up my computer to begin using Jekyll actually took longer and was more frustrating than coding in the language it uses.</p>
@@ -131,13 +122,13 @@
         <h3>My latest posts</h3>
         <ul>
           
+          <li><a href="/post/2023/08/19/being-invisible.html">Being invisible</a></li>
+          
           <li><a href="/post/2023/06/01/what-is-church.html">What is church?</a></li>
           
           <li><a href="/post/2023/04/25/hopelessness-in-video-games.html">Hopelessness in video games</a></li>
           
           <li><a href="/post/2023/02/23/analog-clocks.html">The time for analog clocks is over</a></li>
-          
-          <li><a href="/post/2022/09/23/school-shootings.html">Flooding and school shootings</a></li>
           
         </ul>
         

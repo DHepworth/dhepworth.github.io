@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="language" content="en" />
     <meta name="description" content="A blog of a person learning things others long ago understood." />
-    <meta name="keywords" content="blog, opinion, photography, family, religion, politics" />
+    <meta name="keywords" content="blog, opinion, technology, web design, graphics, photography, family, games, religion, politics, social media, oklahoma, oklahoma city, united states, usa, america" />
     <meta name="author" content="David Hepworth" />
     <meta property="og:title" content="" />
     <meta property="og:description" content="A blog of a person learning things others long ago understood." />
@@ -38,7 +38,7 @@
         }
     </style>
 </noscript><section class="hideNav">
-  <button type="button" aria-label="" id="toggleNav" class="" tabindex="0">
+  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
     &hellip;
   </button>
 </section>
@@ -67,36 +67,31 @@
     </section>
     <section class="fontSize">
       <h5>Font Size</h5>
-      <button
-        type="button"
-        aria-label="Shrink Text Size"
-        id="fontSmaller"
-        data-update-text-size="-15"
-      >
+      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
         -
       </button>
-      <button
-        type="button"
-        aria-label="Enlarge Text Size"
-        id="fontLarger"
-        data-update-text-size="15"
-      >
+      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
         +
       </button>
-      <button
-        type="button"
-        aria-label="Reset Text Size"
-        id="fontReset"
-        data-update-text-size="0"
-      >
+      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
         Reset
       </button>
     </section>
+    <section class="whatIsThis">
+      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
+      <dialog id="whatIsThisDialog">
+        <h2>Display controls</h2>
+        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
+        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
+        <form method="dialog">
+          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
+        </form>
+      </dialog>
+    </section>
   </div>
-</nav>
-<header>
+</nav><header>
     <h1>
-      <a class="hideExternalIcon" href="https://dhepworth.github.io">DH:Personal</a>
+      <a class="hideExternalIcon" href="/">DH:Personal</a>
     </h1>
   </header>
 
@@ -105,12 +100,8 @@
       <article>
         
         
-        <h2>
-          <span class="date"
-            >April 25th, 2023:</span
-          >
-          Hopelessness in video games
-        </h2>
+        <h2>Hopelessness in video games</h2>
+        <p class="date">April 25th, 2023</p>
          <p>I used to play a lot of video games. These days I settle for some games from my Apple Arcade subscription, but I used to have many mobile consoles, several home consoles, and a gaming PC. I played many titles across a variety of platforms, filling out a list of memorable games that left a permanent impact on my life. In a recent conversation with my coworkers I started listing my favorite games and learned that the games that I have felt the most important in my life were ones that generated a feeling of hopelessness. I certainly enjoy a variety of gaming genres and story types, but the ones I can recall with fondness are the ones that made me feel the most miserable.</p>
 
 <p>Despite these being my favorite games across all consoles, these are not generally the games that I return to in the brief moments where I can find time to play a game. Even when I played games regularly, I rarely replayed any of these games. In many cases I only felt that I could play them once, as going back to them would lessen the original experience.</p>
@@ -304,13 +295,13 @@
         <h3>My latest posts</h3>
         <ul>
           
+          <li><a href="/post/2023/08/19/being-invisible.html">Being invisible</a></li>
+          
           <li><a href="/post/2023/06/01/what-is-church.html">What is church?</a></li>
           
           <li><a href="/post/2023/04/25/hopelessness-in-video-games.html">Hopelessness in video games</a></li>
           
           <li><a href="/post/2023/02/23/analog-clocks.html">The time for analog clocks is over</a></li>
-          
-          <li><a href="/post/2022/09/23/school-shootings.html">Flooding and school shootings</a></li>
           
         </ul>
         

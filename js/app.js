@@ -94,11 +94,11 @@ if (localStorage.getItem('font-family') == 'sans-serif') {
     document.body.classList.add('sans-serif');
 }
 ;
-var SANSSERIFFONT = function (e) {
+var SANSSERIFFONT = function () {
     localStorage.setItem('font-family', 'sans-serif');
     document.body.classList.add('sans-serif');
 };
-var SERIFFONT = function (e) {
+var SERIFFONT = function () {
     localStorage.removeItem('font-family');
     document.body.classList.remove('sans-serif');
 };
@@ -120,7 +120,7 @@ var UPDATEFONTSIZE = function (e) {
     document.body.style.fontSize = fontSize + '%';
     localStorage.setItem('fontSize', fontSize.toString());
 };
-var RESETFONTSIZE = function (e) {
+var RESETFONTSIZE = function () {
     fontSize = 100;
     document.body.style.fontSize = fontSize + '%';
     localStorage.removeItem('fontSize');
@@ -192,6 +192,16 @@ var TOGGLENAVIGATION = function () {
     }
 };
 toggleNav.addEventListener('click', TOGGLENAVIGATION);
+////// What Is This? Button
+var whatIsThisDialog = document.getElementById('whatIsThisDialog');
+var whatIsThisButton = document.getElementById('whatIsThisButton');
+var whatIsThisCloseButton = document.getElementById('whatIsThisCloseButton');
+whatIsThisButton.addEventListener("click", function () {
+    whatIsThisDialog.showModal();
+});
+whatIsThisCloseButton.addEventListener("click", function () {
+    whatIsThisDialog.close();
+});
 ////// Politics Button on Profile
 var politicsButton = document.querySelector('#hiddenPoliticsToggle');
 var politicsContainer = document.querySelector('#hiddenPolitics');
