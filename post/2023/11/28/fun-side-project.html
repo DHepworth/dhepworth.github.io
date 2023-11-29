@@ -12,13 +12,15 @@
     <meta property="og:description" content="A blog of a person learning things others long ago understood." />
     
     
+    <meta property="og:image" content="/img/posts/dhpersonal-social.jpg" />
+    
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     
     <meta name="theme-color" content="hsl(0, 0%, 98%)" media="(prefers-color-scheme: light)" />
     <meta name="theme-color" content="hsl(0, 0%, 10%)" media="(prefers-color-scheme: dark)" />
     
-    <title>Now on Jekyll — DH:Personal</title>
+    <title>My fun side project — inspired by the 2020 Apple event — DH:Personal</title>
     
     <link rel="stylesheet" href="/assets/main.css" />
     <link rel="icon" href="/img/favicon.ico" sizes="any">
@@ -101,13 +103,27 @@
     <div class="container">
       <article>
         
+        <figure class="hero">
+          <img alt="A screenshot of my page of social network profiles" height="400" src="/img/posts/dhpersonal-social.jpg" width="800" />
+          <figcaption>A screenshot of my page of social network profiles • David Hepworth</figcaption>
+        </figure>
         
-        <h2>Now on Jekyll</h2>
-        <p class="date">December 22nd, 2021</p>
-         <p>I’ve spent the past few days moving my little site here from hand-written HTML to <a href="http://jekyllrb.com/" target="_blank">Jekyll</a>, a blogging platform that can build into HTML files very similar to ones that I was writing before, but without all the hard work of maintaining code throughout each page. Now I can write posts in a simpler fashion and start to add new features like an <a href="https://dhepworth.github.io/feed.xml">Atom/RSS feed</a> with greater ease than if I continued coding everything by hand.</p>
+        
+        <h2>My fun side project — inspired by the 2020 Apple event</h2>
+        <p class="date">November 28th, 2023</p>
+         <p>I liked the aesthetic of the <a href="https://www.youtube.com/live/KR0g-1hnQPA?si=AmHCsABjAVYTHXmf&amp;t=3763" target="_blank">advertisement for the iPhone 12 Pro that Apple did years ago.</a> I wanted to remake it in HTML as much as I could, so I used this project to build a list of links to my social network profiles.</p>
 
-<p>I’ve been wanting to add on more to the site as time goes on but doing it all by hand was going to potentially grow exponentially difficult. I wanted the freedom to test out new designs that remained consistent throughout the site, so each new bit of content I added would only increase my update time. I originally expected the text to largely serve as a placeholder, but I also began to enjoy the writing process required to make a new post and wanted to save my work rather than overwrite it with each update. Jekyll had seemed like a nice idea in the past but I felt I didn’t have a good reason to use it and that it would probably be more difficult to set up than what was promised. The latter part was true, but not by much. Setting up my computer to begin using Jekyll actually took longer and was more frustrating than coding in the language it uses.</p>
+<p>First, I wanted to get the colors of the sunrise from the video, <a href="https://cssgradient.io" target="_blank">so I went to a tool online,</a> and uploaded a cropped shot of the sky to grab the colors from it to make a linear-gradient. I tweaked the results and set it up on the page.</p>
 
+<p>In order to make the gradient image appear more filmic, I used the <a href="https://css-tricks.com/grainy-gradients/" target="_blank">tool mentioned by CSS-Tricks</a> to build an SVG file of noise for use as a mask-image in CSS.</p>
+
+<p>I then went back to the video and captured a screenshot of the mountain range, tracing over the resulting image in <a href="https://www.vectornator.io" target="_blank">Vectornator.</a> I customized it to be wider and more varied, experimenting with horizon level, until I exported a final SVG that I then compressed in <a href="https://imageoptim.com" target="_blank">ImageOptim.</a></p>
+
+<p>Finally, for the stars in the sky I went to NASA and browsed their image gallery until I found an <a href="https://www.nasa.gov/image-feature/the-city-lights-at-the-intersection-of-europe-and-asia" target="_blank">appropriate photo of stars.</a></p>
+
+<p>I then built the CSS with animations, filters, gradients, mask-images, and shadows to make a glimmering interface.</p>
+
+<p><strong>Check it out at this URL: <a href="https://dhepworth.github.io/social/" target="_blank">https://dhepworth.github.io/social/</a></strong></p>
  
         <a class="comments" name="comments"></a>
         <script
@@ -121,19 +137,15 @@
       </article>
       <aside>
         
-        <h3>My latest posts</h3>
-        <ul>
-          
-          <li><a href="/post/2023/11/28/fun-side-project.html">My fun side project — inspired by the 2020 Apple event</a></li>
-          
-          <li><a href="/post/2023/11/15/knowledge-shouldnt-be-a-burden.html">Knowledge shouldn’t be a burden</a></li>
-          
-          <li><a href="/post/2023/08/19/being-invisible.html">Being invisible</a></li>
-          
-          <li><a href="/post/2023/06/01/what-is-church.html">What is church?</a></li>
-          
-        </ul>
-        
+        <h3>Additional Content</h3>
+        <p class="embedtool">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/KR0g-1hnQPA?si=AmHCsABjAVYTHXmf&amp;start=3763" title="YouTube video player — Apple Ad: Hi, Speed (October 13)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<h4><cite class="dash">Apple</cite><a href="https://www.youtube.com/live/KR0g-1hnQPA?si=AmHCsABjAVYTHXmf&t=3763" target="_blank">Hi, Speed: Apple Event — October 13</a></h4>
+<blockquote>
+<p>Watch the special Apple Event and learn about the latest updates for HomePod mini, iPhone, and more.</p>
+</blockquote>
+ 
       </aside>
     </div>
   </main>

@@ -98,65 +98,90 @@
       <section>
 <article class="home">
   
-  <h2><a href="/post/2023/11/15/knowledge-shouldnt-be-a-burden.html">Knowledge shouldn’t be a burden</a></h2>
+  <figure class="home hero">
+    <img alt="A screenshot of my page of social network profiles" height="50" src="/img/posts/dhpersonal-social.jpg" width="100" />
+    <figcaption>David Hepworth</figcaption>
+  </figure>
   
-  <p>I call myself an introvert <a href="https://www.vipshek.com/blog/interaction" target="_blank">but I wonder sometimes if I’m wrong.</a> I like to talk a lot, just only about a few things. I deeply enjoy sharing with someone else what I have learned about my favorite subjects. I think learning is a social act, with the reward of learning something being the opportunity to share that new understanding with someone else. What is to be done when some knowledge is seen as a threat? Gaining that sort of knowledge transforms an exhilarating social act into an incredibly effective form of self-isolation.</p>
+  <h2><a href="/post/2023/11/28/fun-side-project.html">My fun side project — inspired by the 2020 Apple event</a></h2>
+  
+  <p>I liked the aesthetic of the <a href="https://www.youtube.com/live/KR0g-1hnQPA?si=AmHCsABjAVYTHXmf&amp;t=3763" target="_blank">advertisement for the iPhone 12 Pro that Apple did years ago.</a> I wanted to remake it in HTML as much as I could, so I used this project to build a list of links to my social network profiles.</p>
 
-<p>Knowledge seems amoral to me, and learning seems to be as close to a virtue as one could consider. Yet I too, despite my hunger to learn more, can recall with pangs of guilt the council of my youth that considered the act of learning a path riddled with danger, prone to leading a person to destruction if they were not careful. Some things were seen as so antagonistic to a learner that even an idle consideration of such things was a flirtation with the unethical. There was hidden enemy around every paragraph of unapproved text. <a href="/post/2022/02/03/anxious-about-being-ignorant.html">I didn’t want to remain ignorant</a>, but learning even the smallest new piece of information seems to carry a huge cost to a vast array of elements in my life. Could I find a way to feel comfort in understanding more?</p>
+<p>First, I wanted to get the colors of the sunrise from the video, <a href="https://cssgradient.io" target="_blank">so I went to a tool online,</a> and uploaded a cropped shot of the sky to grab the colors from it to make a linear-gradient. I tweaked the results and set it up on the page.</p>
 
-<p>I am fairly certain that I now know why such a practice of fear of knowledge is fostered in some communities: it is essential to that community’s continued existence that its adherents avoid the pursuit of individual and unguided learning. To learn for oneself is to seek out truth without a stranger’s heavy hand guiding one’s conclusions toward a definitive goal. To understand the complexity of things is to unearth shades of gray instead of the stark contrast of dogma. I could sense that breaking through this programming would be to my benefit, but every step forward felt like a violation. Not everyone wants to take those steps, and that’s where my isolation begins.</p>
+<p>In order to make the gradient image appear more filmic, I used the <a href="https://css-tricks.com/grainy-gradients/" target="_blank">tool mentioned by CSS-Tricks</a> to build an SVG file of noise for use as a mask-image in CSS.</p>
 
-<div class="articleSnippet m1">
-    <p class="embedtool m0">
-    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/oDQXFNWuZj8" title="YouTube video player — Bo Burnham: How the World Works" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-    </p>
-    <h4><cite class="dash">Bo Burnham: Inside</cite><a href="https://www.youtube.com/watch?v=v-qj2rqgChM" target="_blank">How the World Works</a></h4>
-    <blockquote>
-    <p>Here's a happy little song about the world sung by Bo Burnham and his special friend, Socko.</p>
-    <p><em>Bo Burnham: Inside</em> is streaming now on Netflix.</p>
-    </blockquote>
-</div>
+<p>I then went back to the video and captured a screenshot of the mountain range, tracing over the resulting image in <a href="https://www.vectornator.io" target="_blank">Vectornator.</a> I customized it to be wider and more varied, experimenting with horizon level, until I exported a final SVG that I then compressed in <a href="https://imageoptim.com" target="_blank">ImageOptim.</a></p>
 
-<p>I’m not a scholar, I’ve done no independent research, and my recall of details is still often dependent on the bookmarks and search results that I’ve saved over the years. I don’t claim to be a subject matter expert in potentially any area. I am not a better person than someone else because I have read a book. My self-actualization isn’t the element that will redeem the world or is of much value to someone else. Yet I still really enjoy becoming more educated in an increasing number of the subjects most interesting to me. In some of these subjects I have found vast stretches of information new to me that have thrilled me in their discovery. I have longed for an opportunity to share or discuss this information, but what I have learned is that with each new piece of information, I have inadvertently isolated myself. First, there is a shared language lost in this learning. What seemed obvious and beyond debate to me before now feels open to <a href="https://www.washingtonpost.com/wp-dyn/content/article/2006/03/04/AR2006030401369.html" target="_blank">skepticism and consideration,</a> so I no longer have a solid shared foundation on which to call in conversations. Even agreements on simple definitions have to be made first in order to have a conversation. Secondly, I have found that this knowledge, because of how interesting it is, increases specialization and focus on elements which may not be as interesting or desired by others. This limits my potential conversational opportunities over time, increasing my chances of loneliness. Thirdly, sharing this information triggers the listener with the same anxieties I faced in my youthful culture of fear, making me become an enemy instead of a curious reader.</p>
+<p>Finally, for the stars in the sky I went to NASA and browsed their image gallery until I found an <a href="https://www.nasa.gov/image-feature/the-city-lights-at-the-intersection-of-europe-and-asia" target="_blank">appropriate photo of stars.</a></p>
 
-<p>I feel that I’m reading too cold and analytical in this post. I don’t know how to share more. I think I’m just coping and trying to survive with what I’ve learned. There are times where I wonder if that phrase “ignorance is bliss” may be one of the wisest words ever written. I like knowing so much more about life and the complexities of cultures and governments, but it weighs me down to see how much more pain there is in the world than I realized and how I likely directly contributed to its continuation. I think we could all empathize with each other more by being better educated.</p>
+<p>I then built the CSS with animations, filters, gradients, mask-images, and shadows to make a glimmering interface.</p>
 
-<p>Did all this knowledge change me for the better or has it ruined me? I feel that I can <a href="/post/2021/10/26/an-identity-crisis.html">love so much better and more deeply than before,</a> but now I feel more lonely when I would have expected to feel closer to community. I am both the same person and yet very different. I <a href="/post/2022/06/10/feeling-stuck.html">still see the same world as before</a> but my definitions have changed and my expectations of <a href="/post/2021/11/26/we-arent-asking-the-right-questions.html">what is acceptable have been altered</a>. My goals of loving others are still there, but the methods aren’t what they were. Having all this within me keeps me feeling both the best I’ve ever felt and the worst I hope to ever experience. I have fantasized sometimes about having my memory wiped and what that would mean for me, but I don’t think I could do it. I prize my experiences but I wish I had more people around me with whom to share it.</p>
+<p><strong>Check it out at this URL: <a href="https://dhepworth.github.io/social/" target="_blank">https://dhepworth.github.io/social/</a></strong></p>
 
-<p>One might conclude that I should have accepted the advice from those who warned me not to tread in these spaces, but I believe that the struggle to learn is always the better solution to ignorance, even when it carries a heavy cost.</p>
-
-   
-    <h3>Further Reading</h3>
-    <ul>
-        
-        <li><a href="https://www.hamiltonnolan.com/p/capitalisms-washing-machine" target="_blank">Capitalism’s Washing Machine</a></li>
-        
-        <li><a href="https://www.wondermedianetwork.com/originals/teaching-texas" target="_blank">Teaching Texas: The surprising history behind America’s latest culture war</a></li>
-        
-        <li><a href="https://www.history.com/news/native-american-cahokia-chaco-canyon" target="_blank">Ancient Native Americans Once Thrived in Bustling Urban Centers</a></li>
-        
-        <li><a href="https://www.theatlantic.com/magazine/archive/2002/03/1491/302445/" target="_blank">1491</a></li>
-        
-    </ul>
-    
+  
     <!-- 
     <h4>Additional Content</h4>
-    <h4><cite class="dash">Anne Helen Petersen: Culture Study</cite><a href="https://annehelen.substack.com/p/how-millennials-grew-up-and-got-old" target="_blank">How Millennials Grew Up and Got Old</a></h4>
-<blockquote>Something interesting happens when you realize your generation isn’t the center of the discourse anymore. I’m not even talking about being the locus of cool. More like: you just seem to matter less. People are less anxious about you, less mad about you — if anything, they seem slightly annoyed by you. You’re no longer the future. You’re the well-worn middle.</blockquote>
-<hr>
-<h4><cite class="dash">The New York Times</cite><a href="https://www.nytimes.com/2022/01/25/books/review/god-francesca-stavrakopoulou.html" target="_blank">Piecing Together God’s Body, From Head to Toe</a></h4>
-<blockquote>Today we take it for granted that God has no body. But the psalmists had other views. “Praise Yahweh, for he is lovely looking!” cries one psalmist; another longed to live in the Jerusalem temple all the days of his life, “to behold the beauty of Yahweh … your face, Yahweh, do I seek.”</blockquote>
-<hr>
-<h4><cite class="dash">Resurrecting Orthodoxy</cite><a href="https://www.joeledmundanderson.com/book-review-misinterpreting-genesis-by-ben-stanhope-yes-it-is-really-good/" target="_blank">Book Review: “(Mis)Interpreting Genesis” by Ben Stanhope… yes, it is REALLY GOOD</a></h4>
-<blockquote>Stanhope’s is a must-read for anyone who wants to learn about the fascinating historical, literary, and cultural contexts of all those biblical passages that get brought up so much in most creation/evolution debates.</blockquote>
+    <p class="embedtool">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/KR0g-1hnQPA?si=AmHCsABjAVYTHXmf&amp;start=3763" title="YouTube video player — Apple Ad: Hi, Speed (October 13)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+<h4><cite class="dash">Apple</cite><a href="https://www.youtube.com/live/KR0g-1hnQPA?si=AmHCsABjAVYTHXmf&t=3763" target="_blank">Hi, Speed: Apple Event — October 13</a></h4>
+<blockquote>
+<p>Watch the special Apple Event and learn about the latest updates for HomePod mini, iPhone, and more.</p>
+</blockquote>
 
      -->
-    <p><span class="emoji">💬</span> <a href="/post/2023/11/15/knowledge-shouldnt-be-a-burden.html#comments">Read comments on this post</a></p>
+    <p><span class="emoji">💬</span> <a href="/post/2023/11/28/fun-side-project.html#comments">Read comments on this post</a></p>
   
 </article>
 <hr />
+        
+        
+        <section class="ephemeral">
+          <h2>My Thoughtstream</h2>
+          
+          <article class="home m1">
+            
+            <section class="body">
+              <h3>
+                <cite>Last Week Tonight with John Oliver — HBO</cite>
+                <a href="https://www.youtube.com/watch?v=lzsZP9o7SlI" target="_blank">Homeschooling</a>
+              </h3>
+              <blockquote cite="https://www.youtube.com/watch?v=lzsZP9o7SlI">John Oliver discusses homeschooling, its surprising lack of regulation in many states, and, crucially, Darth Vader’s parenting skills.</blockquote>
+              <p class="embedtool">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/lzsZP9o7SlI" title="YouTube video player — Homeschooling: Last Week Tonight with John Oliver (HBO)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+            </section>
+          </article>
+          
+          <article class="home m1">
+            
+            <section class="body">
+              <h3>
+                <cite>max teeth</cite>
+                <a href="https://www.youtube.com/watch?v=_jScGztAlus" target="_blank">I'm obsessed with this evangelical review of Hereditary</a>
+              </h3>
+              <blockquote cite="https://www.youtube.com/watch?v=_jScGztAlus">you won’t believe what happens next!</blockquote>
+              <p class="embedtool">
+<iframe width="100%" height="100%" src="https://www.youtube.com/embed/_jScGztAlus?si=2tmoRPeY3TFjPW-C" title="YouTube video player — I'm obsessed with this evangelical review of Hereditary" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</p>
+
+            </section>
+          </article>
+          
+        </section>
+        <hr />
+        
+        
         <section class="home">
           <h2>Archives of My Posts</h2>
+<article class="home">
+  <h3>Knowledge shouldn’t be a burden</h3>
+  <p>I didn’t want to remain ignorant, but learning even the smallest new piece of information seems to carry a huge cost to a vast array of elements in my life. Could I find a way to feel comfort in understanding more?</p>
+  <p><span class="emoji">📖</span> <a href="/post/2023/11/15/knowledge-shouldnt-be-a-burden.html">Continue reading &ldquo;Knowledge shouldn’t be a burden&rdquo;</a></p>
+</article>
+
 <article class="home">
   <h3>Being invisible</h3>
   <p>From my youth I have worked to lessen my consideration of my own value, thinking it a virtue to self-deprecate. I thought I was being a better person by hating myself. Eventually, I wondered if my self-perception could be incorrect. Could I be poisoning my life with such a crushing view of my value?</p>
@@ -244,7 +269,6 @@
 </section>
       </section>
       <aside class="home">
-        
         <!-- <p><iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="175" style="width:100%;max-width:660px;overflow:hidden;border-radius:10px;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/the-dollar-general-will-see-you-now/id1346207297?i=1000632866880&theme=light"></iframe></p> -->
         <!-- <p><iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="176" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/us/album/success/1698739854?i=1698740092"></iframe></p>
         <hr />-->
@@ -252,211 +276,131 @@
         
         <article class="home interesting">
           <h3>
-            <cite class="dash">Deborah Jian Lee — Esquire</cite>
-            <a class="emojiHover" data-id="persecutionLGBTQA" href="https://www.esquire.com/news-politics/a44730889/christian-colleges-universities-lgbtq-students/" target="_blank">Persecution in the Name of the Lord</a>
+            <cite class="dash">James Somers — The New York Times</cite>
+            <a class="emojiHover" data-id="codingEnd" href="https://www.newyorker.com/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft" target="_blank">A Coder Considers the Waning Days of the Craft</a>
           </h3>
-          <blockquote cite="https://www.esquire.com/news-politics/a44730889/christian-colleges-universities-lgbtq-students/">
-            Publicly funded Christian colleges and universities across the U. S. have long exploited a legal loophole to control and discriminate against LGBTQ+ students with impunity — inflicting financial pain and emotional trauma in the process. Now there’s a new battle brewing over this warped version of religious freedom.
+          <blockquote cite="https://www.newyorker.com/magazine/2023/11/20/a-coder-considers-the-waning-days-of-the-craft">
+            Coding has always felt to me like an endlessly deep and rich domain. Now I find myself wanting to write a eulogy for it.
           </blockquote>
         </article>
         
         <article class="home interesting">
           <h3>
-            <cite class="dash">Amanda Moore — The Turtle Diaries</cite>
-            <a class="emojiHover" data-id="qAnon" href="https://www.turtlediaries.net/p/qanon-and-evangelicals" target="_blank">QAnon and Evangelicals</a>
+            <cite class="dash">Julia Janicki, Gloria Dickie, Simon Scarr and Jitesh Chowdhury — Reuters</cite>
+            <a class="emojiHover" data-id="collapseInsects" href="https://www.reuters.com/graphics/GLOBAL-ENVIRONMENT/INSECT-APOCALYPSE/egpbykdxjvq/" target="_blank">The collapse of insects</a>
           </h3>
-          <blockquote cite="https://www.turtlediaries.net/p/qanon-and-evangelicals">
-            When you’ve spent your entire life believing you are living in the end times, equipped with a blueprint for the inevitable, horrible path the world is on, it’s exciting and vindicating to believe you are standing up for good. It also makes it easy to switch from acting as apostles of Jesus, proselytizing strangers on the street and drawing back nearly every conversation to religion, to bringing everything back to the “COVID is a hoax and we have to save the sex trafficked kids” narrative.
+          <blockquote cite="https://www.reuters.com/graphics/GLOBAL-ENVIRONMENT/INSECT-APOCALYPSE/egpbykdxjvq/">
+            The most diverse group of organisms on the planet are in trouble, with recent research suggesting insect populations are declining at an unprecedented rate.
           </blockquote>
         </article>
         
         <article class="home interesting">
           <h3>
-            <cite class="dash">Noah Berlatsky — Public Notice</cite>
-            <a class="emojiHover" data-id="mikeJohnson" href="https://www.publicnotice.co/p/mike-johnson-christofascism" target="_blank">The Christofascism of Mike Johnson</a>
+            <cite class="dash">Amy Brittain — The Washington Post</cite>
+            <a class="emojiHover" data-id="homeBirth" href="https://www.washingtonpost.com/investigations/interactive/2023/home-birth-midwife-karen-carr/" target="_blank">A home birth midwife faces scrutiny after a baby dies. It’s not the first time.</a>
           </h3>
-          <blockquote cite="https://www.publicnotice.co/p/mike-johnson-christofascism">
-            Johnson is an opposition researcher’s goldmine. Even over the weekend, news reports and video clips steadily trickled out exposing the new speaker for embracing views that are far out of step with mainstream America.
+          <blockquote cite="https://www.washingtonpost.com/investigations/interactive/2023/home-birth-midwife-karen-carr/">
+            The long-running career of Karen Carr highlights a troubling reality: A patchwork of inconsistent laws and limited accountability make it difficult for expectant parents considering a home birth to evaluate a midwife’s record and make an informed decision about one of the most critical events of their lives. Although the full scope of Carr’s history remains out of public view, The Post unearthed new details through public records that show that, over two decades, efforts by officials in multiple states to prevent her from practicing have largely failed.
           </blockquote>
         </article>
         
         <article class="home interesting">
           <h3>
-            <cite class="dash">J. Michael Luttig and Laurence H. Tribe — The Atlantic</cite>
-            <a class="emojiHover" data-id="trumpFail" href="https://www.theatlantic.com/ideas/archive/2023/08/donald-trump-constitutionally-prohibited-presidency/675048/" target="_blank">The Constitution Prohibits Trump From Ever Being President Again</a>
+            <cite class="dash">David Weigel — Semafor</cite>
+            <a class="emojiHover" data-id="wheresWoke" href="https://www.semafor.com/article/11/14/2023/what-happened-to-woke-how-the-rights-rallying-cry-faded-away" target="_blank">What happened to ‘woke’? How the right’s rallying cry faded away</a>
           </h3>
-          <blockquote cite="https://www.theatlantic.com/ideas/archive/2023/08/donald-trump-constitutionally-prohibited-presidency/675048/">
-            As students of the United States Constitution for many decades—one of us as a U.S. Court of Appeals judge, the other as a professor of constitutional law, and both as constitutional advocates, scholars, and practitioners — we long ago came to the conclusion that the Fourteenth Amendment, the amendment ratified in 1868 that represents our nation’s second founding and a new birth of freedom, contains within it a protection against the dissolution of the republic by a treasonous president.
+          <blockquote cite="https://www.semafor.com/article/11/14/2023/what-happened-to-woke-how-the-rights-rallying-cry-faded-away">
+            In three primetime GOP debates, the word “woke” was mentioned just twice; once as an aside from Nikki Haley, once when Vivek Ramaswamy plugged his book, “Woke, Inc.” DeSantis, whose early speeches focused on his fight against wokeness — “We will fight the woke in our legislature, we will fight the woke in education, we will fight the woke in our businesses” — now mentions it sparingly.
           </blockquote>
         </article>
         
         <article class="home interesting">
           <h3>
-            <cite class="dash">Jonathan Chait — Intelligencer, New York Magazine</cite>
-            <a class="emojiHover" data-id="bidenBust" href="http://nymag.com/intelligencer/2023/09/why-isnt-a-mainstream-democrat-challenging-biden-2024.html" target="_blank">Biden or Bust: Why isn’t a mainstream Democrat challenging the president?</a>
+            <cite class="dash">Ted Johnson — Deadline</cite>
+            <a class="emojiHover" data-id="johnStewart" href="https://deadline.com/2023/11/jon-stewart-apple-china-congress-1235612585/" target="_blank">Lawmakers Question Apple On Whether China Concerns Were Behind End Of Jon Stewart’s Show</a>
           </h3>
-          <blockquote cite="http://nymag.com/intelligencer/2023/09/why-isnt-a-mainstream-democrat-challenging-biden-2024.html">
-            For an incumbent presiding over peace and prosperity to be effectively trailing an indicted felon feels terrifying.
+          <blockquote cite="https://deadline.com/2023/11/jon-stewart-apple-china-congress-1235612585/">
+            Members of a special House committee fired off a letter to Apple, questioning whether the decision to end <em>The Problem with Jon Stewart</em> was due to concerns over the company’s relationship with China.
           </blockquote>
         </article>
         
         <article class="home interesting">
           <h3>
-            <cite class="dash">Lisa Needham — Public Notice</cite>
-            <a class="emojiHover" data-id="schoolVouchers" href="https://www.publicnotice.co/p/school-vouchers-texas-explained" target="_blank">School vouchers are even worse than you think</a>
+            <cite class="dash">Paul Kunert — The Register</cite>
+            <a class="emojiHover" data-id="amazonHours" href="https://www.theregister.com/2023/11/15/amazon_in_person_mandate/" target="_blank">Amazon to staff: Come into the office – it'd be a shame if something happened to your promotion</a>
           </h3>
-          <blockquote cite="https://www.publicnotice.co/p/school-vouchers-texas-explained">
-            Republicans in states like Texas complain that public schools are failing, then starve them under the guise of “choice.”
+          <blockquote cite="https://www.theregister.com/2023/11/15/amazon_in_person_mandate/">
+            Amazon is warning employees they risk undermining their own promotion prospects unless they return to the office (RTO) for three days a week, as was mandated by CEO Andy Jassy months ago.
           </blockquote>
         </article>
         
         <article class="home interesting">
           <h3>
-            <cite class="dash">Chris Geidner — Law Dork</cite>
-            <a class="emojiHover" data-id="oklahomaAG" href="https://www.lawdork.com/p/oklahoma-anti-trans-care-ban-in-effect" target="_blank">Oklahoma AG says felony ban on minors’ trans care is in effect following federal court ruling</a>
+            <cite class="dash">Jason Koebler — 404 Media</cite>
+            <a class="emojiHover" data-id="cruiseCars" href="https://www.404media.co/feds-have-no-idea-how-many-times-cruise-driverless-cars-hit-pedestrians/" target="_blank">Feds Have No Idea How Many Times Cruise Driverless Cars Hit Pedestrians</a>
           </h3>
-          <blockquote cite="https://www.lawdork.com/p/oklahoma-anti-trans-care-ban-in-effect">
-            U.S. District Judge John Heil III, a Trump appointee to the federal bench in Oklahoma, became the first federal trial court judge to look at a ban on gender-affirming medical care for minors and refuse to halt the law’s enforcement.
+          <blockquote cite="https://www.404media.co/feds-have-no-idea-how-many-times-cruise-driverless-cars-hit-pedestrians/">
+            ‘Not ideal:’ NHTSA is learning about driverless car incidents from Reddit videos because its safety incident reporting form is deeply flawed, internal emails show.
           </blockquote>
         </article>
         
         <article class="home interesting">
           <h3>
-            <cite class="dash">Amanda Marcotte — Salon</cite>
-            <a class="emojiHover" data-id="momsLiberty" href="https://www.salon.com/2023/10/10/moms-for-liberty-meets-its-match-parents-in-this-swing-suburban-district-are-fighting-back/" target="_blank">Moms for Liberty meets its match: Parents in this swing suburban district are fighting back</a>
+            <cite class="dash">Insurance Institute for Highway Safety</cite>
+            <a class="emojiHover" data-id="vehiclesDangerous" href="https://www.iihs.org/news/detail/vehicles-with-higher-more-vertical-front-ends-pose-greater-risk-to-pedestrians" target="_blank">Vehicles with higher, more vertical front ends pose greater risk to pedestrians</a>
           </h3>
-          <blockquote cite="https://www.salon.com/2023/10/10/moms-for-liberty-meets-its-match-parents-in-this-swing-suburban-district-are-fighting-back/">
-            Republicans hope to use education wars to turn purple suburbia red. In one Pennsylvania district, that backfired.
+          <blockquote cite="https://www.iihs.org/news/detail/vehicles-with-higher-more-vertical-front-ends-pose-greater-risk-to-pedestrians">
+            Vehicles with especially tall front ends are most dangerous to pedestrians, but a blunt profile makes medium-height vehicles deadly too, new research from the Insurance Institute for Highway Safety shows.
           </blockquote>
         </article>
         
         <article class="home interesting">
           <h3>
-            <cite class="dash">Dylan Goforth — The Frontier</cite>
-            <a class="emojiHover" data-id="ryanWalters" href="https://www.readfrontier.org/stories/ryan-walters-asked-for-tips-on-inappropriate-material-in-oklahoma-schools-people-sent-jokes-and-jeers/" target="_blank">Ryan Walters asked for tips on inappropriate material in Oklahoma schools, people sent jokes and jeers</a>
+            <cite class="dash">David Zipper — Slate</cite>
+            <a class="emojiHover" data-id="badTires" href="https://slate.com/technology/2023/11/car-tires-6ppd-pollution-epa.html" target="_blank">There’s a Big Problem With Your Car’s Tires</a>
           </h3>
-          <blockquote cite="https://www.readfrontier.org/stories/ryan-walters-asked-for-tips-on-inappropriate-material-in-oklahoma-schools-people-sent-jokes-and-jeers/">
-            State Superintendent Ryan Walters asked parents for tips on inappropriate material in schools, but got a flood of memes, pictures of food and animals and insults instead.
+          <blockquote cite="https://slate.com/technology/2023/11/car-tires-6ppd-pollution-epa.html">
+            In a bombshell 2020 study, University of Washington researchers directly tied 6PPD, a chemical in tires intended to prolong the products’ life, to the collapse of coho salmon populations in Puget Sound. 6PPD reacts with air to become 6PPD-quinone, a compound so toxic that exposure to even tiny concentrations in water can induce “acute mortality” in fish, according to the study.
           </blockquote>
         </article>
         
         <article class="home interesting">
           <h3>
-            <cite class="dash">Judd Legum, Tesnim Zekeria, and Rebecca Crosby — Popular Information</cite>
-            <a class="emojiHover" data-id="crimeWave" href="https://popular.info/p/americas-zombie-crime-wave" target="_blank">America’s zombie “crime wave”</a>
+            <cite class="dash">Silvia Foster-Frau, N. Kirkpatrick and Arelis R. Hernández — The Washington Post</cite>
+            <a class="emojiHover" data-id="ar15Dangerous" href="https://www.washingtonpost.com/nation/interactive/2023/ar-15-force-mass-shootings" target="_blank">Terror on Repeat: A rare look at the devastation caused by AR-15 shootings</a>
           </h3>
-          <blockquote cite="https://popular.info/p/americas-zombie-crime-wave">
-            Preliminary data suggests that 2023 could feature one of the most dramatic declines in violent crime in modern history.
+          <blockquote cite="https://www.washingtonpost.com/nation/interactive/2023/ar-15-force-mass-shootings">
+            Mass shootings involving AR-15s have become a recurring American nightmare.
+          </blockquote>
+        </article>
+        
+        <article class="home interesting">
+          <h3>
+            <cite class="dash">Josephine Lee — Texas Observer</cite>
+            <a class="emojiHover" data-id="uspsKilling" href="https://www.texasobserver.org/usps-worker-heat-death-safety/" target="_blank">USPS Is Falsifying Safety Docs As Its Workers Die of Heat</a>
+          </h3>
+          <blockquote cite="https://www.texasobserver.org/usps-worker-heat-death-safety/">
+            Even after a mail carrier’s recent death, the company continues to violate its own rules.
+          </blockquote>
+        </article>
+        
+        <article class="home interesting">
+          <h3>
+            <cite class="dash">Adolfo Flores — The Wall Street Journal</cite>
+            <a class="emojiHover" data-id="killersFlower" href="https://www.wsj.com/us-news/education/killers-of-the-flower-moon-oklahoma-1cfdba38" target="_blank">‘Killers of the Flower Moon’ Is an Oklahoma Story, but Educators There Might Not Teach It</a>
+          </h3>
+          <blockquote cite="https://www.wsj.com/us-news/education/killers-of-the-flower-moon-oklahoma-1cfdba38">
+            Movie about murders of Osage people prompts renewed discussion of state law.
           </blockquote>
         </article>
         
         <article class="home interesting">
           <h3>
             <cite class="dash">Hamilton Nolan — How Things Work</cite>
-            <a class="emojiHover" data-id="corporateValues" href="https://www.hamiltonnolan.com/p/keep-on-looking-for-those-corporate" target="_blank">Keep On Looking for Those “Corporate Values,” I’m Sure They’ll Turn Up One Day</a>
+            <a class="emojiHover" data-id="humanityFamily" href="https://www.hamiltonnolan.com/p/we-are-all-potentially-dead-journalists?r=lq6wf" target="_blank">We Are All Potentially Dead Journalists</a>
           </h3>
-          <blockquote cite="https://www.hamiltonnolan.com/p/keep-on-looking-for-those-corporate">
-            I have bad news, my friends: there is no such thing as Corporate Values. They do not exist.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Jessica Grose — The New York Times (Opinion)</cite>
-            <a class="emojiHover" data-id="9to5" href="https://www.nytimes.com/2023/08/16/opinion/corporate-work-life-balance.html" target="_blank">Leaving the Office at 5 Is Not a Moral Failing</a>
-          </h3>
-          <blockquote cite="https://www.nytimes.com/2023/08/16/opinion/corporate-work-life-balance.html">
-            I am continually frustrated by the way we talk about work and its shortcomings in a post-2020 landscape.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Dylan Scott — Vox (Today, Explained)</cite>
-            <a class="emojiHover" data-id="dollarGeneral" href="https://podcasts.apple.com/us/podcast/the-dollar-general-will-see-you-now/id1346207297?i=1000632866880" target="_blank">The Dollar General will see you now</a>
-          </h3>
-          <blockquote cite="https://podcasts.apple.com/us/podcast/the-dollar-general-will-see-you-now/id1346207297?i=1000632866880">
-            The primary care physician shortage is ruining health care in America. Dollar General, Best Buy, and Walmart are trying to fill the void. Vox’s Dylan Scott explains.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Felice J. Freyer — Boston Globe</cite>
-            <a class="emojiHover" data-id="alzheimers" href="https://www.bostonglobe.com/2023/10/10/magazine/the-children-of-alzheimers-what-does-the-future-hold/" target="_blank">A fraught question for the children of Alzheimer’s: Is it coming for us?</a>
-          </h3>
-          <blockquote cite="https://www.bostonglobe.com/2023/10/10/magazine/the-children-of-alzheimers-what-does-the-future-hold/">
-            Genes may play a smaller role than we think, but it’s hard to forget what happened to our mom.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Post Reports</cite>
-            <a class="emojiHover" data-id="dyingAmericans" href="https://podcasts.apple.com/us/podcast/post-reports/id1444873564?i=1000634186243" target="_blank">Why are so many Americans dying early?</a>
-          </h3>
-          <blockquote cite="https://podcasts.apple.com/us/podcast/post-reports/id1444873564?i=1000634186243">
-            Despite spending more per person on health care than any other nation, the United States has a crisis of premature deaths. The Post’s health team has been investigating why that is, and today we learn how politics, stress and chronic illness play a role.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Matthew Yglesias — Slow Boring</cite>
-            <a class="emojiHover" data-id="deathsDespair" href="https://www.slowboring.com/p/the-deaths-of-despair-narrative-is" target="_blank">The “Deaths of Despair” narrative is wrong</a>
-          </h3>
-          <blockquote cite="https://www.slowboring.com/p/the-deaths-of-despair-narrative-is">
-            This is all actually pretty clear cut and has been said before, but critics must not be saying it clearly (or rudely) enough because the narrative just keeps trundling forward.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Allison P. Davis — New York Magazine</cite>
-            <a class="emojiHover" data-id="babyParents" href="https://www.thecut.com/article/adult-friendships-vs-kids.html" target="_blank">Adorable Little Detonators</a>
-          </h3>
-          <blockquote cite="https://www.thecut.com/article/adult-friendships-vs-kids.html">
-            Our friendship survived bad dates, illness, marriage, fights. Why can’t it survive your baby?
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Oliver Milman — The Guardian</cite>
-            <a class="emojiHover" data-id="bannedCars" href="https://www.theguardian.com/cities/2023/oct/11/culdesac-car-free-neighborhood-tempe-arizona" target="_blank">‘People are happier in a walkable neighborhood’: the US community that banned cars</a>
-          </h3>
-          <blockquote cite="https://www.theguardian.com/cities/2023/oct/11/culdesac-car-free-neighborhood-tempe-arizona">
-            A new housing development outside Phoenix is looking towards European cities for inspiration and shutting out the cars. So far residents love it.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">David Zipper — Fast Company</cite>
-            <a class="emojiHover" data-id="rightRed" href="https://www.fastcompany.com/90908929/its-time-for-a-nationwide-ban-of-right-on-red" target="_blank">It’s time to ban ‘right-on-red’</a>
-          </h3>
-          <blockquote cite="https://www.fastcompany.com/90908929/its-time-for-a-nationwide-ban-of-right-on-red">
-            Right turns on red lights are dangerous for pedestrians and cyclists, and yet they’re still widely allowed across the U.S.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Jamelle Bouie — The New York Times (Opinion)</cite>
-            <a class="emojiHover" data-id="pedestrians" href="https://messaging-custom-newsletters.nytimes.com/template/oakv2?productCode=JBO&te=1&nl=jamelle-bouie&emc=edit_jbo_20231114&uri=nyt://newsletter/13090682-2e35-56c1-bc74-b1da383f8019" target="_blank">The main problems with pedestrian deaths isn’t pedestrians</a>
-          </h3>
-          <blockquote cite="https://messaging-custom-newsletters.nytimes.com/template/oakv2?productCode=JBO&te=1&nl=jamelle-bouie&emc=edit_jbo_20231114&uri=nyt://newsletter/13090682-2e35-56c1-bc74-b1da383f8019">
-            The most dangerous things on our streets are cars and trucks, multi-ton chunks of metal, glass and plastic designed to move at high speeds through urban and suburban environments that are, more often then not, designed for the flow of vehicles rather than the movement of people.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Andrew J. Hawkins — The Verge</cite>
-            <a class="emojiHover" data-id="truckBloat" href="https://www.theverge.com/2023/11/14/23960624/truck-suv-hood-height-pedestrian-death-report-iihs" target="_blank">Truck bloat is killing us, new crash data reveals</a>
-          </h3>
-          <blockquote cite="https://www.theverge.com/2023/11/14/23960624/truck-suv-hood-height-pedestrian-death-report-iihs">
-            American car buyers can’t get enough big, tall SUVs and trucks — but new data suggests that the downsides of this trend are growing increasingly deadly.
+          <blockquote cite="https://www.hamiltonnolan.com/p/we-are-all-potentially-dead-journalists?r=lq6wf">
+            Humanity is your family and they deserve to live.
           </blockquote>
         </article>
         
@@ -505,7 +449,7 @@
   </article>
   <article class="flexCard cardFour">
     <h5>Last Updated</h5>
-    <p>November 17, 2023</p>
+    <p>November 29, 2023</p>
     <hr class="mp5">
     <ul aria-label="Site features and credits" class="hideExternalIcon footerIcons">
       <li><a title="Hosted by GitHub" href="https://dhepworth.github.io"><img src="https://dhepworth.github.io/img/GitHub-Mark-64px.png" width="24" height="24" alt="GitHub logo" title="Hosted by GitHub" class="gitHub" /></a></li>

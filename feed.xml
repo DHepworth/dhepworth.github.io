@@ -5,9 +5,46 @@
     <description>A blog of a person learning things others long ago understood.</description>
     <link>https://dhepworth.github.io/</link>
     <atom:link href="https://dhepworth.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 17 Nov 2023 07:16:22 -0600</pubDate>
-    <lastBuildDate>Fri, 17 Nov 2023 07:16:22 -0600</lastBuildDate>
+    <pubDate>Wed, 29 Nov 2023 09:47:06 -0600</pubDate>
+    <lastBuildDate>Wed, 29 Nov 2023 09:47:06 -0600</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>My fun side project — inspired by the 2020 Apple event</title>
+        <author>David Hepworth</author>
+        <description>
+            &lt;p&gt;I liked the aesthetic of the &lt;a href=&quot;https://www.youtube.com/live/KR0g-1hnQPA?si=AmHCsABjAVYTHXmf&amp;amp;t=3763&quot; target=&quot;_blank&quot;&gt;advertisement for the iPhone 12 Pro that Apple did years ago.&lt;/a&gt; I wanted to remake it in HTML as much as I could, so I used this project to build a list of links to my social network profiles.&lt;/p&gt;
+
+&lt;p&gt;First, I wanted to get the colors of the sunrise from the video, &lt;a href=&quot;https://cssgradient.io&quot; target=&quot;_blank&quot;&gt;so I went to a tool online,&lt;/a&gt; and uploaded a cropped shot of the sky to grab the colors from it to make a linear-gradient. I tweaked the results and set it up on the page.&lt;/p&gt;
+
+&lt;p&gt;In order to make the gradient image appear more filmic, I used the &lt;a href=&quot;https://css-tricks.com/grainy-gradients/&quot; target=&quot;_blank&quot;&gt;tool mentioned by CSS-Tricks&lt;/a&gt; to build an SVG file of noise for use as a mask-image in CSS.&lt;/p&gt;
+
+&lt;p&gt;I then went back to the video and captured a screenshot of the mountain range, tracing over the resulting image in &lt;a href=&quot;https://www.vectornator.io&quot; target=&quot;_blank&quot;&gt;Vectornator.&lt;/a&gt; I customized it to be wider and more varied, experimenting with horizon level, until I exported a final SVG that I then compressed in &lt;a href=&quot;https://imageoptim.com&quot; target=&quot;_blank&quot;&gt;ImageOptim.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Finally, for the stars in the sky I went to NASA and browsed their image gallery until I found an &lt;a href=&quot;https://www.nasa.gov/image-feature/the-city-lights-at-the-intersection-of-europe-and-asia&quot; target=&quot;_blank&quot;&gt;appropriate photo of stars.&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;I then built the CSS with animations, filters, gradients, mask-images, and shadows to make a glimmering interface.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Check it out at this URL: &lt;a href=&quot;https://dhepworth.github.io/social/&quot; target=&quot;_blank&quot;&gt;https://dhepworth.github.io/social/&lt;/a&gt;&lt;/strong&gt;&lt;/p&gt;
+
+            
+            &lt;p class=&quot;embedtool&quot;&gt;
+&lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/KR0g-1hnQPA?si=AmHCsABjAVYTHXmf&amp;amp;start=3763&quot; title=&quot;YouTube video player — Apple Ad: Hi, Speed (October 13)&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
+&lt;/p&gt;
+&lt;h4&gt;&lt;cite class=&quot;dash&quot;&gt;Apple&lt;/cite&gt;&lt;a href=&quot;https://www.youtube.com/live/KR0g-1hnQPA?si=AmHCsABjAVYTHXmf&amp;t=3763&quot; target=&quot;_blank&quot;&gt;Hi, Speed: Apple Event — October 13&lt;/a&gt;&lt;/h4&gt;
+&lt;blockquote&gt;
+&lt;p&gt;Watch the special Apple Event and learn about the latest updates for HomePod mini, iPhone, and more.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+        </description>
+        <pubDate>Tue, 28 Nov 2023 00:00:00 -0600</pubDate>
+        <link>https://dhepworth.github.io/post/2023/11/28/fun-side-project.html</link>
+        <guid isPermaLink="true">https://dhepworth.github.io/post/2023/11/28/fun-side-project.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>Knowledge shouldn’t be a burden</title>
@@ -846,27 +883,6 @@ Of my fellow creatures&lt;/i&gt;&lt;/p&gt;
         <pubDate>Thu, 03 Feb 2022 00:00:00 -0600</pubDate>
         <link>https://dhepworth.github.io/post/2022/02/03/anxious-about-being-ignorant.html</link>
         <guid isPermaLink="true">https://dhepworth.github.io/post/2022/02/03/anxious-about-being-ignorant.html</guid>
-        
-        
-        <category>post</category>
-        
-      </item>
-    
-      <item>
-        <title>Now on Jekyll</title>
-        <author>David Hepworth</author>
-        <description>
-            &lt;p&gt;I’ve spent the past few days moving my little site here from hand-written HTML to &lt;a href=&quot;http://jekyllrb.com/&quot; target=&quot;_blank&quot;&gt;Jekyll&lt;/a&gt;, a blogging platform that can build into HTML files very similar to ones that I was writing before, but without all the hard work of maintaining code throughout each page. Now I can write posts in a simpler fashion and start to add new features like an &lt;a href=&quot;https://dhepworth.github.io/feed.xml&quot;&gt;Atom/RSS feed&lt;/a&gt; with greater ease than if I continued coding everything by hand.&lt;/p&gt;
-
-&lt;p&gt;I’ve been wanting to add on more to the site as time goes on but doing it all by hand was going to potentially grow exponentially difficult. I wanted the freedom to test out new designs that remained consistent throughout the site, so each new bit of content I added would only increase my update time. I originally expected the text to largely serve as a placeholder, but I also began to enjoy the writing process required to make a new post and wanted to save my work rather than overwrite it with each update. Jekyll had seemed like a nice idea in the past but I felt I didn’t have a good reason to use it and that it would probably be more difficult to set up than what was promised. The latter part was true, but not by much. Setting up my computer to begin using Jekyll actually took longer and was more frustrating than coding in the language it uses.&lt;/p&gt;
-
-
-            
-            
-        </description>
-        <pubDate>Wed, 22 Dec 2021 00:00:00 -0600</pubDate>
-        <link>https://dhepworth.github.io/post/2021/12/22/jekyll.html</link>
-        <guid isPermaLink="true">https://dhepworth.github.io/post/2021/12/22/jekyll.html</guid>
         
         
         <category>post</category>
