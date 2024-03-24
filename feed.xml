@@ -5,9 +5,319 @@
     <description>A blog of a person learning things others long ago understood.</description>
     <link>https://dhepworth.github.io/</link>
     <atom:link href="https://dhepworth.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 14 Mar 2024 22:38:19 -0500</pubDate>
-    <lastBuildDate>Thu, 14 Mar 2024 22:38:19 -0500</lastBuildDate>
+    <pubDate>Sun, 24 Mar 2024 14:56:51 -0500</pubDate>
+    <lastBuildDate>Sun, 24 Mar 2024 14:56:51 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
+    
+      <item>
+        <title>Great programs that I enjoy</title>
+        <author>David Hepworth</author>
+        <description>
+            &lt;p&gt;I always enjoy sharing with others some of the apps that I’ve discovered during my time as a MacOS user. Many of these apps were important reasons for me to shift from Windows to Mac. This is a rather exhaustive but not complete list of programs for Apple devices that I recommend. There may be Windows variants of these programs, but I don’t use them and can’t guarantee their quality.&lt;/p&gt;
+
+&lt;p&gt;Programs listed below in italics are my &lt;em&gt;favorite&lt;/em&gt; favorites.&lt;/p&gt;
+
+&lt;p&gt;&lt;span class=&quot;emoji&quot;&gt;⚠️&lt;/span&gt; &lt;strong&gt;This list was last updated March 23, 2024.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;h3 id=&quot;-audio&quot;&gt;🎼 Audio&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/albums-album-focused-player/id1469948986&quot;&gt;Albums&lt;/a&gt; — Music player with a focus on full-album listening&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/albums-music-shortcuts/id1602404960&quot;&gt;Albums: Music Shortcuts&lt;/a&gt; — Widget app to immediately play a selected favorite album&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/audiokit-reverb/id1601314353&quot;&gt;AudioKit Reverb&lt;/a&gt; — A GarageBand plugin for reverb&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/audio-trimmer-trim-audio/id1602845668&quot;&gt;Audio Trimmer&lt;/a&gt; — A simple audio trimming tool for mobile devices&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/finale-for-last-fm/id1518365620&quot;&gt;Finale&lt;/a&gt; — A better Last.FM audioscrobbler&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/hark-audio/id1540109137&quot;&gt;Hark&lt;/a&gt; — Podcast clip browser&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/hokusai-audio-editor/id432079746&quot;&gt;Hokusai&lt;/a&gt; — Mobile audio editor&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/king-of-fm-dx-synth-e-piano/id1672644102&quot;&gt;King of FM&lt;/a&gt; — FM synthesizer&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/le01-bass-808-synth-auv3/id1502480224&quot;&gt;LE01&lt;/a&gt; — Synthesizer for bass sounds&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/marvis-pro/id1447768809&quot;&gt;Marvis Pro&lt;/a&gt; — Music player with advanced listening tools and features&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/mimi-hearing-test/id932496645&quot;&gt;Mimi&lt;/a&gt; — Hearing test and audiogram creation for AirPod customization&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/minimoog-model-d-synthesizer/id1339418001&quot;&gt;Minimoog Model D Synthesizer&lt;/a&gt; — A remake of a classic synthesizer&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/miximum-smart-playlist-maker/id1456153507&quot;&gt;Miximum&lt;/a&gt; — Playlist authoring for combining official Apple and user-generated playlists&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/mynoise-relax-sleep-work/id813099896&quot;&gt;myNoise&lt;/a&gt; — Noise cancellation through walls of sound&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/outcast-for-watch/id1326693810&quot;&gt;Outcast&lt;/a&gt; — Podcast player for Apple Watch&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/panflow/id1620175108&quot;&gt;Panflow&lt;/a&gt; — Panning plugin for GarageBand&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sonosaurus.com/paulxstretch/&quot;&gt;PaulXStretch&lt;/a&gt; — Extreme sound length distortion&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/pitch-drift-baby-audio/id1659406720&quot;&gt;Pitch Drift&lt;/a&gt; — Pitch shifting plugin for GarageBand&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/playtally-apple-music-stats/id1513271356&quot;&gt;PlayTally&lt;/a&gt; — Apple Music listening statistics&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/podcast-archiver/id1494794912?mt=12&quot;&gt;Podcast Archiver&lt;/a&gt; — Download backups of podcasts via RSS feed&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/podcast-saver/id1498364459&quot;&gt;Podcast Saver&lt;/a&gt; — Mobile backups of podcasts via RSS feed&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/shazam-find-music-concerts/id284993459&quot;&gt;Shazam&lt;/a&gt; — Music identification via live microphone recording&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/sleep-by-max-richter/id1509084936&quot;&gt;SLEEP&lt;/a&gt; — Calming space scenes and beautiful music for relaxation and focus&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://replay.software/sleeve&quot;&gt;Sleeve&lt;/a&gt; — Album art as a HUD for easy listening on Macs&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/soor/id1439731526&quot;&gt;Soor&lt;/a&gt; — Music player with stat tracking&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/soundhound-music-discovery/id284972998&quot;&gt;SoundHound∞&lt;/a&gt; — An alternative to Shazam, with the supposed ability to recognize humming&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/thwip-soundboard/id6466668240&quot;&gt;Thwip&lt;/a&gt; — Fun sound effect generator for mobile devices&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/vhs-synth-80s-synthwave/id16152086670&quot;&gt;VHS Synth&lt;/a&gt; — A gritty, warbly synthesizer&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/808-overdrive-pro/id1537555516&quot;&gt;808 Overdrive Pro&lt;/a&gt; — A synthesizer with a focus on bass sounds&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;!--more--&gt;
+&lt;p&gt;&lt;a name=&quot;readmore&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h3 id=&quot;-development&quot;&gt;👨🏻‍💻 Development&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://aerolite.dev/applite/index.html&quot;&gt;Applite&lt;/a&gt; — A user interface for the popular package manager, Homebrew&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/boop/id1518425043?mt=12&quot;&gt;Boop&lt;/a&gt; — Various useful scripts for development&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.codeedit.app&quot;&gt;CodeEdit&lt;/a&gt; — A basic text editor to manage simple tasks&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/coteditor/id1024640650?mt=12&quot;&gt;Coteditor&lt;/a&gt; — A more Mac-minded version of Notepad++, a popular Windows text editor&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://corkmac.app&quot;&gt;Cork&lt;/a&gt; — A well-engineered user interface for Homebrew&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/devcleaner-for-xcode/id1388020431?mt=12&quot;&gt;DevCleaner for Xcode&lt;/a&gt; — A utility to clean out data from Xcode installs&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/devtoys-app/devtoysmac&quot;&gt;DevToysMac&lt;/a&gt; — A port of the popular script tool for Windows&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/entity-pro/id1503988785?mt=12&quot;&gt;Entity Pro&lt;/a&gt; — A helpful browser for all glyphs available on macOS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/favicon-factory/id1441742981?mt=12&quot;&gt;Favicon Factory&lt;/a&gt; — A simple UI to build favicons for websites&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/gapplin/id768053424?mt=12&quot;&gt;Gapplin&lt;/a&gt; — An SVG image viewer&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://desktop.github.com&quot;&gt;GitHub Desktop&lt;/a&gt; — A helpful UI for managing Git&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/jayson/id1447750768&quot;&gt;Jayson&lt;/a&gt; — A JSON viewer for mobile devices&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;http://nova.app&quot;&gt;Nova&lt;/a&gt; — A beautiful, performative IDE built only for Macs&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/one-markdown/id1507139439&quot;&gt;One Markdown&lt;/a&gt; — A feature-rich Markdown editor and viewer&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/textastic-code-editor/id1049254261&quot;&gt;Textastic&lt;/a&gt; — A cross-platform text editor&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/visual-table/id6444660172?mt=12&quot;&gt;Visual Table&lt;/a&gt; — A UI for databases&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/zavala/id1546457750&quot;&gt;Zavala&lt;/a&gt; — A helpful outline builder for writing blog posts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-graphic-design&quot;&gt;👨🏻‍🎨 Graphic Design&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://affinity.serif.com/en-us/designer/&quot;&gt;Affinity Designer&lt;/a&gt; — An incredibly powerful yet affordable alternative to Adobe Illustrator&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://affinity.serif.com/en-us/photo/&quot;&gt;Affinity Photo&lt;/a&gt; — A popular alternative to Adobe Photoshop with an ingenious UI for managing various graphic design tasks&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://affinity.serif.com/en-us/publisher/&quot;&gt;Affinity Publisher&lt;/a&gt; — A wise choice for Adobe InDesign users who wish to avoid a subscription fee&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/afterlight-photo-editor/id1293122457&quot;&gt;Afterlight Photo&lt;/a&gt; — A helpful set of filters and overlays for iPhone photography&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/colorslurp/id1287239339&quot;&gt;ColorSlurp&lt;/a&gt; — A color sampler and UI palette builder&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/darkroom-photo-video-editor/id953286746&quot;&gt;Darkroom&lt;/a&gt; — A well-made Apple Photos companion for photo and video editing&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/fontcase-manage-your-type/id1205074470&quot;&gt;Fontcase&lt;/a&gt; — A tool to use custom fonts in certain apps on an iPhone&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://imageoptim.com/mac&quot;&gt;ImageOptim&lt;/a&gt; — A must-have image compressor for web development&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://inkscape.org&quot;&gt;Inkscape&lt;/a&gt; — A vector image editor with great drawing tools&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/linea-sketch/id1094770251&quot;&gt;Linea Sketch&lt;/a&gt; — A good and simple drawing tool&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/magic-drawing-and-ai/id1581223559?mt=12&quot;&gt;Magic&lt;/a&gt; — Useful for signing PDFs with the Magic Trackpad&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/paletter-4/id1494948845?mt=12&quot;&gt;Paletter&lt;/a&gt; — A UI palette builder&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/photomator-photo-editor/id1444636541&quot;&gt;Photomator&lt;/a&gt; — A powerful AI-powered photo editor that links to Apple Photos&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/pixelmator/id924695435&quot;&gt;Pixelmator&lt;/a&gt; — A great raster-based image editor for mobile devices&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/pixelmator-pro/id1289583905?mt=12&quot;&gt;Pixelmator Pro&lt;/a&gt; — A useful tool for quick raster-based edits&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/procreate/id425073498&quot;&gt;Procreate&lt;/a&gt; — A powerful and comprehensive drawing tool for iPad&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.pureref.com&quot;&gt;PureRef&lt;/a&gt; — A helpful mood board builder for creative work&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/retrospecs/id887031094&quot;&gt;Retrospecs&lt;/a&gt; — Fun vintage computer image processing emulator&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/vsco-ai-photo-video-editor/id588013838&quot;&gt;VSCO&lt;/a&gt; — My favorite image editor for digital photography, filled with beautiful filters and a powerful toolset&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-mac-menu-bar-tools&quot;&gt;💻 Mac Menu Bar Tools&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://alt-tab-macos.netlify.app&quot;&gt;AltTab&lt;/a&gt; — Emulate the Windows Alt+Tab UI for easier program management&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/amphetamine/id937984704?mt=12&quot;&gt;Amphetamine&lt;/a&gt; — Temporarily keep the computer on without editing power management settings&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/x74353/Amphetamine-Enhancer&quot;&gt;Amphetamine Enhancer&lt;/a&gt; — Additional features for &lt;em&gt;Amphetamine&lt;/em&gt; that can be helpful in some cases&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/command-x/id6448461551?mt=12&quot;&gt;Command X&lt;/a&gt; — Adds the ability to “Cut” files in Finder&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/dropover-easier-drag-drop/id1355679052?mt=12&quot;&gt;Dropover&lt;/a&gt; — A little bucket to hold files when transferring between folders&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://synappser.github.io/apps/finderfix/&quot;&gt;FinderFix&lt;/a&gt; — Quickly resizes and centers new Finder windows so that they don’t scatter across the screen when opened&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/robbertkl/GamepadMenu&quot;&gt;Gamepad Menu&lt;/a&gt; — Adds support in macOS for MFi gamepads&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/hand-mirror/id1502839586?mt=12&quot;&gt;Hand Mirror&lt;/a&gt; — Opens a small preview window of the active camera on macOS&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/hidden-bar/id1452453066?mt=12&quot;&gt;Hidden Bar&lt;/a&gt; — Hides the excessive amount of applications I run in the Menu Bar&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://thelasso.app&quot;&gt;Lasso&lt;/a&gt; — Grid-based program window management&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://macmousefix.com&quot;&gt;Mac Mouse Fix&lt;/a&gt; — Adds mouse settings for external mice to customize the experience from the Magic Trackpad&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/magnet/id441258766?mt=12&quot;&gt;Magnet&lt;/a&gt; — Program window management with window snapping features&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.fadel.io/missioncontrolplus&quot;&gt;Mission Control Plus&lt;/a&gt; — Allows for the closing of programs while in Mission Control&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://monitorcontrol.app/&quot;&gt;MonitorControl&lt;/a&gt; — Management of external monitors through a UI&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/pelican-clipboard-manager/id1524721688?mt=12&quot;&gt;Pelican&lt;/a&gt; — Clipboard manager; lists a history of the contents of the clipboard for easy retrieval&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/screenfloat-screenshot-tools/id414528154?mt=12&quot;&gt;Screenfloat&lt;/a&gt; — A tool to make and overlay screenshots over other programs&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://shottr.cc&quot;&gt;Shottr&lt;/a&gt; — A useful screenshot tool with a variety of helpful features&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;️️-outdoor-activity&quot;&gt;🚶🏻‍♂️‍➡️ Outdoor Activity&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/distance-find-my-distance/id483591610&quot;&gt;Distance&lt;/a&gt; — A UI for tracking distances on Google Maps&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/easy-price-compare/id585235293&quot;&gt;Easy Price Compare&lt;/a&gt; — A quick comparison tool for weights, prices, and quantities&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/epa-airnow/id467653238&quot;&gt;EPA AIRNow&lt;/a&gt; — Current readings of outdoor air quality&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/epa-smoke-sense/id1274616255&quot;&gt;EPA Smoke Sense&lt;/a&gt; — Pollutant level measurement of outdoor air&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/lastquake/id890799748&quot;&gt;LastQuake&lt;/a&gt; — Worldwide tracking tool of earthquakes; includes self-reporting tool&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/merlin-bird-id-by-cornell-lab/id773457673&quot;&gt;Merlin Bird ID&lt;/a&gt; — A tool to discover and catalog local birdlife&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/osha-niosh-heat-safety-tool/id1239425102&quot;&gt;OSHA-NIOSH Heat Safety Tool&lt;/a&gt; — Helpful guide on the safety of outdoor activity&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/organic-maps-offline-hike-bike/id1567437057&quot;&gt;Organic Maps&lt;/a&gt; — A good offline mapping tool for biking and hiking&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/seek-by-inaturalist/id1353224144&quot;&gt;Seek&lt;/a&gt; — An AI-powered plant identification program&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/skyview/id404990064&quot;&gt;SkyView®&lt;/a&gt; — Constellation tracker with a camera overlay for easy identification of stars in the sky&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/stocard-rewards-cards-wallet/id444578884&quot;&gt;Stocard&lt;/a&gt; — Membership/loyalty card wallet for stores that don’t use Apple Wallet&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/streets-street-view-browser/id1071879826&quot;&gt;Streets&lt;/a&gt; — Open Google Street View from a shared Apple Maps location&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/water-tracker-waterminder/id653031147&quot;&gt;WaterMinder&lt;/a&gt; — Track water intake throughout the day to avoid surprise dehydration&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/what3words-navigation-maps/id657878530&quot;&gt;what3words&lt;/a&gt; — A grid-based offline tracking tool for hikers who might get lost with insufficient cellular coverage&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/where-to-search-nearby-places/id903955898&quot;&gt;Where To?&lt;/a&gt; — An alternative to Yelp for planning an activity&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/windy-com-weather-radar/id1161387262&quot;&gt;Windy&lt;/a&gt; — Weather coverage by way of wind tracking&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-photos&quot;&gt;📸 Photos&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/clips/id1212699939&quot;&gt;Clips&lt;/a&gt; — A fun video maker useful for iMessage sharing&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/gif-toaster-gif-maker/id948064297&quot;&gt;GIF Toaster&lt;/a&gt; — A quick tool for building GIF images on a mobile device; handy for sharing on iMessage&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/green-screener/id604935529&quot;&gt;Green Screener&lt;/a&gt; — A quick preview of green screen coverage for later importing on a video editor&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/halide-mark-ii-pro-camera/id885697368&quot;&gt;Halide Mark II&lt;/a&gt; — A powerful alternative to the default camera app on iPhone&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/lp-live-image-to-video-gif/id1060868165&quot;&gt;LP&lt;/a&gt; — Quickly generate a GIF or video of a Live Photo&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/neuralcam-bokeh-nightmode/id1474856599&quot;&gt;NeuralCam&lt;/a&gt; — Use AI to (overly) process an image taken on a mobile device&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/peek-a-view/id1491554407&quot;&gt;Peek-a-View&lt;/a&gt; — Build an album of photos that can be safely shared with someone else&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/photoscope-storage-cleaner/id6474432385&quot;&gt;Photoscope&lt;/a&gt; — A comparison tool to cull photo collections&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/pixea/id1507782672?mt=12&quot;&gt;Pixea&lt;/a&gt; — A robust image presentation program&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/pixel-art-camera/id1107180652&quot;&gt;Pixel Art Camera&lt;/a&gt; — A silly camera tool that makes images look like they were taken on an old device&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/find-photo-precisely-queryable/id1661598353&quot;&gt;Queryable&lt;/a&gt; — A more comprehensive AI-powered image search&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/slow-shutter-cam/id357404131&quot;&gt;Slow Shutter Cam&lt;/a&gt; — A camera for taking long-exposure images&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/spectre-camera/id1450074595&quot;&gt;Spectre Camera&lt;/a&gt; — A powerful long-exposure camera program&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/this-simple-photo-labels/id1067596534&quot;&gt;This&lt;/a&gt; — A simple UI for highlighting sections of an image with a refined result&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/vsco-ai-photo-video-editor/id588013838&quot;&gt;VSCO&lt;/a&gt; — A very powerful image editor with a camera app included that has some unique overlays included&lt;/em&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;️-shortcuts&quot;&gt;🛠️ Shortcuts&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/charty-for-shortcuts/id1494386093&quot;&gt;Charty&lt;/a&gt; — Build charts through Apple Shortcuts&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/data-jar/id1453273600&quot;&gt;Data Jar&lt;/a&gt; — A database for other shortcuts such as &lt;a href=&quot;https://routinehub.co/shortcut/5412/&quot;&gt;App Wishlist Pro&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/opener-open-links-in-apps/id989565871&quot;&gt;Opener&lt;/a&gt; — A tool to directly open supported links into apps&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/scriptable/id1405459188&quot;&gt;Scriptable&lt;/a&gt; — Write scripts on and for mobile devices&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/toolbox-pro-for-shortcuts/id1476205977&quot;&gt;Toolbox Pro&lt;/a&gt; — Adds additional functionality not available in Apple Shortcuts&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-utilities&quot;&gt;🧰 Utilities&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://www.4kdownload.com/products/videodownloader&quot;&gt;4K Video Downloader+&lt;/a&gt; — Download videos from a variety of sites with a simple UI&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://freemacsoft.net/appcleaner/&quot;&gt;AppCleaner&lt;/a&gt; — Deletes extra files not properly culled after moving an app to Trash&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/atlas-wallpaper/id1368484008&quot;&gt;Atlas Wallpaper&lt;/a&gt; — Generate interesting wallpapers using maps of cities&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://betterdisplay.pro/&quot;&gt;BetterDisplay&lt;/a&gt; — Adds additional features to monitors that might be hidden by software settings&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://calibre-ebook.com&quot;&gt;Calibre&lt;/a&gt; — Robust eBook creator&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/callsheet-find-cast-crew/id1672356376&quot;&gt;Callsheet&lt;/a&gt; — A better UI for IMDb and other movie sites&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://daisydiskapp.com&quot;&gt;DaisyDisk&lt;/a&gt; — Displays file space used as a pie chart for easy drive management&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/encrypto-secure-your-files/id935235287?mt=12&quot;&gt;Encrypto&lt;/a&gt; — Encrypt files for sharing with others&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/equinox-create-wallpaper/id1591510203?mt=12&quot;&gt;Equinox&lt;/a&gt; — Wallpaper designer for automatic day/night image changes&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/flicktype-watch-keyboard/id1359485719&quot;&gt;FlickType&lt;/a&gt; — Type out messages on an Apple Watch&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://hidock.app&quot;&gt;HiDock&lt;/a&gt; — Customize the dock behavior based on the amount of monitors connected&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/keka/id470158793?mt=12&quot;&gt;Keka&lt;/a&gt; — A useful file or folder compression app&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://max.codes/latest/&quot;&gt;Latest&lt;/a&gt; — Pings the supported programs on a macOS device for updates&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://objective-see.org/products/lulu.html&quot;&gt;Lulu&lt;/a&gt; — A firewall for Macs&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/mela-recipe-manager/id1548466041&quot;&gt;Mela&lt;/a&gt; — A cross-platform recipe management tool with calendar, grocery list, and search tools&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/pipper/id1587335166?mt=12&quot;&gt;Pipper&lt;/a&gt; — Presents a Safari overlay on top of all other windows&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/screens-5-vnc-remote-desktop/id1663047912&quot;&gt;Screens&lt;/a&gt; — A remote management tool with a great presentation&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sigil-ebook.com/sigil/&quot;&gt;Sigil&lt;/a&gt; — Ebook creation tool&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sveinbjorn.org/sloth&quot;&gt;Sloth&lt;/a&gt; — Shows all files and sockets in use on a Mac&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://sniffnet.net&quot;&gt;Sniffnet&lt;/a&gt; — A network monitoring tool&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://transmissionbt.com&quot;&gt;Transmission&lt;/a&gt; — Bittorrent client&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://transmissionbt.com&quot;&gt;Unblah&lt;/a&gt; — Tracks the amount of time one speaks during a conference call to ensure one doesn’t monopolize a conversation&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-video&quot;&gt;🎥 Video&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/blackmagic-camera/id6449580241&quot;&gt;Blackmagic Camera&lt;/a&gt; — A comprehensive and powerful video recording app&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/davinci-resolve/id571213070?mt=12&quot;&gt;DaVinci Resolve&lt;/a&gt; — A powerful video editor&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/emulsio-4-video-stabilizer/id397583851&quot;&gt;Emulsio&lt;/a&gt; — Image stabilization&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://iina.io&quot;&gt;IINA&lt;/a&gt; — A video player with a pleasant UI&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/infuse-video-player/id1136220934&quot;&gt;Infuse&lt;/a&gt; — A useful video player&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/mifi/lossless-cut&quot;&gt;Lossless Cut&lt;/a&gt; — A non-destructive video file editor&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/lumafusion/id1062022008&quot;&gt;LumaFusion&lt;/a&gt; — A good video timeline editor when used on mobile devices&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/motion/id434290957?mt=12&quot;&gt;Motion&lt;/a&gt; — Apple’s motion graphics tool&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/unsqueeze/id6475134617&quot;&gt;Unsqueeze&lt;/a&gt; — Video scaling application&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h3 id=&quot;-web-browsing&quot;&gt;🌐 Web Browsing&lt;/h3&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.arc.net/&quot;&gt;Arc Browser&lt;/a&gt; — A Chromium browser with a lot of interesting UI choices&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/adguard-pro-adblock-privacy/id1126386264&quot;&gt;AdGuard Pro&lt;/a&gt; — Ad blocking tool for Safari&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/feeeed-rss-reader-and-more/id1600187490&quot;&gt;feeeed&lt;/a&gt; — A news feed builder that supports a variety of sites&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://www.getfirefox.com/&quot;&gt;Firefox&lt;/a&gt; — Less popular these days, but still good enough to become one’s default web browser&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/goodlinks/id1474335294&quot;&gt;Goodlinks&lt;/a&gt; — A tag-based read-it-later link-saving app with iCloud backup&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/hack-for-hacker-news-reader/id1464477788&quot;&gt;Hack&lt;/a&gt; — A friendly UI for the Hacker News forums&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://keepassxc.org&quot;&gt;KeePass XC&lt;/a&gt; — A Mac client for the KeePass encrypted password and secure notes file format&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/kypass-keepass-in-sync/id1258708743&quot;&gt;KyPass&lt;/a&gt; — A mobile UI to open a KeePass file, with iCloud support&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/miniwiki/id1448143759&quot;&gt;MiniWiki&lt;/a&gt; — Wikipedia on an Apple Watch&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/mlem-for-lemmy/id6450543782&quot;&gt;Mlem&lt;/a&gt; — A better UI for the Lemmy platform&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/mona-for-mastodon/id1659154653&quot;&gt;Mona&lt;/a&gt; — A superb Mastodon universal client&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/netnewswire-rss-reader/id1480640210&quot;&gt;NetNewsWire&lt;/a&gt; — A universal RSS reader built on Apple design principles&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://kagi.com/orion/&quot;&gt;Orion&lt;/a&gt; — A web browser built on WebKit that supports Firefox, Chrome, and Safari extensions&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/parrity/id1448208309&quot;&gt;Parrity&lt;/a&gt; — A web browser for the Apple Watch&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/parrot-quote-websites/id1597793189&quot;&gt;Parrot&lt;/a&gt; — A helpful quotation graphic tool to share links and quotes from online sources&lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/play-save-videos-watch-later/id1596506190&quot;&gt;Play&lt;/a&gt; — A universal app offering a better Save for Later experience on YouTube&lt;/em&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/re-toot/id1661697436&quot;&gt;Re:Toot&lt;/a&gt; — Generate images of text from Mastodon posts for sharing&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/reversee-reverse-image-search/id875678494&quot;&gt;Reversee&lt;/a&gt; — Reverse image lookup tool&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/tailor-screenshot-stitching/id926653095&quot;&gt;Tailor&lt;/a&gt; — Connect multiple screenshots into one file, useful for when the existing functionality in a mobile device doesn’t support the use case&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/watch-feeds/id1480741074&quot;&gt;Watch Feeds&lt;/a&gt; — RSS feed reader for Apple Watch&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;chromium-extensions&quot;&gt;Chromium Extensions&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/ad-auris-play/cbapodfajkmfmbmcihcdnilelhhhlpap?hl=en-US&quot;&gt;Ad Auris Play&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/ad-observer/dafimblndlbfdhmdnefmmnjdpbbnflgd?hl=en-US&quot;&gt;Ad Observer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/anti-anti-debug/mnmnmcmdkigakhlfkcdimghndnmomfeo?hl=en-US&quot;&gt;Anti Anti Debug&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en-US&quot;&gt;Dark Reader&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://decentraleyes.org/&quot;&gt;Decentraleyes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?hl=en-US&quot;&gt;DuckDuckGo Privacy Essentials&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/icloud-passwords/pejdijmoenmkgeppbflobdenhhabjlaj?hl=en-US&quot;&gt;iCloud Passwords&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en-US&quot;&gt;Read Aloud: A Text to Speech Voice Reader&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/send-to-kindle-for-google/cgdjpilhipecahhcilnafpblkieebhea?hl=en-US&quot;&gt;Send to Kindle for Google Chrome™&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone?hl=en-US&quot;&gt;SponsorBlock for YouTube - Skip Sponsorships&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/streetpass-for-mastodon/fphjfedjhinpnjblomfebcjjpdpakhhn?hl=en-US&quot;&gt;StreetPass for Mastodon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/stylus/clngdbkpkpeebahjckkjfobafhncgmne?hl=en-US&quot;&gt;Stylus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/ublock-origin/cjpalhdlnbpafiamejdnhcphjbkeiagm?hl=en-US&quot;&gt;uBlock Origin&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/under-new-management/jppepdecgemgbgnjnnfjcmanlleioikj?hl=en-US&quot;&gt;Under New Management&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;firefox-extensions&quot;&gt;Firefox Extensions&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/adnauseam/&quot;&gt;AdNauseam&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/ad-observer/&quot;&gt;Ad Observer&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/&quot;&gt;CanvasBlocker&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/clearurls/&quot;&gt;ClearURLs&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/darkreader/&quot;&gt;Dark Reader&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://decentraleyes.org/&quot;&gt;Decentraleyes&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/&quot;&gt;DuckDuckGo Privacy Essentials&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/facebook-container/&quot;&gt;Facebook Container&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/multi-account-containers/&quot;&gt;Firefox Multi-Account Containers&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/noscript/&quot;&gt;NoScript Security Suite&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/privacy-badger17/&quot;&gt;Privacy Badger&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/single-file/&quot;&gt;SingleFile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/sponsorblock/&quot;&gt;SponsorBlock for YouTube&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/streetpass-for-mastodon/&quot;&gt;StreetPass for Mastodon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/styl-us/&quot;&gt;Stylus&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/ublock-origin/&quot;&gt;uBlock Origin&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h4 id=&quot;safari-extensions&quot;&gt;Safari Extensions&lt;/h4&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/achoo-html-viewer-inspector/id1585833321&quot;&gt;Achoo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/adguard-for-safari/id1440147259?mt=12&quot;&gt;Adguard for Safari&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/baking-soda-tube-cleaner/id1601151613&quot;&gt;Baking Soda&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/duckduckgo-privacy-for-safari/id1482920575?mt=12&quot;&gt;DuckDuckGo Privacy for Safari&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/homecoming-for-mastodon/id1666139593&quot;&gt;Homecoming for Mastodon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/history-book-browse-search/id1619241039&quot;&gt;History Book&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/musicmatch-listen-anywhere/id1596146219&quot;&gt;MusicMatch&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/noir-dark-mode-for-safari/id1581140954&quot;&gt;Noir&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/singlefile-for-safari/id6444322545&quot;&gt;Singlefile for Safari&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/sponsorblock-for-youtube/id1573461917&quot;&gt;SponsorBlock&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/stopthemadness-mobile/id1583082931&quot;&gt;StoptheMadness Mobile&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/streetpass-for-mastodon/id6446224821?mt=12&quot;&gt;StreetPass for Mastodon&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/text-fm/id1536402884?mt=12&quot;&gt;Text FM&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/tls-inspector/id1100539810&quot;&gt;TLS Inspector&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/userscripts/id1463298887&quot;&gt;Userscripts&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/vinegar-tube-cleaner/id1591303229&quot;&gt;Vinegar&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/visbug/id1538509686?mt=12&quot;&gt;VisBug&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/web-inspector/id1584825745&quot;&gt;Web Insepctor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/web-mute-content-warnings/id1580270103&quot;&gt;Web Mute&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+            
+            
+        </description>
+        <pubDate>Sat, 23 Mar 2024 00:00:00 -0500</pubDate>
+        <link>https://dhepworth.github.io/post/2024/03/23/great-programs.html</link>
+        <guid isPermaLink="true">https://dhepworth.github.io/post/2024/03/23/great-programs.html</guid>
+        
+        
+        <category>post</category>
+        
+      </item>
     
       <item>
         <title>I miss lockdown</title>
@@ -762,60 +1072,6 @@ Of my fellow creatures&lt;/i&gt;&lt;/p&gt;
         <pubDate>Fri, 23 Sep 2022 00:00:00 -0500</pubDate>
         <link>https://dhepworth.github.io/post/2022/09/23/school-shootings.html</link>
         <guid isPermaLink="true">https://dhepworth.github.io/post/2022/09/23/school-shootings.html</guid>
-        
-        
-        <category>post</category>
-        
-      </item>
-    
-      <item>
-        <title>Parasocial relationships are weird</title>
-        <author>David Hepworth</author>
-        <description>
-            &lt;p&gt;Parasocial relationships are strange. They feel closer than some friendships but are hollow facsimiles, barely reaching beyond the level of acquaintance. They are unequal connections. They do not mutually benefit all participants. Why then does losing a connection to a stranger feel nearly as bittersweet as a true bond with a known companion?&lt;/p&gt;
-
-&lt;p&gt;I’ve lost real friends before. I now am mostly left with the parasocial relationships, so when they end they feel as poignant as the real friendships. They are mutually connected to an interest as well, so getting to an age or part of my life where I lose that interest or can’t commit to it as much any longer can feel like a betrayal to a friendship that doesn’t truly exist. It’s not as if the friendships lack any real value; in many cases it has been those friendships and the communities surrounding them that has kept me grounded to something consistent and trustworthy so that the less-reliable areas of my life feel more manageable. When those communities, either through my own actions or those on the other side of the relationship, begin to feel less reliable, I realize how little I have available to fill the gaps in my life and I feel guilty and lonely for depending on the parasocial and sad because I’m now truly alone. There’s a sense of shame that I ever found anything of value in the parasocial because it was only a placebo, a panacea for a problem that I could’ve spent time solving through true connections.&lt;/p&gt;
-
-&lt;p&gt;Where do I find those connections, though? Is it the ease of finding parasocial connections that make them so tempting? Am I doomed to forever be looking back on the &lt;a href=&quot;https://www.youtube.com/watch?v=0Gvk0_6p_-s&quot; target=&quot;_blank&quot;&gt;good old days&lt;/a&gt; and the strong relationships they offered? Or is this the part of my life where I &lt;a href=&quot;https://www.robkhenderson.com/past-newsletter/the-seasons-of-a-mans-life-a-review&quot; target=&quot;_blank&quot;&gt;no longer get to enjoy those types of friendships&lt;/a&gt;?&lt;/p&gt;
-
-&lt;blockquote class=&quot;tiktok-embed&quot; cite=&quot;https://www.tiktok.com/@thejoemolloyshow/video/7092489908622773547&quot; data-video-id=&quot;7092489908622773547&quot; style=&quot;max-width: 605px;&quot;&gt;
-
-&lt;section&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; title=&quot;@thejoemolloyshow&quot; href=&quot;https://www.tiktok.com/@thejoemolloyshow&quot;&gt;@thejoemolloyshow&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.tiktok.com/@thejoemolloyshow/video/7092489908622773547&quot; target=&quot;_blank&quot; style=&quot;word-break: break-all&quot;&gt;https://www.tiktok.com/@thejoemolloyshow/video/7092489908622773547&lt;/a&gt;&lt;/p&gt;
-
-&lt;p&gt;Evidence: Every podcast hosted by guys or “weekend warrior” type retreat. They’re all trying to replace loneliness with some “bro code” Be lonely. Find purpose.&lt;/p&gt;
-
-&lt;p&gt;&lt;a target=&quot;_blank&quot; title=&quot;♬ original sound - Joe Molloy&quot; href=&quot;https://www.tiktok.com/music/original-sound-7092489905506601774&quot;&gt;♬ original sound - Joe Molloy&lt;/a&gt;&lt;/p&gt;
-
-&lt;/section&gt;
-
-&lt;/blockquote&gt;
-&lt;script async=&quot;&quot; src=&quot;https://www.tiktok.com/embed.js&quot;&gt;&lt;/script&gt;
-
-&lt;p&gt;While I do despair that I have not yet found a community in Oklahoma City, I haven’t fully given up hope that things will change. For now I am settling with the weirdness of parasocial relationships, but I do think it’s possible to find new friends in middle age, even if it ends up being more of the mentor-based relationship with someone younger than me. I’m quite a bit of an introvert — a problem of its own when attempting to find new friends — so I think I can manage on my own for a while, but I do miss having a group of people to call my own.&lt;/p&gt;
-
-&lt;p&gt;A less painful element of my changing life is the loss of interests that used to deeply engage me. I used to be quite a big video game fan and collected a large amount of games and game consoles in my little apartment; however, once I met my future wife I stopped finding them as engaging. I didn’t mind losing that part of my life, but I didn’t realize how much of my community and friendships were based on that shared interest. Similarly, when I moved into board games and started buying a collection of long-form and rule-rich versions, I found in my community of friends a group of people equally interested who encouraged me to try out new games and explore new genres. When I moved away, my interest in board games begin to wane, and I found them more to be a painful reminder of what I once had rather than a comfort to me or a hopeful reminder of the community I could have again.&lt;/p&gt;
-
-&lt;p&gt;I want to rebuild my interests but time and community seems limited to me now. I feel more boring to others and less capable of becoming something more interesting, which makes it harder for me to feel capable of being able to make a contribution to a new community. I want to be available for my wife, my children, and my job, but I fear that leaves me little time to seek out a series of strong friendships (or perhaps even one). While I haven’t figuratively scooped out my interests or hobbies from my identity, I wonder if returning to them would feel as fulfilling as I remember or if they would in the end feel alien to me. Would I be regressing in my personal growth? What should I like as the person I am now? What am I now if I lack the strength in my current interests that I used to have in my previous hobbies?&lt;/p&gt;
-
-&lt;p&gt;I am probably overthinking this. Maybe that’s why parasocial relationships are so popular and attractive: they’re simpler and less complicated.&lt;/p&gt;
-
-            
-            &lt;p class=&quot;embedtool&quot;&gt;
-&lt;iframe width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/5ev8HzogFgs&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;h4&gt;&lt;cite class=&quot;dash&quot;&gt;Giant Bomb&lt;/cite&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=5ev8HzogFgs&quot; target=&quot;_blank&quot;&gt;TheRitual.mp4&lt;/a&gt;&lt;/h4&gt;
-&lt;blockquote&gt;Change is afoot at Giant Bomb… the team must turn to the dark arts and enact an unholy ritual to bring back videogames.&lt;/blockquote&gt;
-
-&lt;p&gt;&lt;a href=&quot;https://www.giantbomb.com/&quot; target=&quot;_blank&quot;&gt;Giant Bomb&lt;/a&gt; used to be the source of much entertainment and community. Throughout the years I have seen many of the staff leave in one way or another, including the most recent upsets over the past year that included the majority of the original staff leaving to start their own ventures. It’s strange to watch them all leave and realize that I&apos;ve changed, too: I no longer play games outside of Apple Arcade and even got rid of my gaming PC. Gaming used to be a big part of my life and a large part of my community, but due to lack of time and waning interest, I have become a distant observer, like visiting an old neighborhood and finding it alien and unfamiliar.&lt;/p&gt;
-
-        </description>
-        <pubDate>Wed, 22 Jun 2022 00:00:00 -0500</pubDate>
-        <link>https://dhepworth.github.io/post/2022/06/22/parasocial-relationships.html</link>
-        <guid isPermaLink="true">https://dhepworth.github.io/post/2022/06/22/parasocial-relationships.html</guid>
         
         
         <category>post</category>
