@@ -16,8 +16,8 @@
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     
-    <meta name="theme-color" content="hsl(0, 0%, 98%)" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="hsl(0, 0%, 10%)" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="oklch(95% 0 0)" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="oklch(15% 0 0)" media="(prefers-color-scheme: dark)" />
     
     <title>Hopelessness in video games — DH:Personal</title>
     
@@ -26,9 +26,6 @@
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <link rel="alternate" type="application/rss+xml" href="https://dhepworth.github.io/feed.xml">
-    <script>
-        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
-    </script>
 
 </head>
 
@@ -40,79 +37,60 @@
             visibility: hidden !important;
         }
     </style>
-</noscript><section class="hideNav">
-  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
-    &hellip;
-  </button>
+</noscript><section id="accessibility-controls">
+  <fieldset class="accessibility-wrapper">
+    <label><span class="accessibility-label-hidden">Change font size controls: </span><span aria-hidden="true" class="accessibility-label-visible">Aa</span></label>
+    <button aria-label="Shrink Text Size" class="accessibility-button" data-update-text-size="-15" id="font-smaller" type="button">
+      -
+    </button>
+    <button aria-label="Enlarge Text Size" class="accessibility-button" data-update-text-size="15" id="font-larger" type="button">
+      +
+    </button>
+  </fieldset>
 </section>
-<nav id="accessibilityControls" aria-hidden="true" class="hidden">
-  <div id="accessibilityControlsContainer" class="container">
-    <section class="dayNightMode">
-      <h5>View Mode</h5>
-      <button type="button" aria-label="Light Theme" id="lightButton">
-        Light
-      </button>
-      <button type="button" aria-label="Dark Theme" id="darkButton">
-        Dark
-      </button>
-      <button type="button" aria-label="Reset Theme" id="systemButton">
-        System
-      </button>
-    </section>
-    <section class="fontFamily">
-      <h5>Font Family</h5>
-      <button type="button" aria-label="Sans-Serif" id="sansSerifButton">
-        Sans-Serif
-      </button>
-      <button type="button" aria-label="Serif" id="serifButton">
-        Serif
-      </button>
-    </section>
-    <section class="fontSize">
-      <h5>Font Size</h5>
-      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
-        -
-      </button>
-      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
-        +
-      </button>
-      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
-        Reset
-      </button>
-    </section>
-    <section class="whatIsThis">
-      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
-      <dialog id="whatIsThisDialog">
-        <h2>Display controls</h2>
-        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
-        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
-        <form method="dialog">
-          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
-        </form>
-      </dialog>
-    </section>
+<div class="page-post-mobile-tablet">
+    <header class="page-small page-small-black">
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+      
+      <div class="header-text-container">
+        <h1>Hopelessness in video games</h1>
+        <p class="page-date">April 25th, 2023</p>
+      </div>
+      
+    </header>
   </div>
-</nav><header>
-    <h1>
-      <a class="hideExternalIcon" href="/">DH:Personal</a>
-    </h1>
-  </header>
-
-  <main id="mainContent">
-    <div class="container">
+  
+  <div class="page-post-desktop">
+    
+    <header class="page-small">
+    
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+    </header>
+  </div>
+ 
+  <main id="main-content" class="" tabindex="-1">
+    
+    <div class="page-post-headline page-post-headline-no-image-available">
+      
+      <h1 class="page-post-headline-title">Hopelessness in video games</h1>
+      <p class="page-post-date">April 25th, 2023</p>
+      
+    </div>
+    
+    <div class="main-container main-container-post">
       <article>
-        
-        
-        <h2>Hopelessness in video games</h2>
-        <p class="date">April 25th, 2023</p>
-         <p>I used to play a lot of video games. These days I settle for some games from my Apple Arcade subscription, but I used to have many mobile consoles, several home consoles, and a gaming PC. I played many titles across a variety of platforms, filling out a list of memorable games that left a permanent impact on my life. In a recent conversation with my coworkers I started listing my favorite games and learned that the games that I have felt the most important in my life were ones that generated a feeling of hopelessness. I certainly enjoy a variety of gaming genres and story types, but the ones I can recall with fondness are the ones that made me feel the most miserable.</p>
+        <p>I used to play a lot of video games. These days I settle for some games from my Apple Arcade subscription, but I used to have many mobile consoles, several home consoles, and a gaming PC. I played many titles across a variety of platforms, filling out a list of memorable games that left a permanent impact on my life. In a recent conversation with my coworkers I started listing my favorite games and learned that the games that I have felt the most important in my life were ones that generated a feeling of hopelessness. I certainly enjoy a variety of gaming genres and story types, but the ones I can recall with fondness are the ones that made me feel the most miserable.</p>
 
 <p>Despite these being my favorite games across all consoles, these are not generally the games that I return to in the brief moments where I can find time to play a game. Even when I played games regularly, I rarely replayed any of these games. In many cases I only felt that I could play them once, as going back to them would lessen the original experience.</p>
 
 <h3 id="shadow-of-the-colossus">Shadow of the Colossus</h3>
 
-<div class="flexNoWrap">
-<p class="flexItem" style="aspect-ratio: 16/9">
+<div class="flex-no-wrap">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/pdZQ98mWeto" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 </div>
@@ -125,8 +103,8 @@
 
 <h3 id="spec-ops-the-line">Spec Ops: The Line</h3>
 
-<div class="flexNoWrap">
-<p class="flexItem" style="aspect-ratio: 16/9">
+<div class="flex-no-wrap">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/wD661k1UpvQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 </div>
@@ -141,8 +119,8 @@
 
 <h3 id="homeworld">Homeworld</h3>
 
-<div class="flexNoWrap">
-<p class="flexItem" style="aspect-ratio: 16/9">
+<div class="flex-no-wrap">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/pA7FbYAmrX0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 </div>
@@ -153,8 +131,8 @@
 
 <h3 id="uru-ages-beyond-myst">Uru: Ages Beyond Myst</h3>
 
-<div class="flexNoWrap">
-<p class="flexItem" style="aspect-ratio: 4/3">
+<div class="flex-no-wrap">
+<p class="flex-item" style="aspect-ratio: 4/3">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/9Ncw3t69Ze4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 </div>
@@ -163,8 +141,8 @@
 
 <h3 id="iron-helix">Iron Helix</h3>
 
-<div class="flexNoWrap">
-<p class="flexItem" style="aspect-ratio: 16/9">
+<div class="flex-no-wrap">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/pDULUgKSVUw" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 </div>
@@ -173,11 +151,11 @@
 
 <h3 id="bastion--transistor">Bastion / Transistor</h3>
 
-<div class="flexNoWrap">
-<p class="flexItem" style="aspect-ratio: 16/9">
+<div class="flex-no-wrap">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/mX48y24t9iU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
-<p class="flexItem" style="aspect-ratio: 16/9">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/RT55lch6y_U" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 </div>
@@ -186,8 +164,8 @@
 
 <h3 id="halo-3-odst">Halo 3: ODST</h3>
 
-<div class="flexNoWrap">
-<p class="flexItem" style="aspect-ratio: 16/9">
+<div class="flex-no-wrap">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/WroxHMo6B_k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 </div>
@@ -196,8 +174,8 @@
 
 <h3 id="anarchy-online">Anarchy Online</h3>
 
-<div class="flexNoWrap">
-<p class="flexItem" style="aspect-ratio: 16/9">
+<div class="flex-no-wrap">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/MTQaTI4pQSk" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 </div>
@@ -206,11 +184,11 @@
 
 <h3 id="journey--sky-children-of-the-light">Journey / Sky: Children of the Light</h3>
 
-<div class="flexNoWrap">
-<p class="flexItem" style="aspect-ratio: 16/9">
+<div class="flex-no-wrap">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/mU3nNT4rcFg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
-<p class="flexItem" style="aspect-ratio: 16/9">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/A3DNTfhUy0k" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 </div>
@@ -219,11 +197,11 @@
 
 <h3 id="dear-esther--everybodys-gone-to-the-rapture">Dear Esther / Everybody’s Gone to the Rapture</h3>
 
-<div class="flexNoWrap">
-<p class="flexItem" style="aspect-ratio: 16/9">
+<div class="flex-no-wrap">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/_pWBV6UTEyg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
-<p class="flexItem" style="aspect-ratio: 16/9">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/w1tBl7upgDU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 </div>
@@ -236,8 +214,8 @@
 
 <h3 id="scorn">Scorn</h3>
 
-<div class="flexNoWrap">
-<p class="flexItem" style="aspect-ratio: 16/9">
+<div class="flex-no-wrap">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/i9eg7Pzk15g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 </div>
@@ -246,8 +224,8 @@
 
 <h3 id="death-stranding">DEATH STRANDING</h3>
 
-<div class="flexNoWrap">
-<p class="flexItem" style="aspect-ratio: 16/9">
+<div class="flex-no-wrap">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/XcuFJXgU6cA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 </div>
@@ -256,8 +234,8 @@
 
 <h3 id="soma">SOMA</h3>
 
-<div class="flexNoWrap">
-<p class="flexItem" style="aspect-ratio: 16/9">
+<div class="flex-no-wrap">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/Rf4pAsNy_vA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 </div>
@@ -266,8 +244,8 @@
 
 <h3 id="returnal">Returnal</h3>
 
-<div class="flexNoWrap">
-<p class="flexItem" style="aspect-ratio: 16/9">
+<div class="flex-no-wrap">
+<p class="flex-item" style="aspect-ratio: 16/9">
 <iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/Jv4BjWoB-NA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
 </p>
 </div>
@@ -282,7 +260,9 @@
 
 <p>If you haven’t registered to vote, please <a href="https://turbovote.org" target="_blank">do so today.</a></p>
 
- 
+
+        
+        
         <a class="comments" name="comments"></a>
         <script
           src="https://utteranc.es/client.js"
@@ -298,23 +278,23 @@
         <h3>My latest posts</h3>
         <ul>
           
-          <li><a href="/post/2024/03/23/great-programs.html">Great programs that I enjoy</a></li>
+          <li><a href="/thoughtstream/2024/04/30/new-site.html">I updated the design</a></li>
+          
+          <li><a href="/post/feature/2024/03/23/great-programs.html">Great programs that I enjoy</a></li>
+          
+          <li><a href="/thoughtstream/2024/03/11/a-validating-front-end-article.html">A validating front-end article</a></li>
+          
+          <li><a href="/thoughtstream/2024/03/07/slavery-still-exists.html">Slavery still exists in the United States</a></li>
           
           <li><a href="/post/2024/03/07/i-miss-lockdown.html">I miss lockdown</a></li>
           
-          <li><a href="/post/2024/01/05/new-old-camera.html">My new old camera</a></li>
+          <li><a href="/thoughtstream/2024/03/07/front-end-development-old.html">Modern front-end Web development makes me feel old</a></li>
           
-          <li><a href="/post/2023/11/28/fun-side-project.html">My fun side project</a></li>
+          <li><a href="/thoughtstream/2024/01/22/oklahoma-embarrassment.html">Oklahoma embarrassment #241295</a></li>
           
-          <li><a href="/post/2023/11/15/knowledge-shouldnt-be-a-burden.html">Knowledge shouldn’t be a burden</a></li>
+          <li><a href="/thoughtstream/2024/01/11/neighborhood-advice.html">Neighborhood advice</a></li>
           
-          <li><a href="/post/2023/08/19/being-invisible.html">Being invisible</a></li>
-          
-          <li><a href="/post/2023/06/01/what-is-church.html">What is church?</a></li>
-          
-          <li><a href="/post/2023/04/25/hopelessness-in-video-games.html">Hopelessness in video games</a></li>
-          
-          <li><a href="/post/2023/02/23/analog-clocks.html">The time for analog clocks is over</a></li>
+          <li><a href="/thoughtstream/2024/01/10/web-development.html">Front-end Web development</a></li>
           
         </ul>
         
@@ -325,11 +305,14 @@
 
 
 <hr />
-<footer class="flexContainer">
-    <p class="outbound">
-      <a class="button" href="#top" id="toTop" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
+<footer>
+  <div class="footer-page-container">
+    <p class="footer-page-buttons">
+      <a class="button" href="#top" id="to-top" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
     </p>
-    <p class="hideExternalIcon feedXML right">
+    <p class="footer-page-feed">
       <a href="https://dhepworth.github.io/feed.xml" target="_blank"><img src="https://dhepworth.github.io/img/feed.svg" alt="SVG icon" title="Subscribe to feed" height="40" width="40"></a>
     </p>
-  </footer><script src="/js/app.js"></script></html>
+  </div>
+</footer>
+<script src="/js/app.js"></script></html>

@@ -16,8 +16,8 @@
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     
-    <meta name="theme-color" content="hsl(0, 0%, 98%)" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="hsl(0, 0%, 10%)" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="oklch(95% 0 0)" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="oklch(15% 0 0)" media="(prefers-color-scheme: dark)" />
     
     <title>Modern front-end Web development makes me feel old — DH:Personal</title>
     
@@ -26,9 +26,6 @@
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <link rel="alternate" type="application/rss+xml" href="https://dhepworth.github.io/feed.xml">
-    <script>
-        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
-    </script>
 
 </head>
 
@@ -40,100 +37,81 @@
             visibility: hidden !important;
         }
     </style>
-</noscript><section class="hideNav">
-  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
-    &hellip;
-  </button>
+</noscript><section id="accessibility-controls">
+  <fieldset class="accessibility-wrapper">
+    <label><span class="accessibility-label-hidden">Change font size controls: </span><span aria-hidden="true" class="accessibility-label-visible">Aa</span></label>
+    <button aria-label="Shrink Text Size" class="accessibility-button" data-update-text-size="-15" id="font-smaller" type="button">
+      -
+    </button>
+    <button aria-label="Enlarge Text Size" class="accessibility-button" data-update-text-size="15" id="font-larger" type="button">
+      +
+    </button>
+  </fieldset>
 </section>
-<nav id="accessibilityControls" aria-hidden="true" class="hidden">
-  <div id="accessibilityControlsContainer" class="container">
-    <section class="dayNightMode">
-      <h5>View Mode</h5>
-      <button type="button" aria-label="Light Theme" id="lightButton">
-        Light
-      </button>
-      <button type="button" aria-label="Dark Theme" id="darkButton">
-        Dark
-      </button>
-      <button type="button" aria-label="Reset Theme" id="systemButton">
-        System
-      </button>
-    </section>
-    <section class="fontFamily">
-      <h5>Font Family</h5>
-      <button type="button" aria-label="Sans-Serif" id="sansSerifButton">
-        Sans-Serif
-      </button>
-      <button type="button" aria-label="Serif" id="serifButton">
-        Serif
-      </button>
-    </section>
-    <section class="fontSize">
-      <h5>Font Size</h5>
-      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
-        -
-      </button>
-      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
-        +
-      </button>
-      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
-        Reset
-      </button>
-    </section>
-    <section class="whatIsThis">
-      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
-      <dialog id="whatIsThisDialog">
-        <h2>Display controls</h2>
-        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
-        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
-        <form method="dialog">
-          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
-        </form>
-      </dialog>
-    </section>
+<div class="page-post-mobile-tablet">
+    <header class="page-small page-small-black">
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+      
+      <div class="header-text-container">
+        <h1>Modern front-end Web development makes me feel old</h1>
+        <p class="page-date">March 7th, 2024</p>
+      </div>
+      
+    </header>
   </div>
-</nav><header>
-    <h1>
-      <a class="hideExternalIcon" href="/">DH:Personal</a>
-    </h1>
-  </header>
-
-  <main id="mainContent">
-    <div class="container">
-      <article>
-        
-        
-        <h2>Modern front-end Web development makes me feel old</h2>
-        <p class="date">March 7th, 2024</p>
-         <blockquote class="articleSnippet">
-<cite>Juan Diego Rodríguez — Smashing Magazine</cite>
-<h4 class="m0"><a href="https://www.smashingmagazine.com/2024/02/web-development-getting-too-complex/" target="_blank">Web Development Is Getting Too Complex, And It May Be Our Fault</a></h4>
-<p>Front-end development seemed simpler in the early 2000s, didn’t it? The standard website consisted mostly of static pages made of HTML and CSS seasoned with a pinch of JavaScript and jQuery. I mean, who doesn’t miss the cross-browser compatibility days, right?</p>
-</blockquote>
-
-<blockquote class="articleSnippet">
-<cite>Chris Coyier — CSS-Tricks</cite>
-<h4 class="m0"><a href="https://css-tricks.com/the-great-divide/" target="_blank">The Great Divide</a></h4>
-<p>Let’s say there is a divide happening in front-end development. I feel it, but it’s not just in my bones. Based on an awful lot of written developer sentiment, interviews Dave Rupert and I have done on ShopTalk, and in-person discussion, it’s, as they say… <i>a thing.</i></p>
-</blockquote>
-
-<blockquote class="articleSnippet">
-<cite>Nolan Lawson — Read the Tea Leaves</cite>
-<h4 class="m0"><a href="https://nolanlawson.com/2023/01/17/my-talk-on-css-runtime-performance/" target="_blank">My talk on CSS runtime performance</a></h4>
-<p>My main goal was to shine a light on all the heroic work that browser vendors have done over the years to make CSS so performant. Much of this stuff is intricate and arcane (like Bloom filters), but I hoped that with some simple diagrams and animations, I could bring this work to life.</p>
-</blockquote>
-
-<p class="embedtool">
-<iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/5IUj1EZwpJY" title="The Only Unbreakable Law" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</p>
-
-<blockquote class="articleSnippet">
-<cite>Nikita Prokopov — Tonsky.me</cite>
-<h4 class="m0"><a href="https://tonsky.me/blog/js-bloat/" target="_blank">JavaScript Bloat in 2024</a></h4>
-<p>I was a bit out of touch with modern front-end development. I also remembered articles about web bloat, how the average web page size was approaching several megabytes!</p>
-<p>So all this time I was living under impression that, for example, if the average web page size is 3 MB, then JavaScript bundle should be around 1 MB. Surely content should still take the majority, no?</p>
-</blockquote>
+  
+  <div class="page-post-desktop">
+    
+    <header class="page-small">
+    
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+    </header>
+  </div>
  
+  <main id="main-content" class="" tabindex="-1">
+    
+    <div class="page-post-headline page-post-headline-no-image-available">
+      
+      <h1 class="page-post-headline-title">Modern front-end Web development makes me feel old</h1>
+      <p class="page-post-date">March 7th, 2024</p>
+      
+    </div>
+    
+    <div class="main-container main-container-post">
+      <article>
+        <blockquote class="article-snippet">
+  <p><cite>Juan Diego Rodríguez — Smashing Magazine</cite></p>
+  <h4 id="web-development-is-getting-too-complex-and-it-may-be-our-fault"><a href="https://www.smashingmagazine.com/2024/02/web-development-getting-too-complex/" target="_blank">Web Development Is Getting Too Complex, And It May Be Our Fault</a></h4>
+  <p>Front-end development seemed simpler in the early 2000s, didn’t it? The standard website consisted mostly of static pages made of HTML and CSS seasoned with a pinch of JavaScript and jQuery. I mean, who doesn’t miss the cross-browser compatibility days, right?</p>
+</blockquote>
+
+<blockquote class="article-snippet">
+  <p><cite>Chris Coyier — CSS-Tricks</cite></p>
+  <h4 id="the-great-divide"><a href="https://css-tricks.com/the-great-divide/" target="_blank">The Great Divide</a></h4>
+  <p>Let’s say there is a divide happening in front-end development. I feel it, but it’s not just in my bones. Based on an awful lot of written developer sentiment, interviews Dave Rupert and I have done on ShopTalk, and in-person discussion, it’s, as they say… <em>a thing</em>.</p>
+</blockquote>
+
+<blockquote class="article-snippet">
+  <p><cite>Nolan Lawson — Read the Tea Leaves</cite></p>
+  <h4 id="my-talk-on-css-runtime-performance"><a href="https://nolanlawson.com/2023/01/17/my-talk-on-css-runtime-performance/" target="_blank">My talk on CSS runtime performance</a></h4>
+  <p>My main goal was to shine a light on all the heroic work that browser vendors have done over the years to make CSS so performant. Much of this stuff is intricate and arcane (like Bloom filters), but I hoped that with some simple diagrams and animations, I could bring this work to life.</p>
+</blockquote>
+
+<p class="embedtool"><iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/5IUj1EZwpJY" title="The Only Unbreakable Law" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+
+<blockquote class="article-snippet">
+  <p><cite>Nikita Prokopov — Tonsky.me</cite></p>
+  <h4 id="javascript-bloat-in-2024"><a href="https://tonsky.me/blog/js-bloat/" target="_blank">JavaScript Bloat in 2024</a></h4>
+  <p>I was a bit out of touch with modern front-end development. I also remembered articles about web bloat, how the average web page size was approaching several megabytes!
+So all this time I was living under impression that, for example, if the average web page size is 3 MB, then JavaScript bundle should be around 1 MB. Surely content should still take the majority, no?</p>
+</blockquote>
+
+        
+        
         <a class="comments" name="comments"></a>
         <script
           src="https://utteranc.es/client.js"
@@ -146,28 +124,6 @@
       </article>
       <aside>
         
-        <h3>My latest posts</h3>
-        <ul>
-          
-          <li><a href="/post/2024/03/23/great-programs.html">Great programs that I enjoy</a></li>
-          
-          <li><a href="/post/2024/03/07/i-miss-lockdown.html">I miss lockdown</a></li>
-          
-          <li><a href="/post/2024/01/05/new-old-camera.html">My new old camera</a></li>
-          
-          <li><a href="/post/2023/11/28/fun-side-project.html">My fun side project</a></li>
-          
-          <li><a href="/post/2023/11/15/knowledge-shouldnt-be-a-burden.html">Knowledge shouldn’t be a burden</a></li>
-          
-          <li><a href="/post/2023/08/19/being-invisible.html">Being invisible</a></li>
-          
-          <li><a href="/post/2023/06/01/what-is-church.html">What is church?</a></li>
-          
-          <li><a href="/post/2023/04/25/hopelessness-in-video-games.html">Hopelessness in video games</a></li>
-          
-          <li><a href="/post/2023/02/23/analog-clocks.html">The time for analog clocks is over</a></li>
-          
-        </ul>
         
       </aside>
     </div>
@@ -176,11 +132,14 @@
 
 
 <hr />
-<footer class="flexContainer">
-    <p class="outbound">
-      <a class="button" href="#top" id="toTop" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
+<footer>
+  <div class="footer-page-container">
+    <p class="footer-page-buttons">
+      <a class="button" href="#top" id="to-top" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
     </p>
-    <p class="hideExternalIcon feedXML right">
+    <p class="footer-page-feed">
       <a href="https://dhepworth.github.io/feed.xml" target="_blank"><img src="https://dhepworth.github.io/img/feed.svg" alt="SVG icon" title="Subscribe to feed" height="40" width="40"></a>
     </p>
-  </footer><script src="/js/app.js"></script></html>
+  </div>
+</footer>
+<script src="/js/app.js"></script></html>

@@ -16,8 +16,8 @@
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     
-    <meta name="theme-color" content="hsl(0, 0%, 98%)" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="hsl(0, 0%, 10%)" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="oklch(95% 0 0)" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="oklch(15% 0 0)" media="(prefers-color-scheme: dark)" />
     
     <title>My wishlist — DH:Personal</title>
     
@@ -26,9 +26,6 @@
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <link rel="alternate" type="application/rss+xml" href="https://dhepworth.github.io/feed.xml">
-    <script>
-        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
-    </script>
 
 </head>
 
@@ -40,61 +37,17 @@
             visibility: hidden !important;
         }
     </style>
-</noscript><section class="hideNav">
-  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
-    &hellip;
-  </button>
-</section>
-<nav id="accessibilityControls" aria-hidden="true" class="hidden">
-  <div id="accessibilityControlsContainer" class="container">
-    <section class="dayNightMode">
-      <h5>View Mode</h5>
-      <button type="button" aria-label="Light Theme" id="lightButton">
-        Light
-      </button>
-      <button type="button" aria-label="Dark Theme" id="darkButton">
-        Dark
-      </button>
-      <button type="button" aria-label="Reset Theme" id="systemButton">
-        System
-      </button>
-    </section>
-    <section class="fontFamily">
-      <h5>Font Family</h5>
-      <button type="button" aria-label="Sans-Serif" id="sansSerifButton">
-        Sans-Serif
-      </button>
-      <button type="button" aria-label="Serif" id="serifButton">
-        Serif
-      </button>
-    </section>
-    <section class="fontSize">
-      <h5>Font Size</h5>
-      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
-        -
-      </button>
-      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
-        +
-      </button>
-      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
-        Reset
-      </button>
-    </section>
-    <section class="whatIsThis">
-      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
-      <dialog id="whatIsThisDialog">
-        <h2>Display controls</h2>
-        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
-        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
-        <form method="dialog">
-          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
-        </form>
-      </dialog>
-    </section>
-  </div>
-</nav><header>
+</noscript><!-- <nav>
+  <a href="#main-content" class="nav-skip sr-only button"></a>
+  <ul class="nav-list">
+    
+      
+    
+  </ul>
+</nav> -->
+<header>
     <h1>
-      <a class="hideExternalIcon" href="https://dhepworth.github.io">DH:Personal</a>
+      <a class="hide-external-icon" href="https://dhepworth.github.io">DH:Personal</a>
     </h1>
   </header>
 
@@ -171,11 +124,14 @@
 
 
 <hr />
-<footer class="flexContainer">
-    <p class="outbound">
-      <a class="button" href="#top" id="toTop" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
+<footer>
+  <div class="footer-page-container">
+    <p class="footer-page-buttons">
+      <a class="button" href="#top" id="to-top" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
     </p>
-    <p class="hideExternalIcon feedXML right">
+    <p class="footer-page-feed">
       <a href="https://dhepworth.github.io/feed.xml" target="_blank"><img src="https://dhepworth.github.io/img/feed.svg" alt="SVG icon" title="Subscribe to feed" height="40" width="40"></a>
     </p>
-  </footer><script src="/js/app.js"></script></html>
+  </div>
+</footer>
+<script src="/js/app.js"></script></html>

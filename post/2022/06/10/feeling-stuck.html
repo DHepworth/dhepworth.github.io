@@ -16,8 +16,8 @@
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     
-    <meta name="theme-color" content="hsl(0, 0%, 98%)" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="hsl(0, 0%, 10%)" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="oklch(95% 0 0)" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="oklch(15% 0 0)" media="(prefers-color-scheme: dark)" />
     
     <title>Feeling stuck — DH:Personal</title>
     
@@ -26,9 +26,6 @@
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <link rel="alternate" type="application/rss+xml" href="https://dhepworth.github.io/feed.xml">
-    <script>
-        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
-    </script>
 
 </head>
 
@@ -40,72 +37,53 @@
             visibility: hidden !important;
         }
     </style>
-</noscript><section class="hideNav">
-  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
-    &hellip;
-  </button>
+</noscript><section id="accessibility-controls">
+  <fieldset class="accessibility-wrapper">
+    <label><span class="accessibility-label-hidden">Change font size controls: </span><span aria-hidden="true" class="accessibility-label-visible">Aa</span></label>
+    <button aria-label="Shrink Text Size" class="accessibility-button" data-update-text-size="-15" id="font-smaller" type="button">
+      -
+    </button>
+    <button aria-label="Enlarge Text Size" class="accessibility-button" data-update-text-size="15" id="font-larger" type="button">
+      +
+    </button>
+  </fieldset>
 </section>
-<nav id="accessibilityControls" aria-hidden="true" class="hidden">
-  <div id="accessibilityControlsContainer" class="container">
-    <section class="dayNightMode">
-      <h5>View Mode</h5>
-      <button type="button" aria-label="Light Theme" id="lightButton">
-        Light
-      </button>
-      <button type="button" aria-label="Dark Theme" id="darkButton">
-        Dark
-      </button>
-      <button type="button" aria-label="Reset Theme" id="systemButton">
-        System
-      </button>
-    </section>
-    <section class="fontFamily">
-      <h5>Font Family</h5>
-      <button type="button" aria-label="Sans-Serif" id="sansSerifButton">
-        Sans-Serif
-      </button>
-      <button type="button" aria-label="Serif" id="serifButton">
-        Serif
-      </button>
-    </section>
-    <section class="fontSize">
-      <h5>Font Size</h5>
-      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
-        -
-      </button>
-      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
-        +
-      </button>
-      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
-        Reset
-      </button>
-    </section>
-    <section class="whatIsThis">
-      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
-      <dialog id="whatIsThisDialog">
-        <h2>Display controls</h2>
-        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
-        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
-        <form method="dialog">
-          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
-        </form>
-      </dialog>
-    </section>
+<div class="page-post-mobile-tablet">
+    <header class="page-small page-small-black">
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+      
+      <div class="header-text-container">
+        <h1>Feeling stuck</h1>
+        <p class="page-date">June 10th, 2022</p>
+      </div>
+      
+    </header>
   </div>
-</nav><header>
-    <h1>
-      <a class="hideExternalIcon" href="/">DH:Personal</a>
-    </h1>
-  </header>
-
-  <main id="mainContent">
-    <div class="container">
+  
+  <div class="page-post-desktop">
+    
+    <header class="page-small">
+    
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+    </header>
+  </div>
+ 
+  <main id="main-content" class="" tabindex="-1">
+    
+    <div class="page-post-headline page-post-headline-no-image-available">
+      
+      <h1 class="page-post-headline-title">Feeling stuck</h1>
+      <p class="page-post-date">June 10th, 2022</p>
+      
+    </div>
+    
+    <div class="main-container main-container-post">
       <article>
-        
-        
-        <h2>Feeling stuck</h2>
-        <p class="date">June 10th, 2022</p>
-         <h3 id="introduction">Introduction</h3>
+        <h3 id="introduction">Introduction</h3>
 
 <p>I need to tell you of a grave error that I made several years ago that has haunted me ever since. Dear reader, you must read of my mistake so that you don’t fall into the same trap as me and ruin your life like I’ve ruined mine.</p>
 
@@ -179,7 +157,9 @@
 
 <p>There really isn’t a conclusion to this entry. I have no advice yet to give as I’m still figuring it all out for myself. I do have a general goal, though: to feel better by accepting my place as a misfit. I want to be in the community to help change it for the better. But unfortunately, I believe that also means making other people uncomfortable by teaching them to learn, too.</p>
 
- 
+
+        
+        
         <a class="comments" name="comments"></a>
         <script
           src="https://utteranc.es/client.js"
@@ -201,7 +181,8 @@
 <p><iframe allow="autoplay *; encrypted-media *; fullscreen *" frameborder="0" height="175" style="border-radius: .5rem; width: 100%; overflow: hidden; background: transparent" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.podcasts.apple.com/us/podcast/pod-save-america/id1192761536?i=1000564083073"></iframe></p>
 <h4><cite class="dash">Pod Save America</cite><a href="https://podcasts.apple.com/us/podcast/pod-save-america/id1192761536?i=1000564083073" target="_blank">"Why We Can't Give Up."</a></h4>
 <blockquote>The U.S. Senate debates gun safety reform following the horrific school shooting at a Texas elementary school and Senator Alex Padilla joins to talk about what else can be done to stop mass shootings. And later, Jon and Dan go through Tuesday's election results from the primaries in Georgia and Texas.</p></blockquote>
- 
+
+        
       </aside>
     </div>
   </main>
@@ -209,11 +190,14 @@
 
 
 <hr />
-<footer class="flexContainer">
-    <p class="outbound">
-      <a class="button" href="#top" id="toTop" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
+<footer>
+  <div class="footer-page-container">
+    <p class="footer-page-buttons">
+      <a class="button" href="#top" id="to-top" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
     </p>
-    <p class="hideExternalIcon feedXML right">
+    <p class="footer-page-feed">
       <a href="https://dhepworth.github.io/feed.xml" target="_blank"><img src="https://dhepworth.github.io/img/feed.svg" alt="SVG icon" title="Subscribe to feed" height="40" width="40"></a>
     </p>
-  </footer><script src="/js/app.js"></script></html>
+  </div>
+</footer>
+<script src="/js/app.js"></script></html>

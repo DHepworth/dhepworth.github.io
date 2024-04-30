@@ -16,8 +16,8 @@
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     
-    <meta name="theme-color" content="hsl(0, 0%, 98%)" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="hsl(0, 0%, 10%)" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="oklch(95% 0 0)" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="oklch(15% 0 0)" media="(prefers-color-scheme: dark)" />
     
     <title>An identity crisis — DH:Personal</title>
     
@@ -26,9 +26,6 @@
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <link rel="alternate" type="application/rss+xml" href="https://dhepworth.github.io/feed.xml">
-    <script>
-        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
-    </script>
 
 </head>
 
@@ -40,76 +37,57 @@
             visibility: hidden !important;
         }
     </style>
-</noscript><section class="hideNav">
-  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
-    &hellip;
-  </button>
+</noscript><section id="accessibility-controls">
+  <fieldset class="accessibility-wrapper">
+    <label><span class="accessibility-label-hidden">Change font size controls: </span><span aria-hidden="true" class="accessibility-label-visible">Aa</span></label>
+    <button aria-label="Shrink Text Size" class="accessibility-button" data-update-text-size="-15" id="font-smaller" type="button">
+      -
+    </button>
+    <button aria-label="Enlarge Text Size" class="accessibility-button" data-update-text-size="15" id="font-larger" type="button">
+      +
+    </button>
+  </fieldset>
 </section>
-<nav id="accessibilityControls" aria-hidden="true" class="hidden">
-  <div id="accessibilityControlsContainer" class="container">
-    <section class="dayNightMode">
-      <h5>View Mode</h5>
-      <button type="button" aria-label="Light Theme" id="lightButton">
-        Light
-      </button>
-      <button type="button" aria-label="Dark Theme" id="darkButton">
-        Dark
-      </button>
-      <button type="button" aria-label="Reset Theme" id="systemButton">
-        System
-      </button>
-    </section>
-    <section class="fontFamily">
-      <h5>Font Family</h5>
-      <button type="button" aria-label="Sans-Serif" id="sansSerifButton">
-        Sans-Serif
-      </button>
-      <button type="button" aria-label="Serif" id="serifButton">
-        Serif
-      </button>
-    </section>
-    <section class="fontSize">
-      <h5>Font Size</h5>
-      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
-        -
-      </button>
-      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
-        +
-      </button>
-      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
-        Reset
-      </button>
-    </section>
-    <section class="whatIsThis">
-      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
-      <dialog id="whatIsThisDialog">
-        <h2>Display controls</h2>
-        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
-        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
-        <form method="dialog">
-          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
-        </form>
-      </dialog>
-    </section>
+<div class="page-post-mobile-tablet">
+    <header class="page-small page-small-black">
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+      
+      <div class="header-text-container">
+        <h1>An identity crisis</h1>
+        <p class="page-date">October 26th, 2021</p>
+      </div>
+      
+    </header>
   </div>
-</nav><header>
-    <h1>
-      <a class="hideExternalIcon" href="/">DH:Personal</a>
-    </h1>
-  </header>
-
-  <main id="mainContent">
-    <div class="container">
+  
+  <div class="page-post-desktop">
+    
+    <header class="page-small">
+    
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+    </header>
+  </div>
+ 
+  <main id="main-content" class="" tabindex="-1">
+    
+    <div class="page-post-headline page-post-headline-no-image-available">
+      
+      <h1 class="page-post-headline-title">An identity crisis</h1>
+      <p class="page-post-date">October 26th, 2021</p>
+      
+    </div>
+    
+    <div class="main-container main-container-post">
       <article>
-        
-        
-        <h2>An identity crisis</h2>
-        <p class="date">October 26th, 2021</p>
-         <p>I grew up in an Evangelical Christian culture. I was taught that the primary life purpose of a Christian was to propagate the message of Christianity through evangelism, sharing the story of Jesus to people who did not know or believe what was written in the Bible. Through this effort, souls would be saved from eternal damnation and more people would be prepared for the return of the savior of humanity. This mission was time-sensitive, because the return of Jesus was possible at any moment, and that event could potentially seal the fate of all living on Earth.</p>
+        <p>I grew up in an Evangelical Christian culture. I was taught that the primary life purpose of a Christian was to propagate the message of Christianity through evangelism, sharing the story of Jesus to people who did not know or believe what was written in the Bible. Through this effort, souls would be saved from eternal damnation and more people would be prepared for the return of the savior of humanity. This mission was time-sensitive, because the return of Jesus was possible at any moment, and that event could potentially seal the fate of all living on Earth.</p>
 
 <p>At some point, perhaps because the timing of the return was said to be a mystery, Evangelical Christianity seems to have become far more focused on controlling culture than saving lives. Look at how Albert Mohler, President of Southern Baptist Theological Seminary, responds to a non-Christian company’s recent decision to write a new fictional character as a homosexual:</p>
 
-<blockquote class="articleSnippet" cite="https://albertmohler.com/2021/10/13/briefing-10-13-21">
+<blockquote class="article-snippet" cite="https://albertmohler.com/2021/10/13/briefing-10-13-21">
 <cite>The Briefing — Albert Mohler</cite>
 <h3 class="m0"><a href="https://albertmohler.com/2021/10/13/briefing-10-13-21" target="_blank">Superman Comes Out Of The Closet—The Moral Revolution Will Transform Everything. Even Comic Book Super Heroes</a></h3>
 <p>Well, ladies and gentlemen, the comic book character previously best known for coming out of the phone booth has now come out of the closet. Or is about to. And it’s not in this case, Clark Kent, AKA, Superman.</p>
@@ -170,7 +148,69 @@
         
     </ul>
 </section>
-   
+
+        
+        <section class="outbound">
+          <h4>Further Reading</h4>
+          <ul>
+            
+            <li>
+              <a href="https://www.theatlantic.com/ideas/archive/2021/09/breitbart-conservatives-john-nolte-vaccine/620189/" target="_blank"
+                >The Conservatives Who’d Rather Die Than Not Own the Libs</a
+              >
+            </li>
+            
+            <li>
+              <a href="https://fivethirtyeight.com/features/why-some-white-evangelical-republicans-are-so-opposed-to-the-covid-19-vaccine/" target="_blank"
+                >Why Some White Evangelical Republicans Are So Opposed To The COVID-19 Vaccine</a
+              >
+            </li>
+            
+            <li>
+              <a href="https://read.amazon.com/kp/embed?linkCode=kpe&ref_=cm_sw_r_kb_dp_QE82346JVJWRXQ5XX6ZQ&asin=B07ZTSVLX3&amazonDeviceType=A2CLFWBIMVSE9N&from=Bookcard&preview=newtab&reshareId=2NPDE705D84ZRYKM9KCA&reshareChannel=system" target="_blank"
+                >Jesus and John Wayne: How White Evangelicals Corrupted a Faith and Fractured a Nation</a
+              >
+            </li>
+            
+            <li>
+              <a href="https://www.theatlantic.com/magazine/archive/2021/07/george-packer-four-americas/619012/" target="_blank"
+                >How America Fractured Into Four Parts</a
+              >
+            </li>
+            
+            <li>
+              <a href="https://www.politico.com/magazine/story/2015/04/corporate-america-invented-religious-right-conservative-roosevelt-princeton-117030/" target="_blank"
+                >How Corporate America Invented Christian America</a
+              >
+            </li>
+            
+            <li>
+              <a href="https://www.christianitytoday.com/ct/podcasts/quick-to-listen/christian-nationalism-capitol-riots-trump-podcast.html" target="_blank"
+                >Christian Nationalism Is Worse Than You Think</a
+              >
+            </li>
+            
+            <li>
+              <a href="https://www.politico.com/magazine/story/2014/05/religious-right-real-origins-107133/" target="_blank"
+                >The Real Origins of the Religious Right</a
+              >
+            </li>
+            
+            <li>
+              <a href="https://www.npr.org/2020/07/01/883115867/white-supremacist-ideas-have-historical-roots-in-u-s-christianity" target="_blank"
+                >White Supremacist Ideas Have Historical Roots In U.S. Christianity</a
+              >
+            </li>
+            
+            <li>
+              <a href="https://www.newyorker.com/news/daily-comment/the-wasting-of-the-evangelical-mind" target="_blank"
+                >The Wasting of the Evangelical Mind</a
+              >
+            </li>
+            
+          </ul>
+        </section>
+        
         <a class="comments" name="comments"></a>
         <script
           src="https://utteranc.es/client.js"
@@ -193,7 +233,8 @@
 <p>This series is a consideration of the impact this popular church had within its community and evangelicalism overall. The research seems exhaustive but I felt the show suffered by <a href="https://religiondispatches.org/sharing-many-of-the-same-flaws-as-its-subject-the-rise-and-fall-of-mars-hill-podcast-puts-blame-anywhere-but-where-it-belongs/" target="_blank">failing to acknowledge</a> the <a href="https://podcasts.apple.com/us/podcast/you-have-permission/id1448000113?i=1000531466861" target="_blank">abusive and patriarchal messages</a> endorsed within churches adhering to conservative or fundamentalist Evangelical Christianity. It’s still a worthwhile listen as long as the source is considered.</p>
 
 <p class="outbound"><a class="button" href="https://www.christianitytoday.com/ct/podcasts/rise-and-fall-of-mars-hill/" id="" target="_blank"><span class="emoji">🎧</span>&nbsp;Listen to the series</a></p>
- 
+
+        
       </aside>
     </div>
   </main>
@@ -201,11 +242,14 @@
 
 
 <hr />
-<footer class="flexContainer">
-    <p class="outbound">
-      <a class="button" href="#top" id="toTop" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
+<footer>
+  <div class="footer-page-container">
+    <p class="footer-page-buttons">
+      <a class="button" href="#top" id="to-top" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
     </p>
-    <p class="hideExternalIcon feedXML right">
+    <p class="footer-page-feed">
       <a href="https://dhepworth.github.io/feed.xml" target="_blank"><img src="https://dhepworth.github.io/img/feed.svg" alt="SVG icon" title="Subscribe to feed" height="40" width="40"></a>
     </p>
-  </footer><script src="/js/app.js"></script></html>
+  </div>
+</footer>
+<script src="/js/app.js"></script></html>

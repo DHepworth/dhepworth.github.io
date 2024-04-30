@@ -16,8 +16,8 @@
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     
-    <meta name="theme-color" content="hsl(0, 0%, 98%)" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="hsl(0, 0%, 10%)" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="oklch(95% 0 0)" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="oklch(15% 0 0)" media="(prefers-color-scheme: dark)" />
     
     <title>We know less than we realize, but that’s okay — DH:Personal</title>
     
@@ -26,9 +26,6 @@
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <link rel="alternate" type="application/rss+xml" href="https://dhepworth.github.io/feed.xml">
-    <script>
-        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
-    </script>
 
 </head>
 
@@ -40,74 +37,55 @@
             visibility: hidden !important;
         }
     </style>
-</noscript><section class="hideNav">
-  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
-    &hellip;
-  </button>
+</noscript><section id="accessibility-controls">
+  <fieldset class="accessibility-wrapper">
+    <label><span class="accessibility-label-hidden">Change font size controls: </span><span aria-hidden="true" class="accessibility-label-visible">Aa</span></label>
+    <button aria-label="Shrink Text Size" class="accessibility-button" data-update-text-size="-15" id="font-smaller" type="button">
+      -
+    </button>
+    <button aria-label="Enlarge Text Size" class="accessibility-button" data-update-text-size="15" id="font-larger" type="button">
+      +
+    </button>
+  </fieldset>
 </section>
-<nav id="accessibilityControls" aria-hidden="true" class="hidden">
-  <div id="accessibilityControlsContainer" class="container">
-    <section class="dayNightMode">
-      <h5>View Mode</h5>
-      <button type="button" aria-label="Light Theme" id="lightButton">
-        Light
-      </button>
-      <button type="button" aria-label="Dark Theme" id="darkButton">
-        Dark
-      </button>
-      <button type="button" aria-label="Reset Theme" id="systemButton">
-        System
-      </button>
-    </section>
-    <section class="fontFamily">
-      <h5>Font Family</h5>
-      <button type="button" aria-label="Sans-Serif" id="sansSerifButton">
-        Sans-Serif
-      </button>
-      <button type="button" aria-label="Serif" id="serifButton">
-        Serif
-      </button>
-    </section>
-    <section class="fontSize">
-      <h5>Font Size</h5>
-      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
-        -
-      </button>
-      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
-        +
-      </button>
-      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
-        Reset
-      </button>
-    </section>
-    <section class="whatIsThis">
-      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
-      <dialog id="whatIsThisDialog">
-        <h2>Display controls</h2>
-        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
-        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
-        <form method="dialog">
-          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
-        </form>
-      </dialog>
-    </section>
+<div class="page-post-mobile-tablet">
+    <header class="page-small page-small-black">
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+      
+      <div class="header-text-container">
+        <h1>We know less than we realize, but that’s okay</h1>
+        <p class="page-date">September 14th, 2021</p>
+      </div>
+      
+    </header>
   </div>
-</nav><header>
-    <h1>
-      <a class="hideExternalIcon" href="/">DH:Personal</a>
-    </h1>
-  </header>
-
-  <main id="mainContent">
-    <div class="container">
+  
+  <div class="page-post-desktop">
+    
+    <header class="page-small">
+    
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+    </header>
+  </div>
+ 
+  <main id="main-content" class="" tabindex="-1">
+    
+    <div class="page-post-headline page-post-headline-no-image-available">
+      
+      <h1 class="page-post-headline-title">We know less than we realize, but that’s okay</h1>
+      <p class="page-post-date">September 14th, 2021</p>
+      
+    </div>
+    
+    <div class="main-container main-container-post">
       <article>
-        
-        
-        <h2>We know less than we realize, but that’s okay</h2>
-        <p class="date">September 14th, 2021</p>
-         <p>Life during the COVID-19 pandemic has been lonelier than I expected. My introversion has been useful in this time of isolation, but it did not prepare me for the simultaneous crushing ideological loneliness that has come from watching others respond to the demands of the pandemic. I feel more disconnected from my peers now than I ever have before.</p>
+        <p>Life during the COVID-19 pandemic has been lonelier than I expected. My introversion has been useful in this time of isolation, but it did not prepare me for the simultaneous crushing ideological loneliness that has come from watching others respond to the demands of the pandemic. I feel more disconnected from my peers now than I ever have before.</p>
 
-<blockquote class="articleSnippet">
+<blockquote class="article-snippet">
 <cite>NPR — Will Stone</cite>
 <h3 class="m0"><a href="https://www.npr.org/sections/health-shots/2021/09/12/1036356773/i-got-a-mild-breakthrough-case-heres-what-i-wish-id-known" target="_blank">I Got a Mild Breakthough Case: Here’s What I Wish I’d Known</a></h3>
 <p>It was a miserable five days. My legs and arms ached, my fever crept up to 103 and every few hours of sleep would leave my sheets drenched in sweat. I’d drop into bed exhausted after a quick trip down to the kitchen. To sum it up, I'd put my breakthrough case of COVID-19 right up there with my worst bouts of flu. Even after my fever cleared up, I spent the next few weeks feeling low.</p>
@@ -117,7 +95,7 @@
 
 <p>I look around and see people still stuck with their first impression: <em>this is just another flu.</em> But COVID-19 is not just another flu — and besides, why would another flu be a good thing? Why are we finding another flu-level amount of death an acceptable statistic to add to our lives? Why are we boldly proclaiming that the thousands of preventable deaths in our community are acceptable?</p>
 
-<blockquote class="articleSnippet">
+<blockquote class="article-snippet">
 <cite>Ark Times — Max Bradley</cite>
 <h3 class="m0"><a href="https://arktimes.com/arkansas-blog/2021/09/11/about-religious-exemptions-for-vaccine-resisters-conway-regional-health-system-says-you-must-really-mean-it" target="_blank">About vaccine resistance and religious exemptions</a></h3>
 <p>What is the religious basis for COVID resistance? One has been that at some stage in development or testing, long ago, fetal cells may have been involved in the process that led to the development of certain of the vaccines.</p>
@@ -127,8 +105,8 @@
 
 <p>I think that we should be okay about not knowing some things and remaining open to learning so that we don’t make a choice that <a href="https://www.reddit.com/r/HermanCainAward/" target="_blank">we might later regret</a>. It saddens me to see how many people are being harmed by the grift of conspiracies and the groups spreading those baseless assumptions.</p>
 
-  
 
+        
         <section class="outbound">
           <h4>Further Reading</h4>
           <ul>
@@ -153,7 +131,7 @@
             
           </ul>
         </section>
-         
+        
         <a class="comments" name="comments"></a>
         <script
           src="https://utteranc.es/client.js"
@@ -190,7 +168,8 @@
 <p>I can also attest to the waning relevance of Rush Limbaugh, as in his later years I noticed that he was not considered nearly as incendiary or important in the conservative world as he had been under Obama’s time as President. He had been eclipsed not only by other radical talk show hosts but by political party members in power. I wonder what that must have felt like for him, growing an empire of extremism only to watch the students of his work outgrow and outpace his own.</p>
 
 <p class="outbound"><a class="button" href="https://www.iheart.com/podcast/105-behind-the-bastards-29236323/episode/part-one-the-rush-limbaugh-episodes-79392356/" id="" target="_blank"><span class="emoji">🎧</span>&nbsp;Listen to part one</a> <a class="button" href="https://www.iheart.com/podcast/105-behind-the-bastards-29236323/episode/part-two-the-rush-limbaugh-episodes-79507469/" id="" target="_blank"><span class="emoji">🎧</span>&nbsp;Listen to part two</a></p>
- 
+
+        
       </aside>
     </div>
   </main>
@@ -198,11 +177,14 @@
 
 
 <hr />
-<footer class="flexContainer">
-    <p class="outbound">
-      <a class="button" href="#top" id="toTop" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
+<footer>
+  <div class="footer-page-container">
+    <p class="footer-page-buttons">
+      <a class="button" href="#top" id="to-top" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
     </p>
-    <p class="hideExternalIcon feedXML right">
+    <p class="footer-page-feed">
       <a href="https://dhepworth.github.io/feed.xml" target="_blank"><img src="https://dhepworth.github.io/img/feed.svg" alt="SVG icon" title="Subscribe to feed" height="40" width="40"></a>
     </p>
-  </footer><script src="/js/app.js"></script></html>
+  </div>
+</footer>
+<script src="/js/app.js"></script></html>

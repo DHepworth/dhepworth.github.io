@@ -16,8 +16,8 @@
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     
-    <meta name="theme-color" content="hsl(0, 0%, 98%)" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="hsl(0, 0%, 10%)" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="oklch(95% 0 0)" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="oklch(15% 0 0)" media="(prefers-color-scheme: dark)" />
     
     <title>DH:Personal</title>
     <link rel="stylesheet" href="/assets/main.css" />
@@ -25,9 +25,6 @@
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <link rel="alternate" type="application/rss+xml" href="https://dhepworth.github.io/feed.xml">
-    <script>
-        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
-    </script>
 
 </head>
 
@@ -39,751 +36,1064 @@
             visibility: hidden !important;
         }
     </style>
-</noscript><section class="hideNav">
-  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
-    &hellip;
-  </button>
+</noscript><section id="accessibility-controls">
+  <fieldset class="accessibility-wrapper">
+    <label><span class="accessibility-label-hidden">Change font size controls: </span><span aria-hidden="true" class="accessibility-label-visible">Aa</span></label>
+    <button aria-label="Shrink Text Size" class="accessibility-button" data-update-text-size="-15" id="font-smaller" type="button">
+      -
+    </button>
+    <button aria-label="Enlarge Text Size" class="accessibility-button" data-update-text-size="15" id="font-larger" type="button">
+      +
+    </button>
+  </fieldset>
 </section>
-<nav id="accessibilityControls" aria-hidden="true" class="hidden">
-  <div id="accessibilityControlsContainer" class="container">
-    <section class="dayNightMode">
-      <h5>View Mode</h5>
-      <button type="button" aria-label="Light Theme" id="lightButton">
-        Light
-      </button>
-      <button type="button" aria-label="Dark Theme" id="darkButton">
-        Dark
-      </button>
-      <button type="button" aria-label="Reset Theme" id="systemButton">
-        System
-      </button>
-    </section>
-    <section class="fontFamily">
-      <h5>Font Family</h5>
-      <button type="button" aria-label="Sans-Serif" id="sansSerifButton">
-        Sans-Serif
-      </button>
-      <button type="button" aria-label="Serif" id="serifButton">
-        Serif
-      </button>
-    </section>
-    <section class="fontSize">
-      <h5>Font Size</h5>
-      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
-        -
-      </button>
-      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
-        +
-      </button>
-      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
-        Reset
-      </button>
-    </section>
-    <section class="whatIsThis">
-      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
-      <dialog id="whatIsThisDialog">
-        <h2>Display controls</h2>
-        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
-        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
-        <form method="dialog">
-          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
-        </form>
-      </dialog>
-    </section>
-  </div>
-</nav><header class="home">
-    <h1>DH:Personal</h1>
-  </header>
-  <main id="mainContent" class="home">
-    <div class="container">
-      <section class="mainSection">
-<article class="home">
+
   
-  <h2><a href="/post/2024/03/23/great-programs.html">Great programs that I enjoy</a></h2>
+  <header style="background-image: var(--header-background-overlay), url('img/posts/programs-i-enjoy.webp')">
   
-  <p>I always enjoy sharing with others some of the apps that I’ve discovered during my time as a MacOS user. Many of these apps were important reasons for me to shift from Windows to Mac. This is a rather exhaustive but not complete list of programs for Apple devices that I recommend. There may be Windows variants of these programs, but I don’t use them and can’t guarantee their quality.</p>
-
-<p>Programs listed below in italics are my <em>favorite</em> favorites.</p>
-
-<p><span class="emoji">⚠️</span> <strong>This list was last updated March 27, 2024.</strong></p>
-
-<hr />
-
-<h3 id="-audio">🎼 Audio</h3>
-
-<ul>
-  <li><em><a href="https://apps.apple.com/us/app/albums-album-focused-player/id1469948986" target="_blank">Albums</a> — Music player with a focus on full-album listening</em></li>
-  <li><a href="https://apps.apple.com/us/app/albums-music-shortcuts/id1602404960" target="_blank">Albums: Music Shortcuts</a> — Widget app to immediately play a selected favorite album</li>
-  <li><a href="https://apps.apple.com/us/app/audiokit-reverb/id1601314353" target="_blank">AudioKit Reverb</a> — A GarageBand plugin for reverb</li>
-  <li><a href="https://apps.apple.com/us/app/audio-trimmer-trim-audio/id1602845668" target="_blank">Audio Trimmer</a> — A simple audio trimming tool for mobile devices</li>
-  <li><a href="https://apps.apple.com/us/app/finale-for-last-fm/id1518365620" target="_blank">Finale</a> — A better Last.FM audioscrobbler</li>
-  <li><a href="https://apps.apple.com/us/app/hark-audio/id1540109137" target="_blank">Hark</a> — Podcast clip browser</li>
-  <li><a href="https://apps.apple.com/us/app/hokusai-audio-editor/id432079746" target="_blank">Hokusai</a> — Mobile audio editor</li>
-  <li><a href="https://apps.apple.com/us/app/king-of-fm-dx-synth-e-piano/id1672644102" target="_blank">King of FM</a> — FM synthesizer</li>
-  <li><a href="https://apps.apple.com/us/app/le01-bass-808-synth-auv3/id1502480224" target="_blank">LE01</a> — Synthesizer for bass sounds</li>
-  <li><a href="https://apps.apple.com/us/app/marvis-pro/id1447768809" target="_blank">Marvis Pro</a> — Music player with advanced listening tools and features</li>
-  <li><a href="https://apps.apple.com/us/app/mimi-hearing-test/id932496645" target="_blank">Mimi</a> — Hearing test and audiogram creation for AirPod customization</li>
-  <li><a href="https://apps.apple.com/us/app/minimoog-model-d-synthesizer/id1339418001" target="_blank">Minimoog Model D Synthesizer</a> — A remake of a classic synthesizer</li>
-  <li><em><a href="https://apps.apple.com/us/app/miximum-smart-playlist-maker/id1456153507" target="_blank">Miximum</a> — Playlist authoring for combining official Apple and user-generated playlists</em></li>
-  <li><em><a href="https://apps.apple.com/us/app/mynoise-relax-sleep-work/id813099896" target="_blank">myNoise</a> — Noise cancellation through walls of sound</em></li>
-  <li><a href="https://apps.apple.com/us/app/outcast-for-watch/id1326693810" target="_blank">Outcast</a> — Podcast player for Apple Watch</li>
-  <li><a href="https://apps.apple.com/us/app/panflow/id1620175108" target="_blank">Panflow</a> — Panning plugin for GarageBand</li>
-  <li><a href="https://sonosaurus.com/paulxstretch/" target="_blank">PaulXStretch</a> — Extreme sound length distortion</li>
-  <li><a href="https://apps.apple.com/us/app/pitch-drift-baby-audio/id1659406720" target="_blank">Pitch Drift</a> — Pitch shifting plugin for GarageBand</li>
-  <li><a href="https://apps.apple.com/us/app/playtally-apple-music-stats/id1513271356" target="_blank">PlayTally</a> — Apple Music listening statistics</li>
-  <li><em><a href="https://apps.apple.com/us/app/podcast-archiver/id1494794912?mt=12" target="_blank">Podcast Archiver</a> — Download backups of podcasts via RSS feed</em></li>
-  <li><a href="https://apps.apple.com/us/app/podcast-saver/id1498364459" target="_blank">Podcast Saver</a> — Mobile backups of podcasts via RSS feed</li>
-  <li><a href="https://apps.apple.com/us/app/shazam-find-music-concerts/id284993459">Shazam</a> — Music identification via live microphone recording</li>
-  <li><em><a href="https://apps.apple.com/us/app/sleep-by-max-richter/id1509084936" target="_blank">SLEEP</a> — Calming space scenes and beautiful music for relaxation and focus</em></li>
-  <li><em><a href="https://replay.software/sleeve">Sleeve</a> — Album art as a HUD for easy listening on Macs</em></li>
-  <li><a href="https://apps.apple.com/us/app/soor/id1439731526" target="_blank">Soor</a> — Music player with stat tracking</li>
-  <li><a href="https://apps.apple.com/us/app/soundhound-music-discovery/id284972998" target="_blank">SoundHound∞</a> — An alternative to Shazam, with the supposed ability to recognize humming</li>
-  <li><a href="https://apps.apple.com/us/app/thwip-soundboard/id6466668240" target="_blank">Thwip</a> — Fun sound effect generator for mobile devices</li>
-  <li><a href="https://apps.apple.com/us/app/vhs-synth-80s-synthwave/id16152086670" target="_blank">VHS Synth</a> — A gritty, warbly synthesizer</li>
-  <li><a href="https://apps.apple.com/us/app/808-overdrive-pro/id1537555516" target="_blank">808 Overdrive Pro</a> — A synthesizer with a focus on bass sounds</li>
-</ul>
-
-
-  <p class="center m0"><a class="button" href="/post/2024/03/23/great-programs.html#readmore"><span class="emoji">📑</span> Read the rest of the post</a></p>
-  
-</article>
-<hr /><section class="ephemeral">
-  <h2>My Thoughtstream</h2>
-  
-  <article class="home m1">
+    <p class="header-logo">
+      <span class="header-logo-background"><strong>DH:</strong>Personal</span>
+    </p>
+    <div class="header-text-container">
+      <h1 class="header-title"><a href="/post/feature/2024/03/23/great-programs.html">Great programs that I enjoy</a></h1>
+      <p class="header-date">March 23rd, 2024</p>
+      <p class="header-intro">I always enjoy sharing with others some of the apps that I’ve discovered during my time as a MacOS user. Many of these apps were important reasons for me to shift from Windows to Mac.</p>
+    </div>
+    <div class="header-text-shadow"></div><!-- <nav>
+  <a href="#main-content" class="nav-skip sr-only button">Skip Navigation</a>
+  <ul class="nav-list">
     
-    <section class="body">
-      <h3 class="title">A validating front-end article</h3>
       
+      <li class="nav-item">
+        <a href="/resume" rel="me">Résumé</a>
+      </li>
       
-      <blockquote class="articleSnippet">
-<cite>Josh Collinsworth</cite>
-<h4 class="m0"><a href="https://joshcollinsworth.com/blog/devaluing-frontend" target="_blank">The quiet, pervasive devaluation of frontend</a></h4>
-<p>I feel like I’m seeing a widespread diminishment of the practice of frontend. Nearly everywhere I look, I notice its importance minimized, and its challenges trivialized.</p>
+      <li class="nav-item">
+        <a href="/portfolio" rel="me">Portfolio</a>
+      </li>
+      
+      <li class="nav-item">
+        <a href="/archives" rel="me">Archives</a>
+      </li>
+      
+      <li class="nav-item">
+        <a href="/about" rel="me">About</a>
+      </li>
+      
+    
+  </ul>
+</nav> -->
+</header>
+  
+
+    <main id="main-content" tabindex="-1">
+      <div class="main-container">
+        <h2 class="posts-header">My Latest Posts</h2>
+        <section class="posts-home">
+  
+  <article class="article-home">
+      <p class="date">April 30th, 2024</p>
+      
+        <h3 class="thoughtstream-header">
+      
+      <a href="/thoughtstream/2024/04/30/new-site.html">I updated the design</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>I started the process by attempting to improve upon the CSS and then it just became a complete redesign. I based the design off elements of <a href="https://www.theintercept.com/" target="_blank">The Intercept</a> and <a href="https://www.theverge.com/" target="_blank">The Verge</a> that I found compelling.</p>
+
+          
+        </div>
+        
+      </div>
+  </article>
+  
+
+  
+  
+
+  
+  <article class="article-home">
+      <p class="date">March 11th, 2024</p>
+      
+        <h3 class="thoughtstream-header">
+      
+      <a href="/thoughtstream/2024/03/11/a-validating-front-end-article.html">A validating front-end article</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <blockquote class="article-snippet">
+  <p><cite>Josh Collinsworth</cite></p>
+  <h4 id="the-quiet-pervasive-devaluation-of-frontend"><a href="https://joshcollinsworth.com/blog/devaluing-frontend" target="_blank">The quiet, pervasive devaluation of frontend</a></h4>
+  <p>I feel like I’m seeing a widespread diminishment of the practice of frontend. Nearly everywhere I look, I notice its importance minimized, and its challenges trivialized.</p>
 </blockquote>
 
-<p>This article is incredibly vindicating. For the entirety of my time in web development I have heard the claim that HTML and CSS are too simple and beneath the threshold of what qualifies as true “development,” but this attitude has proved to be a detriment to efficient styling, accessibility, and structure for the foundational elements of what makes a webpage. Websites now appear like a chaotic mess of <code>divs</code> with no structure or semantic sensibilities, and styling that lacks the proper separation of concerns that leads to efficient DRY methodologies. The diminishment of front-end development seems to cause excessive framework cycling and decent tooling for builds, leading to complicated setups for even the simplest of pages.</p>
+<p>This article is incredibly vindicating. For the entirety of my time in web development I have heard the claim that HTML and CSS are too simple and beneath the threshold of what qualifies as true “development,” but this attitude has proved to be a detriment to efficient styling, accessibility, and structure for the foundational elements of what makes a webpage. Websites now appear like a chaotic mess of <code class="language-plaintext highlighter-rouge">divs</code> with no structure or semantic sensibilities, and styling that lacks the proper separation of concerns that leads to efficient DRY methodologies. The diminishment of front-end development seems to cause excessive framework cycling and decent tooling for builds, leading to complicated setups for even the simplest of pages.</p>
 
 <p>I have always had an admiration for the work that back-end developers do on a site. Their hard work in carefully tailoring APIs and databases for the most efficient calls has always impressed me. I didn’t realize how much I belittled my own experience and skills because of the outward pressure I experienced throughout my formative years along with my own sense of insecurity. I think this snobbery towards front-end development should change. Design is an essential step and front-end development requires a skill that others lack and we should all stop pretending.</p>
 
-      <aside class="m1"><small><em>Thoughtstream logged with title <a href="/thoughtstream/2024/03/11/a-validating-front-end-article.html">A validating front-end article.</a></em></small></aside>
-    </section>
+          
+        </div>
+        
+      </div>
   </article>
   
-  <article class="home m1">
-    
-    <section class="body">
-      <h3 class="title">Slavery still exists in the United States</h3>
+
+  
+  <article class="article-home">
+      <p class="date">March 7th, 2024</p>
       
+        <h3 class="thoughtstream-header">
       
-      <blockquote class="articleSnippet">
-<cite>Joseph Shannon Nichols (#21647-075) — The Insiders Zine</cite>
-<h4 class="m0"><a href="https://archive.org/details/the-insiders-zine/230305JN%20zine%20compressed%20%281%29/mode/2up" target="_blank">Prisoner: By Any Other Name</a></h4>
-<p>There seems to be an ongoing debate as to what those of us who are incarcerated should be called. Referring to us as "prisoners" seems to be as unpopular as "inmates" does. Some even try “errants,” “cons,” “convicts,” “felons,” “reprobates,” “jailbirds,” and even “internees.” But none of those are any better. Some are downright insulting. “Incarceree?” That has such a terrible ring to it. Stop trying to get cute with it. Let us see what the U.S. Constitution has to say about it. The Thirteenth Amendment says, “Neither slavery nor involuntary servitude, except as a punishment for a crime whereof the party shall have been duly convicted, shall exist within the United States, or any place subject to their jurisdiction.” Well now, that just seems to settle the debate, does it not? I'm not saying that all of us behind these walls are lovely flowers or nothing, but why call a rose by any other name and expect it to smell so sweet? Until this “Exception Clause” is removed from the Constitution and it reads, “Neither slavery nor involuntary servitude shall exist within the United States, or any place subject to their jurisdiction,” then call us what we are. Call us slaves.</p>
+      <a href="/thoughtstream/2024/03/07/slavery-still-exists.html">Slavery still exists in the United States</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <blockquote class="article-snippet">
+  <p><cite>Joseph Shannon Nichols (#21647-075) — The Insiders Zine</cite></p>
+  <h4 id="prisoner-by-any-other-name"><a href="https://archive.org/details/the-insiders-zine/230305JN%20zine%20compressed%20%281%29/mode/2up" target="_blank">Prisoner: By Any Other Name</a></h4>
+  <p>There seems to be an ongoing debate as to what those of us who are incarcerated should be called. Referring to us as “prisoners” seems to be as unpopular as “inmates” does. Some even try “errants,” “cons,” “convicts,” “felons,” “reprobates,” “jailbirds,” and even “internees.” But none of those are any better. Some are downright insulting. “Incarceree?” That has such a terrible ring to it. Stop trying to get cute with it. Let us see what the U.S. Constitution has to say about it. The Thirteenth Amendment says, “Neither slavery nor involuntary servitude, except as a punishment for a crime whereof the party shall have been duly convicted, shall exist within the United States, or any place subject to their jurisdiction.” Well now, that just seems to settle the debate, does it not? I’m not saying that all of us behind these walls are lovely flowers or nothing, but why call a rose by any other name and expect it to smell so sweet? Until this “Exception Clause” is removed from the Constitution and it reads, “Neither slavery nor involuntary servitude shall exist within the United States, or any place subject to their jurisdiction,” then call us what we are. Call us slaves.</p>
 </blockquote>
 
-<blockquote class="articleSnippet">
-<cite>Robin Mcdowell and Margie Mason — Associated Press</cite>
-<h4 class="m0"><a href="https://apnews.com/article/prison-to-plate-inmate-labor-investigation-c6f0eb4747963283316e494eadf08c4e" target="_blank">Prisoners in the US are part of a hidden workforce linked to hundreds of popular food brands</a></h4>
-<p>The goods these prisoners produce wind up in the supply chains of a dizzying array of products found in most American kitchens, from Frosted Flakes cereal and Ball Park hot dogs to Gold Medal flour, Coca-Cola and Riceland rice. They are on the shelves of virtually every supermarket in the country, including Kroger, Target, Aldi and Whole Foods. And some goods are exported, including to countries that have had products blocked from entering the U.S. for using forced or prison labor.</p>
+<blockquote class="article-snippet">
+  <p><cite>Robin Mcdowell and Margie Mason — Associated Press</cite></p>
+  <h4 id="prisoners-in-the-us-are-part-of-a-hidden-workforce-linked-to-hundreds-of-popular-food-brands"><a href="https://apnews.com/article/prison-to-plate-inmate-labor-investigation-c6f0eb4747963283316e494eadf08c4e" target="_blank">Prisoners in the US are part of a hidden workforce linked to hundreds of popular food brands</a></h4>
+  <p>The goods these prisoners produce wind up in the supply chains of a dizzying array of products found in most American kitchens, from Frosted Flakes cereal and Ball Park hot dogs to Gold Medal flour, Coca-Cola and Riceland rice. They are on the shelves of virtually every supermarket in the country, including Kroger, Target, Aldi and Whole Foods. And some goods are exported, including to countries that have had products blocked from entering the U.S. for using forced or prison labor.</p>
 </blockquote>
 
 <p>Every Christmas a local city operates a Christmas festival in their city park during the holiday season, where people are encouraged to drive around or walk through a meandering collection of tall structures covered in Christmas lights while enjoying Christmas music, hot chocolate, ice skating, and train rides. It’s a lot of fun for me and I enjoy making the trip when I can. I hope that my children will fondly remember their visits.</p>
 
 <p>The experience was deeply tarnished for me when I visited the park during the autumn months. The Christmas decorations were already being set up for the coming event, as the process of preparing the lights and erecting the displays is complicated and extensive. The staff working to build the decorations were inmates from the local prison, guarded by a man holding a shotgun. I felt sick and ashamed to know that my upcoming joy was prepared by those who would not be permitted to experience it, nor even who would be properly compensated monetarily for their labor. My Christmas memories were being prepared by slaves.</p>
 
-      <aside class="m1"><small><em>Thoughtstream logged with title <a href="/thoughtstream/2024/03/07/slavery-still-exists.html">Slavery still exists in the United States.</a></em></small></aside>
-    </section>
+          
+        </div>
+        
+      </div>
   </article>
   
-  <article class="home m1">
-    
-    <section class="body">
-      <h3 class="title">Modern front-end Web development makes me feel old</h3>
+
+  
+  <article class="article-home">
+      <p class="date">March 7th, 2024</p>
       
+        <h3 class="blog-post-header">
       
-      <blockquote class="articleSnippet">
-<cite>Juan Diego Rodríguez — Smashing Magazine</cite>
-<h4 class="m0"><a href="https://www.smashingmagazine.com/2024/02/web-development-getting-too-complex/" target="_blank">Web Development Is Getting Too Complex, And It May Be Our Fault</a></h4>
-<p>Front-end development seemed simpler in the early 2000s, didn’t it? The standard website consisted mostly of static pages made of HTML and CSS seasoned with a pinch of JavaScript and jQuery. I mean, who doesn’t miss the cross-browser compatibility days, right?</p>
-</blockquote>
-
-<blockquote class="articleSnippet">
-<cite>Chris Coyier — CSS-Tricks</cite>
-<h4 class="m0"><a href="https://css-tricks.com/the-great-divide/" target="_blank">The Great Divide</a></h4>
-<p>Let’s say there is a divide happening in front-end development. I feel it, but it’s not just in my bones. Based on an awful lot of written developer sentiment, interviews Dave Rupert and I have done on ShopTalk, and in-person discussion, it’s, as they say… <i>a thing.</i></p>
-</blockquote>
-
-<blockquote class="articleSnippet">
-<cite>Nolan Lawson — Read the Tea Leaves</cite>
-<h4 class="m0"><a href="https://nolanlawson.com/2023/01/17/my-talk-on-css-runtime-performance/" target="_blank">My talk on CSS runtime performance</a></h4>
-<p>My main goal was to shine a light on all the heroic work that browser vendors have done over the years to make CSS so performant. Much of this stuff is intricate and arcane (like Bloom filters), but I hoped that with some simple diagrams and animations, I could bring this work to life.</p>
-</blockquote>
-
-<p class="embedtool">
-<iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/5IUj1EZwpJY" title="The Only Unbreakable Law" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</p>
-
-<blockquote class="articleSnippet">
-<cite>Nikita Prokopov — Tonsky.me</cite>
-<h4 class="m0"><a href="https://tonsky.me/blog/js-bloat/" target="_blank">JavaScript Bloat in 2024</a></h4>
-<p>I was a bit out of touch with modern front-end development. I also remembered articles about web bloat, how the average web page size was approaching several megabytes!</p>
-<p>So all this time I was living under impression that, for example, if the average web page size is 3 MB, then JavaScript bundle should be around 1 MB. Surely content should still take the majority, no?</p>
-</blockquote>
-
-      <aside class="m1"><small><em>Thoughtstream logged with title <a href="/thoughtstream/2024/03/07/front-end-development-old.html">Modern front-end Web development makes me feel old.</a></em></small></aside>
-    </section>
+      <a href="/post/2024/03/07/i-miss-lockdown.html">I miss lockdown</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>I remember during the Covid-19 lockdown that I was surprisingly happy. I thought it was solely due to my misanthropic streak or that I was far more shy than I realized. However, after experiencing a couple of years of post-lockdown life (more so because Oklahoma was one of the defiantly anti-science states), I think my understanding of myself has grown and I now know why I felt so much better during Covid than I do now.</p>
+            <p class="post-continue-reading">😷 <a href="/post/2024/03/07/i-miss-lockdown.html">Continue reading &ldquo;I miss lockdown&rdquo;</a></p>
+          
+        </div>
+        
+          <p class="post-image"><img alt="A green tree frog hiding in a mimosa tree" height="50" loading="lazy" src="/img/posts/hiding-frog_s.webp" width="100" /></p>
+        
+      </div>
   </article>
   
-  <article class="home m1">
-    
-    <section class="body">
-      <h3 class="title">Oklahoma embarrassment #241295</h3>
-      <p class="m0"><em>This state seems to enjoy making a fool of itself on a national scale.</em></p>
+
+  
+  <article class="article-home">
+      <p class="date">March 7th, 2024</p>
       
-      <blockquote class="articleSnippet">
-<cite>Kaylee Douglas — KFOR</cite>
-<h4 class="m0"><a href="https://kfor.com/news/oklahoma-legislature/lawmaker-wants-to-ban-furries-from-oklahoma-schools/" target="_blank">Oklahoma Politics: Representative wants to ban ‘furries’ from Oklahoma schools</a></h4>
-<p>A newly filed bill would ban students in Oklahoma from pretending to be an animal during the school day.</p>
+        <h3 class="thoughtstream-header">
+      
+      <a href="/thoughtstream/2024/03/07/front-end-development-old.html">Modern front-end Web development makes me feel old</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <blockquote class="article-snippet">
+  <p><cite>Juan Diego Rodríguez — Smashing Magazine</cite></p>
+  <h4 id="web-development-is-getting-too-complex-and-it-may-be-our-fault"><a href="https://www.smashingmagazine.com/2024/02/web-development-getting-too-complex/" target="_blank">Web Development Is Getting Too Complex, And It May Be Our Fault</a></h4>
+  <p>Front-end development seemed simpler in the early 2000s, didn’t it? The standard website consisted mostly of static pages made of HTML and CSS seasoned with a pinch of JavaScript and jQuery. I mean, who doesn’t miss the cross-browser compatibility days, right?</p>
 </blockquote>
 
-<blockquote class="articleSnippet">
-<cite>Erin Christy — 2 News Oklahoma</cite>
-<h4 class="m0"><a href="https://www.kjrh.com/news/local-news/okla-lawmaker-backpedals-on-bills-controversial-language-one-day-after-filing" target="_blank">Okla. lawmaker backpedals on bills’ controversial language one day after filing</a></h4>
-<p>Humphrey admitted the furries bill was more designed to make people aware of furries, rather than it being a problem in schools.</p>
+<blockquote class="article-snippet">
+  <p><cite>Chris Coyier — CSS-Tricks</cite></p>
+  <h4 id="the-great-divide"><a href="https://css-tricks.com/the-great-divide/" target="_blank">The Great Divide</a></h4>
+  <p>Let’s say there is a divide happening in front-end development. I feel it, but it’s not just in my bones. Based on an awful lot of written developer sentiment, interviews Dave Rupert and I have done on ShopTalk, and in-person discussion, it’s, as they say… <em>a thing</em>.</p>
+</blockquote>
+
+<blockquote class="article-snippet">
+  <p><cite>Nolan Lawson — Read the Tea Leaves</cite></p>
+  <h4 id="my-talk-on-css-runtime-performance"><a href="https://nolanlawson.com/2023/01/17/my-talk-on-css-runtime-performance/" target="_blank">My talk on CSS runtime performance</a></h4>
+  <p>My main goal was to shine a light on all the heroic work that browser vendors have done over the years to make CSS so performant. Much of this stuff is intricate and arcane (like Bloom filters), but I hoped that with some simple diagrams and animations, I could bring this work to life.</p>
+</blockquote>
+
+<p class="embedtool"><iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/5IUj1EZwpJY" title="The Only Unbreakable Law" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+
+<blockquote class="article-snippet">
+  <p><cite>Nikita Prokopov — Tonsky.me</cite></p>
+  <h4 id="javascript-bloat-in-2024"><a href="https://tonsky.me/blog/js-bloat/" target="_blank">JavaScript Bloat in 2024</a></h4>
+  <p>I was a bit out of touch with modern front-end development. I also remembered articles about web bloat, how the average web page size was approaching several megabytes!
+So all this time I was living under impression that, for example, if the average web page size is 3 MB, then JavaScript bundle should be around 1 MB. Surely content should still take the majority, no?</p>
+</blockquote>
+
+          
+        </div>
+        
+      </div>
+  </article>
+  
+
+  
+  <article class="article-home">
+      <p class="date">January 22nd, 2024</p>
+      
+        <h3 class="thoughtstream-header">
+      
+      <a href="/thoughtstream/2024/01/22/oklahoma-embarrassment.html">Oklahoma embarrassment #241295</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <blockquote class="article-snippet">
+  <p><cite>Kaylee Douglas — KFOR</cite></p>
+  <h4 id="oklahoma-politics-representative-wants-to-ban-furries-from-oklahoma-schools"><a href="https://kfor.com/news/oklahoma-legislature/lawmaker-wants-to-ban-furries-from-oklahoma-schools/" target="_blank">Oklahoma Politics: Representative wants to ban ‘furries’ from Oklahoma schools</a></h4>
+  <p>A newly filed bill would ban students in Oklahoma from pretending to be an animal during the school day.</p>
+</blockquote>
+
+<blockquote class="article-snippet">
+  <p><cite>Erin Christy — 2 News Oklahoma</cite></p>
+  <h4 id="okla-lawmaker-backpedals-on-bills-controversial-language-one-day-after-filing"><a href="https://www.kjrh.com/news/local-news/okla-lawmaker-backpedals-on-bills-controversial-language-one-day-after-filing" target="_blank">Okla. lawmaker backpedals on bills’ controversial language one day after filing</a></h4>
+  <p>Humphrey admitted the furries bill was more designed to make people aware of furries, rather than it being a problem in schools.</p>
 </blockquote>
 
 <p>Another non-existent problem based on hearsay taking up time in the state’s political system instead of the real pressing issues getting the attention they deserve.</p>
 
-      <aside class="m1"><small><em>Thoughtstream logged with title <a href="/thoughtstream/2024/01/22/oklahoma-embarrassment.html">Oklahoma embarrassment #241295.</a></em></small></aside>
-    </section>
+<p>This state seems to enjoy making a fool of itself on a national scale.</p>
+
+          
+        </div>
+        
+      </div>
   </article>
   
-  <article class="home m1">
-    
-    <section class="body">
-      <h3 class="title">Neighborhood advice</h3>
-      <p class="m0"><em>You’ve been fooled into accepting mediocrity.</em></p>
+
+  
+  <article class="article-home">
+      <p class="date">January 11th, 2024</p>
       
-      <blockquote class="articleSnippet">
-        <h4 class="m0">
-          <cite>Parking Reform Network</cite>
-          <a href="/thoughtstream/2024/01/11/neighborhood-advice.html" target="_blank">Parking Lot Map</a>
-        </h4>
-        <p>The Parking Reform Network educates the public about the impact of parking policy on climate change, equity, housing, and traffic. In partnership with allied organizations, we accelerate the adoption of critical parking reforms through research, coalition-building, and direct advocacy.</p>
-      </blockquote>
+        <h3 class="thoughtstream-header">
       
-      <div class="flexContainer50" style="align-items: stretch; overflow: visible">
-<blockquote class="flexCard articleSnippet">
-<cite>Witold Rybczynski — The American Scholar</cite>
-<h4 class="m0"><a href="https://theamericanscholar.org/give-us-something-to-look-at/" target="_blank">Give Us Something to Look At</a></h4>
-<p>Take away ornament, and what are you left with? When we get close to a building today, we are confronted by gaskets, caulking, nuts and bolts—the minutiae of building construction. Or worse: exit signs, ventilation grills, and fire-hose cabinets. There is an architectural consequence to this.</p>
-<p>So where does that leave us?</p>
+      <a href="/thoughtstream/2024/01/11/neighborhood-advice.html">Neighborhood advice</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>We’ve been fooled into accepting mediocrity.</p>
+
+<blockquote class="article-snippet">
+  <p><cite>Parking Reform Network</cite></p>
+  <h4 id="parking-lot-map"><a href="https://parkingreform.org/resources/parking-lot-map/" target="_blank">Parking Lot Map</a></h4>
+  <p>The Parking Reform Network educates the public about the impact of parking policy on climate change, equity, housing, and traffic. In partnership with allied organizations, we accelerate the adoption of critical parking reforms through research, coalition-building, and direct advocacy.</p>
 </blockquote>
 
-<blockquote class="flexCard articleSnippet">
-<iframe src="https://player.vimeo.com/video/549715999?h=19ce832f2f" width="100%" height="175" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe>
-<cite>Mirza Akdeniz — Vimeo</cite>
-<h4 class="m0"><a href="https://vimeo.com/549715999">Roger Scruton — Why Beauty Matters (2009)</a></h4>
-<p>Philosopher Roger Scruton presents a provocative essay on the importance of beauty in the arts and in our lives.</p>
+<blockquote class="article-snippet">
+  <p><cite>Witold Rybczynski — The American Scholar</cite></p>
+  <h4 id="give-us-something-to-look-at"><a href="https://theamericanscholar.org/give-us-something-to-look-at/" target="_blank">Give Us Something to Look At</a></h4>
+  <p>Take away ornament, and what are you left with? When we get close to a building today, we are confronted by gaskets, caulking, nuts and bolts—the minutiae of building construction. Or worse: exit signs, ventilation grills, and fire-hose cabinets. There is an architectural consequence to this.
+So where does that leave us?</p>
 </blockquote>
-</div>
 
-<p class="embedtool">
-	<iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/M876_FfJ3MQ?si=KgiJHPN2EBNM4ZBw" title="Thoughts and Prayers video (YouTube embed)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe>
-</p>
+<blockquote class="article-snippet">
+  <div class="embedtool" style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/549715999?h=19ce832f2f" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen=""></iframe></div>
+  <script src="https://player.vimeo.com/api/player.js"></script>
 
-      <aside class="m1"><small><em>Thoughtstream logged with title <a href="/thoughtstream/2024/01/11/neighborhood-advice.html">Neighborhood advice.</a></em></small></aside>
-    </section>
+  <p><cite>Mirza Akdeniz — Vimeo</cite></p>
+  <h4 id="roger-scruton--why-beauty-matters-2009"><a href="https://vimeo.com/549715999" target="_blank">Roger Scruton — Why Beauty Matters (2009)</a></h4>
+  <p>Philosopher Roger Scruton presents a provocative essay on the importance of beauty in the arts and in our lives.</p>
+</blockquote>
+
+<p class="embedtool"><iframe loading="lazy" width="100%" height="100%" src="https://www.youtube.com/embed/M876_FfJ3MQ?si=KgiJHPN2EBNM4ZBw" title="Thoughts and Prayers video (YouTube embed)" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></p>
+
+          
+        </div>
+        
+      </div>
   </article>
   
-</section><hr />
-        <section class="home">
-          <h2>Archives of My Posts</h2>
-<article class="home">
-  <h3>I miss lockdown</h3>
-  <p>I remember during the Covid-19 lockdown that I was surprisingly happy. I thought it was solely due to my misanthropic streak or that I was far more shy than I realized. However, after experiencing a couple of years of post-lockdown life (more so because Oklahoma was one of the defiantly anti-science states), I think my understanding of myself has grown and I now know why I felt so much better during Covid than I do now.</p>
-  <p><span class="emoji">😷</span> <a href="/post/2024/03/07/i-miss-lockdown.html">Continue reading &ldquo;I miss lockdown&rdquo;</a></p>
-</article>
 
-<article class="home">
-  <h3>My new old camera</h3>
-  <p>I liked the aesthetic of the advertisement for the iPhone 12 Pro that Apple did years ago. I wanted to remake it in HTML as much as I could, so I used this project to build a list of links to my social network profiles.</p>
-  <p><span class="emoji">📷</span> <a href="/post/2024/01/05/new-old-camera.html">Continue reading &ldquo;My new old camera&rdquo;</a></p>
-</article>
+  
+  <article class="article-home">
+      <p class="date">January 10th, 2024</p>
+      
+        <h3 class="thoughtstream-header">
+      
+      <a href="/thoughtstream/2024/01/10/web-development.html">Front-end Web development</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <blockquote class="article-snippet">
+  <p><cite>Alex Russell — Infrequently Noted</cite></p>
+  <h4 id="the-market-for-lemons"><a href="https://infrequently.org/2023/02/the-market-for-lemons/" target="_blank">The Market for Lemons</a></h4>
+  <p>For most of the past decade, I have spent a considerable fraction of my professional life consulting with teams building on the web. It is not going well.</p>
+</blockquote>
 
-<article class="home">
-  <h3>My fun side project</h3>
-  <p>I liked the aesthetic of the advertisement for the iPhone 12 Pro that Apple did years ago. I wanted to remake it in HTML as much as I could, so I used this project to build a list of links to my social network profiles.</p>
-  <p><span class="emoji">📱</span> <a href="/post/2023/11/28/fun-side-project.html">Continue reading &ldquo;My fun side project&rdquo;</a></p>
-</article>
+<blockquote class="article-snippet">
+  <p><cite>Alex Russell — Infrequently Noted</cite></p>
+  <h4 id="the-performance-inequality-gap-2023"><a href="https://infrequently.org/2022/12/performance-baseline-2023/" target="_blank">The Performance Inequality Gap, 2023</a></h4>
+  <p>To serve users at the 75th percentile (P75) of devices and networks, we can now afford ~150KiB of HTML/CSS/fonts and ~300-350KiB of JavaScript (gzipped). This is a slight improvement on last year’s budgets, thanks to device and network improvements. Meanwhile, sites continue to send more script than is reasonable for 80+% of the world’s users, widening the gap between the haves and the have-nots. This is an ethical crisis for frontend.</p>
+</blockquote>
 
-<article class="home">
-  <h3>Knowledge shouldn’t be a burden</h3>
-  <p>I didn’t want to remain ignorant, but learning even the smallest new piece of information seems to carry a huge cost to a vast array of elements in my life. Could I find a way to feel comfort in understanding more?</p>
-  <p><span class="emoji">📖</span> <a href="/post/2023/11/15/knowledge-shouldnt-be-a-burden.html">Continue reading &ldquo;Knowledge shouldn’t be a burden&rdquo;</a></p>
-</article>
+<blockquote class="article-snippet">
+  <p><cite>Kilian Valkhof — HTMLHell</cite></p>
+  <h4 id="you-dont-need-javascript-for-that"><a href="https://www.htmhell.dev/adventcalendar/2023/2/" target="_blank">You don’t need JavaScript for that</a></h4>
+  <p>Because HTML and CSS features are handled by the browser they can be more performant, more native, more adaptable to user preferences and in general, more accessible. That doesn’t mean it will always be (especially when it comes to accessibility) but when the browser does the heavy lifting for you, your end users will generally have a better experience.</p>
+</blockquote>
 
-<article class="home">
-  <h3>Being invisible</h3>
-  <p>From my youth I have worked to lessen my consideration of my own value, thinking it a virtue to self-deprecate. I thought I was being a better person by hating myself. Eventually, I wondered if my self-perception could be incorrect. Could I be poisoning my life with such a crushing view of my value?</p>
-  <p><span class="emoji">🫥</span> <a href="/post/2023/08/19/being-invisible.html">Continue reading &ldquo;Being invisible&rdquo;</a></p>
-</article>
+<p>It’s totally a disaster right now, but don’t worry; there’s hope we’ll get it right this time!</p>
 
-<article class="home">
-  <h3>What is church?</h3>
-  <p>Why does the average American Evangelical attend church? What are their goals, and do they find those goals met?</p>
-  <p><span class="emoji">⛪️</span> <a href="/post/2023/06/01/what-is-church.html">Continue reading &ldquo;What is church?&rdquo;</a></p>
-</article>
+          
+        </div>
+        
+      </div>
+  </article>
+  
 
-<article class="home">
-  <h3>Hopelessness in video games</h3>
-  <p>I used to play a lot of video games. These days I settle for some games from my Apple Arcade subscription, but I used to have many mobile consoles, several home consoles, and a gaming PC. I played many titles across a variety of platforms, filling out a list of memorable games that left a permanent impact on my life. In a recent conversation with my coworkers I started listing my favorite games and learned that the games that I have felt the most important in my life were ones that generated a feeling of hopelessness. I certainly enjoy a variety of gaming genres and story types, but the ones I can recall with fondness are the ones that made me feel the most miserable.</p>
-  <p><span class="emoji">🕹️</span> <a href="/post/2023/04/25/hopelessness-in-video-games.html">Continue reading &ldquo;Hopelessness in video games&rdquo;</a></p>
-</article>
+  
+  <article class="article-home">
+      <p class="date">January 5th, 2024</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2024/01/05/new-old-camera.html">My new old camera</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>I liked the aesthetic of the advertisement for the iPhone 12 Pro that Apple did years ago. I wanted to remake it in HTML as much as I could, so I used this project to build a list of links to my social network profiles.</p>
+            <p class="post-continue-reading">📷 <a href="/post/2024/01/05/new-old-camera.html">Continue reading &ldquo;My new old camera&rdquo;</a></p>
+          
+        </div>
+        
+          <p class="post-image"><img alt="The Canon PowerShot SX150 IS that I bought from Goodwill" height="50" loading="lazy" src="/img/posts/camera-sx150is_s.jpg" width="100" /></p>
+        
+      </div>
+  </article>
+  
 
-<article class="home">
-  <h3>The time for analog clocks is over</h3>
-  <p>I don’t like analog clocks. People have tried to persuade me and have shown me the obvious benefits to using such a platform, but I continue to remain unconvinced and I feel that I have good reason for my opinion. I will now present a rather adversarial and controversial view of why analog clocks are inferior to the newer digital clock method of presenting time. This will be a pedantic and antagonistic position.</p>
-  <p><span class="emoji">⏰</span> <a href="/post/2023/02/23/analog-clocks.html">Continue reading &ldquo;The time for analog clocks is over&rdquo;</a></p>
-</article>
+  
+  <article class="article-home">
+      <p class="date">November 28th, 2023</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2023/11/28/fun-side-project.html">My fun side project</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>I liked the aesthetic of the advertisement for the iPhone 12 Pro that Apple did years ago. I wanted to remake it in HTML as much as I could, so I used this project to build a list of links to my social network profiles.</p>
+            <p class="post-continue-reading">📱 <a href="/post/2023/11/28/fun-side-project.html">Continue reading &ldquo;My fun side project&rdquo;</a></p>
+          
+        </div>
+        
+          <p class="post-image"><img alt="A screenshot of my page of social network profiles" height="50" loading="lazy" src="/img/posts/dhpersonal-social_s.jpg" width="100" /></p>
+        
+      </div>
+  </article>
+  
 
-<article class="home">
-  <h3>Flooding and school shootings</h3>
-  <p>The fragility of life is rarely more realized than in the moments surrounding a natural disaster. In the normalcy of daily routines, we all can fall numb to the potential dangers present in our world. To stay vigilant would be exhausting, so we avoid considering them until the signs of something terrible approaching are too obvious to ignore.</p>
-  <p><span class="emoji">🌊</span> <a href="/post/2022/09/23/school-shootings.html">Continue reading &ldquo;Flooding and school shootings&rdquo;</a></p>
-</article>
+  
+  <article class="article-home">
+      <p class="date">November 15th, 2023</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2023/11/15/knowledge-shouldnt-be-a-burden.html">Knowledge shouldn’t be a burden</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>I didn’t want to remain ignorant, but learning even the smallest new piece of information seems to carry a huge cost to a vast array of elements in my life. Could I find a way to feel comfort in understanding more?</p>
+            <p class="post-continue-reading">📖 <a href="/post/2023/11/15/knowledge-shouldnt-be-a-burden.html">Continue reading &ldquo;Knowledge shouldn’t be a burden&rdquo;</a></p>
+          
+        </div>
+        
+      </div>
+  </article>
+  
 
-<article class="home">
-  <h3>Parasocial relationships are weird</h3>
-  <p>Parasocial relationships are strange. They feel closer than some friendships but are hollow facsimiles, barely reaching beyond the level of acquaintance. They are unequal connections. They do not mutually benefit all participants. Why then does losing a connection to a stranger feel nearly as bittersweet as a true bond with a known companion?</p>
-  <p><span class="emoji">🤝🏻</span> <a href="/post/2022/06/22/parasocial-relationships.html">Continue reading &ldquo;Parasocial relationships are weird&rdquo;</a></p>
-</article>
+  
+  <article class="article-home">
+      <p class="date">August 19th, 2023</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2023/08/19/being-invisible.html">Being invisible</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>From my youth I have worked to lessen my consideration of my own value, thinking it a virtue to self-deprecate. I thought I was being a better person by hating myself. Eventually, I wondered if my self-perception could be incorrect. Could I be poisoning my life with such a crushing view of my value?</p>
+            <p class="post-continue-reading">🫥 <a href="/post/2023/08/19/being-invisible.html">Continue reading &ldquo;Being invisible&rdquo;</a></p>
+          
+        </div>
+        
+          <p class="post-image"><img alt="A wild geranium blooms alongside a walking path in Bartlesville, Oklahoma" height="50" loading="lazy" src="/img/posts/purple-flower_s.jpg" width="100" /></p>
+        
+      </div>
+  </article>
+  
 
-<article class="home">
-  <h3>Feeling stuck</h3>
-  <p>I need to tell you of a grave error that I made several years ago that has haunted me ever since: gaining knowledge will only lead you to sorrow. You will never be happier than you are now by learning about the things that intrigue you. Don’t fall into the same trap as me and ruin your life like I’ve ruined mine. By investigating you expose your mind to nuance, new possibilities, difficult realities, and discomfort you didn’t believe imaginable, and it will permanently change you for the worse.</p>
-  <p><span class="emoji">⚓️</span> <a href="/post/2022/06/10/feeling-stuck.html">Continue reading &ldquo;Feeling stuck&rdquo;</a></p>
-</article>
+  
+  <hr class="article-home-important-hr" />
+  <article class="article-home-important" style="background-image: url('/img/posts/bartlesville-cross.jpg')">
+      <div class="article-home-content">
+        <p>Why does the average American Evangelical attend church? What are their goals, and do they find those goals met?</p>
+      </div>
+      <h3 class="important-header"><a href="/important/2023/06/01/what-is-church.html">What is church?</a></h3>
+      <p class="date">June 1st, 2023</p>
+  </article>
+  
 
-<article class="home">
-  <h3>I used to be anxious about being thought of as ignorant</h3>
-  <p>In the past few years I think I have started to learn that empathy, comprehension, growth, understanding, joy, and contentment come not from being more certain about what one knows but from accepting how little can be known by any one person in a lifetime. I may be more at peace now, but the process to get to this point was potentially the most painful and disruptive I’ve yet to experience.</p>
-  <p><span class="emoji">📚</span> <a href="/post/2022/02/03/anxious-about-being-ignorant.html">Continue reading &ldquo;I used to be anxious about being thought of as ignorant&rdquo;</a></p>
-</article>
+  
+  <article class="article-home">
+      <p class="date">April 25th, 2023</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2023/04/25/hopelessness-in-video-games.html">Hopelessness in video games</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>I used to play a lot of video games. These days I settle for some games from my Apple Arcade subscription, but I used to have many mobile consoles, several home consoles, and a gaming PC. I played many titles across a variety of platforms, filling out a list of memorable games that left a permanent impact on my life. In a recent conversation with my coworkers I started listing my favorite games and learned that the games that I have felt the most important in my life were ones that generated a feeling of hopelessness. I certainly enjoy a variety of gaming genres and story types, but the ones I can recall with fondness are the ones that made me feel the most miserable.</p>
+            <p class="post-continue-reading">🕹️ <a href="/post/2023/04/25/hopelessness-in-video-games.html">Continue reading &ldquo;Hopelessness in video games&rdquo;</a></p>
+          
+        </div>
+        
+      </div>
+  </article>
+  
 
-<article class="home">
-  <h3>Now on Jekyll</h3>
-  <p>This little side project is now built with Jekyll, a site deployment tool that was surprisingly easy to set up. Its simple controls allow me to quickly build the site into HTML files very similar to ones that I was writing before, but without all the hard work of maintaining code throughout each page. Now I can write posts in a simpler fashion and start to add new features with greater ease than if I continued coding everything by hand.</p>
-  <p><span class="emoji">💻</span> <a href="/post/2021/12/22/jekyll.html">Continue reading &ldquo;Now on Jekyll&rdquo;</a></p>
-</article>
+  
+  <article class="article-home">
+      <p class="date">February 23rd, 2023</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2023/02/23/analog-clocks.html">The time for analog clocks is over</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>I don’t like analog clocks. People have tried to persuade me and have shown me the obvious benefits to using such a platform, but I continue to remain unconvinced and I feel that I have good reason for my opinion. I will now present a rather adversarial and controversial view of why analog clocks are inferior to the newer digital clock method of presenting time. This will be a pedantic and antagonistic position.</p>
+            <p class="post-continue-reading">⏰ <a href="/post/2023/02/23/analog-clocks.html">Continue reading &ldquo;The time for analog clocks is over&rdquo;</a></p>
+          
+        </div>
+        
+      </div>
+  </article>
+  
 
-<article class="home">
-  <h3>We aren’t asking the right questions</h3>
-  <p>The penultimate episode of <em>The Rise & Fall of Mars Hill</em> is a frustrating investigatory experience. The show presents to the listener the evidence of an abusive pastor in a permissive church system, building the case that this was an ongoing problem within the organization that eventually collapsed under the weight of the trauma dealt within. What I believe the episode fails to do and has continued to do throughout the series is to follow that evidence to its obvious conclusion, despite the pretense of seeking answers for how it all happened.</p>
-  <p><span class="emoji">🎧</span> <a href="/post/2021/11/26/we-arent-asking-the-right-questions.html">Continue reading &ldquo;We aren’t asking the right questions&rdquo;</a></p>
-</article>
+  
+  <article class="article-home">
+      <p class="date">September 23rd, 2022</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2022/09/23/school-shootings.html">Flooding and school shootings</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>The fragility of life is rarely more realized than in the moments surrounding a natural disaster. In the normalcy of daily routines, we all can fall numb to the potential dangers present in our world. To stay vigilant would be exhausting, so we avoid considering them until the signs of something terrible approaching are too obvious to ignore.</p>
+            <p class="post-continue-reading">🌊 <a href="/post/2022/09/23/school-shootings.html">Continue reading &ldquo;Flooding and school shootings&rdquo;</a></p>
+          
+        </div>
+        
+      </div>
+  </article>
+  
 
-<article class="home">
-  <h3>An identity crisis</h3>
-  <p>I grew up in an Evangelical Christian culture. I was taught that the primary life purpose of a Christian was to propagate the message of Christianity through evangelism, sharing the story of Jesus to people who did not know or believe what was written in the Bible. Through this effort, souls would be saved from eternal damnation and more people would be prepared for the return of the savior of humanity. This mission was time-sensitive, because the return of Jesus was possible at any moment, and that event could potentially seal the fate of all living on Earth.</p>
-  <p><span class="emoji">🦸🏻‍♂️</span> <a href="/post/2021/10/26/an-identity-crisis.html">Continue reading &ldquo;An identity crisis&rdquo;</a></p>
-</article>
+  
+  <article class="article-home">
+      <p class="date">June 22nd, 2022</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2022/06/22/parasocial-relationships.html">Parasocial relationships are weird</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>Parasocial relationships are strange. They feel closer than some friendships but are hollow facsimiles, barely reaching beyond the level of acquaintance. They are unequal connections. They do not mutually benefit all participants. Why then does losing a connection to a stranger feel nearly as bittersweet as a true bond with a known companion?</p>
+            <p class="post-continue-reading">🤝🏻 <a href="/post/2022/06/22/parasocial-relationships.html">Continue reading &ldquo;Parasocial relationships are weird&rdquo;</a></p>
+          
+        </div>
+        
+      </div>
+  </article>
+  
 
-<article class="home">
-  <h3>We know less than we realize, but that’s okay</h3>
-  <p>Life during the COVID-19 pandemic has been lonelier than I expected. My introversion has been useful in this time of isolation, but it did not prepare me for the simultaneous crushing ideological loneliness that has come from watching others respond to the demands of the pandemic. I feel more disconnected from my peers now than I ever have before.</p>
-  <p><span class="emoji">🧠</span> <a href="/post/2021/09/14/we-know-less-than-we-realize.html">Continue reading &ldquo;We know less than we realize, but that’s okay&rdquo;</a></p>
-</article>
+  
+  <article class="article-home">
+      <p class="date">June 10th, 2022</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2022/06/10/feeling-stuck.html">Feeling stuck</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>I need to tell you of a grave error that I made several years ago that has haunted me ever since: gaining knowledge will only lead you to sorrow. You will never be happier than you are now by learning about the things that intrigue you. Don’t fall into the same trap as me and ruin your life like I’ve ruined mine. By investigating you expose your mind to nuance, new possibilities, difficult realities, and discomfort you didn’t believe imaginable, and it will permanently change you for the worse.</p>
+            <p class="post-continue-reading">⚓️ <a href="/post/2022/06/10/feeling-stuck.html">Continue reading &ldquo;Feeling stuck&rdquo;</a></p>
+          
+        </div>
+        
+      </div>
+  </article>
+  
 
-<article class="home">
-  <h3>Vaccine hesitancy is putting us all at risk</h3>
-  <p>The current state of skepticism about scientific studies is reaching a dangerous level. How did the support of vaccines degrade so much? Why did we start to believe conspiracies instead of the consensus from people more educated and intelligent than our neighbor?</p>
-  <p><span class="emoji">💉</span> <a href="/post/2021/08/12/vaccine-hesitancy-risk.html">Continue reading &ldquo;Vaccine hesitancy is putting us all at risk&rdquo;</a></p>
-</article>
+  
+  <article class="article-home">
+      <p class="date">February 3rd, 2022</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2022/02/03/anxious-about-being-ignorant.html">I used to be anxious about being thought of as ignorant</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>In the past few years I think I have started to learn that empathy, comprehension, growth, understanding, joy, and contentment come not from being more certain about what one knows but from accepting how little can be known by any one person in a lifetime. I may be more at peace now, but the process to get to this point was potentially the most painful and disruptive I’ve yet to experience.</p>
+            <p class="post-continue-reading">📚 <a href="/post/2022/02/03/anxious-about-being-ignorant.html">Continue reading &ldquo;I used to be anxious about being thought of as ignorant&rdquo;</a></p>
+          
+        </div>
+        
+      </div>
+  </article>
+  
 
-<article class="home">
-  <h3>The time that I learned about Ronald Reagan</h3>
-  <p>I had grown up in a culture that spoke of Ronald Reagan almost with reverence, believing him to be one of the last great leaders of the country. I had never felt a reason to question this thought, so I never investigated the history of the presidency. This interview caused me to doubt the narrative I had heard throughout my life.</p>
-  <p><span class="emoji">🇺🇸</span> <a href="/post/2021/07/30/ronald-reagan.html">Continue reading &ldquo;The time that I learned about Ronald Reagan&rdquo;</a></p>
-</article>
+  
+  <article class="article-home">
+      <p class="date">December 22nd, 2021</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2021/12/22/jekyll.html">Now on Jekyll</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>This little side project is now built with Jekyll, a site deployment tool that was surprisingly easy to set up. Its simple controls allow me to quickly build the site into HTML files very similar to ones that I was writing before, but without all the hard work of maintaining code throughout each page. Now I can write posts in a simpler fashion and start to add new features with greater ease than if I continued coding everything by hand.</p>
+            <p class="post-continue-reading">💻 <a href="/post/2021/12/22/jekyll.html">Continue reading &ldquo;Now on Jekyll&rdquo;</a></p>
+          
+        </div>
+        
+      </div>
+  </article>
+  
+
+  
+  <article class="article-home">
+      <p class="date">November 26th, 2021</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2021/11/26/we-arent-asking-the-right-questions.html">We aren’t asking the right questions</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>The penultimate episode of <em>The Rise & Fall of Mars Hill</em> is a frustrating investigatory experience. The show presents to the listener the evidence of an abusive pastor in a permissive church system, building the case that this was an ongoing problem within the organization that eventually collapsed under the weight of the trauma dealt within. What I believe the episode fails to do and has continued to do throughout the series is to follow that evidence to its obvious conclusion, despite the pretense of seeking answers for how it all happened.</p>
+            <p class="post-continue-reading">🎧 <a href="/post/2021/11/26/we-arent-asking-the-right-questions.html">Continue reading &ldquo;We aren’t asking the right questions&rdquo;</a></p>
+          
+        </div>
+        
+      </div>
+  </article>
+  
+
+  
+  <article class="article-home">
+      <p class="date">October 26th, 2021</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2021/10/26/an-identity-crisis.html">An identity crisis</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>I grew up in an Evangelical Christian culture. I was taught that the primary life purpose of a Christian was to propagate the message of Christianity through evangelism, sharing the story of Jesus to people who did not know or believe what was written in the Bible. Through this effort, souls would be saved from eternal damnation and more people would be prepared for the return of the savior of humanity. This mission was time-sensitive, because the return of Jesus was possible at any moment, and that event could potentially seal the fate of all living on Earth.</p>
+            <p class="post-continue-reading">🦸🏻‍♂️ <a href="/post/2021/10/26/an-identity-crisis.html">Continue reading &ldquo;An identity crisis&rdquo;</a></p>
+          
+        </div>
+        
+      </div>
+  </article>
+  
+
+  
+  <article class="article-home">
+      <p class="date">September 14th, 2021</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2021/09/14/we-know-less-than-we-realize.html">We know less than we realize, but that’s okay</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>Life during the COVID-19 pandemic has been lonelier than I expected. My introversion has been useful in this time of isolation, but it did not prepare me for the simultaneous crushing ideological loneliness that has come from watching others respond to the demands of the pandemic. I feel more disconnected from my peers now than I ever have before.</p>
+            <p class="post-continue-reading">🧠 <a href="/post/2021/09/14/we-know-less-than-we-realize.html">Continue reading &ldquo;We know less than we realize, but that’s okay&rdquo;</a></p>
+          
+        </div>
+        
+      </div>
+  </article>
+  
+
+  
+  <article class="article-home">
+      <p class="date">August 12th, 2021</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2021/08/12/vaccine-hesitancy-risk.html">Vaccine hesitancy is putting us all at risk</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>The current state of skepticism about scientific studies is reaching a dangerous level. How did the support of vaccines degrade so much? Why did we start to believe conspiracies instead of the consensus from people more educated and intelligent than our neighbor?</p>
+            <p class="post-continue-reading">💉 <a href="/post/2021/08/12/vaccine-hesitancy-risk.html">Continue reading &ldquo;Vaccine hesitancy is putting us all at risk&rdquo;</a></p>
+          
+        </div>
+        
+      </div>
+  </article>
+  
+
+  
+  <article class="article-home">
+      <p class="date">July 30th, 2021</p>
+      
+        <h3 class="blog-post-header">
+      
+      <a href="/post/2021/07/30/ronald-reagan.html">The time that I learned about Ronald Reagan</a></h3>
+      <div class="article-home-container">
+        <div class="article-home-content">
+          
+            <p>I had grown up in a culture that spoke of Ronald Reagan almost with reverence, believing him to be one of the last great leaders of the country. I had never felt a reason to question this thought, so I never investigated the history of the presidency. This interview caused me to doubt the narrative I had heard throughout my life.</p>
+            <p class="post-continue-reading">🇺🇸 <a href="/post/2021/07/30/ronald-reagan.html">Continue reading &ldquo;The time that I learned about Ronald Reagan&rdquo;</a></p>
+          
+        </div>
+        
+      </div>
+  </article>
+  
 
 </section>
-      </section>
-      <aside class="home">
-        <h2>Potentially Interesting Stuff That Other People Made Online</h2>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Aja Romano — Vox</cite>
-            <a class="emojiHover" data-id="nexBenedict" href="https://www.vox.com/culture/24092224/nex-benedict-death-what-happened-okhlahoma-anti-trans-laws-backlash" target="_blank">The unanswered questions surrounding the tragic death of Nex Benedict</a>
-          </h3>
-          <blockquote cite="https://www.vox.com/culture/24092224/nex-benedict-death-what-happened-okhlahoma-anti-trans-laws-backlash">
-            A trans teen is dead. The state he lived in made his life as hard as possible.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Dharna Noor — The Guardian</cite>
-            <a class="emojiHover" data-id="plasticLie" href="https://www.theguardian.com/us-news/2024/feb/15/recycling-plastics-producers-report" target="_blank">‘They lied’: plastics producers deceived public about recycling, report reveals</a>
-          </h3>
-          <blockquote cite="https://www.theguardian.com/us-news/2024/feb/15/recycling-plastics-producers-report">
-            Companies knew for decades recycling was not viable but promoted it regardless, Center for Climate Integrity study finds.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Ernie Smith — Tedium</cite>
-            <a class="emojiHover" data-id="wordpressAI" href="https://tedium.co/2024/02/28/wordpress-automattic-tumblr-controversy/" target="_blank">When Stewards Go Astray</a>
-          </h3>
-          <blockquote cite="https://tedium.co/2024/02/28/wordpress-automattic-tumblr-controversy/">
-            A pair of recent controversies around the tech-publishing giant Automattic raise an important question in my mind: Do we have to worry about the future of WordPress?
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Karl Bode — Techdirt.</cite>
-            <a class="emojiHover" data-id="viceFailure" href="https://www.techdirt.com/2024/02/27/the-vice-media-collapse-was-entirely-the-fault-of-incompetent-fail-upward-brunchlords/" target="_blank">The Vice Media Collapse Was Entirely The Fault Of Incompetent, Fail-Upward Brunchlords</a>
-          </h3>
-          <blockquote cite="https://www.techdirt.com/2024/02/27/the-vice-media-collapse-was-entirely-the-fault-of-incompetent-fail-upward-brunchlords/">
-            As we survey the rubble that once was the U.S. journalism industry, a common refrain involves lamenting that “online journalism just isn’t profitable.” But as the recent collapse of outlets like Sports Illustrated and The Messenger illustrate, the real culprit often isn’t that journalism isn’t profitable, it’s that U.S. media is predominantly run by utterly incompetent individuals who fail upward into positions of power.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Jared Wiener — Forth.</cite>
-            <a class="emojiHover" data-id="newsFailure" href="https://blog.forth.news/news-was-never-meant-for-social-platforms/" target="_blank">News was never meant for social platforms</a>
-          </h3>
-          <blockquote cite="https://blog.forth.news/news-was-never-meant-for-social-platforms/">
-            If ever there was a good illustration of the disconnect we face in trying to make journalism sustainable again, this is it.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Jason Koebler — 404 Media</cite>
-            <a class="emojiHover" data-id="newSearch" href="https://www.404media.co/this-guy-is-building-an-open-source-search-engine-in-real-time/" target="_blank">This Guy Has Built an Open Source Search Engine as an Alternative to Google in His Spare Time</a>
-          </h3>
-          <blockquote cite="https://www.404media.co/this-guy-is-building-an-open-source-search-engine-in-real-time/">
-            “I found it very weird that there essentially is no way to browse the web in an open manner. So that’s what I am trying to build,” the founder of Stract said.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Julie Jargon and Ann-Marie Alcántara — The Wall Street Journal</cite>
-            <a class="emojiHover" data-id="daveRamsey" href="https://www.wsj.com/personal-finance/dave-ramsey-tells-millions-what-to-do-with-their-money-people-under-40-say-hes-wrong-56733630" target="_blank">Dave Ramsey Tells Millions What to Do With Their Money. People Under 40 Say He’s Wrong.</a>
-          </h3>
-          <blockquote cite="https://www.wsj.com/personal-finance/dave-ramsey-tells-millions-what-to-do-with-their-money-people-under-40-say-hes-wrong-56733630">
-            Young adults are rejecting the finance guru’s advice to live frugally while getting out of debt.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Rhaina Cohen — The Washington Post (Opinion)</cite>
-            <a class="emojiHover" data-id="marriageBenefits" href="https://www.washingtonpost.com/opinions/2024/02/13/rhaina-cohen-significant-others-marriage-friendship-relationships/" target="_blank">Marriage has a monopoly on legal benefits. It shouldn’t.</a>
-          </h3>
-          <blockquote cite="https://www.washingtonpost.com/opinions/2024/02/13/rhaina-cohen-significant-others-marriage-friendship-relationships/">
-            U.S. policy can better match the reality on the ground and reflect the many ways people find support and sustenance, in platonic and romantic partnerships.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Ian Livingston — The Washington Post</cite>
-            <a class="emojiHover" data-id="lostWinter" href="https://www.washingtonpost.com/weather/2024/02/14/record-warm-winter-greatlakes-midwest-snow-ice-climate/" target="_blank">The Midwest is experiencing a ‘lost winter.’ Here’s what that means.</a>
-          </h3>
-          <blockquote cite="https://www.washingtonpost.com/weather/2024/02/14/record-warm-winter-greatlakes-midwest-snow-ice-climate/">
-            Snow is absent, ice is dangerously thin, and many cities are experiencing their warmest winter on record.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Joseph Bernstein — The New York Times</cite>
-            <a class="emojiHover" data-id="millenialWail" href="https://www.nytimes.com/2024/01/28/style/aging-millennials.html" target="_blank">Hark, the Millennial Death Wail</a>
-          </h3>
-          <blockquote cite="https://www.nytimes.com/2024/01/28/style/aging-millennials.html">
-            The largest living generation in America peers into the abyss of middle age. Are we really worried, or is it just a shtick?
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Maggie Blackhawk — The New York Times (Opinion)</cite>
-            <a class="emojiHover" data-id="killersFlower" href="https://www.nytimes.com/2024/01/25/opinion/killers-flower-moon-scorsese-empathy.html" target="_blank">How ‘Killers of the Flower Moon’ Presses Up Against the Limits of Empathy</a>
-          </h3>
-          <blockquote cite="https://www.nytimes.com/2024/01/25/opinion/killers-flower-moon-scorsese-empathy.html">
-            Mr. Scorsese’s approach might feel counterintuitive, even discomforting, because it is in tension with the prevailing scholarly wisdom about empathy — Hobbes and Machiavelli notwithstanding. The fields of political and moral philosophy often presume that humans are inherently predisposed toward empathy. … It is in this moment of encounter with those wholly different from us in worldview that we experience empathy and reach the full capacity of our moral potential. It is empathy that moves us from animal, or wolf, to human.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Nicholas Confessore — The New York Times</cite>
-            <a class="emojiHover" data-id="dei" href="https://www.nytimes.com/interactive/2024/01/20/us/dei-woke-claremont-institute.html" target="_blank">‘America Is Under Attack’: Inside the Anti-D.E.I. Crusade</a>
-          </h3>
-          <blockquote cite="https://www.nytimes.com/interactive/2024/01/20/us/dei-woke-claremont-institute.html">
-            Thousands of documents obtained by The New York Times cast light on the playbook and the thinking underpinning one nexus of the anti-D.E.I. movement — the activists and intellectuals who helped shape Texas’ new law, along with measures in at least three other states. The material, which includes casual correspondence with like-minded allies around the country, also reveals unvarnished views on race, sexuality and gender roles. And despite the movement’s marked success in some Republican-dominated states, the documents chart the activists’ struggle to gain traction with broader swaths of voters and officials.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Amir Salihefendic — doist</cite>
-            <a class="emojiHover" data-id="remoteWork" href="https://blog.doist.com/remote-first-workplaces/" target="_blank">Why the Future of Work is Remote</a>
-          </h3>
-          <blockquote cite="https://blog.doist.com/remote-first-workplaces/">
-            Remote-first work means that, for the first time in the human history, people can access tremendous career opportunities and high-paying jobs regardless of where they live.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Edward Zitron — Where’s Your Ed At?</cite>
-            <a class="emojiHover" data-id="internetdying" href="https://www.wheresyoured.at/are-we-watching-the-internet-die/" target="_blank">Are We Watching The Internet Die?</a>
-          </h3>
-          <blockquote cite="https://www.wheresyoured.at/are-we-watching-the-internet-die/">
-            We’re at the end of a vast, multi-faceted con of internet users, where ultra-rich technologists tricked their customers into building their companies for free. And while the trade once seemed fair, it's become apparent that these executives see users not as willing participants in some sort of fair exchange, but as veins of data to be exploitatively mined as many times as possible, given nothing in return other than access to a platform that may or may not work properly.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Ryan Erik King — Jalopnik</cite>
-            <a class="emojiHover" data-id="tsaTowel" href="https://jalopnik.com/can-we-just-throw-in-the-towel-on-airport-security-thea-1851317340" target="_blank">Can We Just Throw In The Towel On Airport Security Theater Already?</a>
-          </h3>
-          <blockquote cite="https://jalopnik.com/can-we-just-throw-in-the-towel-on-airport-security-thea-1851317340">
-            TSA’s self-screening trial in Las Vegas' airport should have been the standard checkpoint ages ago
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Matthew Yglesias — Slow Boring</cite>
-            <a class="emojiHover" data-id="nostalgiaPolitics" href="https://www.slowboring.com/p/nostalgia-politics-is-a-dead-end" target="_blank">Nostalgia politics is a dead end</a>
-          </h3>
-          <blockquote cite="https://www.slowboring.com/p/nostalgia-politics-is-a-dead-end">
-            There is, of course, nothing wrong with nostalgia as an emotion, and like most people, I find myself feeling it more and more as I get older. But I know, deep down, that nostalgia is an illusion.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Noah Smith — Noahpinion</cite>
-            <a class="emojiHover" data-id="shallowFuture" href="https://www.noahpinion.blog/p/toward-a-shallower-future" target="_blank">Toward a shallower future</a>
-          </h3>
-          <blockquote cite="https://www.noahpinion.blog/p/toward-a-shallower-future">
-            But no one in their right mind wishes for tragedies to continue just so that human life can continue to be filled with pathos. Adversity is not worth the price of adversity.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Jessica Contrera, Jenn Abelson and John D. Harden — The Washington Post</cite>
-            <a class="emojiHover" data-id="policeSA" href="https://www.washingtonpost.com/dc-md-va/interactive/2024/new-orleans-police-child-sexual-abuse-rodney-vicknair/" target="_blank">A police officer took a teen for a rape kit. Then he assaulted her, too.</a>
-          </h3>
-          <blockquote cite="https://www.washingtonpost.com/dc-md-va/interactive/2024/new-orleans-police-child-sexual-abuse-rodney-vicknair/">
-            Hundreds of law enforcement officers have been accused of sexually abusing children over the past two decades, a Post investigation found.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Frank Bruni — The New York Times (Opinion)</cite>
-            <a class="emojiHover" data-id="losePeople" href="https://www.nytimes.com/2024/03/14/opinion/friend-breakup-friendship.html" target="_blank">We don’t mean to lose all the people who vanish from our lives</a>
-          </h3>
-          <blockquote cite="https://www.nytimes.com/2024/03/14/opinion/friend-breakup-friendship.html">
-            We’re onetime confidantes who never had a falling out, never said a proper goodbye, simply evaporated from each other’s lives like dew from a blade of grass.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Ted Streuli — Oklahoma Watch</cite>
-            <a class="emojiHover" data-id="losePeople" href="https://mailchi.mp/oklahomawatch/ted-streulis-first-watch-dwj8jwomx3?e=98dff2ccf2" target="_blank">Ted Streuli’s First Watch</a>
-          </h3>
-          <blockquote cite="https://mailchi.mp/oklahomawatch/ted-streulis-first-watch-dwj8jwomx3?e=98dff2ccf2">
-            State Superintendent of Public Instruction Ryan Walters said he needed a national public relations firm to get him on television more, to get more opinion pieces published in the national press and to get him more speaking engagements.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Alexandra Petri — The Washington Post (Opinion)</cite>
-            <a class="emojiHover" data-id="trumpPres" href="https://www.washingtonpost.com/opinions/2024/01/17/trump-presidency-parallel-reality/" target="_blank">I could have sworn I was around for Donald Trump’s presidency</a>
-          </h3>
-          <blockquote cite="https://www.washingtonpost.com/opinions/2024/01/17/trump-presidency-parallel-reality/">
-            I could have sworn I was around for the Trump years, but maybe I was wrong. Everywhere I went in Iowa — even to the rallies of people who were actively trying to stop Donald Trump from being the next president — and everywhere I look on TV now, I keep hearing how wonderful the Trump years were.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Bryce Covert — The New York Times (Opinion)</cite>
-            <a class="emojiHover" data-id="socialNet" href="https://www.nytimes.com/2024/03/12/opinion/covid-economy-safety-net.html" target="_blank">Is This What Happens When You Build a Real Social Safety Net, Then Take It Away?</a>
-          </h3>
-          <blockquote cite="https://www.nytimes.com/2024/03/12/opinion/covid-economy-safety-net.html">
-            It’s a riddle that economists have struggled to decipher. The U.S. economy seems robust on paper, yet Americans are dissatisfied with it. But hardly anyone seems to have paid much attention to the whirlwind experience we just lived through: We built a real social safety net in the United States and then abruptly ripped it apart.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Aaron Ross Powell</cite>
-            <a class="emojiHover" data-id="aiMirror" href="https://www.aaronrosspowell.com/p/ai-new-sliced-bread" target="_blank">Why AI is the New Sliced Bread</a>
-          </h3>
-          <blockquote cite="https://www.aaronrosspowell.com/p/ai-new-sliced-bread">
-            Artists who fight AI may need to look in the mirror.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Dan Froomkin — Press Watch</cite>
-            <a class="emojiHover" data-id="nyTimesCoverage" href="https://presswatchers.org/2024/03/why-is-new-york-times-campaign-coverage-so-bad-because-thats-what-the-publisher-wants/" target="_blank">Why is New York Times campaign coverage so bad? Because that’s what the publisher wants.</a>
-          </h3>
-          <blockquote cite="https://presswatchers.org/2024/03/why-is-new-york-times-campaign-coverage-so-bad-because-thats-what-the-publisher-wants/">
-            It’s an increasingly common critique of the New York Times: The largest, most influential news organization in the nation is not warning sufficiently of the threat to democracy — while at the same time bashing President Joe Biden at every opportunity. And it’s been a bit of a mystery. Why would a newsroom full of talented and mostly liberal reporters be engaging in such damaging behavior? Well, mystery solved. It’s because that’s what the publisher wants.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Jeremy Scahill, Ryan Grim, and Daniel Boguslaw — The Intercept</cite>
-            <a class="emojiHover" data-id="nyTimesOct" href="https://theintercept.com/2024/02/28/new-york-times-anat-schwartz-october-7/" target="_blank">“Between The Hammer and the Anvil”</a>
-          </h3>
-          <blockquote cite="https://theintercept.com/2024/02/28/new-york-times-anat-schwartz-october-7/">
-            The story behind the New York Times October 7 exposé.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Tim Berners-Lee — World Wide Web Foundation</cite>
-            <a class="emojiHover" data-id="web35th" href="https://webfoundation.org/2024/03/marking-the-webs-35th-birthday-an-open-letter/" target="_blank">Marking the Web’s 35th Birthday: An Open Letter</a>
-          </h3>
-          <blockquote cite="https://webfoundation.org/2024/03/marking-the-webs-35th-birthday-an-open-letter/">
-            From the centralisation of platforms to the AI revolution, the web serves as the foundational layer of our online ecosystem – an ecosystem that is now reshaping the geopolitical landscape, driving economic shifts and influencing the lives of people around the World.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Andrew Kersley — Wired</cite>
-            <a class="emojiHover" data-id="cfCities" href="https://www.wired.com/story/car-free-cities-opposition/" target="_blank">People Hate the Idea of Car-Free Cities—Until They Live in One</a>
-          </h3>
-          <blockquote cite="https://www.wired.com/story/car-free-cities-opposition/">
-            Removing cars from urban areas means lower carbon emissions, less air pollution, and fewer road traffic accidents. So why are residents so resistant?
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Jamelle Bouie — The New York Times (Opinion)</cite>
-            <a class="emojiHover" data-id="jbMarch16" href="https://www.nytimes.com/2024/03/16/opinion/abortion-republican-kellyanne-conway.html" target="_blank">Kellyanne Conway Has Some Weak Advice for Her Party</a>
-          </h3>
-          <blockquote cite="https://www.nytimes.com/2024/03/16/opinion/abortion-republican-kellyanne-conway.html">
-            It is beyond obvious at this point that abortion is the Achilles’ heel of the Republican Party. The prospect of a national abortion ban almost certainly helped Democrats stave off a red wave in the 2022 midterm elections, and assisted them the following year in both statewide and state legislative races in Virginia and Kentucky. The prospect of abortion bans has also pushed voters in states such as Ohio and Michigan to approve sweeping affirmations of reproductive freedom in their respective state constitutions. And abortion looms over the 2024 race, as well; Democrats will spend countless millions to tell Americans that a vote for Trump, or any Republican on the ballot, is a vote for a national abortion ban.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Jessica Grose — The New York Times (Opinion)</cite>
-            <a class="emojiHover" data-id="jgMarch16" href="https://www.nytimes.com/2024/03/16/opinion/remote-work-mommy-track.html" target="_blank">Does Everyone Want to Be on the ‘Mommy Track’?</a>
-          </h3>
-          <blockquote cite="https://www.nytimes.com/2024/03/16/opinion/remote-work-mommy-track.html">
-            “I switched jobs so many times during Covid. I think I had five jobs because they just weren’t working for what was going on in my personal life,” Koelsch told me. Now, she works four days from home, one day in the office, and her life is manageable. “I can throw a load of laundry” in and “on my 15 minute break I can start soup and it’s ready by dinnertime. It’s this whole great way of living. I don’t want to give it up.”
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Garrett Yalch and Clifton Adcock — The Frontier / Sebastian Rotella and Kirsten Berg — Propublica</cite>
-            <a class="emojiHover" data-id="oklahomaWeed" href="https://www.readfrontier.org/stories/gangsters-money-and-murder-how-chinese-organized-crime-is-dominating-oklahomas-illegal-medical-marijuana-market/" target="_blank">Gangsters, money and murder: How Chinese organized crime is dominating Oklahoma’s illegal medical marijuana market</a>
-          </h3>
-          <blockquote cite="https://www.readfrontier.org/stories/gangsters-money-and-murder-how-chinese-organized-crime-is-dominating-oklahomas-illegal-medical-marijuana-market/">
-            A quadruple murder in Oklahoma shows how the Chinese underworld has come to dominate the booming illicit trade, fortifying its rise as a global powerhouse with alleged ties to China’s authoritarian regime.
-          </blockquote>
-        </article>
-        
-        <article class="home interesting">
-          <h3>
-            <cite class="dash">Colin Marshall — Open Culture</cite>
-            <a class="emojiHover" data-id="gettyImages" href="https://www.openculture.com/2024/03/the-getty-makes-nearly-88000-art-images-free-to-use-however-you-like.html" target="_blank">The Getty Makes Nearly 88,000 Art Images Free to Use However You Like</a>
-          </h3>
-          <blockquote cite="https://www.openculture.com/2024/03/the-getty-makes-nearly-88000-art-images-free-to-use-however-you-like.html">
-            Since the J. Paul Getty Museum launched its Open Content program back in 2013, we’ve been featuring their efforts to make their vast collection of cultural artifacts freely accessible online. They’ve released not just digitized works of art, but also a great many art history texts and art books in general. Just this week, they announced an expansion of access to their digital archive, in that they’ve made nearly 88,000 images free to download on their Open Content database under Creative Commons Zero (CC0). That means “you can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.”
-          </blockquote>
-        </article>
-        
-      </aside>
-    </div>
-  </main>
+        <aside class="aside-home"><h2 class="aside-header">What I’m Reading</h2>
+<div class="aside-container">
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Aja Romano — Vox</cite>
+      <a class="emoji-hover" data-id="nexBenedict" href="https://www.vox.com/culture/24092224/nex-benedict-death-what-happened-okhlahoma-anti-trans-laws-backlash" target="_blank">The unanswered questions surrounding the tragic death of Nex Benedict</a>
+    </h3>
+    <blockquote cite="https://www.vox.com/culture/24092224/nex-benedict-death-what-happened-okhlahoma-anti-trans-laws-backlash">
+      A trans teen is dead. The state he lived in made his life as hard as possible.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Dharna Noor — The Guardian</cite>
+      <a class="emoji-hover" data-id="plasticLie" href="https://www.theguardian.com/us-news/2024/feb/15/recycling-plastics-producers-report" target="_blank">‘They lied’: plastics producers deceived public about recycling, report reveals</a>
+    </h3>
+    <blockquote cite="https://www.theguardian.com/us-news/2024/feb/15/recycling-plastics-producers-report">
+      Companies knew for decades recycling was not viable but promoted it regardless, Center for Climate Integrity study finds.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Ernie Smith — Tedium</cite>
+      <a class="emoji-hover" data-id="wordpressAI" href="https://tedium.co/2024/02/28/wordpress-automattic-tumblr-controversy/" target="_blank">When Stewards Go Astray</a>
+    </h3>
+    <blockquote cite="https://tedium.co/2024/02/28/wordpress-automattic-tumblr-controversy/">
+      A pair of recent controversies around the tech-publishing giant Automattic raise an important question in my mind: Do we have to worry about the future of WordPress?
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Karl Bode — Techdirt.</cite>
+      <a class="emoji-hover" data-id="viceFailure" href="https://www.techdirt.com/2024/02/27/the-vice-media-collapse-was-entirely-the-fault-of-incompetent-fail-upward-brunchlords/" target="_blank">The Vice Media Collapse Was Entirely The Fault Of Incompetent, Fail-Upward Brunchlords</a>
+    </h3>
+    <blockquote cite="https://www.techdirt.com/2024/02/27/the-vice-media-collapse-was-entirely-the-fault-of-incompetent-fail-upward-brunchlords/">
+      As we survey the rubble that once was the U.S. journalism industry, a common refrain involves lamenting that “online journalism just isn’t profitable.” But as the recent collapse of outlets like Sports Illustrated and The Messenger illustrate, the real culprit often isn’t that journalism isn’t profitable, it’s that U.S. media is predominantly run by utterly incompetent individuals who fail upward into positions of power.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Jared Wiener — Forth.</cite>
+      <a class="emoji-hover" data-id="newsFailure" href="https://blog.forth.news/news-was-never-meant-for-social-platforms/" target="_blank">News was never meant for social platforms</a>
+    </h3>
+    <blockquote cite="https://blog.forth.news/news-was-never-meant-for-social-platforms/">
+      If ever there was a good illustration of the disconnect we face in trying to make journalism sustainable again, this is it.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Jason Koebler — 404 Media</cite>
+      <a class="emoji-hover" data-id="newSearch" href="https://www.404media.co/this-guy-is-building-an-open-source-search-engine-in-real-time/" target="_blank">This Guy Has Built an Open Source Search Engine as an Alternative to Google in His Spare Time</a>
+    </h3>
+    <blockquote cite="https://www.404media.co/this-guy-is-building-an-open-source-search-engine-in-real-time/">
+      “I found it very weird that there essentially is no way to browse the web in an open manner. So that’s what I am trying to build,” the founder of Stract said.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Julie Jargon and Ann-Marie Alcántara — The Wall Street Journal</cite>
+      <a class="emoji-hover" data-id="daveRamsey" href="https://www.wsj.com/personal-finance/dave-ramsey-tells-millions-what-to-do-with-their-money-people-under-40-say-hes-wrong-56733630" target="_blank">Dave Ramsey Tells Millions What to Do With Their Money. People Under 40 Say He’s Wrong.</a>
+    </h3>
+    <blockquote cite="https://www.wsj.com/personal-finance/dave-ramsey-tells-millions-what-to-do-with-their-money-people-under-40-say-hes-wrong-56733630">
+      Young adults are rejecting the finance guru’s advice to live frugally while getting out of debt.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Rhaina Cohen — The Washington Post (Opinion)</cite>
+      <a class="emoji-hover" data-id="marriageBenefits" href="https://www.washingtonpost.com/opinions/2024/02/13/rhaina-cohen-significant-others-marriage-friendship-relationships/" target="_blank">Marriage has a monopoly on legal benefits. It shouldn’t.</a>
+    </h3>
+    <blockquote cite="https://www.washingtonpost.com/opinions/2024/02/13/rhaina-cohen-significant-others-marriage-friendship-relationships/">
+      U.S. policy can better match the reality on the ground and reflect the many ways people find support and sustenance, in platonic and romantic partnerships.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Ian Livingston — The Washington Post</cite>
+      <a class="emoji-hover" data-id="lostWinter" href="https://www.washingtonpost.com/weather/2024/02/14/record-warm-winter-greatlakes-midwest-snow-ice-climate/" target="_blank">The Midwest is experiencing a ‘lost winter.’ Here’s what that means.</a>
+    </h3>
+    <blockquote cite="https://www.washingtonpost.com/weather/2024/02/14/record-warm-winter-greatlakes-midwest-snow-ice-climate/">
+      Snow is absent, ice is dangerously thin, and many cities are experiencing their warmest winter on record.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Joseph Bernstein — The New York Times</cite>
+      <a class="emoji-hover" data-id="millenialWail" href="https://www.nytimes.com/2024/01/28/style/aging-millennials.html" target="_blank">Hark, the Millennial Death Wail</a>
+    </h3>
+    <blockquote cite="https://www.nytimes.com/2024/01/28/style/aging-millennials.html">
+      The largest living generation in America peers into the abyss of middle age. Are we really worried, or is it just a shtick?
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Maggie Blackhawk — The New York Times (Opinion)</cite>
+      <a class="emoji-hover" data-id="killersFlower" href="https://www.nytimes.com/2024/01/25/opinion/killers-flower-moon-scorsese-empathy.html" target="_blank">How ‘Killers of the Flower Moon’ Presses Up Against the Limits of Empathy</a>
+    </h3>
+    <blockquote cite="https://www.nytimes.com/2024/01/25/opinion/killers-flower-moon-scorsese-empathy.html">
+      Mr. Scorsese’s approach might feel counterintuitive, even discomforting, because it is in tension with the prevailing scholarly wisdom about empathy — Hobbes and Machiavelli notwithstanding. The fields of political and moral philosophy often presume that humans are inherently predisposed toward empathy. … It is in this moment of encounter with those wholly different from us in worldview that we experience empathy and reach the full capacity of our moral potential. It is empathy that moves us from animal, or wolf, to human.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Nicholas Confessore — The New York Times</cite>
+      <a class="emoji-hover" data-id="dei" href="https://www.nytimes.com/interactive/2024/01/20/us/dei-woke-claremont-institute.html" target="_blank">‘America Is Under Attack’: Inside the Anti-D.E.I. Crusade</a>
+    </h3>
+    <blockquote cite="https://www.nytimes.com/interactive/2024/01/20/us/dei-woke-claremont-institute.html">
+      Thousands of documents obtained by The New York Times cast light on the playbook and the thinking underpinning one nexus of the anti-D.E.I. movement — the activists and intellectuals who helped shape Texas’ new law, along with measures in at least three other states. The material, which includes casual correspondence with like-minded allies around the country, also reveals unvarnished views on race, sexuality and gender roles. And despite the movement’s marked success in some Republican-dominated states, the documents chart the activists’ struggle to gain traction with broader swaths of voters and officials.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Amir Salihefendic — doist</cite>
+      <a class="emoji-hover" data-id="remoteWork" href="https://blog.doist.com/remote-first-workplaces/" target="_blank">Why the Future of Work is Remote</a>
+    </h3>
+    <blockquote cite="https://blog.doist.com/remote-first-workplaces/">
+      Remote-first work means that, for the first time in the human history, people can access tremendous career opportunities and high-paying jobs regardless of where they live.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Edward Zitron — Where’s Your Ed At?</cite>
+      <a class="emoji-hover" data-id="internetdying" href="https://www.wheresyoured.at/are-we-watching-the-internet-die/" target="_blank">Are We Watching The Internet Die?</a>
+    </h3>
+    <blockquote cite="https://www.wheresyoured.at/are-we-watching-the-internet-die/">
+      We’re at the end of a vast, multi-faceted con of internet users, where ultra-rich technologists tricked their customers into building their companies for free. And while the trade once seemed fair, it's become apparent that these executives see users not as willing participants in some sort of fair exchange, but as veins of data to be exploitatively mined as many times as possible, given nothing in return other than access to a platform that may or may not work properly.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Ryan Erik King — Jalopnik</cite>
+      <a class="emoji-hover" data-id="tsaTowel" href="https://jalopnik.com/can-we-just-throw-in-the-towel-on-airport-security-thea-1851317340" target="_blank">Can We Just Throw In The Towel On Airport Security Theater Already?</a>
+    </h3>
+    <blockquote cite="https://jalopnik.com/can-we-just-throw-in-the-towel-on-airport-security-thea-1851317340">
+      TSA’s self-screening trial in Las Vegas' airport should have been the standard checkpoint ages ago
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Matthew Yglesias — Slow Boring</cite>
+      <a class="emoji-hover" data-id="nostalgiaPolitics" href="https://www.slowboring.com/p/nostalgia-politics-is-a-dead-end" target="_blank">Nostalgia politics is a dead end</a>
+    </h3>
+    <blockquote cite="https://www.slowboring.com/p/nostalgia-politics-is-a-dead-end">
+      There is, of course, nothing wrong with nostalgia as an emotion, and like most people, I find myself feeling it more and more as I get older. But I know, deep down, that nostalgia is an illusion.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Noah Smith — Noahpinion</cite>
+      <a class="emoji-hover" data-id="shallowFuture" href="https://www.noahpinion.blog/p/toward-a-shallower-future" target="_blank">Toward a shallower future</a>
+    </h3>
+    <blockquote cite="https://www.noahpinion.blog/p/toward-a-shallower-future">
+      But no one in their right mind wishes for tragedies to continue just so that human life can continue to be filled with pathos. Adversity is not worth the price of adversity.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Jessica Contrera, Jenn Abelson and John D. Harden — The Washington Post</cite>
+      <a class="emoji-hover" data-id="policeSA" href="https://www.washingtonpost.com/dc-md-va/interactive/2024/new-orleans-police-child-sexual-abuse-rodney-vicknair/" target="_blank">A police officer took a teen for a rape kit. Then he assaulted her, too.</a>
+    </h3>
+    <blockquote cite="https://www.washingtonpost.com/dc-md-va/interactive/2024/new-orleans-police-child-sexual-abuse-rodney-vicknair/">
+      Hundreds of law enforcement officers have been accused of sexually abusing children over the past two decades, a Post investigation found.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Frank Bruni — The New York Times (Opinion)</cite>
+      <a class="emoji-hover" data-id="losePeople" href="https://www.nytimes.com/2024/03/14/opinion/friend-breakup-friendship.html" target="_blank">We don’t mean to lose all the people who vanish from our lives</a>
+    </h3>
+    <blockquote cite="https://www.nytimes.com/2024/03/14/opinion/friend-breakup-friendship.html">
+      We’re onetime confidantes who never had a falling out, never said a proper goodbye, simply evaporated from each other’s lives like dew from a blade of grass.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Ted Streuli — Oklahoma Watch</cite>
+      <a class="emoji-hover" data-id="losePeople" href="https://mailchi.mp/oklahomawatch/ted-streulis-first-watch-dwj8jwomx3?e=98dff2ccf2" target="_blank">Ted Streuli’s First Watch</a>
+    </h3>
+    <blockquote cite="https://mailchi.mp/oklahomawatch/ted-streulis-first-watch-dwj8jwomx3?e=98dff2ccf2">
+      State Superintendent of Public Instruction Ryan Walters said he needed a national public relations firm to get him on television more, to get more opinion pieces published in the national press and to get him more speaking engagements.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Alexandra Petri — The Washington Post (Opinion)</cite>
+      <a class="emoji-hover" data-id="trumpPres" href="https://www.washingtonpost.com/opinions/2024/01/17/trump-presidency-parallel-reality/" target="_blank">I could have sworn I was around for Donald Trump’s presidency</a>
+    </h3>
+    <blockquote cite="https://www.washingtonpost.com/opinions/2024/01/17/trump-presidency-parallel-reality/">
+      I could have sworn I was around for the Trump years, but maybe I was wrong. Everywhere I went in Iowa — even to the rallies of people who were actively trying to stop Donald Trump from being the next president — and everywhere I look on TV now, I keep hearing how wonderful the Trump years were.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Bryce Covert — The New York Times (Opinion)</cite>
+      <a class="emoji-hover" data-id="socialNet" href="https://www.nytimes.com/2024/03/12/opinion/covid-economy-safety-net.html" target="_blank">Is This What Happens When You Build a Real Social Safety Net, Then Take It Away?</a>
+    </h3>
+    <blockquote cite="https://www.nytimes.com/2024/03/12/opinion/covid-economy-safety-net.html">
+      It’s a riddle that economists have struggled to decipher. The U.S. economy seems robust on paper, yet Americans are dissatisfied with it. But hardly anyone seems to have paid much attention to the whirlwind experience we just lived through: We built a real social safety net in the United States and then abruptly ripped it apart.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Aaron Ross Powell</cite>
+      <a class="emoji-hover" data-id="aiMirror" href="https://www.aaronrosspowell.com/p/ai-new-sliced-bread" target="_blank">Why AI is the New Sliced Bread</a>
+    </h3>
+    <blockquote cite="https://www.aaronrosspowell.com/p/ai-new-sliced-bread">
+      Artists who fight AI may need to look in the mirror.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Dan Froomkin — Press Watch</cite>
+      <a class="emoji-hover" data-id="nyTimesCoverage" href="https://presswatchers.org/2024/03/why-is-new-york-times-campaign-coverage-so-bad-because-thats-what-the-publisher-wants/" target="_blank">Why is New York Times campaign coverage so bad? Because that’s what the publisher wants.</a>
+    </h3>
+    <blockquote cite="https://presswatchers.org/2024/03/why-is-new-york-times-campaign-coverage-so-bad-because-thats-what-the-publisher-wants/">
+      It’s an increasingly common critique of the New York Times: The largest, most influential news organization in the nation is not warning sufficiently of the threat to democracy — while at the same time bashing President Joe Biden at every opportunity. And it’s been a bit of a mystery. Why would a newsroom full of talented and mostly liberal reporters be engaging in such damaging behavior? Well, mystery solved. It’s because that’s what the publisher wants.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Jeremy Scahill, Ryan Grim, and Daniel Boguslaw — The Intercept</cite>
+      <a class="emoji-hover" data-id="nyTimesOct" href="https://theintercept.com/2024/02/28/new-york-times-anat-schwartz-october-7/" target="_blank">“Between The Hammer and the Anvil”</a>
+    </h3>
+    <blockquote cite="https://theintercept.com/2024/02/28/new-york-times-anat-schwartz-october-7/">
+      The story behind the New York Times October 7 exposé.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Tim Berners-Lee — World Wide Web Foundation</cite>
+      <a class="emoji-hover" data-id="web35th" href="https://webfoundation.org/2024/03/marking-the-webs-35th-birthday-an-open-letter/" target="_blank">Marking the Web’s 35th Birthday: An Open Letter</a>
+    </h3>
+    <blockquote cite="https://webfoundation.org/2024/03/marking-the-webs-35th-birthday-an-open-letter/">
+      From the centralisation of platforms to the AI revolution, the web serves as the foundational layer of our online ecosystem – an ecosystem that is now reshaping the geopolitical landscape, driving economic shifts and influencing the lives of people around the World.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Andrew Kersley — Wired</cite>
+      <a class="emoji-hover" data-id="cfCities" href="https://www.wired.com/story/car-free-cities-opposition/" target="_blank">People Hate the Idea of Car-Free Cities—Until They Live in One</a>
+    </h3>
+    <blockquote cite="https://www.wired.com/story/car-free-cities-opposition/">
+      Removing cars from urban areas means lower carbon emissions, less air pollution, and fewer road traffic accidents. So why are residents so resistant?
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Jamelle Bouie — The New York Times (Opinion)</cite>
+      <a class="emoji-hover" data-id="jbMarch16" href="https://www.nytimes.com/2024/03/16/opinion/abortion-republican-kellyanne-conway.html" target="_blank">Kellyanne Conway Has Some Weak Advice for Her Party</a>
+    </h3>
+    <blockquote cite="https://www.nytimes.com/2024/03/16/opinion/abortion-republican-kellyanne-conway.html">
+      It is beyond obvious at this point that abortion is the Achilles’ heel of the Republican Party. The prospect of a national abortion ban almost certainly helped Democrats stave off a red wave in the 2022 midterm elections, and assisted them the following year in both statewide and state legislative races in Virginia and Kentucky. The prospect of abortion bans has also pushed voters in states such as Ohio and Michigan to approve sweeping affirmations of reproductive freedom in their respective state constitutions. And abortion looms over the 2024 race, as well; Democrats will spend countless millions to tell Americans that a vote for Trump, or any Republican on the ballot, is a vote for a national abortion ban.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Jessica Grose — The New York Times (Opinion)</cite>
+      <a class="emoji-hover" data-id="jgMarch16" href="https://www.nytimes.com/2024/03/16/opinion/remote-work-mommy-track.html" target="_blank">Does Everyone Want to Be on the ‘Mommy Track’?</a>
+    </h3>
+    <blockquote cite="https://www.nytimes.com/2024/03/16/opinion/remote-work-mommy-track.html">
+      “I switched jobs so many times during Covid. I think I had five jobs because they just weren’t working for what was going on in my personal life,” Koelsch told me. Now, she works four days from home, one day in the office, and her life is manageable. “I can throw a load of laundry” in and “on my 15 minute break I can start soup and it’s ready by dinnertime. It’s this whole great way of living. I don’t want to give it up.”
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Garrett Yalch and Clifton Adcock — The Frontier / Sebastian Rotella and Kirsten Berg — Propublica</cite>
+      <a class="emoji-hover" data-id="oklahomaWeed" href="https://www.readfrontier.org/stories/gangsters-money-and-murder-how-chinese-organized-crime-is-dominating-oklahomas-illegal-medical-marijuana-market/" target="_blank">Gangsters, money and murder: How Chinese organized crime is dominating Oklahoma’s illegal medical marijuana market</a>
+    </h3>
+    <blockquote cite="https://www.readfrontier.org/stories/gangsters-money-and-murder-how-chinese-organized-crime-is-dominating-oklahomas-illegal-medical-marijuana-market/">
+      A quadruple murder in Oklahoma shows how the Chinese underworld has come to dominate the booming illicit trade, fortifying its rise as a global powerhouse with alleged ties to China’s authoritarian regime.
+    </blockquote>
+  </article>
+  
+  <article class="aside-post">
+    <h3 class="aside-post-header">
+      <cite class="dash">Colin Marshall — Open Culture</cite>
+      <a class="emoji-hover" data-id="gettyImages" href="https://www.openculture.com/2024/03/the-getty-makes-nearly-88000-art-images-free-to-use-however-you-like.html" target="_blank">The Getty Makes Nearly 88,000 Art Images Free to Use However You Like</a>
+    </h3>
+    <blockquote cite="https://www.openculture.com/2024/03/the-getty-makes-nearly-88000-art-images-free-to-use-however-you-like.html">
+      Since the J. Paul Getty Museum launched its Open Content program back in 2013, we’ve been featuring their efforts to make their vast collection of cultural artifacts freely accessible online. They’ve released not just digitized works of art, but also a great many art history texts and art books in general. Just this week, they announced an expansion of access to their digital archive, in that they’ve made nearly 88,000 images free to download on their Open Content database under Creative Commons Zero (CC0). That means “you can copy, modify, distribute and perform the work, even for commercial purposes, all without asking permission.”
+    </blockquote>
+  </article>
+  
+</div>
+</aside>
+      </div>
+    </main>
 </body>
 
+
 <hr />
-<footer class="flexContainer">
-  <article class="flexCard cardOne">
-    <h2>What is the purpose of this site?</h2>
-     <p>I have learned much from the opinions and beliefs of others and hope that my view can similarly be of help. I do not intend to speak from authority or from a standpoint of superiority. I continue to learn and change. <a href="https://github.com/DHepworth/dhepworth.github.io/discussions" target="_blank">Please let me know where I need to grow.</a> More information is available on my <a href="about">About page.</a></p> <p>The Fell Types are digitally reproduced by <a href="http://www.iginomarini.com/" target="_blank">Igino Marini.</a></p>
-  </article>
-  <article class="flexCard cardTwo">
-    <h3>Find Me Online</h3>
-    <ul class="favoriteLinks">
+<footer>
+  <div class="footer-home-container">
+    <article class="footer-about">
+      <h2 class="footer-about-header">What is the purpose of this site?</h2>
+       <p>I have learned much from the opinions and beliefs of others and hope that my view can similarly be of help. I do not intend to speak from authority or from a standpoint of superiority. I continue to learn and change. <a href="https://github.com/DHepworth/dhepworth.github.io/discussions" target="_blank">Please let me know where I need to grow.</a> More information is available on my <a href="about">About page.</a></p>
+      <ul class="footer-nav-list">
       
-      <li class=Bluesky><a href="https://bsky.app/profile/dhpersonal.neocities.org" rel="me" target="_blank">Bluesky</a></li>
+        <li class="footer-nav-item">
+          🔝 <a id="to-top" href="#top">Back to the top</a>
+        </li>
+      </ul>
       
-      <li class=LinkedIn><a href="https://www.linkedin.com/in/davidebhepworth" rel="me" target="_blank">LinkedIn</a></li>
-      
-      <li class=Mastodon><a href="https://allthingstech.social/@dhepworth" rel="me" target="_blank">Mastodon</a></li>
-      
-      <li class=Threads><a href="https://threads.net/dhepworth" rel="me" target="_blank">Threads</a></li>
-      
-      <li class=VSCO><a href="https://vsco.co/dhpersonal/gallery" rel="me" target="_blank">VSCO</a></li>
-      
-      <li class="seeAll"><a href="https://dhepworth.github.io/social" target="_self">Complete list</a></li>
-    </ul>
-  </article>
-  <article class="flexCard cardThree">
-    <h4>Favorite Sites</h4>
-    <ul class="favoriteLinks">
-      
-      <li class=Ars><a href="https://www.arstechnica.com/" target="_blank">Ars Technica</a></li>
-      
-      <li class=Hac><a href="https://news.ycombinator.com/" target="_blank">Hacker News</a></li>
-      
-      <li class=Mac><a href="https://www.macrumors.com/" target="_blank">MacRumors</a></li>
-      
-      <li class=Tec><a href="https://www.techdirt.com/" target="_blank">Techdirt.</a></li>
-      
-    </ul>
-  </article>
-  <article class="flexCard cardFour">
-    <h5>Last Updated</h5>
-    <p>April 2, 2024</p>
-    <ul aria-label="Site features and credits" class="hideExternalIcon footerIcons m1p5">
-      <li><a title="Hosted by GitHub" href="https://dhepworth.github.io"><img src="https://dhepworth.github.io/img/GitHub-Mark-64px.png" width="24" height="24" alt="GitHub logo" title="Hosted by GitHub" class="gitHub" /></a></li>
-      <li><a title="Hosted by Neocities" href="https://dhpersonal.neocities.org/"><img src="https://dhepworth.github.io/img/neocities-icon.png" width="30" height="26" alt="Neocities logo" title="Hosted by Neocities" class="neocities" /></a></li>
-      <li><a title="Subscribe to feed" href="https://dhepworth.github.io/feed.xml" class="feedXML" target="_blank"><img src="https://dhepworth.github.io/img/feed.svg" alt="SVG RSS icon" title="Subscribe to feed" height="40" width="40"></a></li>
-    </ul>
-  </article>
-  <article class="footerStrip">
-    <hr class="m1">
-    <ul aria-label="Webrings to visit" class="mp5">
-     <li><a href="https://www.boredreading.com" target="_blank">Bored Reading</a></li>
-     <li><a href="https://cloudhiker.net/explore" target="_blank">Cloudhiker</a></li>
-     <li><a href="https://firechicken.club" target="_blank">Fire Chicken Webring</a></li>
-     <li><a href="https://lieu.cblgh.org" target="_blank">Lieu</a></li>
-     <li><a href="https://ooh.directory" target="_blank">ooh.directory</a></li>
-     <li><a href="https://webshuffle.com/mickschroeder.com" target="_blank">Web Shuffle</a></li>
-     <li><a href="https://wiby.me" target="_blank">Wiby.me</a></li>
-    </ul>
-  </article>
-</footer><script src="/js/app.js"></script></html>
+      <!-- <ul class="footer-nav-list">
+        
+          <li class="footer-nav-item">
+            🔝 <a id="to-top" href="#top">Back to the top</a>
+          </li>
+          
+          <li class="footer-nav-item">
+            <a href="/resume" rel="me">Résumé</a>
+          </li>
+          
+          <li class="footer-nav-item">
+            <a href="/portfolio" rel="me">Portfolio</a>
+          </li>
+          
+          <li class="footer-nav-item">
+            <a href="/archives" rel="me">Archives</a>
+          </li>
+          
+          <li class="footer-nav-item">
+            <a href="/about" rel="me">About</a>
+          </li>
+          
+         -->
+      </ul>
+    </article>
+    <article class="footer-social">
+      <h3 class="footer-social-header">Find Me Online</h3>
+      <ul>
+        
+        <li class=blu><a href="https://bsky.app/profile/dhpersonal.neocities.org" rel="me" target="_blank">Bluesky</a></li>
+        
+        <li class=lin><a href="https://www.linkedin.com/in/davidebhepworth" rel="me" target="_blank">LinkedIn</a></li>
+        
+        <li class=mas><a href="https://allthingstech.social/@dhepworth" rel="me" target="_blank">Mastodon</a></li>
+        
+        <li class=thr><a href="https://threads.net/dhepworth" rel="me" target="_blank">Threads</a></li>
+        
+        <li class=vsc><a href="https://vsco.co/dhpersonal/gallery" rel="me" target="_blank">VSCO</a></li>
+        
+      </ul>
+    </article>
+    <article class="footer-sites">
+      <h4 class="footer-sites-header">Favorite Sites</h4>
+      <ul>
+        
+        <li class=ars><a href="https://www.arstechnica.com/" target="_blank">Ars Technica</a></li>
+        
+        <li class=hac><a href="https://news.ycombinator.com/" target="_blank">Hacker News</a></li>
+        
+        <li class=mac><a href="https://www.macrumors.com/" target="_blank">MacRumors</a></li>
+        
+        <li class=tec><a href="https://www.techdirt.com/" target="_blank">Techdirt.</a></li>
+        
+      </ul>
+    </article>
+    <article class="footer-resources">
+      <h5 class="footer-resources-header">Last Updated</h5>
+      <p>April 30, 2024</p>
+      <ul aria-label="Site features and credits" class="footer-resources">
+        <li><a title="Hosted by GitHub" href="https://dhepworth.github.io"><img src="https://dhepworth.github.io/img/GitHub-Mark-64px.png" width="24" height="24" alt="" class="github" /></a></li>
+        <li><a title="Hosted by Neocities" href="https://dhpersonal.neocities.org/"><img src="https://dhepworth.github.io/img/neocities-icon.png" width="30" height="26" alt="" class="neocities" /></a></li>
+        <li><a title="Subscribe to RSS feed" href="https://dhepworth.github.io/feed.xml" class="feedXML" target="_blank"><img src="https://dhepworth.github.io/img/feed.svg" alt="" height="26" width="26"></a></li>
+      </ul>
+      <p class="footer-powered"><span class="footer-powered-title">Powered by</span><br><a class="footer-powered-code" href="https://jekyllrb.com" target="_blank">jekyll</a></p>
+    </article>
+    <article class="footer-blogroll">
+      <hr>
+      <ul aria-label="Webrings to visit">
+        
+        <li><a href="https://www.boredreading.com" target="_blank">Bored Reading</a></li>
+        
+        <li><a href="https://cloudhiker.net/explore" target="_blank">Cloudhiker</a></li>
+        
+        <li><a href="https://firechicken.club" target="_blank">Fire Chicken Webring</a></li>
+        
+        <li><a href="https://lieu.cblgh.org" target="_blank">Lieu</a></li>
+        
+        <li><a href="https://minified.net/global" target="_blank">minifeed.net</a></li>
+        
+        <li><a href="https://ooh.directory" target="_blank">ooh.directory</a></li>
+        
+        <li><a href="https://openorb.idiot.sh/search" target="_blank">OpenOrb</a></li>
+        
+        <li><a href="https://webshuffle.com/mickschroeder.com" target="_blank">Web Shuffle</a></li>
+        
+        <li><a href="https://wiby.me" target="_blank">Wiby.me</a></li>
+        
+      </ul>
+    </article>
+  </div>
+</footer>
+<script src="/js/app.js"></script></html>

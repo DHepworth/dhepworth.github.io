@@ -18,8 +18,8 @@
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     
-    <meta name="theme-color" content="hsl(0, 0%, 98%)" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="hsl(0, 0%, 10%)" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="oklch(95% 0 0)" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="oklch(15% 0 0)" media="(prefers-color-scheme: dark)" />
     
     <title>My new old camera — DH:Personal</title>
     
@@ -28,9 +28,6 @@
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <link rel="alternate" type="application/rss+xml" href="https://dhepworth.github.io/feed.xml">
-    <script>
-        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
-    </script>
 
 </head>
 
@@ -42,77 +39,56 @@
             visibility: hidden !important;
         }
     </style>
-</noscript><section class="hideNav">
-  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
-    &hellip;
-  </button>
+</noscript><section id="accessibility-controls">
+  <fieldset class="accessibility-wrapper">
+    <label><span class="accessibility-label-hidden">Change font size controls: </span><span aria-hidden="true" class="accessibility-label-visible">Aa</span></label>
+    <button aria-label="Shrink Text Size" class="accessibility-button" data-update-text-size="-15" id="font-smaller" type="button">
+      -
+    </button>
+    <button aria-label="Enlarge Text Size" class="accessibility-button" data-update-text-size="15" id="font-larger" type="button">
+      +
+    </button>
+  </fieldset>
 </section>
-<nav id="accessibilityControls" aria-hidden="true" class="hidden">
-  <div id="accessibilityControlsContainer" class="container">
-    <section class="dayNightMode">
-      <h5>View Mode</h5>
-      <button type="button" aria-label="Light Theme" id="lightButton">
-        Light
-      </button>
-      <button type="button" aria-label="Dark Theme" id="darkButton">
-        Dark
-      </button>
-      <button type="button" aria-label="Reset Theme" id="systemButton">
-        System
-      </button>
-    </section>
-    <section class="fontFamily">
-      <h5>Font Family</h5>
-      <button type="button" aria-label="Sans-Serif" id="sansSerifButton">
-        Sans-Serif
-      </button>
-      <button type="button" aria-label="Serif" id="serifButton">
-        Serif
-      </button>
-    </section>
-    <section class="fontSize">
-      <h5>Font Size</h5>
-      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
-        -
-      </button>
-      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
-        +
-      </button>
-      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
-        Reset
-      </button>
-    </section>
-    <section class="whatIsThis">
-      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
-      <dialog id="whatIsThisDialog">
-        <h2>Display controls</h2>
-        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
-        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
-        <form method="dialog">
-          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
-        </form>
-      </dialog>
-    </section>
+<div class="page-post-mobile-tablet">
+    <header class="page-small page-small-black">
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+      
+      <div class="header-text-container">
+        <h1>My new old camera</h1>
+        <p class="page-date">January 5th, 2024</p>
+      </div>
+      
+    </header>
   </div>
-</nav><header>
-    <h1>
-      <a class="hideExternalIcon" href="/">DH:Personal</a>
-    </h1>
-  </header>
-
-  <main id="mainContent">
-    <div class="container">
+  
+  <div class="page-post-desktop">
+    
+    <header class="page" style="background-image: url('/img/posts/camera-sx150is.jpg')">
+    
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+    </header>
+  </div>
+ 
+  <main id="main-content" class="page-post-main-image-small" tabindex="-1">
+    
+    <div class="page-post-headline page-post-headline-image-available">
+      <p class="page-post-headline-image">
+        <img src="/img/posts/camera-sx150is.jpg" />
+      </p>
+      
+      <h1 class="page-post-headline-title">My new old camera</h1>
+      <p class="page-post-date">January 5th, 2024</p>
+      
+    </div>
+    
+    <div class="main-container main-container-post">
       <article>
-        
-        <figure class="hero">
-          <img alt="The Canon PowerShot SX150 IS that I bought from Goodwill" height="400" src="/img/posts/camera-sx150is.jpg" width="800" />
-          <figcaption>The Canon PowerShot SX150 IS that I bought from Goodwill • David Hepworth</figcaption>
-        </figure>
-        
-        
-        <h2>My new old camera</h2>
-        <p class="date">January 5th, 2024</p>
-         <p>For a period of time in my youth I fully expected to mature into an illustrator for children’s books. I found that pencils and charcoal were my favored tools, and I set about building my skills in the craft. The work was hard and I felt I was plateauing in mediocrity, increasing my doubts that I would ever manage to achieve the goals that I had set for myself. I perceived photography as an “easy” art form that I could comprehend, so I set about purchasing my first <abbr title="Single Lens Reflex">SLR</abbr> to try out photography.</p>
+        <p>For a period of time in my youth I fully expected to mature into an illustrator for children’s books. I found that pencils and charcoal were my favored tools, and I set about building my skills in the craft. The work was hard and I felt I was plateauing in mediocrity, increasing my doubts that I would ever manage to achieve the goals that I had set for myself. I perceived photography as an “easy” art form that I could comprehend, so I set about purchasing my first <abbr title="Single Lens Reflex">SLR</abbr> to try out photography.</p>
 
 <p>I had played with cameras in the past and found moments within my point-and-shoot use where I felt genuinely moved by some of the photographs I managed to capture, but I felt limited by the tools and wanted to improve the quality of my work. I took many photos with my 35mm SLR camera but the cost of processing the film frustrated my learning speed, so I was very pleased when I was able to afford a digital camera. While my first digital camera was only 2 megapixels and a point-and-shoot, I grew much in my understanding of laying out a scene and trying different angles because I could immediately see the results of my work on the back of the camera. I quickly grew frustrated by the limitations of the image quality and hoped for a chance to get something better, which eventually came in the form of a much-better digital SLR.</p>
 
@@ -138,8 +114,8 @@
 <p><a href="/img/posts/new-old-camera/CRW_0552.jpg" target="_blank"><img src="/img/posts/new-old-camera/CRW_0552_s.jpg" alt="A nearly-bare tree and acorns photographed against a bright sky" height="300" loading="lazy" width="1600" /></a></p>
 
 <p><a href="/img/posts/new-old-camera/CRW_0587.jpg" target="_blank"><img src="/img/posts/new-old-camera/CRW_0587_s.webp" alt="The Devon Energy Center building juts out behind bamboo leaves, taken inside a small garden in the Myriad Botanical Gardens children’s area" height="300" loading="lazy" width="1600" /></a></p>
-  
 
+        
         <section class="outbound">
           <h4>Further Reading</h4>
           <ul>
@@ -152,7 +128,7 @@
             
           </ul>
         </section>
-         
+        
         <a class="comments" name="comments"></a>
         <script
           src="https://utteranc.es/client.js"
@@ -168,23 +144,23 @@
         <h3>My latest posts</h3>
         <ul>
           
-          <li><a href="/post/2024/03/23/great-programs.html">Great programs that I enjoy</a></li>
+          <li><a href="/thoughtstream/2024/04/30/new-site.html">I updated the design</a></li>
+          
+          <li><a href="/post/feature/2024/03/23/great-programs.html">Great programs that I enjoy</a></li>
+          
+          <li><a href="/thoughtstream/2024/03/11/a-validating-front-end-article.html">A validating front-end article</a></li>
+          
+          <li><a href="/thoughtstream/2024/03/07/slavery-still-exists.html">Slavery still exists in the United States</a></li>
           
           <li><a href="/post/2024/03/07/i-miss-lockdown.html">I miss lockdown</a></li>
           
-          <li><a href="/post/2024/01/05/new-old-camera.html">My new old camera</a></li>
+          <li><a href="/thoughtstream/2024/03/07/front-end-development-old.html">Modern front-end Web development makes me feel old</a></li>
           
-          <li><a href="/post/2023/11/28/fun-side-project.html">My fun side project</a></li>
+          <li><a href="/thoughtstream/2024/01/22/oklahoma-embarrassment.html">Oklahoma embarrassment #241295</a></li>
           
-          <li><a href="/post/2023/11/15/knowledge-shouldnt-be-a-burden.html">Knowledge shouldn’t be a burden</a></li>
+          <li><a href="/thoughtstream/2024/01/11/neighborhood-advice.html">Neighborhood advice</a></li>
           
-          <li><a href="/post/2023/08/19/being-invisible.html">Being invisible</a></li>
-          
-          <li><a href="/post/2023/06/01/what-is-church.html">What is church?</a></li>
-          
-          <li><a href="/post/2023/04/25/hopelessness-in-video-games.html">Hopelessness in video games</a></li>
-          
-          <li><a href="/post/2023/02/23/analog-clocks.html">The time for analog clocks is over</a></li>
+          <li><a href="/thoughtstream/2024/01/10/web-development.html">Front-end Web development</a></li>
           
         </ul>
         
@@ -195,11 +171,14 @@
 
 
 <hr />
-<footer class="flexContainer">
-    <p class="outbound">
-      <a class="button" href="#top" id="toTop" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
+<footer>
+  <div class="footer-page-container">
+    <p class="footer-page-buttons">
+      <a class="button" href="#top" id="to-top" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
     </p>
-    <p class="hideExternalIcon feedXML right">
+    <p class="footer-page-feed">
       <a href="https://dhepworth.github.io/feed.xml" target="_blank"><img src="https://dhepworth.github.io/img/feed.svg" alt="SVG icon" title="Subscribe to feed" height="40" width="40"></a>
     </p>
-  </footer><script src="/js/app.js"></script></html>
+  </div>
+</footer>
+<script src="/js/app.js"></script></html>

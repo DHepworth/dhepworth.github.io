@@ -16,8 +16,8 @@
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     
-    <meta name="theme-color" content="hsl(0, 0%, 98%)" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="hsl(0, 0%, 10%)" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="oklch(95% 0 0)" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="oklch(15% 0 0)" media="(prefers-color-scheme: dark)" />
     
     <title>We aren’t asking the right questions — DH:Personal</title>
     
@@ -26,9 +26,6 @@
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <link rel="alternate" type="application/rss+xml" href="https://dhepworth.github.io/feed.xml">
-    <script>
-        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
-    </script>
 
 </head>
 
@@ -40,72 +37,53 @@
             visibility: hidden !important;
         }
     </style>
-</noscript><section class="hideNav">
-  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
-    &hellip;
-  </button>
+</noscript><section id="accessibility-controls">
+  <fieldset class="accessibility-wrapper">
+    <label><span class="accessibility-label-hidden">Change font size controls: </span><span aria-hidden="true" class="accessibility-label-visible">Aa</span></label>
+    <button aria-label="Shrink Text Size" class="accessibility-button" data-update-text-size="-15" id="font-smaller" type="button">
+      -
+    </button>
+    <button aria-label="Enlarge Text Size" class="accessibility-button" data-update-text-size="15" id="font-larger" type="button">
+      +
+    </button>
+  </fieldset>
 </section>
-<nav id="accessibilityControls" aria-hidden="true" class="hidden">
-  <div id="accessibilityControlsContainer" class="container">
-    <section class="dayNightMode">
-      <h5>View Mode</h5>
-      <button type="button" aria-label="Light Theme" id="lightButton">
-        Light
-      </button>
-      <button type="button" aria-label="Dark Theme" id="darkButton">
-        Dark
-      </button>
-      <button type="button" aria-label="Reset Theme" id="systemButton">
-        System
-      </button>
-    </section>
-    <section class="fontFamily">
-      <h5>Font Family</h5>
-      <button type="button" aria-label="Sans-Serif" id="sansSerifButton">
-        Sans-Serif
-      </button>
-      <button type="button" aria-label="Serif" id="serifButton">
-        Serif
-      </button>
-    </section>
-    <section class="fontSize">
-      <h5>Font Size</h5>
-      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
-        -
-      </button>
-      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
-        +
-      </button>
-      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
-        Reset
-      </button>
-    </section>
-    <section class="whatIsThis">
-      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
-      <dialog id="whatIsThisDialog">
-        <h2>Display controls</h2>
-        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
-        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
-        <form method="dialog">
-          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
-        </form>
-      </dialog>
-    </section>
+<div class="page-post-mobile-tablet">
+    <header class="page-small page-small-black">
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+      
+      <div class="header-text-container">
+        <h1>We aren’t asking the right questions</h1>
+        <p class="page-date">November 26th, 2021</p>
+      </div>
+      
+    </header>
   </div>
-</nav><header>
-    <h1>
-      <a class="hideExternalIcon" href="/">DH:Personal</a>
-    </h1>
-  </header>
-
-  <main id="mainContent">
-    <div class="container">
+  
+  <div class="page-post-desktop">
+    
+    <header class="page-small">
+    
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+    </header>
+  </div>
+ 
+  <main id="main-content" class="" tabindex="-1">
+    
+    <div class="page-post-headline page-post-headline-no-image-available">
+      
+      <h1 class="page-post-headline-title">We aren’t asking the right questions</h1>
+      <p class="page-post-date">November 26th, 2021</p>
+      
+    </div>
+    
+    <div class="main-container main-container-post">
       <article>
-        
-        
-        <h2>We aren’t asking the right questions</h2>
-        <p class="date">November 26th, 2021</p>
-         <p>The penultimate episode of <em><a href="https://www.christianitytoday.com/ct/podcasts/rise-and-fall-of-mars-hill/" target="_blank">The Rise &amp; Fall of Mars Hill</a></em> is a frustrating investigatory experience. The show presents to the listener the evidence of an abusive pastor in a permissive church system, building the case that this was an ongoing problem within the organization that eventually collapsed under the weight of the trauma dealt within. What I believe the episode fails to do and has continued to do throughout the series is to follow that evidence to its obvious conclusion, despite the pretense of seeking answers for how it all happened.</p>
+        <p>The penultimate episode of <em><a href="https://www.christianitytoday.com/ct/podcasts/rise-and-fall-of-mars-hill/" target="_blank">The Rise &amp; Fall of Mars Hill</a></em> is a frustrating investigatory experience. The show presents to the listener the evidence of an abusive pastor in a permissive church system, building the case that this was an ongoing problem within the organization that eventually collapsed under the weight of the trauma dealt within. What I believe the episode fails to do and has continued to do throughout the series is to follow that evidence to its obvious conclusion, despite the pretense of seeking answers for how it all happened.</p>
 
 <p>In this episode, host Mike Cosper presents the possibility that celebrity culture is causing people to become blind to the long-term abuse that some pastors like Mark Driscoll can bring down on church staff and members. Cosper’s view is that only the widely popular pastors (or those with large enough audiences that grow beyond the borders of their own church) can distort the view of their importance amongst their followers, leading to greater freedom to abuse people without reprimand. This is an interesting theory and could explain some occurrences, but I would contend that this is definitely not the primary issue driving the abuse. A dictatorial level of control can be exerted on members from a pastor whose town is barely more than an intersection of two small roads. The size of the church does not matter nor does the popularity of the pastor determine the effect he has on his followers.</p>
 
@@ -121,8 +99,8 @@
 
 <div class="m1"><blockquote class="twitter-tweet" data-lang="en"><p lang="en" dir="ltr">I’m listening to the last episode of The Rise &amp; Fall of Mars Hill now, but I have to take it in pieces because my nerves can’t handle long stretches of it. I’ve written about it in the past and so I’m starting to grow tired of it, but I want to conclude things here (for now).</p>— David Hepworth 😷💉 (@DHPersonal) <a href="https://twitter.com/DHPersonal/status/1469169177709662212?ref_src=twsrc%5Etfw">December 10, 2021</a></blockquote> <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script></div>
 
-  
 
+        
         <section class="outbound">
           <h4>Further Reading</h4>
           <ul>
@@ -141,7 +119,7 @@
             
           </ul>
         </section>
-         
+        
         <a class="comments" name="comments"></a>
         <script
           src="https://utteranc.es/client.js"
@@ -164,7 +142,8 @@
 </blockquote>
 
 <p class="outbound"><a class="button" href="https://www.christianitytoday.com/ct/podcasts/rise-and-fall-of-mars-hill/tempest-mars-hill-driscoll.html" id="" target="_blank"><span class="emoji">🎧</span>&nbsp;Listen now</a></p>
- 
+
+        
       </aside>
     </div>
   </main>
@@ -172,11 +151,14 @@
 
 
 <hr />
-<footer class="flexContainer">
-    <p class="outbound">
-      <a class="button" href="#top" id="toTop" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
+<footer>
+  <div class="footer-page-container">
+    <p class="footer-page-buttons">
+      <a class="button" href="#top" id="to-top" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
     </p>
-    <p class="hideExternalIcon feedXML right">
+    <p class="footer-page-feed">
       <a href="https://dhepworth.github.io/feed.xml" target="_blank"><img src="https://dhepworth.github.io/img/feed.svg" alt="SVG icon" title="Subscribe to feed" height="40" width="40"></a>
     </p>
-  </footer><script src="/js/app.js"></script></html>
+  </div>
+</footer>
+<script src="/js/app.js"></script></html>

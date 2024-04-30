@@ -18,8 +18,8 @@
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     
-    <meta name="theme-color" content="hsl(0, 0%, 98%)" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="hsl(0, 0%, 10%)" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="oklch(95% 0 0)" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="oklch(15% 0 0)" media="(prefers-color-scheme: dark)" />
     
     <title>Being invisible — DH:Personal</title>
     
@@ -28,9 +28,6 @@
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <link rel="alternate" type="application/rss+xml" href="https://dhepworth.github.io/feed.xml">
-    <script>
-        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
-    </script>
 
 </head>
 
@@ -42,77 +39,56 @@
             visibility: hidden !important;
         }
     </style>
-</noscript><section class="hideNav">
-  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
-    &hellip;
-  </button>
+</noscript><section id="accessibility-controls">
+  <fieldset class="accessibility-wrapper">
+    <label><span class="accessibility-label-hidden">Change font size controls: </span><span aria-hidden="true" class="accessibility-label-visible">Aa</span></label>
+    <button aria-label="Shrink Text Size" class="accessibility-button" data-update-text-size="-15" id="font-smaller" type="button">
+      -
+    </button>
+    <button aria-label="Enlarge Text Size" class="accessibility-button" data-update-text-size="15" id="font-larger" type="button">
+      +
+    </button>
+  </fieldset>
 </section>
-<nav id="accessibilityControls" aria-hidden="true" class="hidden">
-  <div id="accessibilityControlsContainer" class="container">
-    <section class="dayNightMode">
-      <h5>View Mode</h5>
-      <button type="button" aria-label="Light Theme" id="lightButton">
-        Light
-      </button>
-      <button type="button" aria-label="Dark Theme" id="darkButton">
-        Dark
-      </button>
-      <button type="button" aria-label="Reset Theme" id="systemButton">
-        System
-      </button>
-    </section>
-    <section class="fontFamily">
-      <h5>Font Family</h5>
-      <button type="button" aria-label="Sans-Serif" id="sansSerifButton">
-        Sans-Serif
-      </button>
-      <button type="button" aria-label="Serif" id="serifButton">
-        Serif
-      </button>
-    </section>
-    <section class="fontSize">
-      <h5>Font Size</h5>
-      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
-        -
-      </button>
-      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
-        +
-      </button>
-      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
-        Reset
-      </button>
-    </section>
-    <section class="whatIsThis">
-      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
-      <dialog id="whatIsThisDialog">
-        <h2>Display controls</h2>
-        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
-        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
-        <form method="dialog">
-          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
-        </form>
-      </dialog>
-    </section>
+<div class="page-post-mobile-tablet">
+    <header class="page-small page-small-black">
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+      
+      <div class="header-text-container">
+        <h1>Being invisible</h1>
+        <p class="page-date">August 19th, 2023</p>
+      </div>
+      
+    </header>
   </div>
-</nav><header>
-    <h1>
-      <a class="hideExternalIcon" href="/">DH:Personal</a>
-    </h1>
-  </header>
-
-  <main id="mainContent">
-    <div class="container">
+  
+  <div class="page-post-desktop">
+    
+    <header class="page" style="background-image: url('/img/posts/purple-flower.jpg')">
+    
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+    </header>
+  </div>
+ 
+  <main id="main-content" class="page-post-main-image-small" tabindex="-1">
+    
+    <div class="page-post-headline page-post-headline-image-available">
+      <p class="page-post-headline-image">
+        <img src="/img/posts/purple-flower.jpg" />
+      </p>
+      
+      <h1 class="page-post-headline-title">Being invisible</h1>
+      <p class="page-post-date">August 19th, 2023</p>
+      
+    </div>
+    
+    <div class="main-container main-container-post">
       <article>
-        
-        <figure class="hero">
-          <img alt="A wild geranium blooms alongside a walking path in Bartlesville, Oklahoma" height="400" src="/img/posts/purple-flower.jpg" width="800" />
-          <figcaption>A wild geranium blooms alongside a walking path in Bartlesville, Oklahoma • David Hepworth</figcaption>
-        </figure>
-        
-        
-        <h2>Being invisible</h2>
-        <p class="date">August 19th, 2023</p>
-         <p>When we moved into our new house, my wife and I decided to purchase a couple seed packs of flowers to put in a garden in the back yard. We chose to purchase native wildflowers; we thought they would have the greatest chance of surviving and the variety of seeds included promised to provide a lot of colors and shapes of blossoms. We were overwhelmed by the assortment when they bloomed in the spring, and marveled at how beautiful and unique each flower was.</p>
+        <p>When we moved into our new house, my wife and I decided to purchase a couple seed packs of flowers to put in a garden in the back yard. We chose to purchase native wildflowers; we thought they would have the greatest chance of surviving and the variety of seeds included promised to provide a lot of colors and shapes of blossoms. We were overwhelmed by the assortment when they bloomed in the spring, and marveled at how beautiful and unique each flower was.</p>
 
 <p>What was potentially even more stunning to us was the classification of “weed” for most of what grew. What we saw as incredibly valuable was deemed by others to be a nuisance, a plant worthy of destruction. We could not fully understand how someone could see such a gorgeous assortment and classify them in such low esteem.</p>
 
@@ -131,8 +107,8 @@
 <p>I want to see myself, like a flower, as being worthy of love. I know that I am not going to be loved by all, just as a weed may be culled by some and kept by others, but I think that the goal of finding some who see your beauty is worth the pain of being undervalued by others. I think that if I can start seeing myself as valuable and accepting that others can feel the same, I will be far more capable of sharing that same kind of love to others.</p>
 
 <p>If a simple flower can find the courage to be visible, why not I?</p>
-  
 
+        
         <section class="outbound">
           <h4>Further Reading</h4>
           <ul>
@@ -193,7 +169,7 @@
             
           </ul>
         </section>
-         
+        
         <a class="comments" name="comments"></a>
         <script
           src="https://utteranc.es/client.js"
@@ -285,7 +261,8 @@ Of my fellow creatures</i></p>
 <p>Seeking an alternative to this system has been difficult. I feel conditioned to see differences where none may exist. I still feel anxious that I don’t have a specific list of unique qualities that would define me as a man, even though I never felt a connection to nor felt any comfort in being limited to such a list. I doubt my value without those characteristics as a tool to define me. It is as if I lack an identity if I can’t compare myself to a set of qualities that someone else chose for me.</p>
 
 <p>I don’t think the solution is to seek the answers from someone like Jordan Peterson or Joe Rogan; that seems to be a return to restricting my life to someone else’s definition of what it is to be a man. I’m not convinced that any list is actually necessary to my life in the way it once seemed. I think I want to rearrange my list of my identity and place “man” in a mere attribute of me rather than the word under which everything is defined. I think handling it this way will mean I no longer try to consider how a “man” would approach a situation and instead let “David” (that’s me) get involved.</p>
- 
+
+        
       </aside>
     </div>
   </main>
@@ -293,11 +270,14 @@ Of my fellow creatures</i></p>
 
 
 <hr />
-<footer class="flexContainer">
-    <p class="outbound">
-      <a class="button" href="#top" id="toTop" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
+<footer>
+  <div class="footer-page-container">
+    <p class="footer-page-buttons">
+      <a class="button" href="#top" id="to-top" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
     </p>
-    <p class="hideExternalIcon feedXML right">
+    <p class="footer-page-feed">
       <a href="https://dhepworth.github.io/feed.xml" target="_blank"><img src="https://dhepworth.github.io/img/feed.svg" alt="SVG icon" title="Subscribe to feed" height="40" width="40"></a>
     </p>
-  </footer><script src="/js/app.js"></script></html>
+  </div>
+</footer>
+<script src="/js/app.js"></script></html>

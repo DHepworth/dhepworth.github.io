@@ -16,8 +16,8 @@
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     
-    <meta name="theme-color" content="hsl(0, 0%, 98%)" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="hsl(0, 0%, 10%)" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="oklch(95% 0 0)" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="oklch(15% 0 0)" media="(prefers-color-scheme: dark)" />
     
     <title>Front-end Web development — DH:Personal</title>
     
@@ -26,9 +26,6 @@
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <link rel="alternate" type="application/rss+xml" href="https://dhepworth.github.io/feed.xml">
-    <script>
-        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
-    </script>
 
 </head>
 
@@ -40,89 +37,74 @@
             visibility: hidden !important;
         }
     </style>
-</noscript><section class="hideNav">
-  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
-    &hellip;
-  </button>
+</noscript><section id="accessibility-controls">
+  <fieldset class="accessibility-wrapper">
+    <label><span class="accessibility-label-hidden">Change font size controls: </span><span aria-hidden="true" class="accessibility-label-visible">Aa</span></label>
+    <button aria-label="Shrink Text Size" class="accessibility-button" data-update-text-size="-15" id="font-smaller" type="button">
+      -
+    </button>
+    <button aria-label="Enlarge Text Size" class="accessibility-button" data-update-text-size="15" id="font-larger" type="button">
+      +
+    </button>
+  </fieldset>
 </section>
-<nav id="accessibilityControls" aria-hidden="true" class="hidden">
-  <div id="accessibilityControlsContainer" class="container">
-    <section class="dayNightMode">
-      <h5>View Mode</h5>
-      <button type="button" aria-label="Light Theme" id="lightButton">
-        Light
-      </button>
-      <button type="button" aria-label="Dark Theme" id="darkButton">
-        Dark
-      </button>
-      <button type="button" aria-label="Reset Theme" id="systemButton">
-        System
-      </button>
-    </section>
-    <section class="fontFamily">
-      <h5>Font Family</h5>
-      <button type="button" aria-label="Sans-Serif" id="sansSerifButton">
-        Sans-Serif
-      </button>
-      <button type="button" aria-label="Serif" id="serifButton">
-        Serif
-      </button>
-    </section>
-    <section class="fontSize">
-      <h5>Font Size</h5>
-      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
-        -
-      </button>
-      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
-        +
-      </button>
-      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
-        Reset
-      </button>
-    </section>
-    <section class="whatIsThis">
-      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
-      <dialog id="whatIsThisDialog">
-        <h2>Display controls</h2>
-        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
-        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
-        <form method="dialog">
-          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
-        </form>
-      </dialog>
-    </section>
+<div class="page-post-mobile-tablet">
+    <header class="page-small page-small-black">
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+      
+      <div class="header-text-container">
+        <h1>Front-end Web development</h1>
+        <p class="page-date">January 10th, 2024</p>
+      </div>
+      
+    </header>
   </div>
-</nav><header>
-    <h1>
-      <a class="hideExternalIcon" href="/">DH:Personal</a>
-    </h1>
-  </header>
-
-  <main id="mainContent">
-    <div class="container">
-      <article>
-        
-        
-        <h2>Front-end Web development</h2>
-        <p class="date">January 10th, 2024</p>
-         <blockquote class="articleSnippet">
-<cite>Alex Russell — Infrequently Noted</cite>
-<h4 class="m0"><a href="https://infrequently.org/2023/02/the-market-for-lemons/" target="_blank">The Market for Lemons</a></h4>
-<p>For most of the past decade, I have spent a considerable fraction of my professional life consulting with teams building on the web. It is not going well.</p>
-</blockquote>
-
-<blockquote class="articleSnippet">
-<cite>Alex Russell — Infrequently Noted</cite>
-<h4 class="m0"><a href="https://infrequently.org/2022/12/performance-baseline-2023/" target="_blank">The Performance Inequality Gap, 2023</a></h4>
-<p>To serve users at the 75th percentile (P75) of devices and networks, we can now afford ~150KiB of HTML/CSS/fonts and ~300-350KiB of JavaScript (gzipped). This is a slight improvement on last year's budgets, thanks to device and network improvements. Meanwhile, sites continue to send more script than is reasonable for 80+% of the world's users, widening the gap between the haves and the have-nots. This is an ethical crisis for frontend.</p>
-</blockquote>
-
-<blockquote class="articleSnippet">
-<cite>Kilian Valkhof — HTMLHell</cite>
-<h4 class="m0"><a href="https://www.htmhell.dev/adventcalendar/2023/2/" target="_blank">You don’t need JavaScript for that</a></h4>
-<p>Because HTML and CSS features are handled by the browser they can be more performant, more native, more adaptable to user preferences and in general, more accessible. That doesn't mean it will always be (especially when it comes to accessibility) but when the browser does the heavy lifting for you, your end users will generally have a better experience.</p>
-</blockquote>
+  
+  <div class="page-post-desktop">
+    
+    <header class="page-small">
+    
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+    </header>
+  </div>
  
+  <main id="main-content" class="" tabindex="-1">
+    
+    <div class="page-post-headline page-post-headline-no-image-available">
+      
+      <h1 class="page-post-headline-title">Front-end Web development</h1>
+      <p class="page-post-date">January 10th, 2024</p>
+      
+    </div>
+    
+    <div class="main-container main-container-post">
+      <article>
+        <blockquote class="article-snippet">
+  <p><cite>Alex Russell — Infrequently Noted</cite></p>
+  <h4 id="the-market-for-lemons"><a href="https://infrequently.org/2023/02/the-market-for-lemons/" target="_blank">The Market for Lemons</a></h4>
+  <p>For most of the past decade, I have spent a considerable fraction of my professional life consulting with teams building on the web. It is not going well.</p>
+</blockquote>
+
+<blockquote class="article-snippet">
+  <p><cite>Alex Russell — Infrequently Noted</cite></p>
+  <h4 id="the-performance-inequality-gap-2023"><a href="https://infrequently.org/2022/12/performance-baseline-2023/" target="_blank">The Performance Inequality Gap, 2023</a></h4>
+  <p>To serve users at the 75th percentile (P75) of devices and networks, we can now afford ~150KiB of HTML/CSS/fonts and ~300-350KiB of JavaScript (gzipped). This is a slight improvement on last year’s budgets, thanks to device and network improvements. Meanwhile, sites continue to send more script than is reasonable for 80+% of the world’s users, widening the gap between the haves and the have-nots. This is an ethical crisis for frontend.</p>
+</blockquote>
+
+<blockquote class="article-snippet">
+  <p><cite>Kilian Valkhof — HTMLHell</cite></p>
+  <h4 id="you-dont-need-javascript-for-that"><a href="https://www.htmhell.dev/adventcalendar/2023/2/" target="_blank">You don’t need JavaScript for that</a></h4>
+  <p>Because HTML and CSS features are handled by the browser they can be more performant, more native, more adaptable to user preferences and in general, more accessible. That doesn’t mean it will always be (especially when it comes to accessibility) but when the browser does the heavy lifting for you, your end users will generally have a better experience.</p>
+</blockquote>
+
+<p>It’s totally a disaster right now, but don’t worry; there’s hope we’ll get it right this time!</p>
+
+        
+        
         <a class="comments" name="comments"></a>
         <script
           src="https://utteranc.es/client.js"
@@ -135,28 +117,6 @@
       </article>
       <aside>
         
-        <h3>My latest posts</h3>
-        <ul>
-          
-          <li><a href="/post/2024/03/23/great-programs.html">Great programs that I enjoy</a></li>
-          
-          <li><a href="/post/2024/03/07/i-miss-lockdown.html">I miss lockdown</a></li>
-          
-          <li><a href="/post/2024/01/05/new-old-camera.html">My new old camera</a></li>
-          
-          <li><a href="/post/2023/11/28/fun-side-project.html">My fun side project</a></li>
-          
-          <li><a href="/post/2023/11/15/knowledge-shouldnt-be-a-burden.html">Knowledge shouldn’t be a burden</a></li>
-          
-          <li><a href="/post/2023/08/19/being-invisible.html">Being invisible</a></li>
-          
-          <li><a href="/post/2023/06/01/what-is-church.html">What is church?</a></li>
-          
-          <li><a href="/post/2023/04/25/hopelessness-in-video-games.html">Hopelessness in video games</a></li>
-          
-          <li><a href="/post/2023/02/23/analog-clocks.html">The time for analog clocks is over</a></li>
-          
-        </ul>
         
       </aside>
     </div>
@@ -165,11 +125,14 @@
 
 
 <hr />
-<footer class="flexContainer">
-    <p class="outbound">
-      <a class="button" href="#top" id="toTop" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
+<footer>
+  <div class="footer-page-container">
+    <p class="footer-page-buttons">
+      <a class="button" href="#top" id="to-top" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
     </p>
-    <p class="hideExternalIcon feedXML right">
+    <p class="footer-page-feed">
       <a href="https://dhepworth.github.io/feed.xml" target="_blank"><img src="https://dhepworth.github.io/img/feed.svg" alt="SVG icon" title="Subscribe to feed" height="40" width="40"></a>
     </p>
-  </footer><script src="/js/app.js"></script></html>
+  </div>
+</footer>
+<script src="/js/app.js"></script></html>

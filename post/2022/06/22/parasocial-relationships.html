@@ -16,8 +16,8 @@
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     
-    <meta name="theme-color" content="hsl(0, 0%, 98%)" media="(prefers-color-scheme: light)" />
-    <meta name="theme-color" content="hsl(0, 0%, 10%)" media="(prefers-color-scheme: dark)" />
+    <meta name="theme-color" content="oklch(95% 0 0)" media="(prefers-color-scheme: light)" />
+    <meta name="theme-color" content="oklch(15% 0 0)" media="(prefers-color-scheme: dark)" />
     
     <title>Parasocial relationships are weird — DH:Personal</title>
     
@@ -26,9 +26,6 @@
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
     <link rel="alternate" type="application/rss+xml" href="https://dhepworth.github.io/feed.xml">
-    <script>
-        if (localStorage.theme) document.documentElement.setAttribute("data-theme", localStorage.theme);
-    </script>
 
 </head>
 
@@ -40,72 +37,53 @@
             visibility: hidden !important;
         }
     </style>
-</noscript><section class="hideNav">
-  <button type="button" aria-label="" title="Toggle Display Controls" id="toggleNav" class="" tabindex="0">
-    &hellip;
-  </button>
+</noscript><section id="accessibility-controls">
+  <fieldset class="accessibility-wrapper">
+    <label><span class="accessibility-label-hidden">Change font size controls: </span><span aria-hidden="true" class="accessibility-label-visible">Aa</span></label>
+    <button aria-label="Shrink Text Size" class="accessibility-button" data-update-text-size="-15" id="font-smaller" type="button">
+      -
+    </button>
+    <button aria-label="Enlarge Text Size" class="accessibility-button" data-update-text-size="15" id="font-larger" type="button">
+      +
+    </button>
+  </fieldset>
 </section>
-<nav id="accessibilityControls" aria-hidden="true" class="hidden">
-  <div id="accessibilityControlsContainer" class="container">
-    <section class="dayNightMode">
-      <h5>View Mode</h5>
-      <button type="button" aria-label="Light Theme" id="lightButton">
-        Light
-      </button>
-      <button type="button" aria-label="Dark Theme" id="darkButton">
-        Dark
-      </button>
-      <button type="button" aria-label="Reset Theme" id="systemButton">
-        System
-      </button>
-    </section>
-    <section class="fontFamily">
-      <h5>Font Family</h5>
-      <button type="button" aria-label="Sans-Serif" id="sansSerifButton">
-        Sans-Serif
-      </button>
-      <button type="button" aria-label="Serif" id="serifButton">
-        Serif
-      </button>
-    </section>
-    <section class="fontSize">
-      <h5>Font Size</h5>
-      <button type="button" aria-label="Shrink Text Size" id="fontSmaller" data-update-text-size="-15">
-        -
-      </button>
-      <button type="button" aria-label="Enlarge Text Size" id="fontLarger" data-update-text-size="15">
-        +
-      </button>
-      <button type="button" aria-label="Reset Text Size" id="fontReset" data-update-text-size="0">
-        Reset
-      </button>
-    </section>
-    <section class="whatIsThis">
-      <button type="button" title="What is this toolbar supposed to do for me?" aria-label="What is this toolbar supposed to do for me?" id="whatIsThisButton">?</button>
-      <dialog id="whatIsThisDialog">
-        <h2>Display controls</h2>
-        <p>Use the buttons in the site’s toolbar to change background color along with text size and style to match your preferences.</p>
-        <p>These controls leave a small amount of settings data in your local storage to maintain your preferences across multiple visits to the site, but the data isn’t used to track your usage and are only present when the site settings have been customized.</p>
-        <form method="dialog">
-          <button type="button" id="whatIsThisCloseButton" aria-label="Close dialog">OK</button>
-        </form>
-      </dialog>
-    </section>
+<div class="page-post-mobile-tablet">
+    <header class="page-small page-small-black">
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+      
+      <div class="header-text-container">
+        <h1>Parasocial relationships are weird</h1>
+        <p class="page-date">June 22nd, 2022</p>
+      </div>
+      
+    </header>
   </div>
-</nav><header>
-    <h1>
-      <a class="hideExternalIcon" href="/">DH:Personal</a>
-    </h1>
-  </header>
-
-  <main id="mainContent">
-    <div class="container">
+  
+  <div class="page-post-desktop">
+    
+    <header class="page-small">
+    
+      <p class="header-logo">
+        <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+      </p>
+    </header>
+  </div>
+ 
+  <main id="main-content" class="" tabindex="-1">
+    
+    <div class="page-post-headline page-post-headline-no-image-available">
+      
+      <h1 class="page-post-headline-title">Parasocial relationships are weird</h1>
+      <p class="page-post-date">June 22nd, 2022</p>
+      
+    </div>
+    
+    <div class="main-container main-container-post">
       <article>
-        
-        
-        <h2>Parasocial relationships are weird</h2>
-        <p class="date">June 22nd, 2022</p>
-         <p>Parasocial relationships are strange. They feel closer than some friendships but are hollow facsimiles, barely reaching beyond the level of acquaintance. They are unequal connections. They do not mutually benefit all participants. Why then does losing a connection to a stranger feel nearly as bittersweet as a true bond with a known companion?</p>
+        <p>Parasocial relationships are strange. They feel closer than some friendships but are hollow facsimiles, barely reaching beyond the level of acquaintance. They are unequal connections. They do not mutually benefit all participants. Why then does losing a connection to a stranger feel nearly as bittersweet as a true bond with a known companion?</p>
 
 <p>I’ve lost real friends before. I now am mostly left with the parasocial relationships, so when they end they feel as poignant as the real friendships. They are mutually connected to an interest as well, so getting to an age or part of my life where I lose that interest or can’t commit to it as much any longer can feel like a betrayal to a friendship that doesn’t truly exist. It’s not as if the friendships lack any real value; in many cases it has been those friendships and the communities surrounding them that has kept me grounded to something consistent and trustworthy so that the less-reliable areas of my life feel more manageable. When those communities, either through my own actions or those on the other side of the relationship, begin to feel less reliable, I realize how little I have available to fill the gaps in my life and I feel guilty and lonely for depending on the parasocial and sad because I’m now truly alone. There’s a sense of shame that I ever found anything of value in the parasocial because it was only a placebo, a panacea for a problem that I could’ve spent time solving through true connections.</p>
 
@@ -135,7 +113,9 @@
 <p>I want to rebuild my interests but time and community seems limited to me now. I feel more boring to others and less capable of becoming something more interesting, which makes it harder for me to feel capable of being able to make a contribution to a new community. I want to be available for my wife, my children, and my job, but I fear that leaves me little time to seek out a series of strong friendships (or perhaps even one). While I haven’t figuratively scooped out my interests or hobbies from my identity, I wonder if returning to them would feel as fulfilling as I remember or if they would in the end feel alien to me. Would I be regressing in my personal growth? What should I like as the person I am now? What am I now if I lack the strength in my current interests that I used to have in my previous hobbies?</p>
 
 <p>I am probably overthinking this. Maybe that’s why parasocial relationships are so popular and attractive: they’re simpler and less complicated.</p>
- 
+
+        
+        
         <a class="comments" name="comments"></a>
         <script
           src="https://utteranc.es/client.js"
@@ -156,7 +136,8 @@
 <blockquote>Change is afoot at Giant Bomb… the team must turn to the dark arts and enact an unholy ritual to bring back videogames.</blockquote>
 
 <p><a href="https://www.giantbomb.com/" target="_blank">Giant Bomb</a> used to be the source of much entertainment and community. Throughout the years I have seen many of the staff leave in one way or another, including the most recent upsets over the past year that included the majority of the original staff leaving to start their own ventures. It’s strange to watch them all leave and realize that I've changed, too: I no longer play games outside of Apple Arcade and even got rid of my gaming PC. Gaming used to be a big part of my life and a large part of my community, but due to lack of time and waning interest, I have become a distant observer, like visiting an old neighborhood and finding it alien and unfamiliar.</p>
- 
+
+        
       </aside>
     </div>
   </main>
@@ -164,11 +145,14 @@
 
 
 <hr />
-<footer class="flexContainer">
-    <p class="outbound">
-      <a class="button" href="#top" id="toTop" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
+<footer>
+  <div class="footer-page-container">
+    <p class="footer-page-buttons">
+      <a class="button" href="#top" id="to-top" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
     </p>
-    <p class="hideExternalIcon feedXML right">
+    <p class="footer-page-feed">
       <a href="https://dhepworth.github.io/feed.xml" target="_blank"><img src="https://dhepworth.github.io/img/feed.svg" alt="SVG icon" title="Subscribe to feed" height="40" width="40"></a>
     </p>
-  </footer><script src="/js/app.js"></script></html>
+  </div>
+</footer>
+<script src="/js/app.js"></script></html>
