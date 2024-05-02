@@ -5,8 +5,8 @@
     <description>A blog of a person learning things others long ago understood.</description>
     <link>https://dhepworth.github.io/</link>
     <atom:link href="https://dhepworth.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 30 Apr 2024 21:39:57 -0500</pubDate>
-    <lastBuildDate>Tue, 30 Apr 2024 21:39:57 -0500</lastBuildDate>
+    <pubDate>Thu, 02 May 2024 14:47:12 -0500</pubDate>
+    <lastBuildDate>Thu, 02 May 2024 14:47:12 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -17,7 +17,7 @@
 
 &lt;p&gt;Programs listed below in italics are my &lt;em&gt;favorite&lt;/em&gt; favorites.&lt;/p&gt;
 
-&lt;p&gt;⚠️ &lt;strong&gt;This list was last updated March 27, 2024.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;This list was last updated May 1, 2024.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -141,7 +141,6 @@
   &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/water-tracker-waterminder/id653031147&quot; target=&quot;_blank&quot;&gt;WaterMinder&lt;/a&gt; — Track water intake throughout the day to avoid surprise dehydration&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/what3words-navigation-maps/id657878530&quot; target=&quot;_blank&quot;&gt;what3words&lt;/a&gt; — A grid-based offline tracking tool for hikers who might get lost with insufficient cellular coverage&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/where-to-search-nearby-places/id903955898&quot; target=&quot;_blank&quot;&gt;Where To?&lt;/a&gt; — An alternative to Yelp for planning an activity&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/windy-com-weather-radar/id1161387262&quot; target=&quot;_blank&quot;&gt;Windy&lt;/a&gt; — Weather coverage by way of wind tracking&lt;/li&gt;
 &lt;/ul&gt;
 
 &lt;h3 id=&quot;-photos&quot;&gt;📸 Photos&lt;/h3&gt;
@@ -194,6 +193,7 @@
   &lt;li&gt;&lt;a href=&quot;https://objective-see.org/products/lulu.html&quot; target=&quot;_blank&quot;&gt;Lulu&lt;/a&gt; — A firewall for Macs&lt;/li&gt;
   &lt;li&gt;&lt;em&gt;&lt;a href=&quot;https://apps.apple.com/us/app/mela-recipe-manager/id1548466041&quot; target=&quot;_blank&quot;&gt;Mela&lt;/a&gt; — A cross-platform recipe management tool with calendar, grocery list, and search tools&lt;/em&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/pipper/id1587335166?mt=12&quot; target=&quot;_blank&quot;&gt;Pipper&lt;/a&gt; — Presents a Safari overlay on top of all other windows&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://marco.org/apps#quitter&quot; target=&quot;_blank&quot;&gt;Quitter&lt;/a&gt; — Idle aplication management&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/screens-5-vnc-remote-desktop/id1663047912&quot; target=&quot;_blank&quot;&gt;Screens&lt;/a&gt; — A remote management tool with a great presentation&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://sigil-ebook.com/sigil/&quot; target=&quot;_blank&quot;&gt;Sigil&lt;/a&gt; — Ebook creation tool&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://sveinbjorn.org/sloth&quot; target=&quot;_blank&quot;&gt;Sloth&lt;/a&gt; — Shows all files and sockets in use on a Mac&lt;/li&gt;
