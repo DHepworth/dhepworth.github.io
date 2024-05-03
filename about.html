@@ -37,25 +37,48 @@
             visibility: hidden !important;
         }
     </style>
-</noscript><!-- <nav>
-  <a href="#main-content" class="nav-skip sr-only button"></a>
-  <ul class="nav-list">
+</noscript><section id="accessibility-controls">
+  <fieldset class="accessibility-wrapper">
+    <label><span class="accessibility-label-hidden">Change font size controls: </span><span aria-hidden="true" class="accessibility-label-visible">Aa</span></label>
+    <button aria-label="Shrink Text Size" class="accessibility-button" data-update-text-size="-15" id="font-smaller" type="button">
+      -
+    </button>
+    <button aria-label="Enlarge Text Size" class="accessibility-button" data-update-text-size="15" id="font-larger" type="button">
+      +
+    </button>
+  </fieldset>
+</section>
+<div class="page-post-mobile-tablet">
+  
+  <header class="page-small page-small-black">
+  
+    <p class="header-logo">
+      <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+    </p>
     
+    <div class="header-text-container">
+      <h1>About the webmaster</h1>
       
+    </div>
     
-  </ul>
-</nav> -->
-<header>
-    <h1>
-      <a class="hide-external-icon" href="https://dhepworth.github.io">DH:Personal</a>
-    </h1>
+    <div class="header-text-shadow"></div>
   </header>
+</div>
 
-  <main id="mainContent">
-    <div class="container">
+<div class="page-post-desktop">
+  
+  <header class="page-small">
+  
+    <p class="header-logo">
+      <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
+    </p>
+  </header>
+</div>
+<main id="main-content" class="" tabindex="-1">
+    <div class="main-container main-container-post">
       <article>
         
-        <h2>About the webmaster</h2>
+        <h1 class="page-post-headline-title">About the webmaster</h1>
          <h3 id="this-all-started-as-an-experiment">This all started as an experiment</h3>
 
 <p>I have working to learn more about web development and how to use JavaScript on front-end design but I haven’t been able to find a good excuse to spend large portions of time on learning it. I decided to grab some Lorem Ipsum and build a layout for it, but that quickly turned into me writing a series of posts to make the project more complicated and to better understand the coding required to support such a project. I now use Jekyll to build the site and deploy it through git to GitHub Pages.</p>
@@ -70,16 +93,17 @@
 
 <p>I know some of these are <a href="https://www.discovermagazine.com/mind/the-problem-with-the-myers-briggs-personality-test" target="_blank">dubious in their quality</a>, but there is something appealing to me about being able to link someone to a distillation of who I am and how I see things. People can have such widely varied worldviews that I think it’s helpful to share them early, perhaps so others can use these results as a way to dismiss my viewpoints in a succinct and time-efficient manner.</p>
 
-<h4 id="-myers--briggs"><span class="emoji">🧠</span> <a href="https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/the-16-mbti-types.htm" target="_blank">Myers &amp; Briggs</a></h4>
+<h4 id="-myers--briggs">🧠 <a href="https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/the-16-mbti-types.htm" target="_blank">Myers &amp; Briggs</a></h4>
 
 <blockquote cite="https://www.myersbriggs.org/my-mbti-personality-type/mbti-basics/the-16-mbti-types.htm">
-<p><strong>INTJ</strong></p>
-<p>Have original minds and great drive for implementing their ideas and achieving their goals. Quickly see patterns in external events and develop long-range explanatory perspectives. When committed, organize a job and carry it through. Skeptical and independent, have high standards of competence and performance - for themselves and others.</p>
+  <p><strong>INTJ</strong></p>
+
+  <p>Have original minds and great drive for implementing their ideas and achieving their goals. Quickly see patterns in external events and develop long-range explanatory perspectives. When committed, organize a job and carry it through. Skeptical and independent, have high standards of competence and performance — for themselves and others.</p>
 </blockquote>
 
-<h4 class="m1p5" id="5️⃣-the-big-five-personality-test"><span class="emoji">5️⃣</span> <a href="https://www.outofservice.com/bigfive/" target="_blank">The Big Five Personality Test</a></h4>
+<h4 id="5️⃣-the-big-five-personality-test">5️⃣ <a href="https://www.outofservice.com/bigfive/" target="_blank">The Big Five Personality Test</a></h4>
 
-<table class="big5">
+<table class="big-five">
   <thead>
     <tr>
       <th>Dimension</th>
@@ -116,42 +140,42 @@
   </tbody>
 </table>
 
-<div id="hiddenPolitics" class="hidden" aria-hidden="true">
+<div id="hidden-politics" class="hidden" aria-hidden="true">
 
-<h4><span class="emoji">🧭</span> <a href="https://www.politicalcompass.org" target="_blank">Political Compass</a></h4>
+  <h4 id="political-compass">🧭 <a href="https://www.politicalcompass.org/" target="_blank">Political Compass</a></h4>
 
-<p style="text-align: center;"><img src="img/chart.png" alt="Political Compass chart with an indicator in the Left, Libertarian quadrant" title="Political Compass results" height="344" width="385" style="filter: multiply(1)" /></p>
+  <p style="text-align: center"><img src="img/chart.png" alt="Political Compass chart with an indicator in the Left, Libertarian quadrant" height="344" width="385" style="filter: multiply(1)" /></p>
 
-<h4><span class="emoji">🏳️</span> <a href="https://hiddentribes.us/" target="_blank">Hidden Tribes</a></h4>
+  <h4 id="hidden-tribes">🏳️ <a href="https://hiddentribes.us/" target="_blank">Hidden Tribes</a></h4>
 
-<p><a href="https://hiddentribes.us/profiles/#progressive-activists" target="_blank">Progressive Activists</a> have strong ideological views, high levels of engagement with political issues, and the highest levels of education and socioeconomic status. Their own circumstances are secure. They feel safer than any group, which perhaps frees them to devote more attention to larger issues of social justice in their society. They have an outsized role in public debates, even though they comprise a small portion of the total population, about one in 12 Americans. They are highly sensitive to issues of fairness and equity in society, particularly regarding race, gender, and other minority group identities. Their emphasis on unjust power structures leads them to be very pessimistic about fairness in America. They are uncomfortable with nationalism and ambivalent about America’s role in the world.</p>
+  <p><a href="https://hiddentribes.us/profiles/#progressive-activists" target="_blank">Progressive Activists</a> have strong ideological views, high levels of engagement with political issues, and the highest levels of education and socioeconomic status. Their own circumstances are secure. They feel safer than any group, which perhaps frees them to devote more attention to larger issues of social justice in their society. They have an outsized role in public debates, even though they comprise a small portion of the total population, about one in 12 Americans. They are highly sensitive to issues of fairness and equity in society, particularly regarding race, gender, and other minority group identities. Their emphasis on unjust power structures leads them to be very pessimistic about fairness in America. They are uncomfortable with nationalism and ambivalent about America’s role in the world.</p>
 
-<h4><span class="emoji">🎱</span> <a href="https://8values.github.io/" target="_blank">8values</a></h4>
+  <h4 id="values">🎱 <a href="https://8values.github.io/" target="_blank">8values</a></h4>
 
-<dl class="polCom">
+  <dl class="pol-com">
     <dt><strong>Economic Axis</strong>: Socialist</dt>
         <dd>
-            <p><span class="emoji">⚖️</span> <strong>Equality</strong>: 84%</p>
+            <p>⚖️ <strong>Equality</strong>: 84%</p>
             <meter value="84" max="100">84%</meter>
-            <p><span class="emoji">💰</span> <strong>Market</strong>: 16%</p>
+            <p>💰 <strong>Market</strong>: 16%</p>
         </dd>
     <dt><strong>Diplomatic Axis</strong>: Internationalist</dt>
         <dd>
-            <p><span class="emoji">🇺🇸</span> <strong>Nation</strong>: 17.8%</p>
+            <p>🇺🇸 <strong>Nation</strong>: 17.8%</p>
             <meter value="17.8" max="100">17.8%</meter>
-            <p><span class="emoji">🌐</span> <strong>Globe</strong>: 82.2%</p>
+            <p>🌐 <strong>Globe</strong>: 82.2%</p>
         </dd>
     <dt><strong>Civil Axis</strong>: Liberal</dt>
         <dd>
-            <p><span class="emoji">🗽</span> <strong>Liberty</strong>: 69.1%</p>
+            <p>🗽 <strong>Liberty</strong>: 69.1%</p>
             <meter value="69.1" max="100">69.1%</meter>
-            <p><span class="emoji">🧑‍⚖️</span> <strong>Authority</strong>: 30.9%</p>
+            <p>🧑‍⚖️ <strong>Authority</strong>: 30.9%</p>
         </dd>
     <dt><strong>Societal Axis</strong>: Very Progressive</dt>
         <dd>
-            <p><span class="emoji">⏳</span> <strong>Tradition</strong>: 16.9%</p>
+            <p>⏳ <strong>Tradition</strong>: 16.9%</p>
         <meter value="16.9" max="100">16.9%</meter>
-            <p><span class="emoji">⚛</span> <strong>Progress</strong>: 83.1%</p>
+            <p>⚛ <strong>Progress</strong>: 83.1%</p>
         </dd>
     <dt><strong>Closest Match:</strong> Libertarian Socialism</dt>
 </dl>
@@ -161,12 +185,12 @@
 
       </article>
       <aside>
-         <section class="profileContainer">
-<p class="profilePic"><a href="#hidden-politics"><small id="hidden-politics-toggle" aria-hidden="true">π</small></a><img src="img/profile-2.jpeg" alt="A profile picture of David Hepworth, the author of this blog. He is looking at the camera with a solemn expression and is wearing a short-sleeved button-up shirt and thick black plastic glasses." title="David Hepworth"></p>
-<div class="profileText">
-<h3 class="mp5">David Hepworth</h3>
-<p class="m0"><span class="emoji">🇺🇸</span> Oklahoma City, Oklahoma, USA</p>
-<ul class="smallUL-2">
+         <section class="profile-container">
+<p class="profile-pic"><a href="#hidden-politics"><small id="hidden-politics-toggle" aria-hidden="true">π</small></a><img src="img/profile-2.jpeg" alt="A profile picture of David Hepworth, the author of this blog. He is looking at the camera with a solemn expression and is wearing a short-sleeved button-up shirt and thick black plastic glasses." title="David Hepworth"></p>
+<div class="profile-text">
+<h3 class="profile-text-header">David Hepworth</h3>
+<p class="profile-text-location">🇺🇸 Oklahoma City, Oklahoma, USA</p>
+<ul class="profile-donations">
     <li class="circled"><strong>Cash App:</strong> $DavidHepworth</li>
     <li class="circled"><strong>PayPal:</strong> @davidebhepworth</li>
     <li class="circled"><strong>Venmo:</strong> @dhepworth</li>
