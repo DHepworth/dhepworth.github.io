@@ -46,23 +46,21 @@ var GOTOTOP = function (e) {
 if (toTop) {
     toTop.addEventListener('click', GOTOTOP);
 }
-var politicsButton = document.querySelector('#hidden-politics-toggle');
-var politicsContainer = document.querySelector('#hidden-politics');
-var POLITICSTOGGLE = function () {
-    if (politicsContainer.classList.contains('hidden')) {
-        politicsContainer.classList.remove('hidden');
-        politicsButton.setAttribute('aria-hidden', 'false');
-        politicsButton.classList.add('animation');
+var POLITICSBUTTON = document.getElementById('hidden-politics-toggle');
+var POLITICSCONTAINER = document.getElementById('hidden-politics');
+var politicsToggle = function () {
+    if (POLITICSCONTAINER.classList.contains('hidden')) {
+        POLITICSCONTAINER.classList.remove('hidden');
+        POLITICSBUTTON.setAttribute('aria-hidden', 'false');
+        POLITICSBUTTON.classList.add('animation');
     }
     else {
-        politicsContainer.classList.add('hidden');
-        politicsButton.setAttribute('aria-hidden', 'true');
-        politicsButton.classList.remove('animation');
+        POLITICSCONTAINER.classList.add('hidden');
+        POLITICSBUTTON.setAttribute('aria-hidden', 'true');
+        POLITICSBUTTON.classList.remove('animation');
     }
 };
-if (politicsButton && politicsContainer) {
-    politicsButton.addEventListener('click', POLITICSTOGGLE);
-}
-else {
+if (POLITICSBUTTON && POLITICSCONTAINER) {
+    POLITICSBUTTON.addEventListener('click', politicsToggle);
 }
 ;
