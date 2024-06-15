@@ -5,8 +5,8 @@
     <description>A blog of a person learning things others long ago understood.</description>
     <link>https://dhepworth.github.io/</link>
     <atom:link href="https://dhepworth.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 09 Jun 2024 23:38:05 -0500</pubDate>
-    <lastBuildDate>Sun, 09 Jun 2024 23:38:05 -0500</lastBuildDate>
+    <pubDate>Fri, 14 Jun 2024 23:19:40 -0500</pubDate>
+    <lastBuildDate>Fri, 14 Jun 2024 23:19:40 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -17,7 +17,7 @@
 
 &lt;p&gt;Programs listed below in italics are my &lt;em&gt;favorite&lt;/em&gt; favorites.&lt;/p&gt;
 
-&lt;p&gt;⚠️ &lt;strong&gt;This list was last updated May 1, 2024.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;This list was last updated June 11, 2024.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -112,7 +112,7 @@
   &lt;li&gt;&lt;a href=&quot;https://synappser.github.io/apps/finderfix/&quot; target=&quot;_blank&quot;&gt;FinderFix&lt;/a&gt; — Quickly resizes and centers new Finder windows so that they don’t scatter across the screen when opened&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://github.com/robbertkl/GamepadMenu&quot; target=&quot;_blank&quot;&gt;Gamepad Menu&lt;/a&gt; — Adds support in macOS for MFi gamepads&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/hand-mirror/id1502839586?mt=12&quot;&gt;Hand Mirror&lt;/a&gt; — Opens a small preview window of the active camera on macOS&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/hidden-bar/id1452453066?mt=12&quot; target=&quot;_blank&quot;&gt;Hidden Bar&lt;/a&gt; — Hides the excessive amount of applications I run in the Menu Bar&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/jordanbaird/Ice&quot; target=&quot;_blank&quot;&gt;Ice&lt;/a&gt; — Hides the excessive amount of applications I run in the Menu Bar&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://thelasso.app&quot; target=&quot;_blank&quot;&gt;Lasso&lt;/a&gt; — Grid-based program window management&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://macmousefix.com&quot; target=&quot;_blank&quot;&gt;Mac Mouse Fix&lt;/a&gt; — Adds mouse settings for external mice to customize the experience from the Magic Trackpad&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/magnet/id441258766?mt=12&quot; target=&quot;_blank&quot;&gt;Magnet&lt;/a&gt; — Program window management with window snapping features&lt;/li&gt;
