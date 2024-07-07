@@ -5,8 +5,8 @@
     <description>A blog of a person learning things others long ago understood.</description>
     <link>https://dhepworth.github.io/</link>
     <atom:link href="https://dhepworth.github.io/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 28 Jun 2024 21:34:46 -0500</pubDate>
-    <lastBuildDate>Fri, 28 Jun 2024 21:34:46 -0500</lastBuildDate>
+    <pubDate>Sat, 06 Jul 2024 21:18:59 -0500</pubDate>
+    <lastBuildDate>Sat, 06 Jul 2024 21:18:59 -0500</lastBuildDate>
     <generator>Jekyll v4.2.2</generator>
     
       <item>
@@ -20,7 +20,11 @@
 &lt;blockquote class=&quot;article-snippet&quot;&gt;
   &lt;p&gt;&lt;cite&gt;Qiskit&lt;/cite&gt;&lt;/p&gt;
   &lt;h4&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=9OM0jSTeeBg&quot; target=&quot;_blank&quot;&gt;Bell’s Inequality: The Weirdest Theorem in the World | Nobel Prize 2022&lt;/a&gt;&lt;/h4&gt;
-  &lt;p class=&quot;embedtool&quot;&gt;&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/9OM0jSTeeBg&quot; title=&quot;Bell’s Inequality: The Weirdest Theorem in the World | Nobel Prize 2022&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+  &lt;section class=&quot;embedtool&quot;&gt;
+    &lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/9OM0jSTeeBg?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/9OM0jSTeeBg/hqdefault.jpg alt=&apos;&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/9OM0jSTeeBg?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+  &lt;/section&gt;
+
   &lt;p&gt;John Clauser, Alain Aspect, and Anton Zeilinger were awarded the Nobel Prize in physics. Their groundbreaking work was built upon one of the most significant discoveries in the history of physics: Bell’s Theorem, which was originally formulated by the late John Stewart Bell. In this video, we delve into the reasons why Bell’s Theorem stands as one of the most important and perplexing results in the annals of physics. Join us as we celebrate the achievements of these three remarkable scientists who, through their contributions, laid the foundation for cutting-edge technologies rooted in quantum information.&lt;/p&gt;
 &lt;/blockquote&gt;
 
@@ -45,7 +49,10 @@
 &lt;blockquote class=&quot;article-snippet&quot;&gt;
   &lt;p&gt;&lt;cite&gt;Alex O&apos;Connor&lt;/cite&gt;&lt;/p&gt;
   &lt;h4&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=bux0SjaUCY0&quot; target=&quot;_blank&quot;&gt;The Multiverse Is Real — David Deutsch&lt;/a&gt;&lt;/h4&gt;
-  &lt;p class=&quot;embedtool&quot;&gt;&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/bux0SjaUCY0&quot; title=&quot;The Multiverse Is Real — David Deutsch&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+  &lt;section class=&quot;embedtool&quot;&gt;
+    &lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/bux0SjaUCY0?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/bux0SjaUCY0/hqdefault.jpg alt=&apos;&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/bux0SjaUCY0?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+  &lt;/section&gt;
 
 &lt;/blockquote&gt;
 
@@ -88,7 +95,10 @@
 &lt;blockquote class=&quot;article-snippet&quot;&gt;
   &lt;p&gt;&lt;cite&gt;Alex O&apos;Connor&lt;/cite&gt;&lt;/p&gt;
   &lt;h4&gt;&lt;a href=&quot;https://www.youtube.com/watch?v=ZgvDrFwyW4k&quot; target=&quot;_blank&quot;&gt;There’s No Free Will. What Now? — Robert Sapolsky&lt;/a&gt;&lt;/h4&gt;
-  &lt;p class=&quot;embedtool&quot;&gt;&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/ZgvDrFwyW4k&quot; title=&quot;There’s No Free Will. What Now? — Robert Sapolsky&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/p&gt;
+
+  &lt;section class=&quot;embedtool&quot;&gt;
+    &lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/ZgvDrFwyW4k?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/ZgvDrFwyW4k/hqdefault.jpg alt=&apos;&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/ZgvDrFwyW4k?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+  &lt;/section&gt;
 
 &lt;/blockquote&gt;
 
@@ -128,15 +138,15 @@
 &lt;p&gt;&lt;cite&gt;Dennis Overbye — The New York Times&lt;/cite&gt;&lt;/p&gt;
 &lt;h4&gt;&lt;a href=&quot;https://www.nytimes.com/2024/04/04/science/space/astronomy-universe-dark-energy.html&quot; target=&quot;_blank&quot;&gt;A Tantalizing ‘Hint’ That Astronomers Got Dark Energy All Wrong&lt;/a&gt;&lt;/h4&gt;
 
+
 Scientists may have discovered a major flaw in their understanding of that mysterious cosmic force. That could be good news for the fate of the universe.
-&lt;/blockquote&gt;
-&lt;/article&gt;&lt;article markdown=&quot;1&quot;&gt;&lt;blockquote class=&quot;article-snippet&quot; markdown=&quot;1&quot;&gt;
+&lt;/blockquote&gt;&lt;/article&gt;&lt;article markdown=&quot;1&quot;&gt;&lt;blockquote class=&quot;article-snippet&quot; markdown=&quot;1&quot;&gt;
 &lt;p&gt;&lt;cite&gt;Jacopo Prisco — CNN&lt;/cite&gt;&lt;/p&gt;
 &lt;h4&gt;&lt;a href=&quot;https://www.cnn.com/2024/06/17/science/black-holes-dark-matter-scn/index.html&quot; target=&quot;_blank&quot;&gt;Scientists may have found an answer to the mystery of dark matter. It involves an unexpected byproduct&lt;/a&gt;&lt;/h4&gt;
 
+
 Now, a new study by researchers with the Massachusetts Institute of Technology has brought the theory back into the spotlight, revealing what these primordial black holes were made of and potentially discovering an entirely new type of exotic black hole in the process.
-&lt;/blockquote&gt;
-&lt;/article&gt;
+&lt;/blockquote&gt;&lt;/article&gt;
 
         </description>
         <pubDate>Fri, 21 Jun 2024 00:00:00 -0500</pubDate>
@@ -158,7 +168,7 @@ Now, a new study by researchers with the Massachusetts Institute of Technology h
 
 &lt;p&gt;Programs listed below in italics are my &lt;em&gt;favorite&lt;/em&gt; favorites.&lt;/p&gt;
 
-&lt;p&gt;⚠️ &lt;strong&gt;This list was last updated June 11, 2024.&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;⚠️ &lt;strong&gt;This list was last updated June 29, 2024.&lt;/strong&gt;&lt;/p&gt;
 
 &lt;hr /&gt;
 
@@ -385,14 +395,11 @@ Now, a new study by researchers with the Massachusetts Institute of Technology h
 &lt;h4 id=&quot;chromium-extensions&quot;&gt;Chromium Extensions&lt;/h4&gt;
 
 &lt;ul&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/ad-auris-play/cbapodfajkmfmbmcihcdnilelhhhlpap?hl=en-US&quot;&gt;Ad Auris Play&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/ad-observer/dafimblndlbfdhmdnefmmnjdpbbnflgd?hl=en-US&quot;&gt;Ad Observer&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/anti-anti-debug/mnmnmcmdkigakhlfkcdimghndnmomfeo?hl=en-US&quot;&gt;Anti Anti Debug&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/dark-reader/eimadpbcbfnmbkopoojfekhnkhdbieeh?hl=en-US&quot;&gt;Dark Reader&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://decentraleyes.org/&quot;&gt;Decentraleyes&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/duckduckgo-privacy-essent/bkdgflcldnnnapblkhphbgpggdiikppg?hl=en-US&quot;&gt;DuckDuckGo Privacy Essentials&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/icloud-passwords/pejdijmoenmkgeppbflobdenhhabjlaj?hl=en-US&quot;&gt;iCloud Passwords&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/read-aloud-a-text-to-spee/hdhinadidafjejdhmfkjgnolgimiaplp?hl=en-US&quot;&gt;Read Aloud: A Text to Speech Voice Reader&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/send-to-kindle-for-google/cgdjpilhipecahhcilnafpblkieebhea?hl=en-US&quot;&gt;Send to Kindle for Google Chrome™&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/sponsorblock-for-youtube/mnjggcdmjocbbbhaepdhchncahnbgone?hl=en-US&quot;&gt;SponsorBlock for YouTube - Skip Sponsorships&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://chromewebstore.google.com/detail/streetpass-for-mastodon/fphjfedjhinpnjblomfebcjjpdpakhhn?hl=en-US&quot;&gt;StreetPass for Mastodon&lt;/a&gt;&lt;/li&gt;
@@ -408,7 +415,6 @@ Now, a new study by researchers with the Massachusetts Institute of Technology h
   &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/ad-observer/&quot;&gt;Ad Observer&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/canvasblocker/&quot;&gt;CanvasBlocker&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/clearurls/&quot;&gt;ClearURLs&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/darkreader/&quot;&gt;Dark Reader&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://decentraleyes.org/&quot;&gt;Decentraleyes&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/duckduckgo-for-firefox/&quot;&gt;DuckDuckGo Privacy Essentials&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://addons.mozilla.org/en-US/firefox/addon/facebook-container/&quot;&gt;Facebook Container&lt;/a&gt;&lt;/li&gt;
@@ -442,7 +448,7 @@ Now, a new study by researchers with the Massachusetts Institute of Technology h
   &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/userscripts/id1463298887&quot;&gt;Userscripts&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/vinegar-tube-cleaner/id1591303229&quot;&gt;Vinegar&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/visbug/id1538509686?mt=12&quot;&gt;VisBug&lt;/a&gt;&lt;/li&gt;
-  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/web-inspector/id1584825745&quot;&gt;Web Insepctor&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/web-inspector/id1584825745&quot;&gt;Web Inspector&lt;/a&gt;&lt;/li&gt;
   &lt;li&gt;&lt;a href=&quot;https://apps.apple.com/us/app/web-mute-content-warnings/id1580270103&quot;&gt;Web Mute&lt;/a&gt;&lt;/li&gt;
 &lt;/ul&gt;
 
@@ -967,11 +973,9 @@ Of my fellow creatures&lt;/i&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;shadow-of-the-colossus&quot;&gt;Shadow of the Colossus&lt;/h3&gt;
 
-&lt;div class=&quot;flex-no-wrap&quot;&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/pdZQ98mWeto&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Shadow of the Colossus&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/pdZQ98mWeto?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/pdZQ98mWeto/hqdefault.jpg alt=&apos;Shadow of the Colossus&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/pdZQ98mWeto?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
 
 &lt;p&gt;As a child I was an avid reader. I read &lt;em&gt;The Hobbit&lt;/em&gt; and &lt;em&gt;The Lord of the Rings&lt;/em&gt; at a young age, and while I didn’t care much for the meandering nature of the books, I appreciated the world-building and the grounded drama that ran throughout. I later became a regular movie-watcher, where I enjoyed &lt;em&gt;The Never Ending Story&lt;/em&gt;’s grim tale about depression and fighting back against a world that wants nothing but to oppress and destroy young spirits.&lt;/p&gt;
 
@@ -981,11 +985,9 @@ Of my fellow creatures&lt;/i&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;spec-ops-the-line&quot;&gt;Spec Ops: The Line&lt;/h3&gt;
 
-&lt;div class=&quot;flex-no-wrap&quot;&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/wD661k1UpvQ&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Spec Ops: The Line&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/wD661k1UpvQ?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/wD661k1UpvQ/hqdefault.jpg alt=&apos;Spec Ops: The Line&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/wD661k1UpvQ?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
 
 &lt;p&gt;&lt;em&gt;BioShock&lt;/em&gt; may get all the accolades for its plot twist, but I think &lt;em&gt;Spec Ops: The Line&lt;/em&gt; handles it twists in a more elegant and less frustrating manner. The concept of mental illness comes up often in games, but it tends to be used more as a gaming mechanic than primarily an element of the plot. I think that &lt;em&gt;Spec Ops: The Line&lt;/em&gt; tends to actually focus more on the plot, with some weaker gameplay and average graphics as a potential consequence.&lt;/p&gt;
 
@@ -997,11 +999,9 @@ Of my fellow creatures&lt;/i&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;homeworld&quot;&gt;Homeworld&lt;/h3&gt;
 
-&lt;div class=&quot;flex-no-wrap&quot;&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/pA7FbYAmrX0&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Homeworld&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/pA7FbYAmrX0?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/pA7FbYAmrX0/hqdefault.jpg alt=&apos;Homeworld&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/pA7FbYAmrX0?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
 
 &lt;p&gt;This game is unique on the list in that it depicts the actual destruction of the civilization rather than a retrospective of a long-dead culture. I was deeply moved by the experience of watching a nation fall and its survivors escape into the darkness, and it made every character death thereafter more painful.&lt;/p&gt;
 
@@ -1009,80 +1009,69 @@ Of my fellow creatures&lt;/i&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;uru-ages-beyond-myst&quot;&gt;Uru: Ages Beyond Myst&lt;/h3&gt;
 
-&lt;div class=&quot;flex-no-wrap&quot;&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 4/3&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/9Ncw3t69Ze4&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Uru: Ages Beyond Myst&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/9Ncw3t69Ze4?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/9Ncw3t69Ze4/hqdefault.jpg alt=&apos;Uru: Ages Beyond Myst&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/9Ncw3t69Ze4?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
 
 &lt;p&gt;I didn’t play much of the &lt;em&gt;Myst&lt;/em&gt; series before &lt;em&gt;Uru: Ages Beyond Myst&lt;/em&gt;, but we often as a family watched my father play the game to help come up with solutions for the complicated puzzles. I was fascinated by the world of &lt;em&gt;Myst&lt;/em&gt; more than I was the puzzles, and I thought &lt;em&gt;Uru: Ages Beyond Myst&lt;/em&gt; did a better job of building a world than any of the previous games. Better still are the &lt;a href=&quot;https://mystjourney.com/riven/myst-novels/&quot; target=&quot;_blank&quot;&gt;novelizations of the &lt;em&gt;Myst&lt;/em&gt; universe&lt;/a&gt;. An abandoned world from a dead civilization is always deeply interesting to me. I always wanted to know more about what caused the culture to collapse and the cities to empty, and &lt;em&gt;Uru&lt;/em&gt; helped explain a little more of that than the other games in the series. I especially liked the added realism of a three-dimensional game over the slideshows of some of the previous games.&lt;/p&gt;
 
 &lt;h3 id=&quot;iron-helix&quot;&gt;Iron Helix&lt;/h3&gt;
 
-&lt;div class=&quot;flex-no-wrap&quot;&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/pDULUgKSVUw&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Iron Helix&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/pDULUgKSVUw?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/pDULUgKSVUw/hqdefault.jpg alt=&apos;Iron Helix&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/pDULUgKSVUw?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
 
 &lt;p&gt;To continue on the “abandoned world by a dead civilization” theme, &lt;em&gt;Iron Helix&lt;/em&gt; was one of the first games that I played that had me solving puzzles related to the death of a crew on a spaceship protected by a drone that was going to attack any presence it detected. I liked finding the solution, but what intrigued me more was the logs of the crew uncovering some of the problems going on around the ship. I felt like I was involved in a world rather than solving a series of riddles.&lt;/p&gt;
 
 &lt;h3 id=&quot;bastion--transistor&quot;&gt;Bastion / Transistor&lt;/h3&gt;
 
-&lt;div class=&quot;flex-no-wrap&quot;&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/mX48y24t9iU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/RT55lch6y_U&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Bastion&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/mX48y24t9iU?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/mX48y24t9iU/hqdefault.jpg alt=&apos;Bastion&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/mX48y24t9iU?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Transistor&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/RT55lch6y_U?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/RT55lch6y_U/hqdefault.jpg alt=&apos;Transistor&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/RT55lch6y_U?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
 
 &lt;p&gt;I grouped these two games together because they almost feel like they come from a shared universe, but that’s probably more due to them sharing so many talented crew and cast between them, as they came from the same developer, one soon after the other. My preference is for &lt;em&gt;Bastion&lt;/em&gt;, as I think it had the more fulfilling plot of the two, but I do really appreciate the dying worlds of both. There is a mourning for what is lost in &lt;em&gt;Transistor&lt;/em&gt; that is missing somewhat in &lt;em&gt;Bastion&lt;/em&gt;, primarily because &lt;em&gt;Bastion&lt;/em&gt;’s world is so stylized that it doesn’t correlate well with reality; however, &lt;em&gt;Bastion&lt;/em&gt; has the more compelling resolution to its plot, in my opinion. I think I liked &lt;em&gt;Transistor&lt;/em&gt; more for the way the world was written out, the shadows of what once was being referenced in odd corners of the levels.&lt;/p&gt;
 
 &lt;h3 id=&quot;halo-3-odst&quot;&gt;Halo 3: ODST&lt;/h3&gt;
 
-&lt;div class=&quot;flex-no-wrap&quot;&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/WroxHMo6B_k&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Halo 3: ODST&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/WroxHMo6B_k?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/WroxHMo6B_k/hqdefault.jpg alt=&apos;Halo 3: ODST&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/WroxHMo6B_k?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
 
 &lt;p&gt;This one may seem like an odd addition to the list, but I was surprised by the loneliness and despair of this noir-like game. The audio vignettes from the other characters were quite a contrast from the destroyed city abandoned by its fleeing population, desperately seeking safety from an invading army. Being a secondary character to a much bigger story helped the war feel more comprehensive and somewhat distant, perhaps even unredeemable.&lt;/p&gt;
 
 &lt;h3 id=&quot;anarchy-online&quot;&gt;Anarchy Online&lt;/h3&gt;
 
-&lt;div class=&quot;flex-no-wrap&quot;&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/MTQaTI4pQSk&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Anarchy Online&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/MTQaTI4pQSk?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/MTQaTI4pQSk/hqdefault.jpg alt=&apos;Anarchy Online&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/MTQaTI4pQSk?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
 
 &lt;p&gt;I played &lt;em&gt;Anarchy Online&lt;/em&gt; when they switched to a free-to-play model for players who were interested in playing the levels that had been left empty by players who had moved on to newer and costly expansions. The game felt like a dead mall as a result of this separation. I walked the wide and barren streets of many sections of the free levels, noticing different areas where the level designers had expected crowds to form, and wondered what the city must have been like back when it was attractive to visitors.&lt;/p&gt;
 
 &lt;h3 id=&quot;journey--sky-children-of-the-light&quot;&gt;Journey / Sky: Children of the Light&lt;/h3&gt;
 
-&lt;div class=&quot;flex-no-wrap&quot;&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/mU3nNT4rcFg&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/A3DNTfhUy0k&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Journey&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/mU3nNT4rcFg?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/mU3nNT4rcFg/hqdefault.jpg alt=&apos;Journey&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/mU3nNT4rcFg?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Sky: Children of the Light&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/A3DNTfhUy0k?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/A3DNTfhUy0k/hqdefault.jpg alt=&apos;Sky: Children of the Light&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/A3DNTfhUy0k?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
 
 &lt;p&gt;The story for these two games are extremely similar: a long-dead city is visited by a quiet explorer, who finds token of the people who once lived there; after some time, tragedy occurs and the explorer follows the people to a new life. &lt;em&gt;Journey&lt;/em&gt; aims for a single, simple story on that shared premises, and it concludes without answering much of the questions raised by the lore. &lt;em&gt;Sky: Children of the Light&lt;/em&gt; continues with that theme and adds more backstory to some success, though I find the level design ultimately more fulfilling than the developer’s attempts at building a cohesive world. Either way, there is something very poignant about the warm loneliness that the games elicit from me during my various visits to their worlds. Whenever I play them I long for more explanation for what was lost in time.&lt;/p&gt;
 
 &lt;h3 id=&quot;dear-esther--everybodys-gone-to-the-rapture&quot;&gt;Dear Esther / Everybody’s Gone to the Rapture&lt;/h3&gt;
 
-&lt;div class=&quot;flex-no-wrap&quot;&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/_pWBV6UTEyg&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/w1tBl7upgDU&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Dear Esther&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/_pWBV6UTEyg?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/_pWBV6UTEyg/hqdefault.jpg alt=&apos;Dear Esther&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/_pWBV6UTEyg?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
+
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Everybody’s Gone to the Rapture&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/w1tBl7upgDU?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/w1tBl7upgDU/hqdefault.jpg alt=&apos;Everybody’s Gone to the Rapture&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/w1tBl7upgDU?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
 
 &lt;p&gt;Reading or hearing the stories of long-dead characters is apparently pretty captivating to me, because both of these games continue to haunt me years after seeing them. Especially captivating is the potentially repetitious pattern of existence subtly referenced in &lt;em&gt;Dear Esther&lt;/em&gt;, where characters seem to inhabit the same patterns of life throughout history, unknowingly repeating the mistakes of previous generations and ending up at the same island.&lt;/p&gt;
 
@@ -1092,41 +1081,33 @@ Of my fellow creatures&lt;/i&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;scorn&quot;&gt;Scorn&lt;/h3&gt;
 
-&lt;div class=&quot;flex-no-wrap&quot;&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/i9eg7Pzk15g&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Scorn&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/i9eg7Pzk15g?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/i9eg7Pzk15g/hqdefault.jpg alt=&apos;Scorn&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/i9eg7Pzk15g?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
 
 &lt;p&gt;I think the H.R. Giger / Zdzisław Beksiński designs and fascination with the viscera of every creature in the game is taken to an uncomfortable extreme, but the depth of detail in building a ruined world is incredible and the skill in level and creature design is superb. I am repulsed by this game as much as I am in awe of it, so I tend to have to push aside all the awful elements to better appreciate the desolation depicted throughout the game. The sadness of the main character and the efforts to find resolution is an element that remains a thorn in my mind, months after watching the story.&lt;/p&gt;
 
 &lt;h3 id=&quot;death-stranding&quot;&gt;DEATH STRANDING&lt;/h3&gt;
 
-&lt;div class=&quot;flex-no-wrap&quot;&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/XcuFJXgU6cA&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;DEATH STRANDING&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/XcuFJXgU6cA?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/XcuFJXgU6cA/hqdefault.jpg alt=&apos;DEATH STRANDING&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/XcuFJXgU6cA?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
 
 &lt;p&gt;I can thank Hideo Kojima for introducing me to Low Roar, a singer perfect for a sad and rainy drive. I suppose the theme of the game is more about building hope among a community than showcasing a lack of hope, but the world is deeply damaged, perhaps irrevocably, with only one man able to start threading things back together. I think the struggle to find purpose in a ruined world is one filled with despair, and many areas of the game felt deeply lonely.&lt;/p&gt;
 
 &lt;h3 id=&quot;soma&quot;&gt;SOMA&lt;/h3&gt;
 
-&lt;div class=&quot;flex-no-wrap&quot;&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/Rf4pAsNy_vA&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;SOMA&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/Rf4pAsNy_vA?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/Rf4pAsNy_vA/hqdefault.jpg alt=&apos;SOMA&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/Rf4pAsNy_vA?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
 
 &lt;p&gt;What a sad end to a world: to know the surface is burning and the survivors deep within the earth are dwindling and often seeking an end to it all. To struggle with one’s identity at the same time is deeply discouraging. I thought the horror elements of this game certainly provided opportunities to ponder what it was like to exist as one of those creatures, but I don’t think they added much to the gameplay. I wanted to know more about what the final moments on the surface were like, with more information about what caused all the fateful events to occur. I wanted to know what the general population thought when things &lt;a href=&quot;https://www.youtube.com/watch?v=SwXseZSjLsw&quot; target=&quot;_blank&quot;&gt;all started to burn.&lt;/a&gt;&lt;/p&gt;
 
 &lt;h3 id=&quot;returnal&quot;&gt;Returnal&lt;/h3&gt;
 
-&lt;div class=&quot;flex-no-wrap&quot;&gt;
-&lt;p class=&quot;flex-item&quot; style=&quot;aspect-ratio: 16/9&quot;&gt;
-&lt;iframe loading=&quot;lazy&quot; width=&quot;100%&quot; height=&quot;100%&quot; src=&quot;https://www.youtube.com/embed/Jv4BjWoB-NA&quot; title=&quot;YouTube video player&quot; frameborder=&quot;0&quot; allow=&quot;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;
-&lt;/p&gt;
-&lt;/div&gt;
+&lt;section class=&quot;embedtool&quot;&gt;
+&lt;iframe allow=&quot;accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture;&quot; allowfullscreen=&quot;allowfullscreen&quot; class=&quot;responsive-iframe&quot; defer=&quot;true&quot; async=&quot;true&quot; loading=&quot;lazy&quot; title=&quot;Returnal&quot; srcdoc=&quot;&amp;lt;style&amp;gt;*{padding:0;margin:0;overflow:hidden}html,body{height:100%}img,span{position:absolute;width:100%;top:0;bottom:0;margin:auto}span{height:1.5em;text-align:center;font:100px/1.5 sans-serif;color:white;overflow:visible;text-shadow:0 0 0.5em black}&amp;lt;/style&amp;gt;&amp;lt;a href=https://www.youtube.com/embed/Jv4BjWoB-NA?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&amp;gt;&amp;lt;img defer=&apos;true&apos; async=&apos;true&apos; loading=&apos;lazy&apos; src=https://i3.ytimg.com/vi/Jv4BjWoB-NA/hqdefault.jpg alt=&apos;Returnal&apos;&amp;gt;&amp;lt;span&amp;gt;▶&amp;lt;/span&amp;gt;&amp;lt;/a&amp;gt;&quot; src=&quot;https://www.youtube.com/embed/Jv4BjWoB-NA?autoplay=1&amp;amp;mute=1&amp;amp;rel=0&quot;&gt;&lt;/iframe&gt;
+&lt;/section&gt;
 
 &lt;p&gt;I don’t think I felt the full weight of hopelessness in this game until I contemplated what escaping the planet and living out as close to a normal life could mean, if death always meant a return to the planet. How horrible a fate that even death was no escape.&lt;/p&gt;
 
