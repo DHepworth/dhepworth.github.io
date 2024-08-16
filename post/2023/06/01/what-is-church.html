@@ -11,7 +11,7 @@
     <meta property="og:title" content="What is church? | DH:Personal" />
     <meta property="og:description" content="Why does the average American Evangelical attend church? What are their goals, and do they find those goals met?" />
     
-    <meta property="og:image" content="/img/posts/bartlesville-cross.jpg" />
+    <meta property="og:image" content="/img/posts/bartlesville-cross.webp" />
     
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
@@ -30,6 +30,16 @@
 </head>
 
 <body>
+  
+    <script type="module">
+      import PhotoSwipeLightbox from '/photoswipe/dist/photoswipe-lightbox.esm.js';
+      const lightbox = new PhotoSwipeLightbox({
+        gallery: '.lightbox-gallery',
+        children: 'a.lightbox-image',
+        pswpModule: () => import('/photoswipe/dist/photoswipe.esm.js')
+      });
+      lightbox.init();
+    </script>
   <noscript>
     <style>
         nav,
@@ -74,18 +84,18 @@
 
 <div class="page-post-desktop">
   
-  <header class="page" style="background-image: url('/img/posts/bartlesville-cross.jpg')">
+  <header class="page" style="background-image: url('/img/posts/bartlesville-cross.webp')">
   
     <p class="header-logo">
       <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
     </p>
   </header>
 </div>
-<main id="main-content" class="page-post page-post-standard page-post-main-image-small" tabindex="-1">
+<main id="main-content" class="page-post page-post-standard page-post-main-image-small lightbox-gallery" tabindex="-1">
     
     <div class="page-post-headline page-post-headline-image-available">
       <p class="page-post-headline-image">
-        <img src="/img/posts/bartlesville-cross.jpg" alt=A wooden cross statue stands tall against a backdrop of post-storm clouds in a field during early morning />
+        <img alt="A wooden cross statue stands tall against a backdrop of post-storm clouds in a field during early morning" height="350" loading="lazy" src="/img/posts/bartlesville-cross_s.webp" width="500" />
         <cite>David Hepworth</cite>
       </p>
       
@@ -149,6 +159,12 @@
 <p>I didn’t find the answers to my questions in any of the churches I attended; instead, I only witnessed apologetics for one position or the other, argued in a vacuum with the opposition as a boogeyman. Every verse was bent and twisted to fit one harmonious view, only to be distorted in the opposite way to fit the contrasting view in the church across the street. One <a href="https://www.nbcnews.com/nbc-out/out-news/texas-pastor-says-gay-people-shot-back-head-shocking-sermon-rcna32748" target="_blank">church could be lead by a pastor wishing to kill gay people</a> while another <a href="https://en.wikipedia.org/wiki/Brandan_Robertson" target="_blank">church could be employing a gay pastor.</a> Some pastors might advocate for the <a href="https://southsidechurchofchrist.com/sermons/hellfire-and-brimstone.html" target="_blank">eternal torture of sinners</a> for their finite faults committed during their life; some <a href="https://www.newyorker.com/magazine/2012/11/26/the-hell-raiser-3" target="_blank">that there is no Hell;</a> others might claim that <a href="https://reknew.org/2008/01/the-case-for-annihilationism/" target="_blank">Hell is misunderstood;</a> some might attest that the issue is moot because everyone <a href="https://www.youtube.com/watch?v=kOzmwGmiDHQ" target="_blank">can</a> or <a href="https://en.wikipedia.org/wiki/Universalist_Church_of_America" target="_blank">will</a> eventually go to Heaven. Each view would claim divine authority and would have enough Biblical support to be convincing to <em>those seeking that particular viewpoint</em>.</p>
 
 <p>I began to understand that if I were to stay within just the learning experience of a church sermon, I would have to accept that the source of my understanding of the Bible would likely largely stay within myself. I was like every other church member: unconsciously forming the interpretation of the Bible based on a personal worldview and then seeking out a church that would confirm that view through selective reading of Bible passages. That is a comforting state to many and one that I experienced for many years of my life, but I wanted to understand more. I was worried that I wasn’t going to find a reliable informational source within the walls of a church. I sought out wider opinions from scholars, historians, and philosophers who had a greater amount of experience in not only the matters of the Bible but the context in which it was written and the societies around it during its formation. I wanted a more scientific method of discovery where opinions could be tested in a more public forum. Once I realized that there was so much more to learn about the Bible than what one denomination or another could offer or allow, and that deeper thought was actually rather widely available, I knew that a church would likely never again be a place of learning for me.</p>
+
+<p>
+<a class="lightbox-image" data-cropped="false" data-pswp-height="1666" data-pswp-width="2500" href="/img/posts/bartlesville-cross-2.webp">
+<img alt="A statue of a crucifixion cross is lit by the early morning sun in Bartlesville, Oklahoma" height="666" loading="lazy" src="/img/posts/bartlesville-cross-2_s.jpg" width="1000" />
+</a>
+</p>
 
 <h3 id="church-as-a-community-center">Church as a community center</h3>
 
@@ -265,7 +281,7 @@
           async
         ></script>
       </article>
-      <aside class="aside-post">
+      <aside class="aside-post" markdown="1">
         
         <h3>Additional Content</h3>
         <p class="embedtool">
