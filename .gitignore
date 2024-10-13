@@ -1,2 +1,14 @@
 
 .nova/Configuration.json
+.DS_Store
+img/.DS_Store
+img/portfolio/.DS_Store
+img/portfolio/personal/.DS_Store
+img/portfolio/vom/.DS_Store
+photoswipe/dist/.DS_Store
+post/.DS_Store
+post/2021/.DS_Store
+post/2022/.DS_Store
+post/2023/.DS_Store
+post/2024/.DS_Store
+thoughtstream/.DS_Store
