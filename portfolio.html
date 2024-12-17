@@ -11,8 +11,6 @@
     <meta property="og:title" content="Portfolio | DH:Personal" />
     <meta property="og:description" content="David Hepworth’s blog, portfolio, and résumé" />
     
-    <meta property="og:image" content="/img/posts/portfolio.webp" />
-    
     <meta name="viewport" content="initial-scale=1, viewport-fit=cover" />
     <meta name="color-scheme" content="light dark" />
     
@@ -26,10 +24,10 @@
     <link rel="icon" href="/img/favicon.ico" sizes="any">
     <link rel="icon" href="/img/favicon.svg" type="image/svg+xml">
     <link rel="apple-touch-icon" href="/img/apple-touch-icon.png">
-    <link rel="alternate" type="application/rss+xml" href="https://www.dhepworth.com/feed.xml">
+    <link rel="alternate" type="application/rss+xml" href="https://dhepworth.com/feed.xml">
 </head>
 
-<body>
+<body class="portfolio">
   
     <script type="module">
       import PhotoSwipeLightbox from '/photoswipe/dist/photoswipe-lightbox.esm.js';
@@ -67,6 +65,9 @@
   
   <header class="page-small page-small-black">
   
+  
+  <span class="portfolio-body-hero"></span>
+  
     <p class="header-logo">
       <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
     </p>
@@ -82,26 +83,28 @@
 
 <div class="page-post-desktop">
   
-  <header class="page page-small" style="background-image: url('/img/posts/portfolio.webp')">
+  <header><span class="portfolio-body-hero"></span>
   
     <p class="header-logo">
       <a href="/"><span class="header-logo-background"><strong>DH:</strong>Personal</span></a>
     </p>
   </header>
 </div>
-<main id="main-content" class="page-post page-post-wide page-post-main-image-small" tabindex="-1">
+<main id="main-content" class="page-post page-post-wide" tabindex="-1">
     <div class="page-post-headline page-post-headline-no-image-available">
-      
-      <h1 class="page-post-headline-title">Portfolio</h1>
       
     </div>
     <div class="main-container main-container-post main-container-wide">
         <article>
-        <section class="wide-text">
+        <section class="portfolio-container">
+  <h1 id="hi-im-david-hepworth">Hi! I’m David Hepworth.</h1>
+
+  <h2 id="im-a-front-end-web-developer-who-focuses-on-user-interface-design-to-improve-user-experiences">I’m a front-end web developer who focuses on user interface design to improve user experiences.</h2>
+
   <p>My professional work spans multiple companies in disparate industries, but I’ve managed to remain focused on the creative fields related to web design and development and content coordination across each position. I enjoy being challenged to learn new technology or methods to complete a task. I hope that my portfolio entries listed below prove that I am capable in many fields that support content creation on the internet.</p>
 </section>
 
-<section class="portfolio-container lightbox-gallery">
+<section class="portfolio-card-container lightbox-gallery">
 
   <article class="portfolio-card">
 
@@ -1479,7 +1482,7 @@
       <a class="button" href="#top" id="to-top" target=""><span class="emoji">👆🏻</span>&nbsp;Back to the top</a> <a class="button" href="https://github.com/DHepworth/dhepworth.github.io/discussions" id="gitHub" target=""><span class="emoji">💬</span>&nbsp;Discuss</a> <a class="button" href="/" id="returnHome" target=""><span class="emoji">🏡</span>&nbsp;Return to the home page</a>
     </p>
     <p class="footer-page-feed">
-      <a href="https://www.dhepworth.com/feed.xml" target="_blank"><img src="https://www.dhepworth.com/img/feed.svg" alt="SVG icon" title="Subscribe to feed" height="40" width="40"></a>
+      <a href="https://dhepworth.com/feed.xml" target="_blank"><img src="https://dhepworth.com/img/feed.svg" alt="SVG icon" title="Subscribe to feed" height="40" width="40"></a>
     </p>
   </div>
 </footer>
